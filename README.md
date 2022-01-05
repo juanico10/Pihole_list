@@ -1,7 +1,6 @@
 # Pi-hole_list
 El proyecto Pi-hole® es para bloqueo de anuncios en toda la red a través de su propio hardware Linux. Pi-hole® es un sumidero de DNS que protege sus dispositivos de contenidos no deseados sin necesidad de instalar ningún software del lado del cliente.
 
-#
 
 <p align="center">
     <a href="https://pi-hole.net/">
@@ -12,10 +11,72 @@ El proyecto Pi-hole® es para bloqueo de anuncios en toda la red a través de su
 </p>
 <!-- markdownlint-enable MD033 -->
 
-#
 
 ## Detalles
 Estas listas se crearon porque quería algo con un poco más de control sobre lo que se bloquea. Muchas listas son de todo o nada. Nos propusimos crear listas con más control sobre lo que se bloquea.
+
+## Versiones:
+
+<details>
+<summary>Versión original:</summary>
+
+<Original>&nbsp;Todas las urls de la versión de la lista aparecen en el archivo de host de la siguiente manera</Original>
+
+<p>  &nbsp;&nbsp;0.0.0.0 example.com</p>
+</details>
+&nbsp;
+<details>
+<summary>Versión sin ceros a la izquierda:</summary>
+
+<p>&nbsp;Todas las urls de esta versión de la lista aparecen en el archivo de hosts de la siguiente manera</p>
+
+<p>  &nbsp;&nbsp;example.com</p>
+
+Nuestros usuarios nos han llamado la atención sobre el hecho de que algunos dispositivos dan error si la url va precedida de una dirección IP.
+</details>
+&nbsp;
+<details>
+<summary>Adguard Version:</summary>
+
+<p>&nbsp;Todas las urls de esta versión de la lista aparecen en el archivo de hosts de la siguiente manera</p>
+
+<p>  &nbsp;&nbsp;||example.com^</p>
+
+
+Se ha solicitado añadir soporte para AdGuard. Actualmente estamos probando nuestras listas. Por favor, proporcione sus comentarios.
+</details>
+&nbsp;
+
+
+## Uso:
+<details>
+    <summary>Utilizar con <a href="https://pi-hole.net" target="_blank">Pi-Hole</a>:</summary>
+
+## Instrucciones de uso con Pi-Hole:
+
+1. Copie el enlace al formato Pi-hole de la lista deseada (de la tabla correspondiente que aparece a continuación).
+2. Añade la URL a las listas de bloqueo de tu Pi-hole (**Inicio de sesión** > **Gestión de grupos** > **Listas** > **Pega la URL de la lista en el campo "Dirección", añade un comentario** > **Haz clic en "Añadir "**)
+3. Actualizar Gravity (**Herramientas** > **Actualizar Gravity** > **Hacer clic en "Actualizar "** )
+
+&nbsp;
+<sup>Instrucciones actuales a partir de Pi-hole 5.2.4. Las instrucciones pueden ser ligeramente diferentes en la actualidad. Las instrucciones se actualizarán cuando se publique la versión 6.</sup>
+
+</details>
+&nbsp;
+<details>
+    <summary>Using with <a href="https://adguard.com/en/adguard-home/overview.html">AdGuard Home</a>:</summary>
+
+## Instrucciones de uso con AdGuard Home:
+
+1. Copie el enlace al formato de AdGuard correspondiente a la lista deseada (de la tabla correspondiente a continuación).
+2. Añada la URL a su lista de bloqueo de AdGuard (**Inicio de sesión** > **Filtros** > **Listas de bloqueo DNS** > **Añadir lista de bloqueo** > **Añadir una lista personalizada** > **Introducir nombre** > **Pegar la URL del enlace copiado**)
+3. La lista se activa automáticamente y está lista para empezar a bloquear.
+
+&nbsp;
+<sup>Las instrucciones son actuales a partir de AdGuard Home v0.107.2</sup>
+</details>
+&nbsp;
+
 
 # Listas para Pihole
 

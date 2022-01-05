@@ -1,20 +1,16 @@
-############################################
-# To Block Facebook/Instagram but leave Whatsapp open
-# Add these entries below to your hosts file
-#
-# Your hosts file Location:
-# Linux, Unix and Mac OS X  -> /etc/hosts
-# Windows XP, Vista, Windows 7, 8.0, 8.1, 10 ->  C:\WINDOWS\system32\drivers\etc\hosts
-# Windows 2000  -> C:\WINNT\system32\drivers\etc\hosts
-# Windows 98/ME ->  C:\WINDOWS\hosts 
-#
-# You can edit the hosts file with any text editor
-#
-# On Windows 7 and higher, the default AV security scan will try to remove the
-# facebook.com entry; you'll need to add an exception to tell the OS
-# to keep the block listing in the hosts file and not to remove it
-#
-############################################
+# Ad filter list by Disconnect
+# License: GPLv3
+# Contact: juanrodenas07@gmail.com
+# whitelist
+!-----------------------------------------------------------------------!
+!           _   __    ______                __   _			!
+!          / | / /___/_  __/________ ______/ /__(_)___  ____ _ 	   	!
+!         /  |/ / __ \/ / / ___/ __ `/ ___/ //_/ / __ \/ __ `/	   	!
+!        / /|  / /_/ / / / /  / /_/ / /__/ ,< / / / / / /_/ /	   	!
+!       /_/ |_/\____/_/ /_/   \__,_/\___/_/|_/_/_/ /_/\__, /		!
+!      ___________________________________________________/		!
+!									!
+!-----------------------------------------------------------------------!
 
 0.0.0.0 0-edge-chat.facebook.com
 0.0.0.0 0.beta.facebook.com

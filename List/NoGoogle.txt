@@ -1,7 +1,7 @@
 # Ad filter list by Disconnect
 # License: GPLv3
 # Contact: juanrodenas07@gmail.com
-# whitelist
+# NoGoogle
 !-----------------------------------------------------------------------!
 !           _   __    ______                __   _			!
 !          / | / /___/_  __/________ ______/ /__(_)___  ____ _ 	   	!

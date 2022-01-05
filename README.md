@@ -7,7 +7,7 @@ El proyecto Pi-hole® es para bloqueo de anuncios en toda la red a través de su
         <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/pihole.png" alt="Pi-hole">
     </a>
     <br>
-    <strong>Network-wide ad blocking via your own Linux hardware</strong>
+    <strong>Bloqueo de anuncios en toda la red a través de su propio hardware</strong>
 </p>
 <!-- markdownlint-enable MD033 -->
 

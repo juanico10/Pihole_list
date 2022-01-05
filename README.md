@@ -82,14 +82,14 @@ Se ha solicitado añadir soporte para AdGuard. Actualmente estamos probando nues
 
 ## Main White Lists
 
-| List | Link | Description |
-| -- | -- | -- |
-| Whitelist | [Link](https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt) | Lista blanca a permitir |
+| List | Link | AdGuard | Description |
+| -- | -- | -- | -- |
+| Whitelist | [Link](https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt) | - | Lista blanca a permitir |
 
 
 ## Main Black Lists
 
-| List | Link | AdGuard |Description |
+| List | Link | AdGuard | Description |
 | -- | -- | -- | -- |
 | Listas oisd | [Link](https://dbl.oisd.nl) | [Link](https://abp.oisd.nl) | To Block host Adguard and domains [dbl.oisd](https://oisd.nl/) |
 | SmartTV | [Link](https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt) | - | To Block SmartTV |

@@ -1,0 +1,19 @@
+# Ad filter list by Disconnect
+# License: GPLv3
+# Contact: juanrodenas07@gmail.com
+
+
+# Lista dominios a permitir en AdGuard
+@@||www.youtube.com^$important
+@@||open.spotify.com^$important
+@@/.*azure.com/
+
+
+# Lista dominios a bloquear en AdGuard
+/.*porn.*/
+/.*soundestlink.*/
+/.*pushserver-uk.sbtech.*/
+/.*cdnppb.*/
+/.*telemetry.*/
+/.*analytics.*/
+/.*adtrack.*/

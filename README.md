@@ -91,7 +91,8 @@ Se ha solicitado añadir soporte para AdGuard. Actualmente estamos probando nues
 
 | List | Link | Description |
 | -- | -- | -- |
-| dbl.oisd | [Link](https://abp.oisd.nl) | To Block host Adguard [dbl.oisd](https://oisd.nl/) |
+| abp.oisd | [Link](https://abp.oisd.nl) | To Block host Adguard [dbl.oisd](https://oisd.nl/) |
+| dbl.oisd | [Link](https://dbl.oisd.nl) | To Block host Domains [dbl.oisd](https://oisd.nl/) |
 | SmartTV | [Link](https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt) | To Block SmartTV |
 | WindowsSpyBlocker | [Link](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt) | To Block WindowsSpyBlocker |
 | urlhaus-filter-domains | [Link](https://raw.githubusercontent.com/AzagraMac/PiHoleDocker/master/list/urlhaus-filter-domains.txt) | - | 

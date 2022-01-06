@@ -20,33 +20,33 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 <details>
 <summary>Versión original:</summary>
 
-<Original>&nbsp;Todas las urls de la versión de la lista aparecen en el archivo de host de la siguiente manera</Original>
+<Original>&nbsp;Todas las urls de esta versión **van** precedidas de una dirección IP en el archivo txt o host:</Original>
 
-<p>  &nbsp;&nbsp;0.0.0.0 example.com – Enviará el dominio example.com a la dirección 0.0.0.0 (pero no para sus subdominios)</p>
-<p>  &nbsp;&nbsp;127.0.0.1 example.com – devolverá la dirección 127.0.0.1 para el dominio example.com (pero no para sus subdominios).</p>
+<p>  &nbsp;&nbsp;<code>0.0.0.0 example.com</code> – Enviará el dominio example.com a la dirección 0.0.0.0 (pero no para sus subdominios)</p>
+<p>  &nbsp;&nbsp;<code>127.0.0.1 example.com</code> – devolverá la dirección 127.0.0.1 para el dominio example.com (pero no para sus subdominios).</p>
 
 </details>
 &nbsp;
 <details>
 <summary>Versión sin IP a la izquierda:</summary>
 
-<p>&nbsp;Todas las urls de esta versión de la lista aparecen en el archivo de hosts de la siguiente manera</p>
+<p>&nbsp;Todas las urls de esta versión **NO** van precedidas de una dirección IP en el archivo txt o host:</p>
 
-<p>  &nbsp;&nbsp;example.com</p>
+<p>  &nbsp;&nbsp;<code>example.com</code></p>
 
-Nuestros usuarios nos han llamado la atención sobre el hecho de que algunos dispositivos dan error si la url va precedida de una dirección IP.
+Nuestros usuarios nos han comunicado que algunos dispositivos dan error si la url va precedida de una dirección IP.
 </details>
 &nbsp;
 <details>
 <summary>Adguard Version:</summary>
 
-<p>&nbsp;Todas las urls de esta versión de la lista aparecen en el archivo de hosts de la siguiente manera</p>
+<p>&nbsp;Todas las urls de esta versión de la lista **AdGuard** aparecen en el archivo de hosts de la siguiente manera:</p>
 
-<p>  &nbsp;&nbsp;||example.org^ – bloquea el acceso al dominio ejemplo.org y a todos sus subdominios</p>
-<p>  &nbsp;&nbsp;@@||example.org^ – desbloquea el acceso al dominio ejemplo.org y a todos sus subdominios</p>
-<p>  &nbsp;&nbsp;/REGEX/ – bloquea el acceso a los dominios que coincidan con la expresión regular especificada</p>
+<p>  &nbsp;&nbsp;<code>||example.org^</code> – bloquea el acceso al dominio ejemplo.org y a todos sus subdominios</p>
+<p>  &nbsp;&nbsp;<code>@@||example.org^</code> – desbloquea el acceso al dominio ejemplo.org y a todos sus subdominios</p>
+<p>  &nbsp;&nbsp;<code>/REGEX/</code> – bloquea el acceso a los dominios que coincidan con la expresión regular especificada</p>
     
-Se ha añadido una pestaña para AdGuard.
+<sup>Las instrucciones son actuales a partir de AdGuard Home v0.107.2. AdGuard admite las versiones anteriores de listas.</sup>
 </details>
 &nbsp;
 <details>
@@ -54,10 +54,9 @@ Se ha añadido una pestaña para AdGuard.
 
 <p>&nbsp;Todas las urls de esta versión de la lista aparecen en el archivo de hosts de la siguiente manera</p>
 
-<p>  &nbsp;&nbsp;# También un comentario – solo un comentario</p>
-<p>  &nbsp;&nbsp;! Aquí va un comentario – solo un comentario</p>
-    
-Se ha añadido una pestaña para AdGuard.
+<p>  &nbsp;&nbsp;<code># comentario</code> – solo un comentario</p>
+<p>  &nbsp;&nbsp;<code>! comentario</code> – solo un comentario</p>
+
 </details>
 &nbsp;
 
@@ -145,6 +144,7 @@ Se ha añadido una pestaña para AdGuard.
 | Microsoft | [Link](https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/microsoft/all) | - | To Block Microsoft |
 | VideoGamesAdiction | [Link](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/List/VideoGamesAdiction.txt) | - | To Block VideoGames Adiction |
 
+<sup>Se ha añadido una pestaña para AdGuard con listas adaptadas a su formato.</sup>
 
 ## Comprobar tu SelfHosted:
 

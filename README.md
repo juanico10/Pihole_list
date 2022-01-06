@@ -89,7 +89,6 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 </details>
 &nbsp;
 
-
 # Listas para Pihole
 
 ## Main White Lists

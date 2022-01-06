@@ -30,7 +30,7 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 <details>
 <summary>Versión sin IP a la izquierda:</summary>
 
-<p>&nbsp;Todas las urls de esta versión **NO** van precedidas de una dirección IP en el archivo txt o host:</p>
+<Original>&nbsp;Todas las urls de esta versión **no** van precedidas de una dirección IP en el archivo txt o host:</Original>
 
 <p>  &nbsp;&nbsp;<code>example.com</code></p>
 

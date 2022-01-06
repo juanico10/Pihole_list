@@ -1,0 +1,49 @@
+# Ad filter list by Disconnect
+# License: GPLv3
+# Contact: juanrodenas07@gmail.com
+# whitelist
+!-----------------------------------------------------------------------!
+!           _   __    ______                __   _			!
+!          / | / /___/_  __/________ ______/ /__(_)___  ____ _ 	   	!
+!         /  |/ / __ \/ / / ___/ __ `/ ___/ //_/ / __ \/ __ `/	   	!
+!        / /|  / /_/ / / / /  / /_/ / /__/ ,< / / / / / /_/ /	   	!
+!       /_/ |_/\____/_/ /_/   \__,_/\___/_/|_/_/_/ /_/\__, /		!
+!      ___________________________________________________/		!
+!									!
+!-----------------------------------------------------------------------!
+||detectportal.firefox.com^
+||accounts.firefox.com^
+||activations.cdn.mozilla.net^
+||aus5.mozilla.org^
+||auth.services.mozilla.com^
+||blocked.cdn.mozilla.net^
+||code.cdn.mozilla.net^
+||content.cdn.mozilla.net^
+||crash-stats.mozilla.com^
+||experiments.mozilla.org^
+||fhr.cdn.mozilla.net^
+||ftp.mozilla.org^
+||incoming.telemetry.mozilla.org^
+||input.mozilla.org^
+||install.mozilla.org^
+||location.services.mozilla.com^
+||malware-error.mozilla.com^
+||mozilla.com^
+||mozilla.org^
+||onyx_tiles.stage.mozaws.net^
+||phish-error.mozilla.com^
+||phish-report.mozilla.com^
+||push.services.mozilla.com^
+||search.services.mozilla.com^
+||self-repair.mozilla.org^
+||services.mozilla.com^
+||setup.services.mozilla.com^
+||shavar.services.mozilla.com^
+||support.mozilla.org^
+||tbpl.mozilla.org^
+||telemetry-experiment.cdn.mozilla.net^
+||telemetry.mozilla.org^
+||tiles.services.mozilla.com^
+||token.services.mozilla.com^
+||webextensions.settings.services.mozilla.com^
+||wiki.mozilla.org^

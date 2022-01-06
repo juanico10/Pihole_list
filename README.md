@@ -22,11 +22,13 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 
 <Original>&nbsp;Todas las urls de la versión de la lista aparecen en el archivo de host de la siguiente manera</Original>
 
-<p>  &nbsp;&nbsp;0.0.0.0 example.com</p>
+<p>  &nbsp;&nbsp;0.0.0.0 example.com – Enviará el dominio example.com a la dirección 0.0.0.0 (pero no para sus subdominios)</p>
+<p>  &nbsp;&nbsp;127.0.0.1 example.com – devolverá la dirección 127.0.0.1 para el dominio example.com (pero no para sus subdominios).</p>
+
 </details>
 &nbsp;
 <details>
-<summary>Versión sin ceros a la izquierda:</summary>
+<summary>Versión sin IP a la izquierda:</summary>
 
 <p>&nbsp;Todas las urls de esta versión de la lista aparecen en el archivo de hosts de la siguiente manera</p>
 
@@ -40,13 +42,24 @@ Nuestros usuarios nos han llamado la atención sobre el hecho de que algunos dis
 
 <p>&nbsp;Todas las urls de esta versión de la lista aparecen en el archivo de hosts de la siguiente manera</p>
 
-<p>  &nbsp;&nbsp;||example.com^</p>
-
-
-Se ha solicitado añadir soporte para AdGuard. Actualmente estamos probando nuestras listas. Por favor, proporcione sus comentarios.
+<p>  &nbsp;&nbsp;||example.org^ – bloquea el acceso al dominio ejemplo.org y a todos sus subdominios</p>
+<p>  &nbsp;&nbsp;@@||example.org^ – desbloquea el acceso al dominio ejemplo.org y a todos sus subdominios</p>
+<p>  &nbsp;&nbsp;/REGEX/ – bloquea el acceso a los dominios que coincidan con la expresión regular especificada</p>
+    
+Se ha añadido una pestaña para AdGuard.
 </details>
 &nbsp;
+<details>
+<summary>Comentarios en las listas:</summary>
 
+<p>&nbsp;Todas las urls de esta versión de la lista aparecen en el archivo de hosts de la siguiente manera</p>
+
+<p>  &nbsp;&nbsp;# También un comentario – solo un comentario</p>
+<p>  &nbsp;&nbsp;! Aquí va un comentario – solo un comentario</p>
+    
+Se ha añadido una pestaña para AdGuard.
+</details>
+&nbsp;
 
 ## Uso:
 <details>

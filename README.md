@@ -60,9 +60,9 @@ Se ha solicitado añadir soporte para AdGuard. Actualmente estamos probando nues
 
 &nbsp;
 <sup>Instrucciones actuales a partir de Pi-hole 5.2.4. Las instrucciones pueden ser ligeramente diferentes en la actualidad. Las instrucciones se actualizarán cuando se publique la versión 6.</sup>
-
 </details>
 &nbsp;
+
 <details>
     <summary>Using with <a href="https://adguard.com/en/adguard-home/overview.html">AdGuard Home</a>:</summary>
 
@@ -110,5 +110,74 @@ Se ha solicitado añadir soporte para AdGuard. Actualmente estamos probando nues
 | Google | [Link](https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/google/all) | - | To Block Google |
 | Mozilla | [Link](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/List/mozilla.txt) | [Link](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/List/mozilla_adguard.txt) | To Block Mozilla tracking |
 | Microsoft | [Link](https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/microsoft/all) | - | To Block Microsoft |
+
+## Comprobar tu SelfHosted:
+
+<details>
+<summary>fivefilters:</summary>
+
+<Original>&nbsp;Pagina para comprobar tu selfhosted de fivefilters</Original>
+
+<p>  &nbsp;&nbsp;https://blockads.fivefilters.org/</p>
+</details>
+&nbsp;
+
+<details>
+<summary>d3ward:</summary>
+
+<Original>&nbsp;Pagina para comprobar tu selfhosted de [d3ward](https://d3ward.github.io/toolz/)</Original>
+
+<p>  &nbsp;&nbsp;https://d3ward.github.io/toolz/adblock.html</p>
+</details>
+&nbsp;
+
+<details>
+<summary>canyoublockit:</summary>
+
+<Original>&nbsp;Pagina para comprobar tu selfhosted de canyoublockit</Original>
+
+<p>  &nbsp;&nbsp;https://canyoublockit.com/</p>
+</details>
+&nbsp;
+
+## Comprobar DoH, DoT y DDNSSEC:
+
+<details>
+<summary>1.1.1.1 de Cloudflare:</summary>
+
+<Original>&nbsp;Pagina para comprobar cifrado de 1.1.1.1 de Cloudflare</Original>
+
+<p>  &nbsp;&nbsp;https://1.1.1.1/help</p>
+</details>
+&nbsp;
+
+<details>
+<summary>Tenta VPN Browser:</summary>
+
+<Original>&nbsp;Pagina para comprobar cifrado de Tenta VPN Browser</Original>
+
+<p>  &nbsp;&nbsp;https://tenta.com/test/</p>
+</details>
+&nbsp;
+
+<details>
+<summary>Cloudflare:</summary>
+
+<Original>&nbsp;Pagina para comprobar cifrado de Cloudflare</Original>
+
+<p>  &nbsp;&nbsp;https://www.cloudflare.com/es-es/ssl/encrypted-sni/</p>
+</details>
+&nbsp;
+
+<details>
+<summary>DNSSEC Resolver Test:</summary>
+
+<Original>&nbsp;Pagina para comprobar cifrado DNSSEC por Matthäus Wander</Original>
+
+<p>  &nbsp;&nbsp;http://dnssec.vs.uni-due.de/</p>
+<p>  &nbsp;&nbsp;http://www.dnssec-or-not.com/</p>
+<p>  &nbsp;&nbsp;http://en.conn.internet.nl/connection/</p>
+</details>
+&nbsp;
 
 ## Ready!

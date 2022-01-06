@@ -95,7 +95,7 @@ Se ha solicitado añadir soporte para AdGuard. Actualmente estamos probando nues
 | Listas oisd | [Link](https://dbl.oisd.nl) | [Link](https://abp.oisd.nl) | To Block host Adguard and domains [dbl.oisd](https://oisd.nl/) |
 | urlhaus-filter-domains | [Link](https://raw.githubusercontent.com/AzagraMac/PiHoleDocker/master/list/urlhaus-filter-domains.txt) | - | - |
 | everything | [Link](https://blocklistproject.github.io/Lists/everything.txt) | [Link](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/everything-ags.txt) | To Block everything |
-| energized pro | [Link](https://energized.pro/unified/formats/hosts.txt) | [Link]() | To Block [energized](https://energized.pro/) |
+| energized pro | [Link](https://energized.pro/unified/formats/hosts.txt) | - | To Block [energized](https://energized.pro/) |
 
 
 

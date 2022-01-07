@@ -42,13 +42,13 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 
 <p>&nbsp;Todas las urls de esta versión de la lista **AdGuard** aparecen en el archivo de hosts de la siguiente manera:</p>
 
-<p>  &nbsp;&nbsp;<code>||example.org^</code> – bloquea el acceso al dominio ejemplo.org y a todos sus subdominios</p>
-<p>  &nbsp;&nbsp;<code>@@||example.org^</code> – desbloquea el acceso al dominio ejemplo.org y a todos sus subdominios</p>
-<p>  &nbsp;&nbsp;<code>/REGEX/</code> – bloquea el acceso a los dominios que coincidan con la expresión regular especificada. Por ejemplo, la regla <code>/example.*/</code> bloqueará los hosts que coincidan con el‎ <code>example.*</code></p>
-<p>  &nbsp;&nbsp;<code>$important</code> – El modificador aplicado a una regla aumenta su prioridad sobre cualquier otra regla sin el modificador. Incluso por encima de las reglas básicas de excepción.</p>‎
-<p>  &nbsp;&nbsp;<code>*</code> – el carácter comodín. Se utiliza para representar cualquier conjunto de caracteres. También puede ser una cadena vacía o una cadena de cualquier longitud.</p>‎
-<p>  &nbsp;&nbsp;<code>^</code> – ‎el carácter separador. A diferencia del bloqueo de anuncios del navegador, no hay nada que separar en un nombre de host, por lo que el único propósito de este carácter es marcar el final del nombre de host.‎</p>‎
-<p>  &nbsp;&nbsp;<code>|</code> – un puntero al principio o al final del nombre de host. El valor depende de la ubicación del carácter en la máscara. Por ejemplo, la regla <code>ample.org|</code> corresponde a <code>example.org</code>, pero no a <code>example.org.com</code>. <code>|example</code> corresponde a <code>example.org</code> pero no a‎ <code>test.example</code></p>
+<p>  &nbsp;&nbsp;<code>||example.org^</code> – bloquea el acceso al dominio <code>example.org</code> y a todos sus subdominios</p>
+<p>  &nbsp;&nbsp;<code>@@||example.org^</code> – desbloquea el acceso al dominio <code>example.org</code> y a todos sus subdominios</p>
+<p>  &nbsp;&nbsp;<code>/REGEX/</code> – bloquea el acceso a los dominios que coincidan con la expresión regular especificada. Por ejemplo, la regla <code>/example.*/</code> bloqueará los hosts que coincidan con el <code>example.*</code></p>
+<p>  &nbsp;&nbsp;<code>$important</code> – El modificador aplicado a una regla aumenta su prioridad sobre cualquier otra regla sin el modificador. Incluso por encima de las reglas básicas de excepción.</p>
+<p>  &nbsp;&nbsp;<code>*</code> – el carácter comodín. Se utiliza para representar cualquier conjunto de caracteres. También puede ser una cadena vacía o una cadena de cualquier longitud.</p>
+<p>  &nbsp;&nbsp;<code>^</code> – el carácter separador. A diferencia del bloqueo de anuncios del navegador, no hay nada que separar en un nombre de host, por lo que el único propósito de este carácter es marcar el final del nombre de host.</p>
+<p>  &nbsp;&nbsp;<code>|</code> – un puntero al principio o al final del nombre de host. El valor depende de la ubicación del carácter en la máscara. Por ejemplo, la regla <code>ample.org|</code> corresponde a <code>example.org</code>, pero no a <code>example.org.com</code>. <code>|example</code> corresponde a <code>example.org</code> pero no a <code>test.example.org</code></p>
     
 <sup>Las instrucciones son actuales a partir de [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome/wiki/Hosts-Blocklists#special-characters) v0.107.2. AdGuard admite las versiones anteriores.</sup>
 </details>

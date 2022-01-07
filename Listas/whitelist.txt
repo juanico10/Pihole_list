@@ -18,7 +18,6 @@
 !      ___________________________________________________/		!
 !									!
 !-----------------------------------------------------------------------!
-@@/^azure?[_.-]/
 @@||azure.com^
 ris-prod-atm.trafficmanager.net
 @@||duckdns.org^
@@ -45,9 +44,8 @@ office365.com
 onedrive.live.com
 outlook.live.com
 outlook.office365.com
-@@||data.microsoft.com^
-@@/.*data.microsoft.com/
-@@/.*update.microsoft.com/
+self.events.data.microsoft.com
+update.microsoft.com/
 cdn.onenote.net
 raw.githubusercontent.com
 s.youtube.com
@@ -84,7 +82,7 @@ time.euro.apple.com
 amazonaws.com
 amazonwebservices.com
 @@||arduino.cc^
-@@||netflix.com^
+www.netflix.com
 www.hbomax.com
 www.primevideo.com
 www.disneyplus.com
@@ -102,7 +100,7 @@ addons.mozilla.org
 www.solvetic.com
 navigraph.com
 aip.enaire.es
-@@||aena.es^
+aena.es
 www.pccomponentes.com
 @@||pi-hole.net^
 @@||netgate.com^
@@ -123,11 +121,9 @@ www.google.es
 
 
 !------------------------------------------------------!
-!        				BLOCK
+!        				BLOCK						   !
 !------------------------------------------------------!
 /^(.+[_.-])?aria.microsoft[_.-]/
-# Regex
-/.*porn.*/
 /^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]/
 /^(.+[_.-])?telemetry[_.-]/
 /^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]/

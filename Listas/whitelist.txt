@@ -18,7 +18,6 @@
 !      ___________________________________________________/		!
 !									!
 !-----------------------------------------------------------------------!
-@@/^(.+[_.-])?azure?[_.-]/
 @@||azure.com^
 ris-prod-atm.trafficmanager.net
 @@||duckdns.org^
@@ -32,24 +31,20 @@ dns.cloudflare.com
 @@||cloudflare-dns.com
 dev.virtualearth.net
 www.dropbox.com
-dl.dropboxusercontent.com
-dynupdate.no-ip.com
-github.com
-github.io
-lastfm-img2.akamaized.net
-login.live.com
+www.noip.com
 no-ip.com
-ns1.dropbox.com
-ns2.dropbox.com
+github.com
 office.com
 office365.com
-onedrive.live.com
 outlook.live.com
+1drv.ms
 outlook.office365.com
+outlook.live.com
 @@||data.microsoft.com^
 @@/.*data.microsoft.com/
 @@/.*update.microsoft.com/
 cdn.onenote.net
+www.onenote.com
 raw.githubusercontent.com
 s.youtube.com
 s.ytimg.com
@@ -58,7 +53,6 @@ spclient.wg.spotify.com
 t.co
 themoviedb.com
 wp.com
-www.no-ip.com
 www.simbrief.com
 pool.debian.com
 pool.ntp.com

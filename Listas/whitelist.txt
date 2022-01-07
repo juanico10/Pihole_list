@@ -7,6 +7,8 @@
 # Description: Allow domains to be whitelisted for everyday use
 # Format: Original and AdGuard format
 # whitelist
+# Updated: 07/01/2022 17:00h
+# https://github.com/JuanRodenas
 !-----------------------------------------------------------------------!
 !           _   __    ______                __   _			!
 !          / | / /___/_  __/________ ______/ /__(_)___  ____ _ 	   	!

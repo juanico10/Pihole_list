@@ -29,6 +29,7 @@ apps.skype.com
 azure.microsoft.com
 dns.cloudflare.com
 @@||cloudflare.com
+@@||cloudflare-dns.com
 dev.virtualearth.net
 www.dropbox.com
 dl.dropboxusercontent.com

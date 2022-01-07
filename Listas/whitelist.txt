@@ -74,7 +74,7 @@ stpete-mirror.armbian.com
 update.microsoft.com
 events.gfe.nvidia.com
 @@||amd.com^
-www.udemy.com
+@@||udemy.com^
 t.me
 sdk.iad-03.braze.com
 @@||icloud.com^

@@ -18,6 +18,7 @@
 !      ___________________________________________________/		!
 !									!
 !-----------------------------------------------------------------------!
+@@/^azure?[_.-]/
 @@||azure.com^
 ris-prod-atm.trafficmanager.net
 @@||duckdns.org^
@@ -44,8 +45,9 @@ office365.com
 onedrive.live.com
 outlook.live.com
 outlook.office365.com
-self.events.data.microsoft.com
-update.microsoft.com/
+@@||data.microsoft.com^
+@@/.*data.microsoft.com/
+@@/.*update.microsoft.com/
 cdn.onenote.net
 raw.githubusercontent.com
 s.youtube.com
@@ -82,7 +84,7 @@ time.euro.apple.com
 amazonaws.com
 amazonwebservices.com
 @@||arduino.cc^
-www.netflix.com
+@@||netflix.com^
 www.hbomax.com
 www.primevideo.com
 www.disneyplus.com
@@ -100,7 +102,7 @@ addons.mozilla.org
 www.solvetic.com
 navigraph.com
 aip.enaire.es
-aena.es
+@@||aena.es^
 www.pccomponentes.com
 @@||pi-hole.net^
 @@||netgate.com^

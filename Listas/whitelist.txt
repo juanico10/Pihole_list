@@ -46,7 +46,7 @@ onedrive.live.com
 outlook.live.com
 outlook.office365.com
 @@||data.microsoft.com^
-@@/.*update.microsoft.com/
+@@/.*data.microsoft.com/
 @@/.*update.microsoft.com/
 cdn.onenote.net
 raw.githubusercontent.com

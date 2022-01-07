@@ -219,6 +219,7 @@ zee.cws.conviva.com
 pool.debian.com
 pool.ntp.com
 hora.roa.es
+time.windows.com
 time.euro.apple.com
 download.lineageos.org
 lineageos.org

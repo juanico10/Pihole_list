@@ -21,7 +21,6 @@
 @@||azure.com^
 ris-prod-atm.trafficmanager.net
 @@||duckdns.org^
-@@||norton.com^
 @@||bitwarden.com^
 api.pinterest.com
 apps.skype.com

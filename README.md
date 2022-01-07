@@ -46,7 +46,7 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 <p>  &nbsp;&nbsp;<code>@@||example.org^</code> – desbloquea el acceso al dominio ejemplo.org y a todos sus subdominios</p>
 <p>  &nbsp;&nbsp;<code>/REGEX/</code> – bloquea el acceso a los dominios que coincidan con la expresión regular especificada</p>
     
-<sup>Las instrucciones son actuales a partir de AdGuard Home v0.107.2. AdGuard admite las versiones anteriores.</sup>
+<sup>Las instrucciones son actuales a partir de [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome/wiki/Hosts-Blocklists#special-characters) v0.107.2. AdGuard admite las versiones anteriores.</sup>
 </details>
 &nbsp;
 <details>

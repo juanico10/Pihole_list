@@ -1,0 +1,39 @@
+!-----------------------------------------------------------------------!
+! 	                P A C K  D E T A I L S				                      !
+!-----------------------------------------------------------------------!
+# License: GPLv3
+# Developer & Maintainer: Juan Rodenas
+# Title: Blocklist
+# Description: Block domains to be whitelisted for everyday use
+# Format: Original and AdGuard format
+# Blocklist
+# Updated: 13/01/2022 21:30h
+# https://github.com/JuanRodenas
+!-----------------------------------------------------------------------!
+!           _   __    ______                __   _			                !
+!          / | / /___/_  __/________ ______/ /__(_)___  ____ _ 	      	!
+!         /  |/ / __ \/ / / ___/ __ `/ ___/ //_/ / __ \/ __ `/	       	!
+!        / /|  / /_/ / / / /  / /_/ / /__/ ,< / / / / / /_/ /	        	!
+!       /_/ |_/\____/_/ /_/   \__,_/\___/_/|_/_/_/ /_/\__, /		        !
+!      ___________________________________________________/		          !
+!									                                                      !
+!-----------------------------------------------------------------------!
+# DOMAINS
+||norton.com^$important
+||avira.com^$important
+||avast.com^$important
+||uptodown.com^
+||googleadservices.com^
+
+
+# REGEX
+/.*porn.*/$important
+/^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]/$important
+/^(.+[_.-])?telemetry[_.-]/$important
+/^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]/$important
+/^adim(age|g)s?[0-9]*[_.-]/$important
+/^adtrack(er|ing)?[0-9]*[_.-]/$important
+/^advert(s|is(ing|ements?))?[0-9]*[_.-]/$important
+/^analytics?[_.-]/$important
+/^banners?[_.-]/$important
+/^stat(s|istics)?[0-9]*[_.-]/$important

@@ -68,11 +68,14 @@ dietpi.com
 deb.debian.org
 stpete-mirror.armbian.com
 events.gfe.nvidia.com
+gfwsl.geforce.com
 www.amd.com
 drivers.amd.com
 download.amd.com
 @@||udemy.com^
 t.me
+telegram.me
+td.telegram.org
 sdk.iad-03.braze.com
 www.icloud.com
 icloud.com
@@ -115,3 +118,6 @@ wallhaven.cc
 www.reddit.com
 www.google.com
 www.google.es
+in.appcenter.ms
+fonts.gstatic.com
+www.gstatic.com

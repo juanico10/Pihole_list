@@ -47,7 +47,8 @@ www.onenote.com
 raw.githubusercontent.com
 s.youtube.com
 s.ytimg.com
-s1.wp.com
+i.ytimg.com
+yt3.ggpht.com
 spclient.wg.spotify.com
 t.co
 themoviedb.com

@@ -24,6 +24,10 @@
 ||avast.com^$important
 ||uptodown.com^
 ||googleadservices.com^
+||aria.microsoft.com^
+||privacy.microsoft.com^
+
+
 
 
 # REGEX
@@ -37,3 +41,6 @@
 /^analytics?[_.-]/$important
 /^banners?[_.-]/$important
 /^stat(s|istics)?[0-9]*[_.-]/$important
+/.*nexusrules.officeapps.live.com.*/
+/.*wpc.v0cdn.net.*/
+/.*aria.microsoft.com.*/

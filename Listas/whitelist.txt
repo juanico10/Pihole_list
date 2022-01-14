@@ -38,6 +38,8 @@ office.com
 office365.com
 outlook.live.com
 1drv.ms
+config.teams.microsoft.com
+login.microsoftonline.com
 outlook.office365.com
 outlook.live.com
 @@||data.microsoft.com^
@@ -125,3 +127,4 @@ ggpht.com
 googlemaps.com
 android.com
 candycrush.king.com
+edge.activity.windows.com

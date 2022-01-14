@@ -5,7 +5,6 @@
 ||activations.cdn.mozilla.net^
 ||activations.cdn.mozilla.net^$popup
 ||activations.cdn.mozilla.net^$third-party
-||addons.mozilla.org^
 ||addons.mozilla.org^$popup
 ||addons.mozilla.org^$third-party
 ||aus5.mozilla.org^
@@ -125,3 +124,4 @@
 ||wiki.mozilla.org^
 ||wiki.mozilla.org^$popup
 ||wiki.mozilla.org^$third-party
+||detectportal.firefox.com^

@@ -1,7 +1,6 @@
-#0.0.0.0 detectportal.firefox.com
+0.0.0.0 detectportal.firefox.com
 0.0.0.0 accounts.firefox.com
 0.0.0.0 activations.cdn.mozilla.net
-0.0.0.0 addons.mozilla.org
 0.0.0.0 aus5.mozilla.org
 0.0.0.0 auth.services.mozilla.com
 0.0.0.0 blocked.cdn.mozilla.net

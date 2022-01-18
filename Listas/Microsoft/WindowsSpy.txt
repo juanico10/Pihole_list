@@ -18,6 +18,26 @@
 !      ___________________________________________________/		!
 !									!
 !-----------------------------------------------------------------------!
+!-----------------------------------------------------------------------!
+! 	                P A C K  D E T A I L S				!
+!-----------------------------------------------------------------------!
+# License: GPLv3
+# Developer & Maintainer: Juan Rodenas
+# Title: WindowsSpy
+# Description: Allow domains to be whitelisted for everyday use
+# Format: Original and AdGuard format
+# WindowsSpy
+# Updated: 18/01/2022 21:30h
+# https://github.com/JuanRodenas
+!-----------------------------------------------------------------------!
+!           _   __    ______                __   _			!
+!          / | / /___/_  __/________ ______/ /__(_)___  ____ _ 	   	!
+!         /  |/ / __ \/ / / ___/ __ `/ ___/ //_/ / __ \/ __ `/	   	!
+!        / /|  / /_/ / / / /  / /_/ / /__/ ,< / / / / / /_/ /	   	!
+!       /_/ |_/\____/_/ /_/   \__,_/\___/_/|_/_/_/ /_/\__, /		!
+!      ___________________________________________________/		!
+!									!
+!-----------------------------------------------------------------------!
 browser.pipe.aria.microsoft.com
 mobile.pipe.aria.microsoft.com
 v10c.events.data.microsoft.com
@@ -73,30 +93,6 @@ www.production.outlook-office365-commicrosoftpasswordupdate-storage-tooth-d3eb.s
 www.voirdocument-microsoft88867176256861211.weebly.com
 www.xn--microsoftnline-3pb.com
 xn--microsoftnline-3pb.com
-# ib.adnxs.com #[affects Microsoft site]
-udm.ia8.scorecardresearch.com  #[Microsoft Mahjong]
-udm.ri1.scorecardresearch.com  #[Microsoft Mahjong]
-udm.ri9.scorecardresearch.com  #[Microsoft Mahjong]
-# [Microsoft][AS8075][13.64.0.0/11]
-# [Microsoft][AS8075][104.208.0.0 - 104.215.255.255]
-# [Microsoft][AS8069][111.221.16.0 - 111.221.31.255]
-# [Microsoft][AS8075][131.253.12.0 - 131.253.18.255]
-# [Microsoft][AS8075][137.116.0.0 - 137.116.255.255]
-# [Microsoft][AS8075][137.135.0.0 - 137.135.255.255]
-# [Microsoft][AS8075][157.54.0.0 - 157.60.255.255]
-#  view.atdmt.com #[affects Microsoft / Sprint.com]
-# [Microsoft][AS8075][168.61.0.0 - 168.63.255.255]
-# [Microsoft][AS8075][191.232/14]
-# [Microsoft][AS8075][191.236/14]
-# [Microsoft][AS8075][207.46.0.0 - 207.46.255.255]
-# [Microsoft][AS8075][23.96.0.0 - 23.103.255.255]
-# [Microsoft][AS8075][40.64.0.0/10]
-# [Microsoft][AS8075][65.52.0.0 - 65.55.255.255]
-# [Microsoft][AS8075][70.37.0.0 - 70.37.191.255]
-# [Microsoft][AS8075][94.245.64.0 - 94.245.127.255]
-# [UUnet / Microsoft.Avenue A][AS7046][65.203.229.0 - 65.203.229.255]
-# 		see: http://support.microsoft.com/kb/2764944
-#auto.search.msn.com  # Microsoft uses this server to redirect
 amer.hops.glbdns.microsoft.com
 himicrosoft.com
 microsoft.com-it2-dye1.premi-fedelta-degli-utenti.us
@@ -1587,3 +1583,5 @@ weus2watcab01.blob.core.windows.net
 weus2watcab02.blob.core.windows.net
 win8.ipv6.microsoft.com
 ztd.dds.microsoft.com
+privacy.microsoft.com
+wpc.v0cdn.net

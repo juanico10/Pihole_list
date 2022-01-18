@@ -1,0 +1,1328 @@
+0.0.0.0 browser.pipe.aria.microsoft.com
+0.0.0.0 mobile.pipe.aria.microsoft.com
+0.0.0.0 v10c.events.data.microsoft.com
+0.0.0.0 web.vortex.data.microsoft.com
+0.0.0.0 sqm.telemetry.microsoft.com
+0.0.0.0 telecommand.telemetry.microsoft.com
+0.0.0.0 watson.telemetry.microsoft.com
+0.0.0.0 ns1.microsoftonlines.net
+0.0.0.0 ns2.microsoftonlines.net
+0.0.0.0 update.microsoftonlines.net
+0.0.0.0 microsoft.updatecatalogs.com
+# [microsoft.com]
+0.0.0.0 bingads.microsoft.com
+0.0.0.0 advertise.bingads.microsoft.com
+0.0.0.0 microsofteup.112.2o7.net
+0.0.0.0 microsoftgamestudio.112.2o7.net
+0.0.0.0 microsoftinternetexplorer.112.2o7.net
+0.0.0.0 microsoftmachinetranslation.112.2o7.net
+0.0.0.0 microsoftoffice.112.2o7.net
+0.0.0.0 microsoftsto.112.2o7.net
+0.0.0.0 microsoftuk.122.2o7.net
+0.0.0.0 microsoftwga.112.2o7.net
+0.0.0.0 microsoftwindows.112.2o7.net
+0.0.0.0 microsoftwindowscom.tt.omtrdc.net
+0.0.0.0 microsoftwindowsmobile.122.2o7.net
+0.0.0.0 microsoftwllivemkt.112.2o7.net
+0.0.0.0 microsoftwlmailmkt.112.2o7.net
+0.0.0.0 microsoftwlmessengermkt.112.2o7.net
+0.0.0.0 microsoftwlmobilemkt.112.2o7.net
+0.0.0.0 microsoftwlsearchcrm.112.2o7.net
+0.0.0.0 microsoftxbox.112.2o7.net
+0.0.0.0 microsoft-update.name
+0.0.0.0 www.microsoft-update.name
+0.0.0.0 microsofto.sytes.net
+0.0.0.0 smetric.ads.microsoft.com
+0.0.0.0 login.microsoftorline.com
+0.0.0.0 login-microsoftonline-common.ts.r.appspot.com
+0.0.0.0 microsoft741.wixsite.com
+0.0.0.0 microsoftcommunityxbox.com
+0.0.0.0 microsoftserviceautheticationteam.weebly.com
+0.0.0.0 microsoft-o365-outlook.ts.r.appspot.com
+0.0.0.0 microsoft-secure-online.oa.r.appspot.com
+0.0.0.0 production.outlook-office365-commicrosoftpasswordupdate-storage-tooth-d3eb.s-hiestand.workers.dev
+0.0.0.0 voirdocument-microsoft88867176256861211.weebly.com
+0.0.0.0 www.login.microsoftorline.com
+0.0.0.0 www.microsoft741.wixsite.com
+0.0.0.0 www.microsoftcommunityxbox.com
+0.0.0.0 www.microsoftserviceautheticationteam.weebly.com
+0.0.0.0 www.login-microsoftonline-common.ts.r.appspot.com
+0.0.0.0 www.microsoft-o365-outlook.ts.r.appspot.com
+0.0.0.0 www.microsoft-secure-online.oa.r.appspot.com
+0.0.0.0 www.production.outlook-office365-commicrosoftpasswordupdate-storage-tooth-d3eb.s-hiestand.workers.dev
+0.0.0.0 www.voirdocument-microsoft88867176256861211.weebly.com
+0.0.0.0 www.xn--microsoftnline-3pb.com
+0.0.0.0 xn--microsoftnline-3pb.com
+# 0.0.0.0 ib.adnxs.com #[affects Microsoft site]
+0.0.0.0 udm.ia8.scorecardresearch.com  #[Microsoft Mahjong]
+0.0.0.0 udm.ri1.scorecardresearch.com  #[Microsoft Mahjong]
+0.0.0.0 udm.ri9.scorecardresearch.com  #[Microsoft Mahjong]
+# [Microsoft][AS8075][13.64.0.0/11]
+# [Microsoft][AS8075][104.208.0.0 - 104.215.255.255]
+# [Microsoft][AS8069][111.221.16.0 - 111.221.31.255]
+# [Microsoft][AS8075][131.253.12.0 - 131.253.18.255]
+# [Microsoft][AS8075][137.116.0.0 - 137.116.255.255]
+# [Microsoft][AS8075][137.135.0.0 - 137.135.255.255]
+# [Microsoft][AS8075][157.54.0.0 - 157.60.255.255]
+# 0.0.0.0  view.atdmt.com #[affects Microsoft / Sprint.com]
+# [Microsoft][AS8075][168.61.0.0 - 168.63.255.255]
+# [Microsoft][AS8075][191.232/14]
+# [Microsoft][AS8075][191.236/14]
+# [Microsoft][AS8075][207.46.0.0 - 207.46.255.255]
+# [Microsoft][AS8075][23.96.0.0 - 23.103.255.255]
+# [Microsoft][AS8075][40.64.0.0/10]
+# [Microsoft][AS8075][65.52.0.0 - 65.55.255.255]
+# [Microsoft][AS8075][70.37.0.0 - 70.37.191.255]
+# [Microsoft][AS8075][94.245.64.0 - 94.245.127.255]
+# [UUnet / Microsoft.Avenue A][AS7046][65.203.229.0 - 65.203.229.255]
+# 		see: http://support.microsoft.com/kb/2764944
+#0.0.0.0 auto.search.msn.com  # Microsoft uses this server to redirect
+0.0.0.0 amer.hops.glbdns.microsoft.com
+0.0.0.0 himicrosoft.com
+0.0.0.0 microsoft.com-it2-dye1.premi-fedelta-degli-utenti.us
+0.0.0.0 microsoft.com-msoft52.info
+0.0.0.0 microsoftsecurity-experts7565.xyz
+0.0.0.0 microsoftsupport.com-support0206.info
+0.0.0.0 microsoftsupport.xyz
+0.0.0.0 system-kernel-disk-errorx001dsxx-microsoft-windows.55errors5353.net
+0.0.0.0 microsoftconsumermarketing.112.2o7.net
+0.0.0.0 drm-server13-login-microsoftonline.com
+0.0.0.0 geo-st-microsoft.com
+0.0.0.0 jp-microsoft-store.com
+0.0.0.0 microsoft-cnd-en.com
+0.0.0.0 microsoft-cnd.com
+0.0.0.0 microsoft-debug-098.com
+0.0.0.0 microsoft-home-en.com
+0.0.0.0 microsoft-hub-us.com
+0.0.0.0 microsoft-live-us.com
+0.0.0.0 microsoft-online-en-us.com
+0.0.0.0 microsoft-sback-server.com
+0.0.0.0 microsoft-store-drm-server.com
+0.0.0.0 microsoft-store-en.com
+0.0.0.0 microsoft-ware.com
+0.0.0.0 ms-en-microsoft.com
+0.0.0.0 us-microsoft-store.com
+0.0.0.0 microsoft-sql-server.wp-club.net
+0.0.0.0 www.microsoft2010.com
+0.0.0.0 feedback.microsoft-hohm.com
+0.0.0.0 reports.wes.df.telemetry.microsoft.com
+0.0.0.0 schemas.microsoft.akadns.net
+0.0.0.0 statsfe2.ws.microsoft.com
+0.0.0.0 wes.df.telemetry.microsoft.com
+0.0.0.0 target.microsoft.com
+advertising.microsoft.com
+microsoftaffiliates.net
+api.microsoftgroup.com
+data.microsoft.com.admin-mcas-gov.ms
+dod.teams.microsoft.us.admin-mcas-gov.ms
+login.microsoftonline-int.com
+login.microsoftonline.com.authorize.client.id.2315846.morgenwargestern.com
+login.microsoftonline.com.authorize.client.id.3313514354.morgenwargestern.com
+login.microsoftonline.com.common.account.oauth22.authorizeclient.id.4345a7b9.9a63.4910.a426.35363201d503.thriveconsulting.net.au
+login.microsoftonline.com.common.login.invoice.21355.meertreffen.ch
+login.microsoftonline.com.office.harting.myshn.eu
+login.microsoftonline.com.office.raymond-james-dev.raymondjames.shnpoc.net
+login.microsoftonline.glgruop.com
+login.microsoftonline.us.office.gcch.leidos.govshn.net
+login.microsoftorline.com
+microsoft-24.ru
+microsoft-datamaturity.noisehq.nl
+microsoft-excel.kr.jaleco.com
+microsoft.com.admin-mcas-gov.ms
+microsoft.studio-infinity.com
+microsoftaccountguard.com
+microsoftbillingsys.com
+microsoftcommunityxbox.com
+microsoftonilne.ru
+microsoftonline.grupopublicitario7.com
+microsoftonline365.org
+microsoftoutlook.in
+microsoftplanner.sefar.group
+microsoftsyslogin.com
+microsoftuk.co
+microsoftwebserver.mfs.gg
+msdn.microsoft.com.admin-mcas-gov.ms
+partnerclub.microsoft.fr
+portal.microsoft.office.login.baseplayground.nl
+powerplatform.microsoft.com.admin-mcas-gov.ms
+powerva.microsoft.us.admin-mcas-gov.ms
+securitycenter.microsoft.us.admin-mcas-gov.ms
+securitycenter.microsoft.us.admin-mcas.ms
+serviceshub.microsoft.com.admin-mcas-gov.ms
+verifumicrosoftonline.dnsabr.com
+virtualniurad.360.microsoft.staging.biceps.digital
+www.login.microsoftorline.com
+www.microsoftaccountguard.com
+www.microsoftcommunityxbox.com
+xn--microsoftnline-3pb.com
+freemicrosoftpoints4me.com
+gratuitmicrosoftpoints.com
+freemicrosoftpointsx.net
+freepointsmicrosoft.com
+generatormicrosoftpoints.com
+microsoftpointsgenerator.us
+freemicrosoftpoints2013.info
+microsoftpoints.cleanfile.org
+microsoftpointsgenerateur.info
+freemicrosoftpoints.cc
+microsoftpoints.freegiftcode.com
+getfreemicrosoftpoints.com
+freemicrosoftpointsgen.com
+microsoftpointgenerator.net
+freemicrosoftpointscodes.org
+microsoftgeneratorpoints.com
+freemicrosoftcodes.info
+freemicrosoftpointslive.com
+microsoftpointsgeneratordownload.com
+freemicrosoftpointsgenerator.info
+microsoftpoints.premium-codes.com
+freexboxlivemicrosoftpoints.com
+microsofto.sytes.net
+bingads.microsoft.com
+corpext.msitadfs.glbdns2.microsoft.com
+corp.sts.microsoft.com
+df.telemetry.microsoft.com
+diagnostics.support.microsoft.com
+feedback.microsoft-hohm.com
+feedback.search.microsoft.com
+i1.services.social.microsoft.com
+i1.services.social.microsoft.com.nsatc.net
+microsoftdpeacademic.d1.sc.omtrdc.net
+microsoftstore.activate.ensighten.com
+microsoftstoreapac.widget.criteo.com
+microsoftstorebe.widget.criteo.com
+microsoftstoreca.widget.criteo.com
+microsoftstorech.widget.criteo.com
+microsoftstorede.widget.criteo.com
+microsoftstoredk.widget.criteo.com
+microsoftstorefi.widget.criteo.com
+microsoftstoregulf.widget.criteo.com
+microsoftstoreie.widget.criteo.com
+microsoftstoremea.widget.criteo.com
+microsoftstoresa.widget.criteo.com
+microsoftstorese.widget.criteo.com
+microsoftstoresg.widget.criteo.com
+microsoftsurface.d1.sc.omtrdc.net
+microsoftwindows.112.2o7.net
+oca.telemetry.microsoft.com
+oca.telemetry.microsoft.com.nsatc.net
+redir.metaservices.microsoft.com
+reports.wes.df.telemetry.microsoft.com
+schemas.microsoft.akadns.net
+services.wes.df.telemetry.microsoft.com
+settings-sandbox.data.microsoft.com
+settings-win-ppe.data.microsoft.com
+sqm.df.telemetry.microsoft.com
+sqm.telemetry.microsoft.com
+sqm.telemetry.microsoft.com.nsatc.net
+statsfe1.ws.microsoft.com
+statsfe2.ws.microsoft.com
+survey.watson.microsoft.com
+telecommand.telemetry.microsoft.com
+telecommand.telemetry.microsoft.com.nsatc.net
+telemetry.microsoft.com
+telemetry.urs.microsoft.com
+v10.vortex-win.data.microsoft.com
+v20.vortex-win.data.microsoft.com
+vortex.data.microsoft.com
+vortex-sandbox.data.microsoft.com
+vortex-win.data.microsoft.com
+watson.microsoft.com
+watson.ppe.telemetry.microsoft.com
+watson.telemetry.microsoft.com
+watson.telemetry.microsoft.com.nsatc.net
+webapps.microsoft.com.102.112.2o7.net
+web.vortex.data.microsoft.com
+wes.df.telemetry.microsoft.com
+microsoft.btttag.com
+microsoftb.btttag.com
+microsoftstore.btttag.com
+microsoftstorejp.btttag.com
+microsoftstoresg.btttag.com
+cy2.vortex.data.microsoft.com.akadns.net
+modern.watson.data.microsoft.com.akadns.net
+co4.telecommand.telemetry.microsoft.com
+modern.watson.data.microsoft.com
+co4.telecommand.telemetry.microsoft.com.akadns.net
+microsoft-de.evyy.net
+microsoft-row.evyy.net
+microsoft-uk.evyy.net
+microsoft-us.evyy.net
+afflnk-microsoft-com.ct.impactradius.com
+telemetry.microsoft.com.nsatc.net
+alpha.telemetry.microsoft.com
+oca.alpha.telemetry.microsoft.com
+oca7.alpha.telemetry.microsoft.com
+sqm.alpha.telemetry.microsoft.com
+sqm7.alpha.telemetry.microsoft.com
+telecommand.alpha.telemetry.microsoft.com
+watson.alpha.telemetry.microsoft.com
+watson2.alpha.telemetry.microsoft.com
+watson7.alpha.telemetry.microsoft.com
+wer.alpha.telemetry.microsoft.com
+responses.df.telemetry.microsoft.com
+telecommand.df.telemetry.microsoft.com
+watson.df.telemetry.microsoft.com
+kmwatsonc.telemetry.microsoft.com
+clouddc2.syslogagent.telemetry.microsoft.com
+umwatsonc.telemetry.microsoft.com
+browser.pipe.aria.microsoft.com
+mobile.pipe.aria.microsoft.com
+v10c.events.data.microsoft.com
+ns1.microsoftonlines.net
+ns2.microsoftonlines.net
+update.microsoftonlines.net
+microsoft.updatecatalogs.com
+advertise.bingads.microsoft.com
+microsofteup.112.2o7.net
+microsoftgamestudio.112.2o7.net
+microsoftinternetexplorer.112.2o7.net
+microsoftmachinetranslation.112.2o7.net
+microsoftoffice.112.2o7.net
+microsoftsto.112.2o7.net
+microsoftuk.122.2o7.net
+microsoftwga.112.2o7.net
+microsoftwindowscom.tt.omtrdc.net
+microsoftwindowsmobile.122.2o7.net
+microsoftwllivemkt.112.2o7.net
+microsoftwlmailmkt.112.2o7.net
+microsoftwlmessengermkt.112.2o7.net
+microsoftwlmobilemkt.112.2o7.net
+microsoftwlsearchcrm.112.2o7.net
+microsoftxbox.112.2o7.net
+microsoft-update.name
+www.microsoft-update.name
+smetric.ads.microsoft.com
+login-microsoftonline-common.ts.r.appspot.com
+microsoft741.wixsite.com
+microsoftserviceautheticationteam.weebly.com
+microsoft-o365-outlook.ts.r.appspot.com
+microsoft-secure-online.oa.r.appspot.com
+production.outlook-office365-commicrosoftpasswordupdate-storage-tooth-d3eb.s-hiestand.workers.dev
+voirdocument-microsoft88867176256861211.weebly.com
+www.microsoft741.wixsite.com
+www.microsoftserviceautheticationteam.weebly.com
+www.login-microsoftonline-common.ts.r.appspot.com
+www.microsoft-o365-outlook.ts.r.appspot.com
+www.microsoft-secure-online.oa.r.appspot.com
+www.production.outlook-office365-commicrosoftpasswordupdate-storage-tooth-d3eb.s-hiestand.workers.dev
+www.voirdocument-microsoft88867176256861211.weebly.com
+www.xn--microsoftnline-3pb.com
+udm.ia8.scorecardresearch.com  #[Microsoft Mahjong]
+udm.ri1.scorecardresearch.com  #[Microsoft Mahjong]
+udm.ri9.scorecardresearch.com  #[Microsoft Mahjong]
+amer.hops.glbdns.microsoft.com
+himicrosoft.com
+microsoft.com-it2-dye1.premi-fedelta-degli-utenti.us
+microsoft.com-msoft52.info
+microsoftsecurity-experts7565.xyz
+microsoftsupport.com-support0206.info
+microsoftsupport.xyz
+system-kernel-disk-errorx001dsxx-microsoft-windows.55errors5353.net
+microsoftconsumermarketing.112.2o7.net
+drm-server13-login-microsoftonline.com
+geo-st-microsoft.com
+jp-microsoft-store.com
+microsoft-cnd-en.com
+microsoft-cnd.com
+microsoft-debug-098.com
+microsoft-home-en.com
+microsoft-hub-us.com
+microsoft-live-us.com
+microsoft-online-en-us.com
+microsoft-sback-server.com
+microsoft-store-drm-server.com
+microsoft-store-en.com
+microsoft-ware.com
+ms-en-microsoft.com
+us-microsoft-store.com
+microsoft-sql-server.wp-club.net
+www.microsoft2010.com
+target.microsoft.com
+account.microsoft.login.secure.verification.online.001.027.039.sindibae.cl
+ads1.msn.com #Microsoft
+ads2.msn.com #Microsoft
+ads.msn.com #Microsoft
+advertising.microsoft.com #Microsoft
+apprep.smartscreen.microsoft.com
+arc3.msn.com #Microsoft
+arc.msn.com #Microsoft
+bingads.com #Microsoft
+bingads.microsoft.com #Microsoft
+c.microsoft.com
+footprintdns.com #Microsoft
+footprintpredict.com #Microsoft
+glbdns.microsoft.com
+in-pdf-microsoft.com
+keywords.com #Microsoft
+logimicrosoft.com
+login.microsofteonline.cf
+login.microsoftonline.com.common.login.invoice.2135454.andemar.org
+login.microsoftonline.com.common.login.invoice.2135455.andemar.org
+login.microsoftonline.com.sesecurity.org
+login-microsoftonline-corn.alltimelista.com
+login.microsoftonline.r--0.us
+login-microsoftonlline.megmaprintopack.com
+lsam.research.microsoft.com
+microsoft365-secured-documentfile.000webhostapp.com
+microsoft81.webnode.com
+microsoft.btc.com
+microsoft-error2105.xyz
+microsoft-error-alert2017.com
+microsoft-errorcode7414.xyz
+microsoftexchangeeltu6.890m.com
+microsoft-help24x7.com
+microsoftlive.000webhostapp.com
+microsoft-office-36563.webnode.com
+microsoft-official-error2102.xyz
+microsoft-official-error2103.xyz
+microsoftonlinecom.identify.login.verify.authenticate.check.evaluate.create.jigimall.com.ng
+microsoftpanel.com #comScore
+microsoftpanel.net #comScore
+microsoftsecurity.systems
+microsoft-server-update.ml
+microsoft.shopgoat.co.in
+microsoft-supportus.xyz
+microsoft-up-date.ru
+microsoftwebaccessgovowa.editor.multiscreensite.com
+office365.login.microsoftonline.com.boffic.com
+one-drive-file-microsoft-office365-viewdocl0g.000webhostapp.com
+rad.live.com #Microsoft
+rad.microsoft.com
+safety.microsoft.com.acyxi.ofkx0ljkq5slkhslezg.download
+safety.microsoft.com.akwyhch.zi1tjdmyw2zkqk8hpmbvkq.bid
+safety.microsoft.com.auimoklhlz.yny467f0uzb8bo.science
+safety.microsoft.com.beobpk.f1ktlj40cetaakfzoma.stream
+safety.microsoft.com.bljuwp.vby1hqwxtv6yxj71dxhaztqq8a.trade
+safety.microsoft.com.bmzxk.wd4rdtazsvhrna2q.trade
+safety.microsoft.com.bocbspszz.jcw6gxymvje04amljsio0at0q.stream
+safety.microsoft.com.byoekcek.nhgvudhssrosh4csosokmklc3w.trade
+safety.microsoft.com.ccdaqlzcgo.myvuuzanhulr2xm0xw7tjw.bid
+safety.microsoft.com.cdilwgbsvva.kf3yfp26y01o.bid
+safety.microsoft.com.cdnuvew.br6xo38lcmknba.review
+safety.microsoft.com.cfvyipmpj.x8tobjwvwxsvdqyljoc.download
+safety.microsoft.com.cnknb.klf3htd7zgbdzbsln6qgm2vs.review
+safety.microsoft.com.cqjvyfjka.qgtjhwbfvli3d9okvu.review
+safety.microsoft.com.ctuyunywzv.acmvto2nbxciel7xc3lhmw9pi.download
+safety.microsoft.com.cwozwawxs.s2bblnazykf.review
+safety.microsoft.com.cynpndj.vuqcql9sjqgxhjcuhw.trade
+safety.microsoft.com.czcszjhww.u8akdd5e9r5upa.stream
+safety.microsoft.com.dltaw.o6nlrsbnsfamrh6qwgoc4ri.download
+safety.microsoft.com.dluei.bgygm32asb8ddqd6eilozkqywg.bid
+safety.microsoft.com.dpyagxcv.d64de5mf6pbi.stream
+safety.microsoft.com.duarhsxzw.igibruaui62ij03vwucnjhu.stream
+safety.microsoft.com.dwnajmlaasd.fjua9lhciadz2bsy.bid
+safety.microsoft.com.edliybn.0viczonfgsjh.review
+safety.microsoft.com.eptlwcbwq.dgh6uyxt9xzys3arbbfkni0w.science
+safety.microsoft.com.esdpcgtox.krw3dpkqjc7h2mcg6z4yrnba.trade
+safety.microsoft.com.exvsbjil.hwj0f3kuokvm7gxctrrujam7.stream
+safety.microsoft.com.ezvok.3mcwjwcqqgd.science
+safety.microsoft.com.ffxyvjjcchh.lcqlpaaxd3rnun5t8aim6ipcsnw.review
+safety.microsoft.com.fjwiqyvs.k4sukbqkqvzhci83a.review
+safety.microsoft.com.fmwisdw.roufvi5muickp8.bid
+safety.microsoft.com.fplukvtbv.fgrovpns72derro.download
+safety.microsoft.com.goadjf.jnmhpmobl0fuoc1klcyfgl7owo8.bid
+safety.microsoft.com.gswujwq.wqurv0c5oiunqw.stream
+safety.microsoft.com.gtahpzbvb.d4uai5ldfxqr8ryhtzgnpk.bid
+safety.microsoft.com.gtwymt.xq4uly5tht7ccvl6vdh4.review
+safety.microsoft.com.gywwgdm.mspekc8wlfsypw.science
+safety.microsoft.com.gzblszbeu.oe9ifxeau3j313hsuw.review
+safety.microsoft.com.hiekfm.yjvrgtbtigj18a.bid
+safety.microsoft.com.hnzlwjglx.yzn4n91crlxzolm88aceto.download
+safety.microsoft.com.hwsjslrikbd.az2wreapwd6vojspuubc1yd.trade
+safety.microsoft.com.iepdod.szqxnannpnns7uk73z87r4.bid
+safety.microsoft.com.ijjdbrxxw.bs6gezg5ey6q6i.review
+safety.microsoft.com.irxssotjevv.kq36imkryip7q8pih9inwunkg.download
+safety.microsoft.com.ivbbcycz.rzr3lqtfq4tx4j4pg.download
+safety.microsoft.com.jecyto.nbes8xsfzfzpeq0v5hrgeg.trade
+safety.microsoft.com.jhoxsfc.fvl3sfwd1nq.download
+safety.microsoft.com.jmfcmmphqen.j225qpvnfez5l3e9waux0eoa.trade
+safety.microsoft.com.jsgtddp.2btk0sr2a2qaidqdd2pq.bid
+safety.microsoft.com.kjlywtai.owg7xzavskwky0e5s0.review
+safety.microsoft.com.knjwk.ylcjowk4nlcimmtvdgurjlze.download
+safety.microsoft.com.kshlex.fp6cuea1nunodwl7brq6d1bbvq.review
+safety.microsoft.com.lbmwiyqf.6o3wueyebtcolzb3yzolxfjumg.trade
+safety.microsoft.com.lfzvhdou.ntxszch0ywx78z8yg61wxsa.download
+safety.microsoft.com.lnkdprwxct.7ujdwiglue8xt0huvtpz4g.stream
+safety.microsoft.com.locoxhomhzc.45z0iab4uyf8a.science
+safety.microsoft.com.lxsvrhpv.szgfduvop1ixu8.review
+safety.microsoft.com.mdheuyre.34bn4h4bqymsrw867mbx.stream
+safety.microsoft.com.mrlcjgw.wpzljhndz4xp4vogict6.bid
+safety.microsoft.com.mviqzoqkpo.tiyuakuc5iqfcesnsohhvp8.download
+safety.microsoft.com.naolpkglsu.ai2xrgmhbzytdqytww.stream
+safety.microsoft.com.nbemzmoxsm.h3nnxbae6is3uplbfwdh.science
+safety.microsoft.com.nghytzshqde.q8ibp6od1qdjnuprro3bra.review
+safety.microsoft.com.njshfrr.rvofdaeom7ekhq1jow.trade
+safety.microsoft.com.nmyxe.clrjziaig9q9btf5gxcemdi.bid
+safety.microsoft.com.nuarls.jdmavfldrluvnd4xzfhz6b1ma.science
+safety.microsoft.com.nvnaf.jir93rcif0phqiaehokmy3uk3f4.download
+safety.microsoft.com.nwqqpcpef.jbvedlp4hbytmvd4ewc3qi2o.download
+safety.microsoft.com.nxwuh.ogukd1ydyo2rt6zeggexw.stream
+safety.microsoft.com.oazmgk.zkwhm88dcmhu.review
+safety.microsoft.com.obrlnryol.sxh7f1rfkv5wimtmtckdrw.science
+safety.microsoft.com.ofdgaeuqwky.j9tuzhr5smulz4yf66gon3y0w.stream
+safety.microsoft.com.onahxf.lfvwiaki4bj947of7avdl0ylys.download
+safety.microsoft.com.opkrag.gaarkavbo2dymwk.stream
+safety.microsoft.com.pylgkxcwck.j6b2qgxvraulm8.trade
+safety.microsoft.com.pzarfo.hektei3oqjv7semvzrin5pe.download
+safety.microsoft.com.qgdntdcv.yn4uq0h5f9vfpg.science
+safety.microsoft.com.qljgjhfvxg.kdppvertugtk60lf.review
+safety.microsoft.com.qxjycq.j9kowuu8dm2ertycmnsp3.review
+safety.microsoft.com.raaxy.5ozrsgwedqytdhcynax5vhtpk1i.bid
+safety.microsoft.com.rebdswuyo.21d4owpwnfxtz2grc8c.stream
+safety.microsoft.com.rrgsjwpkgd.kykpdth4uey0yxq6guk9.bid
+safety.microsoft.com.ruqem.yq7flcfpxhylyajsqc.trade
+safety.microsoft.com.silkd.dkjny6peajwdw.bid
+safety.microsoft.com.skpcwvlqjs.5fbxhmdm076qgvh7dvlq.download
+safety.microsoft.com.suejja.g7bcivooghhuqxjrtmamuay.science
+safety.microsoft.com.suhumf.bmpxj0hncrl4rhs8yvh9wuy.science
+safety.microsoft.com.tnznen.wvnberhnzjzfwb6.science
+safety.microsoft.com.trkra.8gpqxsms5mwm3tci.trade
+safety.microsoft.com.twdhkfwdmde.hidmogi0ave58fqfuim.stream
+safety.microsoft.com.tyxspyw.s77ztvafnz0tjk2svwazgno.stream
+safety.microsoft.com.ujpiy.lvi0wos6emw0fhinnsjnaospw.bid
+safety.microsoft.com.ungdcm.vh9iz5uauf4j0qrm9ojzg.science
+safety.microsoft.com.uumbwaxvxs.eud1nlb92jia.stream
+safety.microsoft.com.vdzbdzyjrax.0gdkrxee7qdb4y.review
+safety.microsoft.com.vetnqpdfpke.jwfjzaprhrovazcrpgdelakma.trade
+safety.microsoft.com.vgqlxy.cgjwgg7ykmypdcl6jq.trade
+safety.microsoft.com.vhaamftyqle.hq25jfglqfchjlfq4xy.review
+safety.microsoft.com.vihoyc.qww79z2wxzsn.bid
+safety.microsoft.com.vjkdkgaah.notioydlgqa75s.review
+safety.microsoft.com.vsxjvvsf.jihbqv4grqy65zyaqvmgwo1hq.bid
+safety.microsoft.com.vtwlq.pldzqgggoaamryskdv4.download
+safety.microsoft.com.wraasqbnl.e8fsosq5cikdcqi.science
+safety.microsoft.com.wwjvpu.ukatm4d8vzegrm80kxq.bid
+safety.microsoft.com.wwlwnxzl.ddsmdslxz7yw.trade
+safety.microsoft.com.xbfgoqkxwfy.cjpv8xsxzbb6bqbu4q.download
+safety.microsoft.com.xdfzbg.9a6wvfinrn9pdeaw5pe7wkag.trade
+safety.microsoft.com.xighjwh.djm2trsp5yhdp87na.download
+safety.microsoft.com.xmfyv.4yolnnz2xcwi2zaz.stream
+safety.microsoft.com.xnwoh.1vpwdgsyhhdqhqs.trade
+safety.microsoft.com.xnyfvalo.s65gkqrdxkea7ve.stream
+safety.microsoft.com.xrhdpl.r9udntozlkvtbsczig.stream
+safety.microsoft.com.xwvlxxlqz.6pj7kkof09qudccdpqth.science
+safety.microsoft.com.yhxrvqwxft.ynq7lpoaclhwx1ri65rvya.review
+safety.microsoft.com.ymkdzaax.nnhfnmegmwz1y2m82mcwig.review
+safety.microsoft.com.yrqcixdf.2px39ubvllxppsbh.bid
+safety.microsoft.com.yrywixr.anjyniqatkcdehiyblr369rgq.science
+safety.microsoft.com.zdftlfmwmzf.moq1f2oyljqn2zy.science
+safety.microsoft.com.zghdudddg.5rfnzytp5kt63ckrvsn3dck.review
+safety.microsoft.com.zseeuxnofmo.hzermegncheehxlba.trade
+safety.microsoft.com.zyhssqjcpdj.uuw0l8repa3b.stream
+secured-microsoftonline.000webhostapp.com
+serving-sys.com #Microsoft
+settings-win.data.microsoft.com
+snoop.minecraft.net #Microsoft
+spynet2.microsoft.com #Microsoft
+spynetalt.microsoft.com #Microsoft
+ssw.live.com #Microsoft
+statsfe1.ws.microsoft.com #Microsoft
+statsfe2.ws.microsoft.com #Microsoft
+telemetry.microsoft.com #Microsoft
+telemetry.microsoft.com.nsatc.net #Microsoft
+telemetry.urs.microsoft.com #Microsoft
+uiowa.edu.microsoft-pdf.com
+v10.events.data.microsoft.com
+vortex.data.microsoft.com #Microsoft
+vortex-sandbox.data.microsoft.com #Microsoft
+vortex-win.data.microsoft.com #Microsoft
+watson.live.com #Microsoft
+watson.microsoft.com #Microsoft
+www.microsoft-server-update.ml
+ycare-login.microsoft-pdf.com
+accountmicrosoft.com
+accountsmicrosoft.com
+adbroker.mp.dse.microsoft.com
+analytics.microsoft.com
+analyticspixel.microsoft.com
+applicationinsights.microsoft.com
+asimov-win.settings.data.microsoft.com.akadns.net
+big.telemetry.microsoft.com
+billingsmicrosoft.com
+bn2.vortex.data.microsoft.com.akadns.net
+browser.events.data.microsoft.com
+c1.microsoft.com
+choice.microsoft.com
+choice.microsoft.com.akadns.net
+choice.microsoft.com.nsatc.net
+click.email.microsoftemail.com
+clouddc2-dev.sentinel.telemetry.microsoft.com
+clouddc2-dev.syslog.telemetry.microsoft.com
+clouddc2-dev.syslogagent.telemetry.microsoft.com
+clouddc2-dev.syslogclient.telemetry.microsoft.com
+clouddc2-dev.telemetry.microsoft.com
+clouddc2.sentinel.telemetry.microsoft.com
+clouddc2.syslog.telemetry.microsoft.com
+clouddc2.syslogclient.telemetry.microsoft.com
+clouddc2.telemetry.microsoft.com
+confirmation-account-update-microsoft-contact-profile-review.radioimpacto2.com
+content.microsoftaffiliates.net
+crl.microsoft.com
+cupdates.trusteer.comdl2.pushbulletusercontent.comdyknreymc91ut.cloudfront.netgo.microsoft.comgoogleads.g.doubleclick.netin.getclicky.com
+db5-eap.settings-win.data.microsoft.com.akadns.net
+db5.settings-win.data.microsoft.com.akadns.net
+db5.vortex.data.microsoft.com.akadns.net
+dc.applicationinsights.microsoft.com
+de-v20.events.data.microsoft.com
+dev.applicationinsights.microsoft.com
+dev.ppe.applicationinsights.microsoft.com
+dmd.metaservices.microsoft.com.akadns.net
+eu-v20.events.data.microsoft.com
+eu.vortex-win.data.microsoft.com
+eu.vortex.data.microsoft.com
+events.data.microsoft.com
+fp.advertising.microsoft.com
+free-microsofts.com
+genuine.microsoft.com
+geo.settings-win.data.microsoft.com.akadns.net
+geo.vortex.data.microsoft.com.akadns.net
+h-microsoft.online-metrix.net
+help.bingads.microsoft.com
+ieonline.microsoft.com
+ieonlinews.microsoft.com
+kmwatsonc.events.data.microsoft.com
+licensingphone.mp.microsoft.com
+listazureresources.encryption.applicationinsights.microsoft.com
+logging.windows.microsoft.com
+login.microsoftonline.com.534354.kreuzundquer-berlin.com
+microsoft-certification-test.com
+microsoft-chat.com
+microsoft-excel2020.app.link
+microsoft-help-desk.com
+microsoft-help-me.com
+microsoft-office-2000-update.apponic.com
+microsoft-office-accounting-professional.apponic.com
+microsoft-office-enterprise-2007.apponic.com
+microsoft-office-free-templates-download.btc-int.in
+microsoft-office-picture-manager.apponic.com
+microsoft-office-powerpoint-2007.apponic.com
+microsoft-office-setup-online.com
+microsoft-office-word-2007-update.apponic.com
+microsoft-office365.biz
+microsoft-photo-editor.apponic.com
+microsoft-support.store
+microsoft-supportnumber.com
+microsoft-watch.us.intellitxt.com
+microsoft-word-online.apponic.com
+microsoft.geo.appnexusgslb.net
+microsoft.hosting.exacttarget.com
+microsoft.iad.webtrends.com
+microsoft.ipromote.com
+microsoft.qualtrics.com
+microsoft.siteintercept.qualtrics.com
+microsoft.updatemeltdownkb7234.com
+microsoftantispyware.net
+microsoftcompany.com
+microsoftcustomersupport-number.com
+microsoftdemandcenter-ssl.mktoweb.com
+microsoftfluid.co.in
+microsofthelpnumbers.com
+microsoftkeys.org
+microsoftlearning.co1.qualtrics.com
+microsoftliveassist.com
+microsoftlivesupportonlinechat.com
+microsoftmscompoc.tt.omtrdc.net
+microsoftofficehelps.com
+microsoftofficelivesupport.com
+microsoftonlinedocuments.onlyoffice.eu
+microsoftoutlook.duckdns.org
+microsoftoutlookhelp.com
+microsoftoutlookhelp.org
+microsoftoutlooksupports.com
+microsoftpanel.com
+microsoftpanel.net
+microsoftproblems.com
+microsofts-updates.com
+microsoftsto.112.207.net
+microsoftstore.com.vn
+microsoftstore.sc.omtrdc.net
+microsoftsupport.co.uk
+microsoftsupportphonenumber.com
+microsofttechsupportnow.com
+microsoftwarer.com
+microsoftwindows.112.207.net
+microsoftwindowstechs.com
+microsoftwlmessengermkt.112.207.net
+mobile.events.data.microsoft.com
+msa.s2s.watson.telemetry.microsoft.com
+msa.watson.telemetry.microsoft.com
+newmicrosoft-outlook-owaoday.ukit.me
+nw-kmwatson.events.data.microsoft.com
+nw-umwatson.events.data.microsoft.com
+officecdn.microsoft.comstatic.tapfiliate.com
+owatoday-newmicrosoft-outlookwebapp.ukit.me
+ppe.applicationinsights.microsoft.com
+prod.fe.telemetry.microsoft.com
+pulse.microsoft.fr
+redmond.corp-microsoft.com
+register.cdpcs.microsoft.com
+ris.api.iris.microsoft.com
+rt.applicationinsights.microsoft.com
+self.events.data.microsoft.com
+server.events.data.microsoft.com
+smicrosoft.ru
+spynet2.microsoft.com
+spynetalt.microsoft.com
+spynettest.microsoft.com
+statsupdate.microsoft.com.nsatc.net
+sts.advertising.microsoft.com
+sts.si.advertising.microsoft.com
+support-office-microsoft.ga
+support.microsoft21013ajpmschf8356.com.s3-website-ap-northeast-1.amazonaws.com
+tb.events.data.microsoft.com
+telecommend.telemetry.microsoft.com
+telemetry.ingestion.microsoft.com
+tile-service.weather.microsoft.comwf.cbarsrv.com
+uhf.microsoft.com
+uk-v20.events.data.microsoft.com
+umwatsonc.events.data.microsoft.com
+update-microsoftes.com
+update-microsofts.com
+updatemicrosofts.com
+updates-microsofts.com
+updates-microsofts.net
+updatesmicrosoft.net
+urs.smartscreen.microsoft.com
+us-v10.events.data.microsoft.com
+us-v20.events.data.microsoft.com
+us.vortex-win.data.microsoft.com
+us5-v20.events.data.microsoft.com
+v10-win.vortex.data.microsoft.com.akadns.net
+v20.events.data.microsoft.com
+vlscppe.microsoft.com
+vortex-win-sandbox.data.microsoft.com
+watson.microsoft.comwebpooldm21a08.infra.lync.comwww.linkedin.comwww.msn.comx.skimresources.com
+watson.telemetry.microsoft.comapi.rollbar.com
+watson.telemetry.microsoft.comopps.cbarsrv.com
+watson.telemetry.microsoft.comuser.ora.tv
+weweb.vortex.data.microsoft.com
+win10.ipv6-microsoft.org
+win10.ipv6.microsoft.com
+win1710.ipv6.microsoft.com
+www-microsofts.com
+www.applicationinsights.microsoft.com
+www.bingads.microsoft.com
+www.corpext.msitadfs.glbdns2.microsoft.com
+www.df.telemetry.microsoft.com
+www.microsoft-certification-test.com
+www.microsoft-chat.com
+www.microsoft.facebook-ads.adtz.com
+www.microsoftaffiliates.net
+www.microsoftantispyware.net
+www.microsoftfixit.net
+www.microsoftsubsystem.com-adm.in
+www.mymicrosoftstore.com
+www.oca.telemetry.microsoft.com
+www.oca.telemetry.microsoft.com.nsatc.net
+www.reports.wes.df.telemetry.microsoft.com
+www.services.wes.df.telemetry.microsoft.com
+www.sqm.df.telemetry.microsoft.com
+www.sqm.telemetry.microsoft.com
+www.sqm.telemetry.microsoft.com.nsatc.net
+www.telecommand.telemetry.microsoft.com
+www.telecommand.telemetry.microsoft.com.nsatc.net
+www.telemetry.microsoft.com
+www.telemetry.urs.microsoft.com
+www.watson.ppe.telemetry.microsoft.com
+www.watson.telemetry.microsoft.com
+www.watson.telemetry.microsoft.com.nsatc.net
+www.wes.df.telemetry.microsoft.com
+www.www.microsoft.com.org
+americanmicrosoftclouddepartment.duckdns.org
+box365msmicrosoft.com
+cloudsecurefileservicemicrosoftintdomain.duckdns.org
+corporationmicrosoft.duckdns.org
+dnverificationfailedbymicrosoftthanks.duckdns.org
+docwordfilemicrosoftinterenationalexchan.duckdns.org
+domaincloudsecurefileservicemicrosoftint.duckdns.org
+fileexchangeserviceformicrosoftsecurity.duckdns.org
+microsoft-01.dynamic-dns.net
+microsoft-cloud1.co.za
+microsoft-cloud10.co.za
+microsoft-cloud11.co.za
+microsoft-cloud12.co.za
+microsoft-cloud13.co.za
+microsoft-cloud14.co.za
+microsoft-cloud15.co.za
+microsoft-cloud7.co.za
+microsoft-cloud8.co.za
+microsoft-cloud9.co.za
+microsoft-dl.com.br.md-43.webhostbox.net
+microsoft-frameworkseguro.com
+microsoft-in-tune.co.uk
+microsoft-intune2016.co.uk
+microsoft-live.zzux.com
+microsoft.com.software-download.trillium.cam
+microsoft.ddns.us
+microsoftdata.linkpc.net
+microsoftoffice.ns01.us
+microsoftoutlook.ddns.info
+microsoftoutlook.dynamicdns.org.uk
+microsoftpairingservice.biz
+microsoftpro.dns-report.com
+microsoftrun.com
+microsoftservice.ddns.mobi
+microsoftservice.dns-report.com
+microsoftservice.dynamic-dns.net
+microsoftsoftwareupdate.dynamicdns.org.uk
+microsoftupdate.dns-report.com
+microsoftupdate.dynamicdns.org.uk
+microsoftvirutalmachinefilesafetytransf.duckdns.org
+rainfloodingeverywheremicrosoftluckyinte.duckdns.org
+swivelkioskmicrosoft.com
+upecmicrosoft.com
+wwwmicrosoftwindowsfirewallsecuritydotco.duckdns.org
+0.0.0.0	 analytics.microsoft.com
+0.0.0.0	 microsoft-watch.us.intellitxt.com
+0.0.0.0	 microsoft.com.org
+0.0.0.0	 microsofteup.112.2o7.net
+0.0.0.0	 microsoftgamestudio.112.2o7.net
+0.0.0.0	 microsoftinternetexplorer.112.2o7.net
+0.0.0.0	 microsoftmachinetranslation.112.2o7.net
+0.0.0.0	 microsoftoffice.112.2o7.net
+0.0.0.0	 microsoftsto.112.2o7.net
+0.0.0.0	 microsoftuk.122.2o7.net
+0.0.0.0	 microsoftwga.112.2o7.net
+0.0.0.0	 microsoftwindows.112.2o7.net
+0.0.0.0	 microsoftwindowsmobile.122.2o7.net
+0.0.0.0	 microsoftwllivemkt.112.2o7.net
+0.0.0.0	 microsoftwlmailmkt.112.2o7.net
+0.0.0.0	 microsoftwlmessengermkt.112.2o7.net
+0.0.0.0	 microsoftwlmobilemkt.112.2o7.net
+0.0.0.0	 microsoftwlsearchcrm.112.2o7.net
+0.0.0.0	 microsoftxbox.112.2o7.net
+0.0.0.0	 www.www.microsoft.com.org
+||aria.microsoft.com^$important
+||0365-microsoft.com^
+||1-microsoft.com^
+||1microsofts.no-ip.biz^
+||2microsofts.no-ip.biz^
+||3microsofts.no-ip.biz^
+||4microsofts.no-ip.biz^
+||5microsofts.no-ip.biz^
+||6microsofts.no-ip.biz^
+||7microsofts.no-ip.biz^
+||8microsofts.no-ip.biz^
+||9microsofts.no-ip.biz^
+||account-microsoftonline.com^
+||advertise.bingads.microsoft.com^
+||americanmicrosoftclouddepartment.duckdns.org^
+||api.microsoftgroup.com^
+||bill.microsoftbuys.com^
+||broadcast-microsoft.tech^
+||browser.events.data.microsoft.com^
+||choice.microsoft.com.ansatc.net^
+||cloudmicrosoft365.com^
+||com-microsoftonline.club^
+||corporationmicrosoft.duckdns.org^
+||dc-microsoft.workers.dev^
+||ddnshost-microsofts.serveftp.com^
+||diagnostics-support-microsoft.net^
+||dod.teams.microsoft.us.admin-mcas-gov.ms^
+||download.localhost-microsoft.com^
+||drm-server13-login-microsoftonline.com^
+||dynamicrosoft.com^
+||edu.microsoftmse.com^
+||emicrosoftinterview.com^
+||feedback.microsoft-hohm.com^
+||fpt.microsoft.com^
+||freemicrosoftpoints.cc^
+||freemicrosoftpointsgen.com^
+||ftpmicrosoftupdate.ddns.net^
+||helpmicrosoft.net^
+||himicrosoft.com^
+||holymicrosoft.no-ip.biz^
+||ie.update-windows-microsoft.com^
+||ipv4-microsoft.org^
+||ipv6-microsoft.com^
+||jp-microsoft-store.com^
+||livemicrosoft.net^
+||login-microsoftonline-common.ts.r.appspot.com^
+||login.microsoftonline-int.com^
+||login.microsoftonline.com.authorize.client.id.2315846.morgenwargestern.com^
+||login.microsoftonline.com.authorize.client.id.3313514354.morgenwargestern.com^
+||login.microsoftonline.com.common.login.invoice.21355.meertreffen.ch^
+||login.microsoftonline.com.office.harting.myshn.eu^
+||login.microsoftonline.com.office.raymond-james-dev.raymondjames.shnpoc.net^
+||login.microsoftonline.glgruop.com^
+||login.microsoftonline.us.office.gcch.leidos.govshn.net^
+||logonmicrosoftonline.com^
+||loop.microsoftmse.com^
+||loqin-microsoftonline.com^
+||malwarenotice.microsoft.com^
+||microsoft-24.ru^
+||microsoft-365.workers.dev^
+||microsoft-analise.site^
+||microsoft-api.workers.dev^
+||microsoft-bits.site^
+||microsoft-cloud.workers.dev^
+||microsoft-cnd.com^
+||microsoft-datamaturity.noisehq.nl^
+||microsoft-dns13.servehttp.com^
+||microsoft-dsn13.servehttp.com^
+||microsoft-excel.kr.jaleco.com^
+||microsoft-hohm.space^
+||microsoft-home-en.com^
+||microsoft-ipv6.duckdns.org^
+||microsoft-live.sytes.net^
+||microsoft-macros.site^
+||microsoft-ml.ml^
+||microsoft-msdn.com^
+||microsoft-ns1.com^
+||microsoft-o365-outlook.ts.r.appspot.com^
+||microsoft-office-free-templates-download.btc-int.in^
+||microsoft-office.ddns.net^
+||microsoft-office.site^
+||microsoft-office.us^
+||microsoft-online-en-us.com^
+||microsoft-onthehub.com^
+||microsoft-org.no-ip.org^
+||microsoft-patches.servehttp.com^
+||microsoft-pop.ddns.net^
+||microsoft-pro.host^
+||microsoft-pro.live^
+||microsoft-pro.site^
+||microsoft-pro.space^
+||microsoft-products.com^
+||microsoft-secure-online.oa.r.appspot.com^
+||microsoft-security.host^
+||microsoft-shop.com^
+||microsoft-single.ddns.net^
+||microsoft-store.serveirc.com^
+||microsoft-store.sytes.net^
+||microsoft-support.net^
+||microsoft-support.servehttp.com^
+||microsoft-svchost.publicvm.com^
+||microsoft-updata-info.monster^
+||microsoft-update-cdn.com^
+||microsoft-update-ru.com^
+||microsoft-update-server.bit^
+||microsoft-update.bid^
+||microsoft-update.myftp.org^
+||microsoft-update.name^
+||microsoft-update7.myvnc.com^
+||microsoft-updatecdn.com^
+||microsoft-updater.no-ip.info^
+||microsoft-updates.servehttp.com^
+||microsoft-updateservice.tk^
+||microsoft-upgrade.mobi^
+||microsoft-us.ga^
+||microsoft-usb.site^
+||microsoft-ware.com^
+||microsoft-word.duckdns.org^
+||microsoft.16667.no-ip.org^
+||microsoft.authorizeddns.us^
+||microsoft.blg.lt^
+||microsoft.co.za^
+||microsoft.com.admin-mcas-gov.ms^
+||microsoft.com.appstore.dynamicdns.co.uk^
+||microsoft.djkcc.com^
+||microsoft.got-game.org^
+||microsoft.https443.org^
+||microsoft.icertis.com^
+||microsoft.loydbakerys.com^
+||microsoft.mypicture.info^
+||microsoft.net.linkpc.net^
+||microsoft.opendns.be^
+||microsoft.radio.fm^
+||microsoft.serveminecraft.net^
+||microsoft.servepics.com^
+||microsoft.sfkd.cf^
+||microsoft.ssl443.org^
+||microsoft.studio-infinity.com^
+||microsoft.system-ns.org^
+||microsoft.sytes.net^
+||microsoft.updatemeltdownkb7234.com^
+||microsoft.viewdns.net^
+||microsoft0com.cf^
+||microsoft0x8024f001aus.ga^
+||microsoft0x8024f001aus.tk^
+||microsoft0x8024f002aus.cf^
+||microsoft0x8024f002aus.ga^
+||microsoft0x8024f01aus.ga^
+||microsoft0x8024f061us.cf^
+||microsoft0x8024f062us.cf^
+||microsoft0x8024f062us.ga^
+||microsoft0x8024f070aus.cf^
+||microsoft0x8024f070aus.ga^
+||microsoft0x8024f071aus.cf^
+||microsoft0x8024f072aus.cf^
+||microsoft0x8024f072aus.ga^
+||microsoft0x8024f072aus.tk^
+||microsoft0x8024f073aus.cf^
+||microsoft0x8024f073aus.ga^
+||microsoft0x8024f074aus.cf^
+||microsoft0x8024f076aus.cf^
+||microsoft0x8024f076aus.ga^
+||microsoft0x8024f076aus.ml^
+||microsoft0x8024f077aus.cf^
+||microsoft0x8024f077aus.ga^
+||microsoft0x8024f077aus.ml^
+||microsoft0x8024f078aus.cf^
+||microsoft0x8024f078aus.ga^
+||microsoft0x8024f078aus.ml^
+||microsoft0x8024f079aus.cf^
+||microsoft0x8024f079aus.ga^
+||microsoft0x8024f080aus.cf^
+||microsoft0x8024f089aus.cf^
+||microsoft0x8024f090aus.cf^
+||microsoft0x8024f090aus.ga^
+||microsoft0x8024f091aus.cf^
+||microsoft0x8024f091aus.ga^
+||microsoft0x8024f092aus.cf^
+||microsoft0x8024f092aus.ga^
+||microsoft0x8024f093aus.cf^
+||microsoft0x8024f093aus.ga^
+||microsoft0x8024f094aus.cf^
+||microsoft0x8024f095aus.cf^
+||microsoft0x8024f095aus.ga^
+||microsoft0x8024f096aus.cf^
+||microsoft0x8024f096aus.ga^
+||microsoft0x8024f096aus.gq^
+||microsoft0x8024f097aus.cf^
+||microsoft0x8024f098aus.cf^
+||microsoft0x8024f098aus.ga^
+||microsoft0x8024f098aus.gq^
+||microsoft11a.serveftp.com^
+||microsoft11a.servehttp.com^
+||microsoft1342.no-ip.biz^
+||microsoft16667.no-ip.org^
+||microsoft171.duckdns.org^
+||microsoft23-uslive4.online^
+||microsoft24515062.serveftp.com^
+||microsoft365.ga^
+||microsoft365office.com^
+||microsoft741.wixsite.com^
+||microsoft79.sytes.net^
+||microsoftaccess.top^
+||microsoftaccount.myvnc.com^
+||microsoftaccountguard.com^
+||microsoftaffiliates.net^
+||microsoftanalysis.cf^
+||microsoftapplet.servehttp.com^
+||microsoftbetastore.com^
+||microsoftbillingsys.com^
+||microsoftbrazil.sytes.net^
+||microsoftcenter.info^
+||microsoftcenter.live^
+||microsoftcert.xyz^
+||microsoftcheck.com^
+||microsoftcheckupdate.com^
+||microsoftchina.org^
+||microsoftcloudserver.com^
+||microsoftcommunityxbox.com^
+||microsoftcorp32.ddns.net^
+||microsoftcorporation.duckdns.org^
+||microsoftcorpstatistic.com^
+||microsoftdccenter.com^
+||microsoftdefence.com^
+||microsoftdns.duckdns.org^
+||microsoftdnsdown.com^
+||microsoftdnsupdate.com^
+||microsoftdocs.workers.dev^
+||microsoftdriver.com^
+||microsoftdrivermanager.duckdns.org^
+||microsoftdskservice.com^
+||microsofte-e3eb6679a69042bea3968ecb029a669f.at^
+||microsofte-update.com^
+||microsofte.gq^
+||microsoftedgeupdate.com^
+||microsoftempowering.sendsmtp.com^
+||microsoften.com^
+||microsoftenly.com^
+||microsoftestore.top^
+||microsofteup.pdns.cz^
+||microsoftexplorerservices.cloud^
+||microsoftgetstarted.sexidude.com^
+||microsofthelpcenter.info^
+||microsofthk.com^
+||microsofthomes.com^
+||microsoftimages.organiccrap.com^
+||microsoftinc.serveftp.com^
+||microsoftinc.serverftp.com^
+||microsoftinc.sytes.net^
+||microsoftinternetsafety.net^
+||microsoftiswear.duckdns.org^
+||microsoftkernel.com^
+||microsoftlab.club^
+||microsoftlab.ir^
+||microsoftlogin.linkpc.net^
+||microsoftmanager.com^
+||microsoftmirror.ac.ug^
+||microsoftnet1.hopto.org^
+||microsoftnetframework4820190418.duckdns.org^
+||microsoftntdll.sytes.net^
+||microsofto.sytes.net^
+||microsoftoffice.systems^
+||microsoftofline.com^
+||microsoftonilne.ru^
+||microsoftonlihe.com^
+||microsoftonlina.com^
+||microsoftonline.agency^
+||microsoftonline.com.authorizeddns.net^
+||microsoftonline.host^
+||microsoftonline.services^
+||microsoftonline365.org^
+||microsoftonlinedocuments.onlyoffice.eu^
+||microsoftoutlook.duckdns.org^
+||microsoftoutlook.in^
+||microsoftpavilion.duckdns.org^
+||microsoftplanner.sefar.group^
+||microsoftpods.com^
+||microsoftpoints.premium-codes.com^
+||microsoftq-886ef884f3294f81a8e09ad83c63aa6b.at^
+||microsoftr-e7014da3ab60439c951764ac28cf3735.at^
+||microsoftrenat.site^
+||microsofts.myftp.biz^
+||microsofts.myvnc.com^
+||microsofts.no-ip.biz^
+||microsofts.org^
+||microsoftsecurepolicy.org^
+||microsoftsecurity-experts7565.xyz^
+||microsoftsecurity.systes.net^
+||microsoftsecurity.sytes.net^
+||microsoftser.zapto.org^
+||microsoftserve.com^
+||microsoftserver.serveftp.com^
+||microsoftserver.servehttp.com^
+||microsoftservice1.ddns.net^
+||microsoftserviceautheticationteam.weebly.com^
+||microsoftservices.zapto.org^
+||microsoftsession.linkpc.net^
+||microsoftsofymicrosoftsoft.at^
+||microsoftss.myftp.biz^
+||microsoftstatistics.org^
+||microsoftstoreservice.com^
+||microsoftsubsystem.com-adm.in^
+||microsoftsupp.com^
+||microsoftsupport.serveftp.com^
+||microsoftsupport.xyz^
+||microsoftsupport10.ddns.net^
+||microsoftsyslogin.com^
+||microsoftsystem.sytes.net^
+||microsoftt.sytes.net^
+||microsofttop.wiki^
+||microsofttr.no-ip.org^
+||microsofttransfer.com^
+||microsoftuk.co^
+||microsoftupdate.ddns.net^
+||microsoftupdate.dynamicdns.org.uk^
+||microsoftupdate.in^
+||microsoftupdate.qhigh.com^
+||microsoftupdate.top^
+||microsoftupdate.work^
+||microsoftupdate.ws^
+||microsoftupdateapp.com^
+||microsoftupdatecdn.ml^
+||microsoftupdated.com^
+||microsoftupdatetool.no-ip.org^
+||microsoftupdating.online^
+||microsoftvalidation.no-ip.org^
+||microsoftw-02235fc8b7744fe6ba843e40a54ab843.at^
+||microsoftwebserver.mfs.gg^
+||microsoftwin.duckdns.org^
+||microsoftwindows.sytes.net^
+||microsoftwindowsupdate.duckdns.org^
+||microsoftword.serveftp.com^
+||microsoftx.zapto.org^
+||newsfeeds-microsoft.press^
+||nhmicrosoft.com^
+||oca-telemetry-microsoft.com^
+||office365-microsoft.com^
+||office365microsoftonline.com^
+||officemicrosoft.net^
+||onedrivemicrosoft.com^
+||onmicrosoft-online-o365.com^
+||owa-microsoft.online^
+||partnerclub.microsoft.fr^
+||portal.microsoft.office.login.baseplayground.nl^
+||production.outlook-office365-commicrosoftpasswordupdate-storage-tooth-d3eb.s-hiestand.workers.dev^
+||reports-telemetry-microsoft.com^
+||schemas.microsoft.akadns.net^
+||search-microsoft.com^
+||securemicrosoftstatistic.com^
+||securitycenter.microsoft.us.admin-mcas-gov.ms^
+||securitycenter.microsoft.us.admin-mcas.ms^
+||smetric.ads.microsoft.com^
+||sqm.telemetry.microsoft.com^
+||statsfe1-ws-microsoft.com^
+||statsfe2.update.microsoft.com^
+||statsfe2.ws.microsoft.com^
+||steams.microsoftdepot.com^
+||support-microsoft.biz^
+||support-microsoft.net^
+||supports-microsoft.com^
+||systemmicrosoft.linkpc.net^
+||target.microsoft.com^
+||telecommand-microsoft.org^
+||telecommand.telemetry.microsoft.com^
+||update--microsoft.com^
+||update-microsoft.bid^
+||update-microsoft.com^
+||update-microsoft.space^
+||update03.microsoft-essentials.com^
+||us-microsoft-store.com^
+||v10c.events.data.microsoft.com^
+||verifumicrosoftonline.dnsabr.com^
+||virtualniurad.360.microsoft.staging.biceps.digital^
+||voirdocument-microsoft88867176256861211.weebly.com^
+||vortex.data.microsoft.com^
+||watson-microsoft.org^
+||watson.telemetry.microsoft.com^
+||watson.telemetry.microsoft.com.ansatc.net^
+||wes.df.telemetry.microsoft.com^
+||windows-microsoft-en.com^
+||windowsmicrosofte.online^
+||windowsupdatemicrosoft.com^
+||winmicrosoft.no-ip.org^
+||winmicrosoft.sytes.net^
+||wordmicrosoft.no-ip.org^
+||xn--microsoftnline-3pb.com^
+udm.ia8.scorecardresearch.com #[Microsoft Mahjong]
+udm.ri1.scorecardresearch.com #[Microsoft Mahjong]
+udm.ri9.scorecardresearch.com #[Microsoft Mahjong]
+fpt.microsoft.com
+pipe.aria.microsoft.com
+||adcenter.microsoft.com^
+||advertising.microsoft.com^
+||alpha.telemetry.microsoft.com^
+||analytics.microsoft.com^
+||bingads.microsoft.com^
+||cs313a.microsoftup.xyz^
+||cs313b.microsoftup.xyz^
+||cs313c.microsoftup.xyz^
+||df.telemetry.microsoft.com^
+||eu-v10.events.data.microsoft.com^
+||eu.vortex.data.microsoft.com^
+||feedback.search.microsoft.com^
+||free-microsofts.com^
+||g.microsoft.com^
+||g.microsoftonline.com^
+||geover-prod.do.dsp.mp.microsoft.com^
+||gomicrosoft.info^
+||grpleg-onmicrosoft.com^
+||i1.services.social.microsoft.com^
+||ieonline.microsoft.com^
+||ieonlinews.microsoft.com^
+||localhost-microsoft.com^
+||login-microsoftonlline.megmaprintopack.com^
+||mail.microsoftpartnersolutions.com^
+||microsoft-defender-2020.16-b.it^
+||microsoft-defender-2021.16-b.it^
+||microsoft-help-numbers.com^
+||microsoft-ipoint.servehttp.com^
+||microsoft-lync.cf^
+||microsoft-malware-protection-helpline-18664391621.technician.ga^
+||microsoft-office-36563.webnode.com^
+||microsoft-office-errors.blogspot.com^
+||microsoft-outlook.ml^
+||microsoft-qqq1332019.net^
+||microsoft-renew.ddns.net^
+||microsoft-server51232.net^
+||microsoft-support-tech.blogspot.com^
+||microsoft-update.ddns.net^
+||microsoft-update.pop-corps.com^
+||microsoft.com.org^
+||microsoft.dns05.com^
+||microsoft.dumb1.com^
+||microsoft.instanthq.com^
+||microsoft.mrface.com^
+||microsoft.myddns.com^
+||microsoft.myftp.org^
+||microsoft.myiphost.com^
+||microsoft2.linkpc.net^
+||microsoft10.compress.to^
+||microsoft10.zapto.org^
+||microsoft32.myiphost.com^
+||microsoft81.webnode.com^
+||microsoft365-secured-documentfile.000webhostapp.com^
+||microsoft2018.cdhost.com^
+||microsoftaffiliates.com^
+||microsoftantispyware.net^
+||microsoftbooks.dns-dns.com^
+||microsoftc.servebeer.com^
+||microsoftchat.net^
+||microsoftchatbot.com^
+||microsoftchatonline.blogspot.com^
+||microsoftchats.com^
+||microsoftcheapsoftware.com^
+||microsoftcnc.publicvm.com^
+||microsoftconsumermarketing.112.2o7.net^
+||microsoftdata.linkpc.net^
+||microsoftdll.duckdns.org^
+||microsoftdownload.zzux.com^
+||microsoftes.cn^
+||microsofteup.112.2o7.net^
+||microsoftgame.mrface.com^
+||microsoftgamestudio.112.2o7.net^
+||microsofthost.giize.com^
+||microsoftinternetexplorer.112.2o7.net^
+||microsoftkeyoffsale.com^
+||microsoftlive.000webhostapp.com^
+||microsoftmachinetranslation.112.2o7.net^
+||microsoftmse.com^
+||microsoftmusic.itemdb.com^
+||microsoftmusic.onedumb.com^
+||microsoftoffice.112.2o7.net^
+||microsoftofice.zyns.com^
+||microsoftoutlookoffice.com^
+||microsoftpanel.com^
+||microsoftpanel.net^
+||microsofts-updates.com^
+||microsoftsecure365.com^
+||microsoftsemail.com^
+||microsoftsonline.net^
+||microsoftsto.112.2o7.net^
+||microsoftstore.jetos.com^
+||microsoftstores.itemdb.com^
+||microsoftstores.sytes.net^
+||microsofttelerek.ddns.net^
+||microsoftuk.122.2o7.net^
+||microsoftupdate001.duckdns.org^
+||microsoftwebaccessgovowa.editor.multiscreensite.com^
+||microsoftwga.112.2o7.net^
+||microsoftwin.com^
+||microsoftwindows.112.2o7.net^
+||microsoftwindowsmobile.122.2o7.net^
+||microsoftwindowssupport.com^
+||microsoftwllivemkt.112.2o7.net^
+||microsoftwlmailmkt.112.2o7.net^
+||microsoftwlmessengermkt.112.2o7.net^
+||microsoftwlmobilemkt.112.2o7.net^
+||microsoftwlsearchcrm.112.2o7.net^
+||microsoftxbox.112.2o7.net^
+||microsoftxna.112.2o7.net^
+||mobile.events.data.microsoft.com^
+||newmicrosoft-outlook-owaoday.ukit.me^
+||nw-umwatson.events.data.microsoft.com^
+||oca.telemetry.microsoft.com^
+||one-drive-file-microsoft-office365-viewdocl0g.000webhostapp.com^
+||owatoday-newmicrosoft-outlookwebapp.ukit.me^
+||rad.microsoft.com^
+||redir.metaservices.microsoft.com^
+||secured-microsoftonline.000webhostapp.com^
+||settings-sandbox.data.microsoft.com^
+||settings-win-ppe.data.microsoft.com^
+||share.microsoft.com^
+||spynet2.microsoft.com^
+||spynetalt.microsoft.com^
+||statsfe1.ws.microsoft.com^
+||supportmicrosoftoffice.com^
+||telemetry.urs.microsoft.com^
+||umwatson.events.data.microsoft.com^
+||update-microsoftes.com^
+||update-microsofts.com^
+||updatemicrosofts.com^
+||updates-microsofts.com^
+||updates-microsofts.net^
+||updatesmicrosoft.net^
+||us-v10.events.data.microsoft.com^
+||us-v20.events.data.microsoft.com^
+||vortex-sandbox.data.microsoft.com^
+||vortex-win-sandbox.data.microsoft.com^
+||watson.microsoft.com^
+||watson.ppe.telemetry.microsoft.com^
+||windowsmicrosoft.redirectme.net^
+||windowsupdate-microsoft.com^
+||www-microsofts.com^

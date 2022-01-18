@@ -34,6 +34,9 @@ www.dropbox.com
 www.noip.com
 no-ip.com
 github.com
+github.io
+pages.github.com
+raw.githubusercontent.com
 office.com
 office365.com
 outlook.live.com
@@ -46,7 +49,6 @@ outlook.live.com
 @@||update.microsoft.com^
 cdn.onenote.net
 www.onenote.com
-raw.githubusercontent.com
 s.youtube.com
 s.ytimg.com
 i.ytimg.com

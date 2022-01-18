@@ -142,6 +142,7 @@ no-ip.com
 ocsp.apple.com
 appleid.apple.com
 onedrive.live.com
+graph.instagram.com
 www.proandroid.com
 googleapis.com
 gstatic.com

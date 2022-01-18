@@ -127,4 +127,15 @@ ggpht.com
 googlemaps.com
 android.com
 candycrush.king.com
-edge.activity.windows.com
+clients1.google.com
+clients2.google.com
+clients3.google.com
+clients4.google.com
+clients5.google.com
+clients6.google.com
+dynupdate.no-ip.com
+www.no-ip.com
+no-ip.com
+ocsp.apple.com
+appleid.apple.com
+onedrive.live.com

@@ -89,11 +89,11 @@ time.euro.apple.com
 amazonaws.com
 amazonwebservices.com
 @@||arduino.cc^
-@@||netflix.com^
 www.hbomax.com
 www.primevideo.com
 www.disneyplus.com
 www.mitele.es
+www.netflix.com
 www.factoriadeficcion.com
 scontent-mad1-1.xx.fbcdn.net
 www.documaniatv.com
@@ -106,10 +106,8 @@ www.amazon.es
 www.amazon.com
 addons.mozilla.org
 www.solvetic.com
-navigraph.com
 aip.enaire.es
 @@||aena.es^
-www.pccomponentes.com
 @@||pi-hole.net^
 @@||netgate.com^
 @@||docker.com^
@@ -146,3 +144,4 @@ onedrive.live.com
 www.proandroid.com
 googleapis.com
 gstatic.com
+news.pandora.net

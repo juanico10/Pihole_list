@@ -45,4 +45,3 @@
 /.*nexusrules.officeapps.live.com.*/
 /.*wpc.v0cdn.net.*/
 /.*aria.microsoft.com.*/
-/^r(r)?[0-9]*(.+[_.-])/$important

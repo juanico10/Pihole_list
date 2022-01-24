@@ -26,6 +26,7 @@
 ||googleadservices.com^
 ||aria.microsoft.com^
 ||privacy.microsoft.com^
+||myactivity.google.com^
 
 
 

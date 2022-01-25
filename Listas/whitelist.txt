@@ -145,3 +145,4 @@ www.proandroid.com
 googleapis.com
 gstatic.com
 news.pandora.net
+www.dvdvideosoft.com

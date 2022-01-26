@@ -218,11 +218,14 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 </details>
 &nbsp;
 
+
+### HELP ME
+<p> &nbsp;If you want to contribute to improve the lists, open a <code>issue</code> here:  <A HREF="https://github.com/JuanRodenas/Pi-hole_list/issues"> ISSUE </A></p>
+<sup>Si deseas contribuir a mejorar las listas, ábreme un problema aquí.</sup>
+
 ## Ready!
 
-
-#### Créditos
-Welcome to my personal space! Buy me a coffee so I can continue creating content.
-¡Bienvenido a mi espacio personal! Invítame a un café para que pueda seguir creando contenidos.
+### Credits
+Buy me a coffee so I can continue creating content. Invítame a un café para que pueda seguir creando contenidos.
 #
 <a href="https://www.buymeacoffee.com/juanrodenas" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>

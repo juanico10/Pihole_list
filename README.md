@@ -224,4 +224,5 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 #### Créditos
 Welcome to my personal space! Buy me a coffee so I can continue creating content.
 ¡Bienvenido a mi espacio personal! Invítame a un café para que pueda seguir creando contenidos.
+#
 <a href="https://www.buymeacoffee.com/juanrodenas" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>

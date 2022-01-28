@@ -27,6 +27,8 @@
 ||aria.microsoft.com^
 ||privacy.microsoft.com^
 ||myactivity.google.com^
+||tinyurl.com^
+||fitscorner.com^
 
 
 

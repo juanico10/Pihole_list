@@ -218,6 +218,15 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 </details>
 &nbsp;
 
+## COPIAS DE SEGURIDAD
+Si queremos realizar una copias de seguridad de la configuración o recuperar el backup, Pulsa en la imagen para visitar el repositorio de copias de seguridad.
+<p align="center">
+    <a href="https://github.com/JuanRodenas/Backup/blob/main/README.md">
+        <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/cloud-backup.png" width="200" height="200">
+    </a>
+    <br>
+    <strong>Pulsa en la imagen para visitar el repositorio de copias de seguridad.</strong>
+</p>
 
 ### HELP ME
 <p> &nbsp;If you want to contribute to improve the lists, open a <code>issue</code> here:  <A HREF="https://github.com/JuanRodenas/Pi-hole_list/issues"> ISSUE </A></p>

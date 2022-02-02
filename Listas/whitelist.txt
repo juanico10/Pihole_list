@@ -147,3 +147,5 @@ gstatic.com
 news.pandora.net
 www.dvdvideosoft.com
 aus5.mozilla.org
+www.listarobinson.es
+app.gitbook.com

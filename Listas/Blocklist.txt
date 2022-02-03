@@ -35,7 +35,6 @@
 ||tiqcdn.com^
 ||tags.tiqcdn.com^
 ||vodafone.es^
-encrypted-tbn0.gstatic.com
 
 
 

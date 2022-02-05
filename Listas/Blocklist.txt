@@ -58,4 +58,4 @@
 /.*nexusrules.officeapps.live.com.*/
 /.*wpc.v0cdn.net.*/
 /.*aria.microsoft.com.*/
-/(^|\.)ru^/
+/[_.-]ru^/

@@ -36,6 +36,11 @@
 ||tags.tiqcdn.com^
 ||vodafone.es^
 ||wemass.com^
+||prntscr.com^
+||yandex.ru^
+||centrum.cz^
+||bfast.com^
+||ocsp-certum.com01^
 
 
 

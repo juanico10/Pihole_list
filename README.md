@@ -112,7 +112,7 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 | urlhaus-filter-domains | [Link](https://raw.githubusercontent.com/AzagraMac/PiHoleDocker/master/list/urlhaus-filter-domains.txt) | - | - |
 | everything | [Link](https://blocklistproject.github.io/Lists/everything.txt) | [Link](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/everything-ags.txt) | To Block everything |
 | energized pro | [Link](https://energized.pro/unified/formats/hosts.txt) | - | To Block [energized](https://energized.pro/) |
-| d3host | [Link](https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.txt) | - | d3ward List d3host |
+| d3host | [Link](https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.txt) | - | [d3ward](https://github.com/d3ward) popular list |
 
 
 

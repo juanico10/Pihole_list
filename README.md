@@ -100,7 +100,7 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 
 | List | Link | AdGuard | Description |
 | -- | :--: | :--: | -- |
-| Whitelist | [Link](https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt) | - | Lista blanca a permitir |
+| Whitelist | [Link](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/Listas/whitelist.txt) | - | Lista blanca a permitir |
 
 
 ## Main Black Lists

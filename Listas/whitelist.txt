@@ -150,3 +150,6 @@ www.listarobinson.es
 app.gitbook.com
 reports.adguard.com
 cdn.jsdelivr.net
+clickio.mgr.consensu.org
+quantcast.mgr.consensu.org
+trustarc.mgr.consensu.org

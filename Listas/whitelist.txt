@@ -150,3 +150,4 @@ www.listarobinson.es
 app.gitbook.com
 reports.adguard.com
 cdn.jsdelivr.net
+githubassets.com

@@ -73,7 +73,7 @@ stpete-mirror.armbian.com
 i.instagram.com
 events.gfe.nvidia.com
 services.gfe.nvidia.com
-gfwsl.geforce.com
+gfe.nvidia.com
 www.amd.com
 drivers.amd.com
 download.amd.com

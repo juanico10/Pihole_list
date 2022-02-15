@@ -72,6 +72,7 @@ deb.debian.org
 stpete-mirror.armbian.com
 i.instagram.com
 events.gfe.nvidia.com
+services.gfe.nvidia.com
 gfwsl.geforce.com
 www.amd.com
 drivers.amd.com

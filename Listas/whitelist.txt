@@ -39,11 +39,12 @@ pages.github.com
 raw.githubusercontent.com
 office.com
 office365.com
+outlookmobile-office365-tas.msedge.net
 outlook.live.com
+outlook.office365.com
 1drv.ms
 config.teams.microsoft.com
 login.microsoftonline.com
-outlook.office365.com
 outlook.live.com
 @@||update.microsoft.com^
 cdn.onenote.net

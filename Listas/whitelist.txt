@@ -71,7 +71,9 @@ dietpi.com
 deb.debian.org
 stpete-mirror.armbian.com
 i.instagram.com
-||geforce.com^
+gfwsl.geforce.com
+@@||geforce.com^
+@@||nvidia.com^
 www.amd.com
 drivers.amd.com
 download.amd.com

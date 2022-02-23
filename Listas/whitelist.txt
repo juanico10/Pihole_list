@@ -26,7 +26,6 @@ ris-prod-atm.trafficmanager.net
 api.pinterest.com
 apps.skype.com
 azure.microsoft.com
-dns.cloudflare.com
 @@||cloudflare.com^
 @@||cloudflare-dns.com^
 dev.virtualearth.net
@@ -40,6 +39,7 @@ raw.githubusercontent.com
 office.com
 office365.com
 outlookmobile-office365-tas.msedge.net
+self.events.data.microsoft.com
 outlook.live.com
 outlook.office365.com
 1drv.ms

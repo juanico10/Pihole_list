@@ -44,6 +44,8 @@
 ||wpc.v0cdn.net^
 ||modern.watson.data.microsoft.com^
 ||wpc.gammacdn.net^
+||softonic.com^
+
 
 
 # REGEX

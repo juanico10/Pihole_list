@@ -45,7 +45,7 @@
 ||modern.watson.data.microsoft.com^
 ||wpc.gammacdn.net^
 ||softonic.com^
-
+||shodan.io^
 
 
 # REGEX
@@ -73,3 +73,6 @@
 /([\a-zA-Z-0-9\.-]+)\.cam$/
 /([\a-zA-Z-0-9\.-]+)\.ml$/
 /([\a-zA-Z-0-9\.-]+)\.cf$/
+/([\a-zA-Z-0-9\.-]+)\.cm$/
+/([\a-zA-Z-0-9\.-]+)\.tk$/
+/([\a-zA-Z-0-9\.-]+)\.biz$/

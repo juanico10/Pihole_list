@@ -46,6 +46,7 @@
 ||wpc.gammacdn.net^
 ||softonic.com^
 ||shodan.io^
+||imageshack.us^
 
 
 # REGEX

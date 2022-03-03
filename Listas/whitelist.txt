@@ -158,3 +158,4 @@ clickio.mgr.consensu.org
 quantcast.mgr.consensu.org
 trustarc.mgr.consensu.org
 @@||madridistas.realmadrid.net^
+@@||fans.realmadrid.com^

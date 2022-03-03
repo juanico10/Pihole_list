@@ -157,5 +157,5 @@ cdn.jsdelivr.net
 clickio.mgr.consensu.org
 quantcast.mgr.consensu.org
 trustarc.mgr.consensu.org
-@@||madridistas.realmadrid.net^
-@@||fans.realmadrid.com^
+l.madridistas.realmadrid.net
+l.fans.realmadrid.com

@@ -51,7 +51,8 @@
 ||turnip.cdn.turner.com^
 ||spotlight.ngtv.io
 ||medicion.mediaset.es^
-
+||youtube-ui.l.google.com^
+||pki-goog.l.google.com^
 
 # REGEX
 /([^a-zA-Z-0-9]*[_.-])?porn(o)?([a-zA-Z-0-9]*[_.-])*/$important

@@ -57,6 +57,8 @@ t.co
 themoviedb.com
 wp.com
 www.simbrief.com
+time.windows.com
+time.android.com
 pool.debian.com
 pool.ntp.com
 hora.roa.es
@@ -143,6 +145,5 @@ trustarc.mgr.consensu.org
 l.madridistas.realmadrid.net
 l.fans.realmadrid.com
 versioncheck.addons.mozilla.org
-time.windows.com
 settings-win.data.microsoft.com
 settings.data.microsoft.com

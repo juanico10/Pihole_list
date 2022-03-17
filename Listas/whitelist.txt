@@ -144,3 +144,5 @@ l.madridistas.realmadrid.net
 l.fans.realmadrid.com
 versioncheck.addons.mozilla.org
 time.windows.com
+settings-win.data.microsoft.com
+settings.data.microsoft.com

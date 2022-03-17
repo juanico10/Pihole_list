@@ -47,6 +47,8 @@
 ||softonic.com^
 ||shodan.io^
 ||imageshack.us^
+||android.clients.google.com^
+||android.apis.google.com^
 
 
 # REGEX

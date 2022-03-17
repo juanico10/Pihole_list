@@ -59,6 +59,7 @@ wp.com
 www.simbrief.com
 time.windows.com
 time.android.com
+time.apple.com
 pool.debian.com
 pool.ntp.com
 hora.roa.es
@@ -90,7 +91,6 @@ sdk.iad-03.braze.com
 www.icloud.com
 icloud.com
 apple.com
-time.euro.apple.com
 amazonaws.com
 amazonwebservices.com
 @@||arduino.cc^

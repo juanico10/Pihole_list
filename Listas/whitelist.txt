@@ -145,7 +145,7 @@ ocsp.apple.com
 appleid.apple.com
 onedrive.live.com
 www.proandroid.com
-googleapis.com
+@@||googleapis.com
 gstatic.com
 news.pandora.net
 www.dvdvideosoft.com
@@ -160,5 +160,4 @@ trustarc.mgr.consensu.org
 l.madridistas.realmadrid.net
 l.fans.realmadrid.com
 versioncheck.addons.mozilla.org
-userlocation.googleapis.com
 android.apis.google.com

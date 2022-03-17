@@ -147,3 +147,4 @@ l.fans.realmadrid.com
 versioncheck.addons.mozilla.org
 settings-win.data.microsoft.com
 settings.data.microsoft.com
+api.github.com

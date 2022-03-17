@@ -56,6 +56,9 @@
 ||doubleclick.net^
 ||l.google.com^
 ||cs41.wac.edgecastcdn.net^
+||consent.google.com^
+||consent.google.es^
+||consent.youtube.com^
 
 # REGEX
 /([^a-zA-Z-0-9]*[_.-])?porn(o)?([a-zA-Z-0-9]*[_.-])*/$important

@@ -92,11 +92,6 @@ time.euro.apple.com
 amazonaws.com
 amazonwebservices.com
 @@||arduino.cc^
-www.hbomax.com
-www.primevideo.com
-www.disneyplus.com
-www.mitele.es
-www.netflix.com
 www.factoriadeficcion.com
 scontent-mad1-1.xx.fbcdn.net
 www.documaniatv.com

@@ -49,7 +49,11 @@
 ||imageshack.us^
 ||android.clients.google.com^
 ||android.apis.google.com^
-
+||youtube-ui.l.google.com^
+||gigya.com^
+||turnip.cdn.turner.com^
+||spotlight.ngtv.io^
+||pki-goog.l.google.com^
 
 # REGEX
 /.*porn.*/$important

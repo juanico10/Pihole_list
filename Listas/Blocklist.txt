@@ -47,11 +47,9 @@
 ||softonic.com^
 ||shodan.io^
 ||imageshack.us^
-||youtube-ui.l.google.com^
 ||gigya.com^
 ||turnip.cdn.turner.com^
-||spotlight.ngtv.io^
-||pki-goog.l.google.com^
+||spotlight.ngtv.io
 ||medicion.mediaset.es^
 
 

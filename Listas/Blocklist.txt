@@ -67,7 +67,7 @@
 /^stat(s|istics)?[a-zA-Z-0-9]*[_.-]/$important
 /([\a-zA-Z-0-9\.-]+)\.aria.microsoft.com$/$important
 /(.+[a-zA-Z-0-9]*[_.-])?metrics[a-zA-Z-0-9]*[_.-]*/$important
-/^r(r)?[a-zA-Z-0-9]*(.+[_.-])/$important
+
 
 
 # REGEX DOMAIN HAZARD

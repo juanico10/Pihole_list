@@ -50,8 +50,7 @@ outlook.live.com
 cdn.onenote.net
 www.onenote.com
 s.youtube.com
-s.ytimg.com
-i.ytimg.com
+@@||ytimg.com^
 spclient.wg.spotify.com
 t.co
 themoviedb.com

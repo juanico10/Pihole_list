@@ -54,6 +54,8 @@
 ||youtube-ui.l.google.com^
 ||pki-goog.l.google.com^
 ||doubleclick.net^
+||l.google.com^
+||cs41.wac.edgecastcdn.net^
 
 # REGEX
 /([^a-zA-Z-0-9]*[_.-])?porn(o)?([a-zA-Z-0-9]*[_.-])*/$important

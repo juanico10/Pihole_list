@@ -143,3 +143,4 @@ trustarc.mgr.consensu.org
 l.madridistas.realmadrid.net
 l.fans.realmadrid.com
 versioncheck.addons.mozilla.org
+time.windows.com

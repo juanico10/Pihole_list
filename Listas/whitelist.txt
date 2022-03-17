@@ -111,7 +111,6 @@ sourceforge.net
 wallhaven.cc
 in.appcenter.ms
 fonts.gstatic.com
-www.gstatic.com
 ggpht.com
 googlemaps.com
 android.com
@@ -130,7 +129,6 @@ appleid.apple.com
 onedrive.live.com
 www.proandroid.com
 @@||googleapis.com
-gstatic.com
 news.pandora.net
 www.dvdvideosoft.com
 aus5.mozilla.org

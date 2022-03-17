@@ -53,6 +53,7 @@
 ||medicion.mediaset.es^
 ||youtube-ui.l.google.com^
 ||pki-goog.l.google.com^
+||doubleclick.net^
 
 # REGEX
 /([^a-zA-Z-0-9]*[_.-])?porn(o)?([a-zA-Z-0-9]*[_.-])*/$important

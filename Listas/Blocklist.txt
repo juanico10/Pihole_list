@@ -59,20 +59,24 @@
 ||consent.google.com^
 ||consent.google.es^
 ||consent.youtube.com^
+||v10.events.data.microsoft.com^
+||watson.telemetry.microsoft.com^
+||manage.devcenter.microsoft.com^
+
 
 # REGEX
-/([^a-zA-Z-0-9]*[_.-])?porn(o)?([a-zA-Z-0-9]*[_.-])*/$important
-/^(.+[_.-])?adse?rv(er?|ice)?s?[a-zA-Z-0-9]*[_.-]/$important
+/[_.-]?porn(o)?[_.-]*/$important
+/^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]/$important
 /^(.+[_.-])?telemetry[_.-]/$important
-/^ad([sxv]?[a-zA-Z-0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[a-zA-Z-0-9]*|system)[_.-]/$important
-/^adim(age|g)s?[a-zA-Z-0-9]*[_.-]/$important
-/^adtrack(er|ing)?[a-zA-Z-0-9]*[_.-]/$important
-/^advert(s|is(ing|ements?))?[a-zA-Z-0-9]*[_.-]/$important
+/^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]/$important
+/^adim(age|g)s?[0-9]*[_.-]/$important
+/^adtrack(er|ing)?[0-9]*[_.-]/$important
+/^advert(s|is(ing|ements?))?[0-9]*[_.-]/$important
 /^analytics?[_.-]/$important
 /^banners?[_.-]/$important
-/^stat(s|istics)?[a-zA-Z-0-9]*[_.-]/$important
-/([\a-zA-Z-0-9\.-]+)\.aria.microsoft.com$/$important
-/(.+[a-zA-Z-0-9]*[_.-])?metrics[a-zA-Z-0-9]*[_.-]*/$important
+/^stat(s|istics)?[0-9]*[_.-]/$important
+/([0-9]*[_.-])?metrics?[0-9]*[_.-]/$important
+
 
 # REGEX DOMAIN HAZARD
 /([\a-zA-Z-0-9\.-]+)\.ru$/

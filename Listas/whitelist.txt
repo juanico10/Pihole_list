@@ -146,3 +146,4 @@ l.madridistas.realmadrid.net
 l.fans.realmadrid.com
 versioncheck.addons.mozilla.org
 settings-win.data.microsoft.com
+@@||minexmr.com^

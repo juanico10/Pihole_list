@@ -61,6 +61,7 @@
 ||v10.events.data.microsoft.com^
 ||watson.telemetry.microsoft.com^
 ||manage.devcenter.microsoft.com^
+||ref.elblogdelazaro.org^
 
 
 # REGEX

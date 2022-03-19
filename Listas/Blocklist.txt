@@ -64,6 +64,9 @@
 ||ref.elblogdelazaro.org^
 ||tsfe.trafficshaping.dsp.mp.microsoft.com^
 ||wpad.home^
+||unpkg.com^
+||sentry.io^
+
 
 
 # REGEX
@@ -78,7 +81,7 @@
 /^banners?[_.-]/$important
 /^stat(s|istics)?[0-9]*[_.-]/$important
 /([0-9]*[_.-])?metrics?[0-9]*[_.-]/$important
-
+/[0-9]*[_.-]?geo(ip)?s?[0-9]*[_.-]*/$important
 
 # REGEX DOMAIN HAZARD
 /([\a-zA-Z-0-9\.-]+)\.ru$/

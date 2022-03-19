@@ -54,7 +54,6 @@
 ||youtube-ui.l.google.com^
 ||pki-goog.l.google.com^
 ||doubleclick.net^
-||l.google.com^
 ||cs41.wac.edgecastcdn.net^
 ||consent.google.com^
 ||consent.google.es^

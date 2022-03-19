@@ -62,6 +62,8 @@
 ||watson.telemetry.microsoft.com^
 ||manage.devcenter.microsoft.com^
 ||ref.elblogdelazaro.org^
+||tsfe.trafficshaping.dsp.mp.microsoft.com^
+||wpad.home^
 
 
 # REGEX

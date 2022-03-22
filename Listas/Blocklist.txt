@@ -7,7 +7,7 @@
 # Description: Block domains to be whitelisted for everyday use
 # Format: Original and AdGuard format
 # Blocklist
-# Updated: 13/01/2022 21:30h
+# Updated: 22/03/2022 21:30h
 # https://github.com/JuanRodenas
 !-----------------------------------------------------------------------!
 !           _   __    ______                __   _			!

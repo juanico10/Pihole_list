@@ -107,7 +107,6 @@ addons.mozilla.org
 www.solvetic.com
 aip.enaire.es
 @@||aena.es^
-@@||kaspersky.com^
 sourceforge.net
 wallhaven.cc
 in.appcenter.ms

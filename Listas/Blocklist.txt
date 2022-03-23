@@ -25,7 +25,6 @@
 ||uptodown.com^
 ||googleadservices.com^
 ||privacy.microsoft.com^
-||myactivity.google.com^
 ||tinyurl.com^
 ||fitscorner.com^
 ||orange.es^

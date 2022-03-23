@@ -65,7 +65,7 @@
 ||wpad.home^
 ||unpkg.com^
 ||sentry.io^
-
+||rt.services.visualstudio.com^
 
 
 # REGEX

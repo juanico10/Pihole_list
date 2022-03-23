@@ -148,5 +148,3 @@ versioncheck.addons.mozilla.org
 settings-win.data.microsoft.com
 @@||minexmr.com^
 apis.google.com
-g.api.mega.co.nz
-stats.dvdvideosoft.com

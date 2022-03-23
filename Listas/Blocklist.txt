@@ -67,7 +67,6 @@
 ||sentry.io^
 ||rt.services.visualstudio.com^
 
-
 # REGEX
 /[_.-]?porn(o)?[_.-]*/$important
 /^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]/$important

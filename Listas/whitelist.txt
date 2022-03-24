@@ -128,6 +128,7 @@ clients3.google.com
 clients4.google.com
 clients5.google.com
 clients6.google.com
+ggpht.com
 redirector.gvt1.com
 candycrush.king.com
 dynupdate.no-ip.com

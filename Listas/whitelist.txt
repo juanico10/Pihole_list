@@ -50,7 +50,9 @@ outlook.live.com
 cdn.onenote.net
 www.onenote.com
 s.youtube.com
-@@||ytimg.com^
+video-stats.l.google.com
+i.ytimg.com
+s.ytimg.com
 spclient.wg.spotify.com
 t.co
 themoviedb.com
@@ -116,7 +118,7 @@ www.gstatic.com
 gstaticadssl.l.google.com
 ggpht.com
 googlemaps.com
-android.com
+android.clients.google.com
 candycrush.king.com
 dynupdate.no-ip.com
 www.no-ip.com
@@ -129,7 +131,7 @@ www.proandroid.com
 news.pandora.net
 www.dvdvideosoft.com
 aus5.mozilla.org
-www.listarobinson.es
+dl.google.com
 app.gitbook.com
 reports.adguard.com
 cdn.jsdelivr.net
@@ -148,3 +150,5 @@ clients3.google.com
 clients4.google.com
 clients5.google.com
 clients6.google.com
+redirector.gvt1.com
+www.msftncsi.com

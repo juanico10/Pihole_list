@@ -36,6 +36,7 @@ github.com
 github.io
 pages.github.com
 raw.githubusercontent.com
+objects.githubusercontent.com
 office.com
 office365.com
 outlookmobile-office365-tas.msedge.net

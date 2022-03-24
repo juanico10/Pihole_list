@@ -66,6 +66,8 @@
 ||unpkg.com^
 ||sentry.io^
 ||rt.services.visualstudio.com^
+||fpt.dfp.microsoft.com^
+||ov-df.microsoft.com^
 
 # REGEX
 /[_.-]?porn(o)?[_.-]*/$important

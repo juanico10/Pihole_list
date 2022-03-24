@@ -42,6 +42,7 @@ outlookmobile-office365-tas.msedge.net
 self.events.data.microsoft.com
 outlook.live.com
 outlook.office365.com
+c.microsoft.com
 1drv.ms
 config.teams.microsoft.com
 login.microsoftonline.com

@@ -68,6 +68,7 @@
 ||rt.services.visualstudio.com^
 ||fpt.dfp.microsoft.com^
 ||ov-df.microsoft.com^
+||tr.scip.es^
 
 # REGEX
 /[_.-]?porn(o)?[_.-]*/$important

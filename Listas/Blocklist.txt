@@ -68,7 +68,6 @@
 ||rt.services.visualstudio.com^
 ||fpt.dfp.microsoft.com^
 ||ov-df.microsoft.com^
-||tr.scip.es^
 
 # REGEX
 /[_.-]?porn(o)?[_.-]*/$important
@@ -91,6 +90,7 @@
 /([\a-zA-Z-0-9\.-]+)\.РФ$/
 /([\a-zA-Z-0-9\.-]+)\.hk$/
 /([\a-zA-Z-0-9\.-]+)\.cn$/
+/([\a-zA-Z-0-9\.-]+)\.cat$/
 /([\a-zA-Z-0-9\.-]+)\.zip$/
 /([\a-zA-Z-0-9\.-]+)\.kin$/
 /([\a-zA-Z-0-9\.-]+)\.gq$/

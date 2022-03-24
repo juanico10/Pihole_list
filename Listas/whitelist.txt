@@ -26,8 +26,6 @@ ris-prod-atm.trafficmanager.net
 api.pinterest.com
 apps.skype.com
 azure.microsoft.com
-@@||cloudflare.com^
-@@||cloudflare-dns.com^
 dev.virtualearth.net
 www.dropbox.com
 www.noip.com

@@ -68,6 +68,9 @@
 ||rt.services.visualstudio.com^
 ||fpt.dfp.microsoft.com^
 ||ov-df.microsoft.com^
+||yandex.net^
+||yandex.com^
+||yastatic.net^
 
 # REGEX
 /[_.-]?porn(o)?[_.-]*/$important

@@ -71,6 +71,8 @@
 ||yandex.net^
 ||yandex.com^
 ||yastatic.net^
+||facebook.net^
+||facebook.com^
 
 # REGEX
 /[_.-]?porn(o)?[_.-]*/$important

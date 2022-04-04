@@ -154,3 +154,5 @@ versioncheck.addons.mozilla.org
 @@||minexmr.com^
 g.live.com
 skyapi.onedrive.live.com
+safeweb.norton.com
+click.revue.email

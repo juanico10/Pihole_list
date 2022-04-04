@@ -80,6 +80,8 @@
 ||serbatic-06593.vass.inet^
 ||wpad.vass.inet^
 ||7bc68e3b-6dd6-4.vass.inet^
+||msn.com^
+||bing.com^
 
 # REGEX
 /[_.-]?porn(o)?[_.-]*/$important

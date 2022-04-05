@@ -80,6 +80,7 @@
 ||7bc68e3b-6dd6-4.vass.inet^
 ||msn.com^
 ||business.bing.com^
+||desktopcentral.vass.es^
 
 
 # REGEX

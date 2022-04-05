@@ -73,7 +73,6 @@
 ||yastatic.net^
 ||facebook.net^
 ||facebook.com^
-||r.bing.com^
 ||mtalk.google.com^
 ||nav.smartscreen.microsoft.com^
 ||ogs.google.es^
@@ -81,7 +80,6 @@
 ||wpad.vass.inet^
 ||7bc68e3b-6dd6-4.vass.inet^
 ||msn.com^
-||bing.com^
 
 # REGEX
 /[_.-]?porn(o)?[_.-]*/$important

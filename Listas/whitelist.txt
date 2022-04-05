@@ -27,7 +27,6 @@ api.pinterest.com
 apps.skype.com
 dev.virtualearth.net
 ecn.dev.virtualearth.net
-www.dropbox.com
 www.noip.com
 no-ip.com
 raw.githubusercontent.com
@@ -41,6 +40,7 @@ outlook.office365.com
 c.microsoft.com
 1drv.ms
 config.teams.microsoft.com
+download.windowsupdate.com
 login.microsoftonline.com
 www.msftncsi.com
 i.s-microsoft.com

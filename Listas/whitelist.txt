@@ -39,7 +39,6 @@ office.com
 office365.com
 outlookmobile-office365-tas.msedge.net
 self.events.data.microsoft.com
-teams.events.data.microsoft.com
 settings-win.data.microsoft.com
 outlook.live.com
 outlook.office365.com

@@ -73,7 +73,6 @@
 ||yastatic.net^
 ||facebook.net^
 ||facebook.com^
-||nav.smartscreen.microsoft.com^
 ||ogs.google.es^
 ||serbatic-06593.vass.inet^
 ||wpad.vass.inet^

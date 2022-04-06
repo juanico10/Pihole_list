@@ -149,4 +149,5 @@ g.live.com
 skyapi.onedrive.live.com
 safeweb.norton.com
 click.revue.email
-www.myip.ms
+myip.ms
+www.dnsomatic.com

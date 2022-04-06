@@ -80,9 +80,14 @@
 ||msn.com^
 ||business.bing.com^
 ||desktopcentral.vass.es^
+||desktopcentral.vass.inet^
 ||dmd.metaservices.microsoft.com^
 ||ring.msedge.net^
-
+||b-ring.msedge.net^
+||s-ring.msedge.net^
+||a-ring.msedge.net^
+||k-ring.msedge.net^
+||l-ring.msedge.net^
 
 # REGEX
 /[_.-]?porn(o)?[_.-]*/$important

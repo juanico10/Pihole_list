@@ -81,6 +81,7 @@
 ||business.bing.com^
 ||desktopcentral.vass.es^
 ||dmd.metaservices.microsoft.com^
+||ring.msedge.net^
 
 
 # REGEX

@@ -80,6 +80,7 @@
 ||msn.com^
 ||business.bing.com^
 ||desktopcentral.vass.es^
+||dmd.metaservices.microsoft.com^
 
 
 # REGEX

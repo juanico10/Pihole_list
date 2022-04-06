@@ -78,7 +78,7 @@
 ||wpad.vass.inet^
 ||7bc68e3b-6dd6-4.vass.inet^
 ||msn.com^
-||business.bing.com^
+||bing.com^
 ||dmd.metaservices.microsoft.com^
 ||ring.msedge.net^
 ||b-ring.msedge.net^

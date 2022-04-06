@@ -96,7 +96,6 @@ www.youtube.com
 open.spotify.com
 radio.garden
 unsplash.com
-www.fosshub.com
 www.amazon.es
 www.amazon.com
 addons.mozilla.org

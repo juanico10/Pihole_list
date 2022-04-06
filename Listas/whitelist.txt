@@ -150,4 +150,3 @@ skyapi.onedrive.live.com
 safeweb.norton.com
 click.revue.email
 myip.ms
-www.dnsomatic.com

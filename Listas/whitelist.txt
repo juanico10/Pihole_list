@@ -85,8 +85,6 @@ t.me
 telegram.me
 td.telegram.org
 sdk.iad-03.braze.com
-www.icloud.com
-icloud.com
 apple.com
 amazonaws.com
 amazonwebservices.com

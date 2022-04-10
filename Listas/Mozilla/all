@@ -41,3 +41,10 @@
 0.0.0.0 wiki.mozilla.org
 0.0.0.0 vpn.mozilla.org
 0.0.0.0 contile.services.mozilla.com
+0.0.0.0 relay.firefox.com
+0.0.0.0 monitor.firefox.com
+0.0.0.0 getpocket.com
+0.0.0.0 firefox-source-docs.mozilla.org
+0.0.0.0 fpn.firefox.com
+0.0.0.0 blog.mozilla.org
+0.0.0.0 developer.mozilla.org

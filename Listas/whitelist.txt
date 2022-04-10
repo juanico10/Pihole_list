@@ -152,3 +152,6 @@ www.fosshub.com
 www.justwatch.com
 @@||aena.es^
 ftp.mozilla.org
+support.mozilla.org
+wiki.mozilla.org
+relay.firefox.com

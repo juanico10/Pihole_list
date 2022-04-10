@@ -155,3 +155,7 @@ ftp.mozilla.org
 support.mozilla.org
 wiki.mozilla.org
 relay.firefox.com
+monitor.firefox.com
+www.mozilla.org
+firefox-source-docs.mozilla.org
+blog.mozilla.org

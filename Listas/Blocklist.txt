@@ -88,6 +88,7 @@
 ||s.w.org^
 ||ipfs.io^
 ||mimir.vivaldi.com^
+||utorrent.com^
 
 # REGEX
 /[_.-]?porn(o)?[_.-]*/$important

@@ -154,3 +154,8 @@ www.justwatch.com
 vivaldi.com
 downloads.vivaldi.com
 update.vivaldi.com
+ftp.mozilla.org
+support.mozilla.org
+monitor.firefox.com
+download.mozilla.org
+www.mozilla.org

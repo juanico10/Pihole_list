@@ -17,8 +17,8 @@
 0.0.0.0 install.mozilla.org
 0.0.0.0 location.services.mozilla.com
 0.0.0.0 malware-error.mozilla.com
-0.0.0.0 mozilla.com
-0.0.0.0 mozilla.org
+0.0.0.0 www.mozilla.com
+0.0.0.0 www.mozilla.org
 0.0.0.0 onyx_tiles.stage.mozaws.net
 0.0.0.0 phish-error.mozilla.com
 0.0.0.0 phish-report.mozilla.com
@@ -49,3 +49,4 @@
 0.0.0.0 blog.mozilla.org
 0.0.0.0 developer.mozilla.org
 0.0.0.0 qsurvey.mozilla.com
+0.0.0.0 download.mozilla.org

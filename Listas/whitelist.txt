@@ -52,7 +52,6 @@ www.onenote.com
 spclient.wg.spotify.com
 t.co
 themoviedb.com
-wp.com
 www.simbrief.com
 time.windows.com
 time.android.com

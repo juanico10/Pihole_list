@@ -151,6 +151,6 @@ click.revue.email
 www.fosshub.com
 www.justwatch.com
 @@||aena.es^
-ftp.mozilla.org
-support.mozilla.org
-monitor.firefox.com
+vivaldi.com
+downloads.vivaldi.com
+update.vivaldi.com

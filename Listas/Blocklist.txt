@@ -86,7 +86,8 @@
 ||k-ring.msedge.net^
 ||l-ring.msedge.net^
 ||s.w.org^
-||ipfs.io
+||ipfs.io^
+||mimir.vivaldi.com^
 
 # REGEX
 /[_.-]?porn(o)?[_.-]*/$important

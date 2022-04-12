@@ -39,6 +39,8 @@ outlook.live.com
 outlook.office365.com
 storage.live.com
 c.microsoft.com
+api.onedrive.com
+npwuscdn-onenote.azureedge.net
 1drv.ms
 config.teams.microsoft.com
 download.windowsupdate.com

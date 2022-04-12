@@ -63,7 +63,6 @@
 ||ref.elblogdelazaro.org^
 ||tsfe.trafficshaping.dsp.mp.microsoft.com^
 ||wpad.home^
-||unpkg.com^
 ||sentry.io^
 ||rt.services.visualstudio.com^
 ||fpt.dfp.microsoft.com^
@@ -85,7 +84,6 @@
 ||a-ring.msedge.net^
 ||k-ring.msedge.net^
 ||l-ring.msedge.net^
-||s.w.org^
 ||ipfs.io^
 ||mimir.vivaldi.com^
 ||utorrent.com^

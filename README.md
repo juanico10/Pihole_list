@@ -149,7 +149,7 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 
 
 #### uBlock Origin uAssets
-| List Services | Link | Link DEV | Description |
+| List Services | Link | Link dev | Description |
 | -- | :--: | :--: | -- |
 | uBlock filters | [Link](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | uBlock filters |
 | Badware risks | [Link](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | uBlock filters – Badware risks |
@@ -157,6 +157,16 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 | Quick fixes list | [Link](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/quick-fixes.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | Quick fixes list |
 | Resource abuse | [Link](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | uBlock filters – Resource abuse |
 | Unbreak | [Link](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | uBlock filters – Unbreak |
+
+
+#### EasyList filter lists
+| List Services | Link | Link dev | Description |
+| -- | :--: | :--: | -- |
+| EasyList | [Link](https://easylist.to/easylist/easylist.txt) | [Link](https://easylist.to/) | General advert blocking filters |
+| EasyPrivacy | [Link](https://easylist.to/easylist/easyprivacy.txt) | [Link](https://easylist.to/) | General tracking systems |
+| Easylist Cookie List | [Link](https://secure.fanboy.co.nz/fanboy-cookiemonster.txt) | [Link](https://easylist.to/) | Easylist Cookie List |
+| Fanboy's Social Blocking List| [Link](https://easylist.to/easylist/fanboy-social.txt) | [Link](https://easylist.to/) | General blocking rules |
+| Fanboy's Annoyance List | [Link](https://secure.fanboy.co.nz/fanboy-annoyance.txt) | [Link](https://easylist.to/) | General blocking rules |
 
 
 <sup>Se ha añadido una pestaña para AdGuard con listas adaptadas a su formato.</sup>

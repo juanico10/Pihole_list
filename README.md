@@ -105,6 +105,7 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 
 ## Main Black Lists
 
+
 #### Host
 | List Host | Link | AdGuard | Description |
 | -- | :--: | :--: | -- |
@@ -115,7 +116,6 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 | d3host | [Link](https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.txt) | - | [d3ward](https://github.com/d3ward) popular list |
 
 
-
 #### Malware
 | List Malware | Link | AdGuard | Description |
 | -- | :--: | :--: | -- |
@@ -123,7 +123,6 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 | Malware | [Link](https://blocklistproject.github.io/Lists/malware.txt) | [Link](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/malware-ags.txt) | To Block malware |
 | Ransomware | [Link](https://raw.githubusercontent.com/blocklistproject/Lists/master/ransomware.txt) | [Link](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/ransomware-ags.txt) | To Block ransomware |
 | phishing | [Link](https://phishing.army/download/phishing_army_blocklist_extended.txt) | - | To Block phishing |
-
 
 
 #### Tracking/Ads
@@ -148,7 +147,20 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 | Microsoft | [Link](https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/microsoft/all) | - | To Block Microsoft |
 | VideoGamesAdiction | [Link](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/List/VideoGamesAdiction.txt) | - | To Block VideoGames Adiction |
 
+
+#### uBlock Origin uAssets
+| List Services | Link | Link DEV | Description |
+| -- | :--: | :--: | -- |
+| uBlock filters | [Link](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | To Block uBlock filters |
+| Badware risks | [Link](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | uBlock filters – Badware risks |
+| Privacy | [Link](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | uBlock filters – Privacy |
+| Quick fixes list | [Link](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/quick-fixes.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | Quick fixes list |
+| Resource abuse | [Link](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | uBlock filters – Resource abuse |
+| Unbreak | [Link](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | uBlock filters – Unbreak |
+
+
 <sup>Se ha añadido una pestaña para AdGuard con listas adaptadas a su formato.</sup>
+
 
 ### Comprobar tu SelfHosted:
 

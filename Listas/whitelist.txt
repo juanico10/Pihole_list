@@ -160,5 +160,3 @@ support.mozilla.org
 monitor.firefox.com
 download.mozilla.org
 www.mozilla.org
-api.onedrive.com
-npwuscdn-onenote.azureedge.net

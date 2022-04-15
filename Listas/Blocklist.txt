@@ -87,6 +87,8 @@
 ||ipfs.io^
 ||mimir.vivaldi.com^
 ||utorrent.com^
+||movil-app.eu^
+||sarek.fi^
 
 # REGEX
 /[_.-]?porn(o)?[_.-]*/$important

@@ -27,7 +27,6 @@
 ||privacy.microsoft.com^
 ||tinyurl.com^
 ||fitscorner.com^
-||orange.es^
 ||abtasty.com^
 ||masmovil.es^
 ||tiqcdn.com^
@@ -89,6 +88,7 @@
 ||utorrent.com^
 ||movil-app.eu^
 ||sarek.fi^
+||movil.verificaciones-online.com^
 
 # REGEX
 /[_.-]?porn(o)?[_.-]*/$important

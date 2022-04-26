@@ -160,3 +160,5 @@ monitor.firefox.com
 download.mozilla.org
 www.mozilla.org
 view.genial.ly
+getpocket.com
+accounts.firefox.com

@@ -149,9 +149,10 @@ g.live.com
 safeweb.norton.com
 click.revue.email
 www.fosshub.com
-www.justwatch.com
 apis.justwatch.com
+images.justwatch.com
 sentry.justwatch.com
+www.justwatch.com
 @@||aena.es^
 downloads.vivaldi.com
 update.vivaldi.com

@@ -150,8 +150,8 @@ safeweb.norton.com
 click.revue.email
 www.fosshub.com
 www.justwatch.com
+apis.justwatch.com
 @@||aena.es^
-vivaldi.com
 downloads.vivaldi.com
 update.vivaldi.com
 ftp.mozilla.org

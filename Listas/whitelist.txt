@@ -164,4 +164,3 @@ www.mozilla.org
 view.genial.ly
 getpocket.com
 accounts.firefox.com
-vivaldi.com

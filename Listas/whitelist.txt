@@ -151,6 +151,7 @@ click.revue.email
 www.fosshub.com
 www.justwatch.com
 apis.justwatch.com
+sentry.justwatch.com
 @@||aena.es^
 downloads.vivaldi.com
 update.vivaldi.com
@@ -162,3 +163,4 @@ www.mozilla.org
 view.genial.ly
 getpocket.com
 accounts.firefox.com
+vivaldi.com

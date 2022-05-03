@@ -89,6 +89,7 @@
 ||movil-app.eu^
 ||sarek.fi^
 ||movil.verificaciones-online.com^
+||elmundo.es^
 
 # REGEX
 /[_.-]?porn(o)?[_.-]*/$important

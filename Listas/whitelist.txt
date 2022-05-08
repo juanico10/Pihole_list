@@ -74,10 +74,12 @@ deb.debian.org
 stpete-mirror.armbian.com
 i.instagram.com
 gfwsl.geforce.com
+api.gfe.nvidia.com
+activation.gfe.nvidia.com
+download.gfe.nvidia.com
 events.gfe.nvidia.com
 services.gfe.nvidia.com
 accounts.nvgs.nvidia.cn
-gfe.nvidia.com
 www.amd.com
 drivers.amd.com
 download.amd.com

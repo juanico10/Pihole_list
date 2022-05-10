@@ -90,6 +90,7 @@
 ||sarek.fi^
 ||movil.verificaciones-online.com^
 ||elmundo.es^
+||ctvoicer.com.br^
 
 # REGEX
 /[_.-]?porn(o)?[_.-]*/$important

@@ -91,6 +91,17 @@
 ||movil.verificaciones-online.com^
 ||elmundo.es^
 ||ctvoicer.com.br^
+||cutt.ly^
+||bit.do^
+||la-cai-serv.com^
+||bancabankinter.com^
+||unaaldia.hispasec.com^
+||send.vpcontact.com^
+||cuturl.net^
+||itsssl.com^
+||tiny.one^
+||seguridad-accesoclientes.es^
+
 
 # REGEX
 /[_.-]?porn(o)?[_.-]*/$important

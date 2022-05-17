@@ -101,6 +101,7 @@
 ||tiny.one^
 ||seguridad-accesoclientes.es^
 ||res.cdn.office.net^
+||urly.it^
 
 
 # REGEX

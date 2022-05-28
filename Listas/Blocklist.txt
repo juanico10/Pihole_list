@@ -103,6 +103,7 @@
 ||urly.it^
 ||tw.cx^
 ||mazterize.com^
+||metrics.ubuntu.com^
 
 
 # REGEX

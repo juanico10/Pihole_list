@@ -117,6 +117,7 @@ i.ytimg.com
 s.ytimg.com
 dl.google.com
 android.clients.google.com
+android.apis.google.com
 apis.google.com
 clients1.google.com
 clients2.google.com

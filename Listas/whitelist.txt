@@ -167,3 +167,5 @@ www.mozilla.org
 view.genial.ly
 getpocket.com
 accounts.firefox.com
+gld.push.samsungosp.com
+china-gld.push.samsungosp.com.cn

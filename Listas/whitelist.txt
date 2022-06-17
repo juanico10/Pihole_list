@@ -156,7 +156,6 @@ apis.justwatch.com
 images.justwatch.com
 sentry.justwatch.com
 www.justwatch.com
-@@||aena.es^
 downloads.vivaldi.com
 update.vivaldi.com
 ftp.mozilla.org

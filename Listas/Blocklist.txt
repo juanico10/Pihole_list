@@ -104,7 +104,7 @@
 ||tw.cx^
 ||mazterize.com^
 ||metrics.ubuntu.com^
-
+||go5s.biz^
 
 # REGEX
 /[_.-]?porn(o)?[_.-]*/$important

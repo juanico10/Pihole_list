@@ -106,6 +106,7 @@
 ||metrics.ubuntu.com^
 ||go5s.biz^
 ||linuxteaching.com^
+||acceso.app-protect.click^
 
 # REGEX
 /[_.-]?porn(o)?[_.-]*/$important

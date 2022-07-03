@@ -107,6 +107,11 @@
 ||go5s.biz^
 ||linuxteaching.com^
 ||acceso.app-protect.click^
+||cai-es-app.com^
+||mub.me^
+||datctdo.site^
+||itsssl.com^
+||yourgames.com^
 
 # REGEX
 /[_.-]?porn(o)?[_.-]*/$important

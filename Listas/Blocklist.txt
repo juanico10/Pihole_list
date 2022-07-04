@@ -112,6 +112,8 @@
 ||datctdo.site^
 ||itsssl.com^
 ||yourgames.com^
+||ifloof.xyz^
+||my7irts.xyz^
 
 # REGEX
 /[_.-]?porn(o)?[_.-]*/$important

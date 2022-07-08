@@ -114,6 +114,8 @@
 ||yourgames.com^
 ||ifloof.xyz^
 ||my7irts.xyz^
+||g2j32.app.goo.gl^
+||express202.temp.swtest.ru^
 
 # REGEX
 /[_.-]?porn(o)?[_.-]*/$important

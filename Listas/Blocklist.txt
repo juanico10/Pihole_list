@@ -20,6 +20,7 @@
 !-----------------------------------------------------------------------!
 # DOMAINS
 ||norton.com^$important
+||mcafee.com^$important
 ||avira.com^$important
 ||avast.com^$important
 ||uptodown.com^
@@ -88,7 +89,6 @@
 ||movil-app.eu^
 ||sarek.fi^
 ||movil.verificaciones-online.com^
-||elmundo.es^
 ||ctvoicer.com.br^
 ||cutt.ly^
 ||bit.do^

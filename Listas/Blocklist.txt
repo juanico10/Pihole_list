@@ -118,6 +118,7 @@
 ||express202.temp.swtest.ru^
 ||disq.us^
 ||vzkrdw.unicdates.com^
+||caixa-bank.com^
 
 # REGEX
 /[_.-]?porn(o)?[_.-]*/$important

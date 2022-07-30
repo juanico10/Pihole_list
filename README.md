@@ -202,6 +202,25 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 </details>
 &nbsp;
 
+<details>
+<summary>No more ads:</summary>
+
+<Original>&nbsp;Pagina para comprobar tu selfhosted de No more ads</Original>
+
+<p>  &nbsp;&nbsp;https://ads-blocker.com/es/pruebas/</p>
+</details>
+&nbsp;
+
+
+<details>
+<summary>AdBlock Tester:</summary>
+
+<Original>&nbsp;Pagina para comprobar tu selfhosted de AdBlock Tester</Original>
+
+<p>  &nbsp;&nbsp;https://adblock-tester.com/</p>
+</details>
+&nbsp;
+
 ### Comprobar DoH, DoT y DDNSSEC:
 
 <details>

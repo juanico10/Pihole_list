@@ -52,6 +52,7 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 <p>  &nbsp;&nbsp;<code>|</code> – un puntero al principio o al final del nombre de host. El valor depende de la ubicación del carácter en la máscara. Por ejemplo, la regla <code>ample.org|</code> corresponde a <code>example.org</code>, pero no a <code>example.org.com</code>. <code>|example</code> corresponde a <code>example.org</code> pero no a <code>test.example.org</code></p>
     
 <sup>Las instrucciones son actuales a partir de [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome/wiki/Hosts-Blocklists#special-characters) v0.107.2. AdGuard admite las versiones anteriores.</sup>
+<sup>Las instrucciones que admite [AdGuard Home](https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters).</sup>
 </details>
 &nbsp;
 <details>

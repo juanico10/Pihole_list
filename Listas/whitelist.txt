@@ -175,3 +175,4 @@ arc.msn.com
 img.yana.asideas.de
 prod.yana.asideas.de
 www.somosxbox.com
+data.madridista-premium.realmadrid.com

@@ -54,8 +54,6 @@
 ||pki-goog.l.google.com^
 ||doubleclick.net^
 ||cs41.wac.edgecastcdn.net^
-||consent.google.com^
-||consent.google.es^
 ||consent.youtube.com^
 ||v10.events.data.microsoft.com^
 ||watson.telemetry.microsoft.com^

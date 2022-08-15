@@ -95,7 +95,7 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 </details>
 &nbsp;
 
-# Listas para Pihole
+# Listas para Pihole <a title="Pi-Hole" href="https://pi-hole.net"><img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/pihole.png" alt="Pi-Hole" width="40"/></a> y AdGuard Home <a title="AdGuard Home" href="https://adguard.com/en/adguard-home/overview.html"><img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/AdGuard_Logo.png" alt="AdGuard Home" width="40"/></a> 
 
 ## Main White Lists
 

@@ -68,7 +68,7 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 
 ### Uso:
 <details>
-    <summary>Utilizar con <a href="https://pi-hole.net" target="_blank">Pi-Hole</a>:</summary>
+    <summary>Utilizar con Pi-Hole <a title="Pi-Hole" href="https://pi-hole.net"><img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/pihole.png" alt="Pi-Hole" width="40"/></a>:</summary>
 
 ## Instrucciones de uso con Pi-Hole:
 
@@ -82,7 +82,7 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 &nbsp;
 
 <details>
-    <summary>Using with <a href="https://adguard.com/en/adguard-home/overview.html">AdGuard Home</a>:</summary>
+    <summary>Utilizar con AdGuard Home <a title="AdGuard Home" href="https://adguard.com/en/adguard-home/overview.html"><img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/AdGuard_Logo.png" alt="AdGuard Home" width="40"/></a>:</summary>
 
 ## Instrucciones de uso con AdGuard Home:
 

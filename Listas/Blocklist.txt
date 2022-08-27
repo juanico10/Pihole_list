@@ -3764,6 +3764,7 @@
 ||zzhc.vnet.cn^
 ||informacionuni-b8c7fd.ingress-earth.ewp.live^
 ||mub.me^
+||cyberduck.es^
 
 
 ########### REGEX

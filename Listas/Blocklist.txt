@@ -3766,6 +3766,20 @@
 ||mub.me^
 ||cyberduck.es^
 ||unicaja.area-actualizacion.com^
+||itsssl.com^
+||unicaja-particulares.com^
+||bit.do^
+||bbva.es-bancaprivada.com^
+||sistemasseguros.eu^
+||relied.cl^
+||is.gd^
+||tarjeta-santande.es.swtest.ru^
+||pxlme.me^
+||v.ht^
+||segidsantander.app^
+||qrco.de^
+||liverpool,com.mx^
+||zpr.io^
 
 
 ########### REGEX

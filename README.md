@@ -1,9 +1,8 @@
 # Pi-hole_list
-El proyecto Pi-hole_list es un proyecto en el cual bloqueamos y protegemos en toda la red a través de su propio hardware. Pi-hole® y Adguard Home® es un sumidero de DNS que protege sus dispositivos de contenidos no deseados sin necesidad de instalar ningún software del lado del cliente.
+El proyecto Pi-hole_list es un proyecto en el cual bloqueamos y protegemos en toda la red a través de su propio hardware con docker®. Pi-hole® y Adguard Home® es un sumidero de DNS que protege sus dispositivos de contenidos no deseados sin necesidad de instalar ningún software del lado del cliente.
 
 
 <p align="center">
-    <a href="https://pi-hole.net/">
         <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/pihole.png" alt="Pi-hole" width="320"/>
         <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/AdGuard_Logo.png" alt="AdGuard Home" width="280"/>
     </a>
@@ -11,6 +10,12 @@ El proyecto Pi-hole_list es un proyecto en el cual bloqueamos y protegemos en to
     <strong>Bloqueo de anuncios en toda la red a través de su propio hardware</strong>
 </p>
 <!-- markdownlint-enable MD033 -->
+
+## Enlaces a instalación o desarrollador
+| PROYECTO | LINK INSTALACIÓN | LINK DESARROLLADOR |
+| :-- | :--: | :--: |
+| <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/AdGuard_Logo.png" alt="AdGuard Home" width="32"/> Adguard Home® | [INSTALACIÓN](https://github.com/JuanRodenas/AdGuardHome) | [DESARROLLADOR](https://adguard.com/es/adguard-home/overview.html) |
+| <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/pihole.png" alt="Pi-Hole" width="40"/> Pi-hole® | [INSTALACIÓN](https://github.com/JuanRodenas/Pihole) | [DESARROLLADOR](https://pi-hole.net/) |
 
 
 ## Detalles

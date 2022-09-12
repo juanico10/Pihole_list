@@ -1,10 +1,11 @@
 # Pi-hole_list
-El proyecto Pi-hole® es para bloqueo de anuncios en toda la red a través de su propio hardware Linux. Pi-hole® es un sumidero de DNS que protege sus dispositivos de contenidos no deseados sin necesidad de instalar ningún software del lado del cliente.
+El proyecto Pi-hole_list es un proyecto en el cual bloqueamos y protegemos en toda la red a través de su propio hardware. Pi-hole® y Adguard Home® es un sumidero de DNS que protege sus dispositivos de contenidos no deseados sin necesidad de instalar ningún software del lado del cliente.
 
 
 <p align="center">
     <a href="https://pi-hole.net/">
-        <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/pihole.png" alt="Pi-hole">
+        <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/pihole.png" alt="Pi-hole" width="320"/>
+        <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/AdGuard_Logo.png" alt="AdGuard Home" width="280"/>
     </a>
     <br>
     <strong>Bloqueo de anuncios en toda la red a través de su propio hardware</strong>
@@ -68,7 +69,7 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 
 ### Uso:
 <details>
-    <summary>Utilizar con Pi-Hole <a title="Pi-Hole" href="https://pi-hole.net"><img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/pihole.png" alt="Pi-Hole" width="40"/></a>:</summary>
+    <summary>Utilizar con Pi-Hole <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/pihole.png" alt="Pi-Hole" width="40"/>:</summary>
 
 ## Instrucciones de uso con Pi-Hole:
 
@@ -82,7 +83,7 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 &nbsp;
 
 <details>
-    <summary>Utilizar con AdGuard Home <a title="AdGuard Home" href="https://adguard.com/en/adguard-home/overview.html"><img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/AdGuard_Logo.png" alt="AdGuard Home" width="40"/></a>:</summary>
+    <summary>Utilizar con AdGuard Home <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/AdGuard_Logo.png" alt="AdGuard Home" width="32"/>:</summary>
 
 ## Instrucciones de uso con AdGuard Home:
 
@@ -95,7 +96,7 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 </details>
 &nbsp;
 
-# Listas para Pihole <a title="Pi-Hole" href="https://pi-hole.net"><img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/pihole.png" alt="Pi-Hole" width="40"/></a> y AdGuard Home <a title="AdGuard Home" href="https://adguard.com/en/adguard-home/overview.html"><img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/AdGuard_Logo.png" alt="AdGuard Home" width="40"/></a> 
+# Listas para Pihole <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/pihole.png" alt="Pi-Hole" width="40"/> y AdGuard Home <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/AdGuard_Logo.png" alt="AdGuard Home" width="32"/>
 
 ## Main White Lists
 

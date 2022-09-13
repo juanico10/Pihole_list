@@ -171,7 +171,7 @@ china-gld.push.samsungosp.com.cn
 www.somosxbox.com
 movil.bbva.es
 arc.msn.com
-||xboxlive.com^
+@@||xboxlive.com^
 img.yana.asideas.de
 prod.yana.asideas.de
 www.somosxbox.com
@@ -180,4 +180,6 @@ adhandler.kissfmradio.cires21.com
 email.stickermule.com
 na.albtls.t.co
 scontent.cdninstagram.com
-@@||drop.com^
+global.albtls.t.co
+scontent-mad1-2.xx.fbcdn.net
+scontent.xx.fbcdn.net

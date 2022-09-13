@@ -1,13 +1,12 @@
 !-----------------------------------------------------------------------!
 ! 	                P A C K  D E T A I L S				!
 !-----------------------------------------------------------------------!
-# License: GPLv3
 # Developer & Maintainer: Juan Rodenas
 # Title: Blocklist
-# Description: Block domains to be whitelisted for everyday use
+# Description: Block domains for Pi-hole/Adguard
 # Format: Original and AdGuard format
 # Blocklist
-# Updated: 22/03/2022 21:30h
+# Created: 13/01/2022 21:30h
 # https://github.com/JuanRodenas
 !-----------------------------------------------------------------------!
 !           _   __    ______                __   _			!

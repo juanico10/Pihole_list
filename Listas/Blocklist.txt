@@ -5,7 +5,7 @@
 # Title: Blocklist
 # Description: Block domains for Pi-hole/Adguard
 # Format: Original and AdGuard format
-# Created: 13/01/2022 21:30:02
+# Created: 13.01.2022 21:04:17
 # https://github.com/JuanRodenas
 !-----------------------------------------------------------------------!
 !           _   __    ______                __   _			!

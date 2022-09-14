@@ -1,13 +1,11 @@
 !-----------------------------------------------------------------------!
 ! 	                P A C K  D E T A I L S				!
 !-----------------------------------------------------------------------!
-# License: GPLv3
 # Developer & Maintainer: Juan Rodenas
 # Title: whitelist
-# Description: Allow domains to be whitelisted for everyday use
-# Format: Original and AdGuard format
-# whitelist
-# Updated: 22/03/2022 15:34h
+# Description: Blocking dangerous ips
+# Format: List IPs and groups
+# Created: 05.01.2022 20:04:17
 # https://github.com/JuanRodenas
 !-----------------------------------------------------------------------!
 !           _   __    ______                __   _			!

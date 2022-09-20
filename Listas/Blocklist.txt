@@ -3777,7 +3777,7 @@
 ||qrco.de^
 ||liverpool,com.mx^
 ||zpr.io^
-
+||jpush.cn^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

@@ -44,6 +44,7 @@
 ||softonic.com^
 ||shodan.io^
 ||imageshack.us^
+||gigya.com^
 ||turnip.cdn.turner.com^
 ||spotlight.ngtv.io
 ||medicion.mediaset.es^

@@ -3778,6 +3778,7 @@
 ||liverpool,com.mx^
 ||zpr.io^
 ||jpush.cn^
+||cutt.ly^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

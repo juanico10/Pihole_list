@@ -141,6 +141,7 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 | GoodbyeAds-d3host | - | [Link](https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.txt) | To Block GoodbyeAds-d3host |
 | ads-and-tracking-extended | [Link](https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt) | - | To Block ads-and-tracking-extended |
 | Adblock_Plus | [Link](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt) | [Link](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/List/Adblock_Plus_Ads.txt) | To Block Tracking AdBlock |
+| Android tracking | [Link](https://github.com/JuanRodenas/Pi-hole_list/blob/main/Listas/android-tracking.txt) | [Link](https://github.com/JuanRodenas/Pi-hole_list/blob/main/Listas/android-tracking.txt) | Android tracking for AdGuard Home |
 
 #### Adguard team filters
 | List Tracking/Ads | Link | Description |
@@ -149,7 +150,6 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 | AdAway | [Link](https://adaway.org/hosts.txt) | AdAway default blocklist |
 | Game Console Adblock List | [Link](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt) | Game Console Adblock List |
 | SmartTV-AGH | [Link](https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt) | Smart-TV Blocklist for AdGuard Home |
-| Android tracking | [Link](https://perflyst.github.io/PiHoleBlocklist/android-tracking.txt) | Android tracking for AdGuard Home |
 | Peter Lowe's List | [Link](https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext) | Blocklist for use with Adblock Plus |
 
 #### Services

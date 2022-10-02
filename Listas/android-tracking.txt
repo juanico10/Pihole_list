@@ -1,0 +1,118 @@
+!-----------------------------------------------------------------------!
+! 	                P A C K  D E T A I L S				!
+!-----------------------------------------------------------------------!
+# Developer & Maintainer: Juan Rodenas
+# Title: android-tracking.txt
+# Description: Blocking android tracking
+# Format: List of domains
+# Created: 02.10.2022 4:05:02
+# https://github.com/JuanRodenas
+!-----------------------------------------------------------------------!
+# Facebook
+graph.facebook.com # needed for facebook groups
+b-graph.facebook.com # needed for facebook pages manager
+a-graph.facebook.com
+graph.instagram.com
+b-api.facebook.com # required for Facebook Messenger login on mobile
+edge-mqtt.facebook.com # needed for facebook groups
+mqtt-mini.facebook.com
+
+# Crashlytics
+e.crashlytics.com
+reports.crashlytics.com
+settings.crashlytics.com
+
+# Uncatagorized
+1681.engine.mobileapptracking.com
+adc3-launch.adcolony.com
+adlog.flurry.com
+ads.api.vungle.com
+ads.mopub.com
+ads.twitter.com
+alog.umeng.com
+alog.umengcloud.com
+api.branch.io
+api.gameanalytics.com
+api.uca.cloud.unity3d.com
+app-measurement.com
+app.adjust.com
+appspot-preview.l.google.com
+config.ioam.de
+connect.tapjoy.com
+cp.pushwoosh.com
+data.flurry.com
+dev.appboy.com
+device.zhiliaoapp.com
+engine.fyber.com
+engine.mobileapptracking.com
+events.appsflyer.com
+events3.adcolony.com
+events3alt.adcolony.com
+gate.hockeyapp.net
+graph.accountkit.com
+i.w.inmobi.com
+live.direct.ly
+log.musical.ly
+logs.locarta.co
+m.quantcount.com
+med.heyzap.com
+mobileapptracking.com
+postback.pointwise.co
+sdk.hockeyapp.net
+sdktm.w.inmobi.com
+stats.appsflyer.com
+supersonicads-a.akamaihd.net
+t.appsflyer.com
+trk.pinterest.com
+uop.umeng.com
+utraffic.engine.adglare.net
+wd.adcolony.com
+ws.tapjoyads.com
+z.moatads.com
+
+# Google
+# clients1.google.com (blocks chromecast)
+ad.doubleclick.net
+ade.googlesyndication.com
+adservice.google.de
+federatedml-pa.googleapis.com
+googleads.g.doubleclick.net
+id.google.de
+securepubads.g.doubleclick.net
+ssl.google-analytics.com
+www.googleadservices.com
+
+# Apple
+stats.gc.apple.com
+iadsdk.apple.com
+
+# Huawei
+servicesupport.hicloud.com
+
+# Snapchat ads and tracking
+# gcs.sc-cdn.net # needed to send snaps
+sc-analytics.appspot.com
+app-analytics.snapchat.com
+adserver.snapads.com
+euw.adserver.snapads.com
+euc.adserver.snapads.com
+usc.adserver.snapads.com
+ase.adserver.snapads.com
+tr.snapchat.com
+
+# Whatsapp
+crashlogs.whatsapp.net
+
+# Quizduell
+rt.applovin.com
+d.applvn.com
+a.applvn.com
+applvn.com
+
+# Leanplum
+leanplum.com
+www.leanplum.com
+api.leanplum.com
+
+# Uknown
+acsechocaptiveportal.com

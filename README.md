@@ -105,47 +105,46 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 
 ## Main White Lists
 
-| List | Link | AdGuard | Description |
-| -- | :--: | :--: | -- |
-| Whitelist | [Link](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/Listas/whitelist.txt) | - | Lista blanca a permitir |
+| List | Link | Description |
+| :-- | :--: | :-- |
+| Whitelist | [Link](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/Listas/whitelist.txt) | Lista blanca a permitir |
 
 
 ## Main Black Lists
 
 
 #### Host
-| List Host | Link | AdGuard | Description |
-| -- | :--: | :--: | -- |
-| Listas oisd | [Link](https://dbl.oisd.nl) | [Link](https://abp.oisd.nl) | To Block host Adguard and domains [dbl.oisd](https://oisd.nl/) |
-| urlhaus-filter-domains | [Link](https://raw.githubusercontent.com/AzagraMac/PiHoleDocker/master/list/urlhaus-filter-domains.txt) | - | - |
-| everything | [Link](https://blocklistproject.github.io/Lists/everything.txt) | [Link](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/everything-ags.txt) | To Block everything |
-| energized pro | [Link](https://energized.pro/unified/formats/hosts.txt) | - | To Block [energized](https://energized.pro/) |
-| d3host | [Link](https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.txt) | - | [d3ward](https://github.com/d3ward) popular list |
+| List Host | Link | Description |
+| :-- | :--: | :-- |
+| Listas oisd | [Link](https://dbl.oisd.nl) &#124; [Link](https://abp.oisd.nl) | To Block host Adguard and domains [dbl.oisd](https://oisd.nl/) |
+| urlhaus-filter-domains | [Link](https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-domains.txt) &#124; [Link](https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh.txt) | urlhaus-filter DEV [Link](https://gitlab.com/malware-filter/urlhaus-filter) |
+| everything | [Link](https://blocklistproject.github.io/Lists/everything.txt) &#124; [Link](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/everything-ags.txt) | To Block everything |
+| energized pro | [Link](https://energized.pro/unified/formats/hosts.txt) &#124; [Link](https://block.energized.pro/ultimate/formats/hosts.txt) | To Block [energized](https://energized.pro/) |
+| d3ward | [Link](https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.txt) &#124; [Link](https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock) | [d3ward](https://github.com/d3ward) popular list |
 
 
 #### Malware
-| List Malware | Link | AdGuard | Description |
-| -- | :--: | :--: | -- |
-| Gambling-porn | [Link](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/List/Gambling.txt) | [Link](https://github.com/blocklistproject/Lists/blob/master/adguard/gambling-ags.txt) | To Block Gambling and porn |
-| Malware | [Link](https://blocklistproject.github.io/Lists/malware.txt) | [Link](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/malware-ags.txt) | To Block malware |
-| Ransomware | [Link](https://raw.githubusercontent.com/blocklistproject/Lists/master/ransomware.txt) | [Link](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/ransomware-ags.txt) | To Block ransomware |
-| phishing | [Link](https://phishing.army/download/phishing_army_blocklist_extended.txt) | - | To Block phishing |
+| List Malware | Link | Description |
+| :-- | :--: | :-- |
+| Gambling-porn | [Link](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/List/Gambling.txt) &#124; [Link](https://github.com/blocklistproject/Lists/blob/master/adguard/gambling-ags.txt) | To Block Gambling and porn |
+| Malware | [Link](https://blocklistproject.github.io/Lists/malware.txt) &#124; [Link](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/malware-ags.txt) | To Block malware |
+| Ransomware | [Link](https://raw.githubusercontent.com/blocklistproject/Lists/master/ransomware.txt) &#124; [Link](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/ransomware-ags.txt) | To Block ransomware |
+| phishing | [Link](https://phishing.army/download/phishing_army_blocklist_extended.txt) | To Block phishing |
 
 
 #### Tracking/Ads
-| List Tracking/Ads | Link | AdGuard | Description |
-| -- | :--: | :--: | -- |
-| SmartTV | [Link](https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt) | [Link](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/smart-tv-ags.txt) | To Block SmartTV |
-| WindowsSpyBlocker | [Link](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt) | - | To Block WindowsSpyBlocker |
-| GoodbyeAds-Ultra | [Link](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds-Ultra.txt) | [Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt) | To Block [hagezi](https://github.com/hagezi/dns-blocklists) and [jerryn70](https://github.com/jerryn70/GoodbyeAds) |
-| GoodbyeAds-d3host | - | [Link](https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.txt) | To Block GoodbyeAds-d3host |
-| ads-and-tracking-extended | [Link](https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt) | - | To Block ads-and-tracking-extended |
-| Adblock_Plus | [Link](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt) | [Link](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/List/Adblock_Plus_Ads.txt) | To Block Tracking AdBlock |
-| Android tracking | [Link](https://github.com/JuanRodenas/Pi-hole_list/blob/main/Listas/android-tracking.txt) | [Link](https://github.com/JuanRodenas/Pi-hole_list/blob/main/Listas/android-tracking.txt) | Android tracking for AdGuard Home |
+| List Tracking/Ads | Link | Description |
+| :-- | :--: | :-- |
+| SmartTV | [Link](https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt) &#124; [Link](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/smart-tv-ags.txt) | To Block SmartTV |
+| WindowsSpyBlocker | [Link](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt) | To Block WindowsSpyBlocker |
+| GoodbyeAds-Ultra | [Link](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds-Ultra.txt) &#124; [Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt) | To Block [hagezi](https://github.com/hagezi/dns-blocklists) and [jerryn70](https://github.com/jerryn70/GoodbyeAds) |
+| ads-and-tracking-extended | [Link](https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt) | To Block ads-and-tracking-extended |
+| Adblock_Plus | [Link](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt) &#124; [Link](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/List/Adblock_Plus_Ads.txt) | To Block Tracking AdBlock |
+| Android tracking | [Link](https://github.com/JuanRodenas/Pi-hole_list/blob/main/Listas/android-tracking.txt) | Android tracking for AdGuard Home |
 
 #### Adguard team filters
 | List Tracking/Ads | Link | Description |
-| -- | :--: | -- |
+| :-- | :--: | :-- |
 | AdGuardSDNSFilter | [Link](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt) | AdGuard team DNS filter |
 | AdAway | [Link](https://adaway.org/hosts.txt) | AdAway default blocklist |
 | Game Console Adblock List | [Link](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt) | Game Console Adblock List |
@@ -153,28 +152,28 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 | Peter Lowe's List | [Link](https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext) | Blocklist for use with Adblock Plus |
 
 #### Services
-| List Services | Link | AdGuard | Description |
-| -- | :--: | :--: | -- |
-| Youtube | [Link](https://raw.githubusercontent.com/blocklistproject/Lists/master/youtube.txt) | [Link](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/youtube-ags.txt) | To Block youtube |
-| Facebook | [Link](https://github.com/jmdugan/blocklists/blob/master/corporations/facebook/all) | - | To Block Facebook/Instagram/Whatsapp |
-| Whatsapp open | [Link](https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/facebook/all-but-whatsapp) | - | To Block Facebook/Instagram but leave Whatsapp open |
-| Google | [Link](https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/google/all) | - | To Block Google |
-| Mozilla | [Link](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/List/mozilla.txt) | [Link](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/List/mozilla_adguard.txt) | To Block Mozilla tracking |
-| Microsoft | [Link](https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/microsoft/all) | - | To Block Microsoft |
-| VideoGamesAdiction | [Link](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/List/VideoGamesAdiction.txt) | - | To Block VideoGames Adiction |
+| List Services | Link | Description |
+| :-- | :--: | :-- |
+| Youtube | [Link](https://raw.githubusercontent.com/blocklistproject/Lists/master/youtube.txt) &#124; [Link](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/youtube-ags.txt) | To Block youtube |
+| Facebook | [Link](https://github.com/jmdugan/blocklists/blob/master/corporations/facebook/all) | To Block Facebook/Instagram/Whatsapp |
+| Whatsapp open | [Link](https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/facebook/all-but-whatsapp) | To Block Facebook/Instagram but leave Whatsapp open |
+| Google | [Link](https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/google/all) | To Block Google |
+| Mozilla | [Link](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/List/mozilla.txt) &#124; [Link](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/List/mozilla_adguard.txt) | To Block Mozilla tracking |
+| Microsoft | [Link](https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/microsoft/all) | To Block Microsoft |
+| VideoGamesAdiction | [Link](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/List/VideoGamesAdiction.txt) | To Block VideoGames Adiction |
 
 
 #### uBlock Origin uAssets
 | List Services | Link | Link dev | Description |
-| -- | :--: | :--: | -- |
+| :-- | :--: | :--: | :-- |
 | uBlock filters | [Link](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | uBlock filters |
 | Badware risks | [Link](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | uBlock filters – Badware risks |
 | Privacy | [Link](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | uBlock filters – Privacy |
 | Quick fixes list | [Link](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/quick-fixes.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | Quick fixes list |
 | Resource abuse | [Link](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | uBlock filters – Resource abuse |
 | Unbreak | [Link](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | uBlock filters – Unbreak |
-| i-dont-care-about-cookies | [Link](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt) | [Link DEV](https://www.i-dont-care-about-cookies.eu/) | i-dont-care-about-cookies | 
-
+| i-dont-care-about-cookies | [Link](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt) | [Link DEV](https://www.i-dont-care-about-cookies.eu/) | i-dont-care-about-cookies |
+| urlhaus-filter | [Link](https://malware-filter.gitlab.io/malware-filter/urlhaus-filter.txt) | [Link DEV](https://gitlab.com/malware-filter/urlhaus-filter) | urlhaus-filter |
 
 <sup>Se ha añadido una pestaña para AdGuard con listas adaptadas a su formato.</sup>
 
@@ -253,6 +252,19 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 <Original>&nbsp;Pagina para comprobar cifrado de Cloudflare</Original>
 
 <p>  &nbsp;&nbsp;https://www.cloudflare.com/es-es/ssl/encrypted-sni/</p>
+
+#### Las tecnologías analizadas son:
+1. Secure DNS: una tecnología que cifra las consultas DNS e incluye DNS-over-TLS y DNS-over-HTTPS.
+2. DNSSEC: tecnología diseñada para verificar la autenticidad de las consultas DNS.
+3. TLS 1.3: la última versión del protocolo TLS que incluye muchas mejoras y cierra brechas de seguridad de las anteriores.
+4. Encrypted SNI: siglas de Server Name Indication cifrado que desvela el nombre del hostname durante una conexión TLS. Esta tecnología busca asegurar que sólo pueda filtrarse la dirección IP.
+<p><sup>El único navegador que soporta las cuatro tecnologías es Firefox.</sup></p>
+
+#### Para activar las tecnologías debemos acceder a `about:config` y activar:
+<p>  &nbsp;&nbsp;<code>network.security.esni.enabled</code> - pulsamos en el <code>+</code> y se ponga en <code>true</code>.</p>
+<p>  &nbsp;&nbsp;<code>network.trr.mode</code> – (valor 2)</p>
+<p>  &nbsp;&nbsp;<code>network.trr.uri</code> – <a href="https://mozilla.cloudflare-dns.com/dns-query">valor en la web Mozilla.</a></p>
+<p>  &nbsp;&nbsp;<code>HTTPS-Only Mode</code> - pulsamos en el <code>+</code> y se ponga en <code>true</code>.</p>
 </details>
 &nbsp;
 
@@ -264,6 +276,16 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 <p>  &nbsp;&nbsp;http://dnssec.vs.uni-due.de/</p>
 <p>  &nbsp;&nbsp;http://www.dnssec-or-not.com/</p>
 <p>  &nbsp;&nbsp;http://en.conn.internet.nl/connection/</p>
+</details>
+&nbsp;
+
+<details>
+<summary>DNS leak test:</summary>
+
+<Original>&nbsp;Pagina para comprobar fuga de DNS</Original>
+
+<p>  &nbsp;&nbsp;https://www.dnsleaktest.com/</p>
+
 </details>
 &nbsp;
 

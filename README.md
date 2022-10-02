@@ -138,10 +138,20 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 | SmartTV | [Link](https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt) | [Link](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/smart-tv-ags.txt) | To Block SmartTV |
 | WindowsSpyBlocker | [Link](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt) | - | To Block WindowsSpyBlocker |
 | AndroidTracking | [Link](https://raw.githubusercontent.com/AzagraMac/PiHoleDocker/master/list/AndroidTracking.txt) | - | To Block AndroidTracking |
-| GoodbyeAds-Ultra | [Link](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds-Ultra.txt) | [Link](https://raw.githubusercontent.com/Zelo72/adguard/main/d3host.adblock) | To Block GoodbyeAds |
+| GoodbyeAds-Ultra | [Link](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds-Ultra.txt) | [Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt) | To Block [hagezi](https://github.com/hagezi/dns-blocklists) and [jerryn70](https://github.com/jerryn70/GoodbyeAds) |
+| GoodbyeAds-d3host | - | [Link](https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.txt) | To Block GoodbyeAds-d3host |
 | ads-and-tracking-extended | [Link](https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt) | - | To Block ads-and-tracking-extended |
 | Adblock_Plus | [Link](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt) | [Link](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/List/Adblock_Plus_Ads.txt) | To Block Tracking AdBlock |
 
+#### Adguard team filters
+| List Tracking/Ads | Link | Description |
+| -- | :--: | -- |
+| AdGuardSDNSFilter | [Link](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt) | AdGuard team DNS filter |
+| AdAway | [Link](https://adaway.org/hosts.txt) | AdAway default blocklist |
+| Game Console Adblock List | [Link](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt) | Game Console Adblock List |
+| SmartTV-AGH | [Link](https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt) | Smart-TV Blocklist for AdGuard Home |
+| Android tracking | [Link](https://perflyst.github.io/PiHoleBlocklist/android-tracking.txt) | Android tracking for AdGuard Home |
+| Peter Lowe's List | [Link](https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext) | Blocklist for use with Adblock Plus |
 
 #### Services
 | List Services | Link | AdGuard | Description |
@@ -164,16 +174,7 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 | Quick fixes list | [Link](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/quick-fixes.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | Quick fixes list |
 | Resource abuse | [Link](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | uBlock filters – Resource abuse |
 | Unbreak | [Link](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | uBlock filters – Unbreak |
-
-
-#### EasyList filter lists
-| List Services | Link | Link dev | Description |
-| -- | :--: | :--: | -- |
-| EasyList | [Link](https://easylist.to/easylist/easylist.txt) | [Link](https://easylist.to/) | General advert blocking filters |
-| EasyPrivacy | [Link](https://easylist.to/easylist/easyprivacy.txt) | [Link](https://easylist.to/) | General tracking systems |
-| Easylist Cookie List | [Link](https://secure.fanboy.co.nz/fanboy-cookiemonster.txt) | [Link](https://easylist.to/) | Easylist Cookie List |
-| Fanboy's Social Blocking List| [Link](https://easylist.to/easylist/fanboy-social.txt) | [Link](https://easylist.to/) | General blocking rules |
-| Fanboy's Annoyance List | [Link](https://secure.fanboy.co.nz/fanboy-annoyance.txt) | [Link](https://easylist.to/) | General blocking rules |
+| i-dont-care-about-cookies | [Link](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt) | [Link DEV](https://www.i-dont-care-about-cookies.eu/) | i-dont-care-about-cookies | 
 
 
 <sup>Se ha añadido una pestaña para AdGuard con listas adaptadas a su formato.</sup>

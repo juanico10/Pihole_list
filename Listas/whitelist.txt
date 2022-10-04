@@ -17,7 +17,7 @@
 !									!
 !-----------------------------------------------------------------------!
 # Regla regex para permitir los CDNs
-@@/[_.-]?cdn?[_.-]?/$important
+@@/([_.-]+)?cdn?([_.-]+)?/$important
 
 # Lista de dominios
 @@||azure.com^

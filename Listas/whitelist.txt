@@ -16,6 +16,10 @@
 !      ___________________________________________________/		!
 !									!
 !-----------------------------------------------------------------------!
+# Regla regex para permitir los CDNs
+@@/[_.-]?cdn?[_.-]?/$important
+
+# Lista de dominios
 @@||azure.com^
 azure.microsoft.com
 ris-prod-atm.trafficmanager.net

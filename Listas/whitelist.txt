@@ -18,6 +18,8 @@
 !-----------------------------------------------------------------------!
 # Regla regex para permitir los CDNs
 @@/([_.-]+)?cdn?([_.-]+)?/$important
+# Regla regex para permitir las APIS
+@@/^(.+[_.-])?api[_.-]/$important
 
 # Lista de dominios
 @@||azure.com^

@@ -3792,6 +3792,7 @@
 /^banners?[_.-]/$important
 /^stat(s|istics)?[0-9]*[_.-]/$important
 /([0-9]*[_.-])?metrics?[0-9]*[_.-]/$important
+/(.+[_.-])?facebook[_.-]?/$important
 
 
 ########## REGEX DOMAIN HAZARD

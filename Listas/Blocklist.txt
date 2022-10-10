@@ -66,8 +66,6 @@
 ||yandex.net^
 ||yandex.com^
 ||yastatic.net^
-||facebook.net^$important
-||facebook.com^$important
 ||ogs.google.es^
 ||serbatic-06593.vass.inet^
 ||wpad.vass.inet^$important

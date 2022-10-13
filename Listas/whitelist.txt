@@ -185,3 +185,4 @@ email.stickermule.com
 scontent.cdninstagram.com
 scontent-mad1-2.xx.fbcdn.net
 scontent.xx.fbcdn.net
+kit.fontawesome.com

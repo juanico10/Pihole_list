@@ -3777,8 +3777,8 @@
 ||zpr.io^
 ||jpush.cn^
 ||linemartech.com^
-||https://jmt17.google.com^
-||jmt17.google.com^
+https://jmt17.google.com
+jmt17.google.com
 ||tmi.tmid.es^$important
 
 ########### REGEX

@@ -3778,6 +3778,7 @@
 ||jpush.cn^
 ||linemartech.com^
 ||jmt17.google.com^
+||tmi.tmid.es^$important
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

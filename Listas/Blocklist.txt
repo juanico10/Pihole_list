@@ -3777,6 +3777,7 @@
 ||zpr.io^
 ||jpush.cn^
 ||linemartech.com^
+||jmt17.google.com^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

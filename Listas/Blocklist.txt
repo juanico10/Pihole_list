@@ -3780,6 +3780,7 @@
 https://jmt17.google.com
 jmt17.google.com
 ||tmi.tmid.es^$important
+||correos-bda5ca.ingress-daribow.ewp.live^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

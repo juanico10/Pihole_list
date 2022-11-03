@@ -3798,6 +3798,11 @@
 /([0-9]*[_.-])?metrics?[0-9]*[_.-]/$important
 /(.+[_.-])?facebook[_.-]?/$important
 
+########## LISTA BLOCK ANUNCIOS YOUTUBE
+||googlevideo.com^$all
+||googlevideo.com^$cookie
+||googlevideo.com^#banners
+||googlevideo.com^.rr
 
 ########## REGEX DOMAIN HAZARD
 /(^|\.)ru$/

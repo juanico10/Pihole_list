@@ -186,3 +186,7 @@ scontent.cdninstagram.com
 scontent-mad1-2.xx.fbcdn.net
 scontent.xx.fbcdn.net
 kit.fontawesome.com
+msh.amazon.co.uk
+fls-eu.amazon.es
+e.customeriomail.com
+unaaldia.hispasec.com

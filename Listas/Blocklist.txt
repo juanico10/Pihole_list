@@ -3777,10 +3777,12 @@
 ||zpr.io^
 ||jpush.cn^
 ||linemartech.com^
-https://jmt17.google.com
-jmt17.google.com
 ||tmi.tmid.es^$important
 ||correos-bda5ca.ingress-daribow.ewp.live^
+||ecv.microsoft.com^
+||ncv.microsoft.com^
+||customervoice.microsoft.com^
+||siasky.net^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

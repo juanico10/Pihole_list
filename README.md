@@ -17,8 +17,8 @@ El proyecto Pi-hole_list es un proyecto en el cual bloqueamos y protegemos en to
 ## Enlaces a instalación o desarrollador
 | PROYECTO | LINK INSTALACIÓN | LINK DESARROLLADOR |
 | :-- | :--: | :--: |
-| <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/AdGuard_Logo.png" alt="AdGuard Home" width="32"/> Adguard Home® | [INSTALACIÓN](https://github.com/JuanRodenas/AdGuardHome) | [DESARROLLADOR](https://adguard.com/es/adguard-home/overview.html) |
-| <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/pihole.png" alt="Pi-Hole" width="40"/> Pi-hole® | [INSTALACIÓN](https://github.com/JuanRodenas/Pihole) | [DESARROLLADOR](https://pi-hole.net/) |
+| <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/AdGuard_Logo.png" alt="AdGuard Home" width="22"/> Adguard Home® | [INSTALACIÓN](https://github.com/JuanRodenas/AdGuardHome) | [DESARROLLADOR](https://adguard.com/es/adguard-home/overview.html) |
+| <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/pihole.png" alt="Pi-Hole" width="30"/> Pi-hole® | [INSTALACIÓN](https://github.com/JuanRodenas/Pihole) | [DESARROLLADOR](https://pi-hole.net/) |
 
 
 ## Detalles
@@ -77,7 +77,7 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 
 ### Uso:
 <details>
-    <summary>Utilizar con Pi-Hole <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/pihole.png" alt="Pi-Hole" width="40"/>:</summary>
+    <summary>Utilizar con Pi-Hole <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/pihole.png" alt="Pi-Hole" width="30"/>:</summary>
 
 ## Instrucciones de uso con Pi-Hole:
 
@@ -91,7 +91,7 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 &nbsp;
 
 <details>
-    <summary>Utilizar con AdGuard Home <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/AdGuard_Logo.png" alt="AdGuard Home" width="32"/>:</summary>
+    <summary>Utilizar con AdGuard Home <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/AdGuard_Logo.png" alt="AdGuard Home" width="22"/>:</summary>
 
 ## Instrucciones de uso con AdGuard Home:
 

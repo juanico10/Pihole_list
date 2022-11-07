@@ -11,6 +11,9 @@ El proyecto Pi-hole_list es un proyecto en el cual bloqueamos y protegemos en to
 </p>
 <!-- markdownlint-enable MD033 -->
 
+
+![GitHub last commit](https://img.shields.io/github/last-commit/JuanRodenas/Pi-hole_list?color=blue&logo=Github&style=for-the-badge)
+
 ## Enlaces a instalación o desarrollador
 | PROYECTO | LINK INSTALACIÓN | LINK DESARROLLADOR |
 | :-- | :--: | :--: |

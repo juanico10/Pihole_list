@@ -3783,6 +3783,8 @@
 ||ncv.microsoft.com^
 ||customervoice.microsoft.com^
 ||siasky.net^
+||pago.retenido.com^
+||^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

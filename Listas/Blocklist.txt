@@ -3784,6 +3784,12 @@
 ||customervoice.microsoft.com^
 ||siasky.net^
 ||pago.retenido.com^
+||femalecompanions.com^
+||www.worldescortindex.com^
+||www.erotic-guide.com^
+||media.eurogirlsescort.com^
+||avaescorts.com^
+||www.asiandolls.co.uk^
 
 
 ########### REGEX

@@ -3790,6 +3790,8 @@
 ||media.eurogirlsescort.com^
 ||avaescorts.com^
 ||www.asiandolls.co.uk^
+||es.login-bbva.co^
+||xlviirdr.com^
 
 
 ########### REGEX
@@ -3811,6 +3813,7 @@
 ||googlevideo.com^$cookie
 ||googlevideo.com^#banners
 ||googlevideo.com^.rr
+/^r[0123456789]+((-{3})|(.))sn-.{8}.googlevideo.com$/
 
 ########## REGEX DOMAIN HAZARD
 /(^|\.)ru$/

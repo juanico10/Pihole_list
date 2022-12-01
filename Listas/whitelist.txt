@@ -195,3 +195,9 @@ global.cainiao.com
 reddit.app.link
 app.adjust.com
 linksynergy.com
+app.adjust.com
+reddit.app.link
+linksynergy.com
+www.therapychat.com
+static.mailerlite.com
+sysdig.com

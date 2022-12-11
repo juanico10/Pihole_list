@@ -20,5 +20,3 @@
 !-----------------------------------------------------------------------!
 /r(r)?(.+[_.-])*[a-zA-Z-0-9]*(.+[_.-])*googlevideo.com/$important
 /r(r)?([a-zA-Z0-9_.-])*googlevideo.com/$important
-r1---sls.googlevideo.com
-r4.sn-25ge7nsk.googlevideo.com

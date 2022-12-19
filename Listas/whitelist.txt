@@ -149,12 +149,9 @@ cdn.jsdelivr.net
 clickio.mgr.consensu.org
 quantcast.mgr.consensu.org
 trustarc.mgr.consensu.org
-l.madridistas.realmadrid.net
-l.fans.realmadrid.com
 @@||minexmr.com^
 g.live.com
 safeweb.norton.com
-click.revue.email
 www.fosshub.com
 apis.justwatch.com
 images.justwatch.com

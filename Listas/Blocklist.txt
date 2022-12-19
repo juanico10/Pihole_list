@@ -3796,6 +3796,7 @@
 ||monday.com^
 ||ade.googlesyndication.com^
 ||tpc.googlesyndication.com^
+||merge-ethereum.com^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

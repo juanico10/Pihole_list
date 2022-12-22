@@ -3799,6 +3799,8 @@
 ||merge-ethereum.com^
 ||unicaja.seguridad-movil.com^
 ||unicaja.app-univia-info.com^
+||wincontest.xyz^
+||lnkshort.ru^
 
 
 ########### REGEX

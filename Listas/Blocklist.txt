@@ -3797,6 +3797,9 @@
 ||ade.googlesyndication.com^
 ||tpc.googlesyndication.com^
 ||merge-ethereum.com^
+||unicaja.seguridad-movil.com^
+||unicaja.app-univia-info.com^
+
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

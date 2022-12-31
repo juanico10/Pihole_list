@@ -3801,6 +3801,8 @@
 ||unicaja.app-univia-info.com^
 ||wincontest.xyz^
 ||lnkshort.ru^
+||urlz.fr^
+||demo2.cloudwp.dev^
 
 
 ########### REGEX

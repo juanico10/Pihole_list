@@ -3805,6 +3805,11 @@
 ||demo2.cloudwp.dev^
 ||unicaja.online-datos.com^
 ||netflix-cuenta-es.com^
+||es.support-unicaja.com^
+||cryptoforhealth.com^
+||bbva.clientes-esp.ws^
+||mecanicavilanova.cat^
+||elitemergesandacquisitions.com^
 
 
 ########### REGEX

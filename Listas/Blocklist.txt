@@ -3810,6 +3810,7 @@
 ||bbva.clientes-esp.ws^
 ||mecanicavilanova.cat^
 ||elitemergesandacquisitions.com^
+||3c5.com^
 
 
 ########### REGEX

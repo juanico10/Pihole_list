@@ -3940,3 +3940,8 @@
 ||partnernet.norton.com^
 ||nortonshoppingguarantee.com^
 ||www.nortonshoppingguarantee.com^
+
+## TELEMETRY MOZILLA
+incoming.telemetry.mozilla.org
+telemetry-experiment.cdn.mozilla.net
+telemetry.mozilla.org

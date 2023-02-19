@@ -3829,6 +3829,8 @@
 ||mecanicavilanova.cat^
 ||elitemergesandacquisitions.com^
 ||3c5.com^
+||corrpagomente.page.link^
+||cloudwaysapps.com^
 
 
 ########### REGEX

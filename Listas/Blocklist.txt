@@ -3832,6 +3832,8 @@
 ||cloudwaysapps.com^
 ||appbitwarden.com^
 ||bitwardenlogin.com^
+||googletagmanager.com^
+||static.cloudflareinsights.com^
 
 
 ########### REGEX

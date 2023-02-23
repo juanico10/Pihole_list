@@ -3830,6 +3830,7 @@
 ||3c5.com^
 ||corrpagomente.page.link^
 ||cloudwaysapps.com^
+||appbitwarden.com^
 
 
 ########### REGEX

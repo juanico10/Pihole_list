@@ -295,23 +295,13 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 </details>
 &nbsp;
 
-## COPIAS DE SEGURIDAD
-Si queremos realizar una copias de seguridad de la configuración o recuperar el backup, Pulsa en la imagen para visitar el repositorio de copias de seguridad.
-<p align="center">
-    <a href="https://github.com/JuanRodenas/Backup/blob/main/README.md">
-        <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/cloud-backup.png" width="400" height="200">
-    </a>
-    <br>
-    <strong>Pulsa en la imagen para visitar el repositorio de copias de seguridad.</strong>
-</p>
-
-### HELP ME
+## HELP ME 🙌
 <p> &nbsp;If you want to contribute to improve the lists, open a <code>issue</code> here:  <A HREF="https://github.com/JuanRodenas/Pi-hole_list/issues"> ISSUE </A></p>
 <sup>Si deseas contribuir a mejorar las listas, ábreme un problema aquí.</sup>
 
-## Ready!
-
-### Credits
-Buy me a coffee so I can continue creating content. Invítame a un café para que pueda seguir creando contenidos.
+## Credits 🚀
+This repository is made with all my love and affection.
 #
-<a href="https://www.paypal.com/donate/?hosted_button_id=HVJT2YDSHRZY2" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+[![GitHub](https://img.shields.io/static/v1.svg?color=blue&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=JuanRodenas&message=GitHub&logo=github)](https://github.com/JuanRodenas "view the source for all of our repositories.")
+
+# 🎉 ¡Ready!

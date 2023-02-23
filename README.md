@@ -106,29 +106,32 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 
 # Listas para Pihole <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/pihole.png" alt="Pi-Hole" width="40"/> y AdGuard Home <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/AdGuard_Logo.png" alt="AdGuard Home" width="32"/>
 
-## Main White Lists
+## Main safelist
 
 | List | Link | Description |
 | :-- | :--: | :-- |
-| Whitelist | [Link](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/Listas/whitelist.txt) | Lista blanca a permitir |
+| safelist repositorio | [Link](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/Listas/whitelist.txt) | safelist JuanRodenas |
+| safelist hagezi | [Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/whitelist.txt) | safelist hagezi |
 
 
 ## Main Black Lists
-
+<sup>Columna Link: Pi-hole® | Adguard Home®.</sup>
 
 #### Host
 | List Host | Link | Description |
 | :-- | :--: | :-- |
-| Listas oisd | [Link](https://dbl.oisd.nl) &#124; [Link](https://abp.oisd.nl) | To Block host Adguard and domains [dbl.oisd](https://oisd.nl/) |
+| List oisd | [Link](https://dbl.oisd.nl) &#124; [Link](https://abp.oisd.nl) | To Block host Adguard and domains [dbl.oisd](https://oisd.nl/) |
+| The big list | [Link](https://big.oisd.nl/domains) &#124; [Link](https://big.oisd.nl/) | The big list [oisd](https://oisd.nl/) |
 | urlhaus-filter-domains | [Link](https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-domains.txt) &#124; [Link](https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh.txt) | urlhaus-filter DEV [Link](https://gitlab.com/malware-filter/urlhaus-filter) |
 | everything | [Link](https://blocklistproject.github.io/Lists/everything.txt) &#124; [Link](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/everything-ags.txt) | To Block everything |
 | energized pro | [Link](https://energized.pro/unified/formats/hosts.txt) &#124; [Link](https://block.energized.pro/ultimate/formats/hosts.txt) | To Block [energized](https://energized.pro/) |
 | d3ward | [Link](https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.txt) &#124; [Link](https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock) | [d3ward](https://github.com/d3ward) popular list |
 
 
-#### Malware
-| List Malware | Link | Description |
+#### Malware / Shock / Porn / Adult 
+| List | Link | Description |
 | :-- | :--: | :-- |
+| The NSFW list | [Link](https://nsfw.oisd.nl/domains) &#124; [Link](https://nsfw.oisd.nl/) | The NSFW list [oisd](https://oisd.nl/) |
 | Gambling-porn | [Link](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/List/Gambling.txt) &#124; [Link](https://github.com/blocklistproject/Lists/blob/master/adguard/gambling-ags.txt) | To Block Gambling and porn |
 | Malware | [Link](https://blocklistproject.github.io/Lists/malware.txt) &#124; [Link](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/malware-ags.txt) | To Block malware |
 | Ransomware | [Link](https://raw.githubusercontent.com/blocklistproject/Lists/master/ransomware.txt) &#124; [Link](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/ransomware-ags.txt) | To Block ransomware |

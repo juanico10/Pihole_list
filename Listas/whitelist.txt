@@ -99,7 +99,6 @@ amazonwebservices.com
 www.factoriadeficcion.com
 scontent-mad1-1.xx.fbcdn.net
 www.documaniatv.com
-www.youtube.com
 open.spotify.com
 radio.garden
 unsplash.com
@@ -174,8 +173,15 @@ linksynergy.com
 www.therapychat.com
 static.mailerlite.com
 sysdig.com
+aqueduct.revolutlabs.com
+chat.revolut.com
+api.revolut.com
+merchant-mgmt.revolut.com
+cdn.revolut.com
+www.revolut.com
 
 #### Google
+@@||googleapis.com
 afs.googleusercontent.com
 appspot-preview.l.google.com
 consent.google.com
@@ -195,11 +201,15 @@ clients4.google.com
 clients5.google.com
 clients6.google.com
 www.gstatic.com
+ssl.gstatic.com
+play.google.com
 gstaticadssl.l.google.com
 s.youtube.com
 video-stats.l.google.com
 i.ytimg.com
 s.ytimg.com
+www.youtube.com
+accounts.google.com
 # Breaks site layouts, videos and more on some sites
 googletagmanager.com
 # googletagservices.com
@@ -207,4 +217,3 @@ www-googletagmanager.l.google.com
 # www.googletagservices.com
 # Not used for tracking, metrics, analytics
 metric.gstatic.com
-@@||googleapis.com

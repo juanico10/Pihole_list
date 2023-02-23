@@ -16,9 +16,9 @@
 !      ___________________________________________________/		!
 !									!
 !-----------------------------------------------------------------------!
-# Regla regex para permitir los CDNs
+#### Regla regex para permitir los CDNs
 @@/^(.+[_.-])?cdn[_.-]/
-# Regla regex para permitir las APIS
+#### Regla regex para permitir las APIS
 # @@/^(.+[_.-])?api[_.-]/
 
 # Lista de dominios
@@ -111,35 +111,15 @@ aip.enaire.es
 sourceforge.net
 wallhaven.cc
 in.appcenter.ms
-fonts.gstatic.com
-csi.gstatic.com
-www.gstatic.com
-gstaticadssl.l.google.com
-s.youtube.com
-video-stats.l.google.com
-i.ytimg.com
-s.ytimg.com
-dl.google.com
-android.clients.google.com
-android.apis.google.com
-apis.google.com
-clients1.google.com
-clients2.google.com
-clients3.google.com
-clients4.google.com
-clients5.google.com
-clients6.google.com
 ggpht.com
 redirector.gvt1.com
 candycrush.king.com
 dynupdate.no-ip.com
 www.no-ip.com
-no-ip.com
 ocsp.apple.com
 appleid.apple.com
 @@||onedrive.live.com^
 www.proandroid.com
-@@||googleapis.com
 news.pandora.net
 www.dvdvideosoft.com
 aus5.mozilla.org
@@ -175,7 +155,6 @@ arc.msn.com
 @@||xboxlive.com^
 img.yana.asideas.de
 prod.yana.asideas.de
-www.somosxbox.com
 data.madridista-premium.realmadrid.com
 adhandler.kissfmradio.cires21.com
 email.stickermule.com
@@ -192,9 +171,40 @@ global.cainiao.com
 reddit.app.link
 app.adjust.com
 linksynergy.com
-app.adjust.com
-reddit.app.link
-linksynergy.com
 www.therapychat.com
 static.mailerlite.com
 sysdig.com
+
+#### Google
+afs.googleusercontent.com
+appspot-preview.l.google.com
+consent.google.com
+csi.gstatic.com
+fonts.google.com
+fonts.gstatic.com
+linkhelp.clients.google.com
+smartlock.google.com
+dl.google.com
+android.clients.google.com
+android.apis.google.com
+apis.google.com
+clients1.google.com
+clients2.google.com
+clients3.google.com
+clients4.google.com
+clients5.google.com
+clients6.google.com
+www.gstatic.com
+gstaticadssl.l.google.com
+s.youtube.com
+video-stats.l.google.com
+i.ytimg.com
+s.ytimg.com
+# Breaks site layouts, videos and more on some sites
+googletagmanager.com
+# googletagservices.com
+www-googletagmanager.l.google.com
+# www.googletagservices.com
+# Not used for tracking, metrics, analytics
+metric.gstatic.com
+@@||googleapis.com

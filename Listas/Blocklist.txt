@@ -3831,6 +3831,7 @@
 ||corrpagomente.page.link^
 ||cloudwaysapps.com^
 ||appbitwarden.com^
+||bitwardenlogin.com^
 
 
 ########### REGEX

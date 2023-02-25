@@ -4819,5 +4819,3 @@
 ||incoming.telemetry.mozilla.org^
 ||telemetry-experiment.cdn.mozilla.net^
 ||telemetry.mozilla.org^
-||firefoxusercontent.com^
-||token.services.mozilla.com^

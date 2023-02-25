@@ -4686,6 +4686,8 @@
 ||zukxd6fkxqn.com^
 ||zy16eoat1w.com^
 ||zzhc.vnet.cn^
+||mbfbank.to^
+||vo.la^
 
 
 ########### REGEX

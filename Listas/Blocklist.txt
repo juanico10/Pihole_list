@@ -3092,7 +3092,6 @@
 ||pixel.sojern.com^
 ||pixel.watch^
 ||pixel.yabidos.com^
-||pki-goog.l.google.com^
 ||placed.com^
 ||plausibleio.workers.dev^
 ||play4traffic.com^

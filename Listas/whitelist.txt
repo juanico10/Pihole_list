@@ -179,6 +179,8 @@ api.revolut.com
 cdn.revolut.com
 www.revolut.com
 services.fandom.com
+crt.sectigo.com
+spoppe-b.azureedge.net
 
 
 #### Google

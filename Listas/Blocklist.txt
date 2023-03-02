@@ -1566,7 +1566,6 @@
 ||crwdcntrl.net^
 ||crypto-loot.org^
 ||cryptoforhealth.com^
-||cs41.wac.edgecastcdn.net^
 ||ctnetwork.hu^
 ||ctvoicer.com.br^
 ||culturedcrayon.com^

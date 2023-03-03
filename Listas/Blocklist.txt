@@ -4685,6 +4685,39 @@
 ||zzhc.vnet.cn^
 ||mbfbank.to^
 ||vo.la^
+||historia-hispanica.rah.es^
+||22703-5225.s3.webspace.re^
+||jmgs.com.au^
+||alhopital.apps-1and1.net^
+||link-correos-es.com^
+||correos.es-paqueteria.es^
+||correos.es-localizador.com^
+||correos-lift.buzz^
+||correos-info.top^
+||correos-io.top^
+||blgstoragenew.blob.core^
+||servicio-distribucion-correos.com^
+||gestion-aduanera-correos.com^
+||phishing.finsin.cl^
+||best-exp.org^
+||soft-pro.site^
+||exp-pc.com^
+||saludadeespana.com^
+||agenciatributaria.la^
+||bbva-gdt.apk^
+||zoomcloud.tech^
+||zoomonline.tech
+||zoom-in.tech^
+||zoomnow.tech^
+||usvacationleave.info^
+||deptofdefensehq.com^
+||u-smilihq.org^
+||officialdefenseleave.com^
+||uninquiriesserviceboard.com^
+||mwr-online.com^
+||departofdefence.com^
+||usmillitaryvacation.org^
+||usmdefensestc.com^
 
 
 ########### REGEX

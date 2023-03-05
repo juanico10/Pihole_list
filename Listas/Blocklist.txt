@@ -5130,6 +5130,7 @@
 ||zukxd6fkxqn.com^
 ||zy16eoat1w.com^
 ||zzhc.vnet.cn^
+||ff.kis.v2.scr.kaspersky-labs.com^
 
 
 ########### REGEX
@@ -5269,3 +5270,19 @@
 ||iadcontent.apple.com^
 ||adserver.apple.com^
 ||ads.apple.com^
+
+## Publicidad
+||sf16-static.i18n-pglstatp.com^
+||sf19-fe-tos-sg.i18n-pglstatp.com^
+||sf16-fe-tos-sg.i18n-pglstatp.com^
+||sf19-static.i18n-pglstatp.com^
+||p16-be-pack-va.i18n-pglstatp.com^
+||i18n-pglstatp.com^
+||sf21-fe-tos-sg.i18n-pglstatp.com^
+||p16-endcard-pack-sg.i18n-pglstatp.com^
+||sf16-fe-tos-va.i18n-pglstatp.com^
+||p21-be-pack-va.i18n-pglstatp.com^
+||p19-be-pack-va.i18n-pglstatp.com^
+||p21-endcard-pack-sg.i18n-pglstatp.com^
+||p19-endcard-pack-sg.i18n-pglstatp.com^
+||sf16-scmcdn-sg.i18n-pglstatp.com^

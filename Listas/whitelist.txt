@@ -207,3 +207,6 @@ i.ytimg.com
 s.ytimg.com
 www.youtube.com
 accounts.google.com
+clients.l.google.com
+id.google.com
+youtube-ui.l.google.com

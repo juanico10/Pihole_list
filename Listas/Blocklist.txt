@@ -5131,8 +5131,6 @@
 ||zzhc.vnet.cn^
 ||ff.kis.v2.scr.kaspersky-labs.com^
 ||i18n-pglstatp.com^
-||data-edge.smartscreen.microsoft.com^
-||graph.microsoft.com^
 ||events.data.microsoft.com^
 
 

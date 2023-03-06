@@ -181,6 +181,7 @@ services.fandom.com
 crt.sectigo.com
 spoppe-b.azureedge.net
 odinvzc.azureedge.net
+sapphire.azureedge.net
 
 #### Google
 @@||googleapis.com

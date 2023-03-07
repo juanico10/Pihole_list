@@ -5224,6 +5224,7 @@
 ||ofertasyoigo.net^
 ||yoigo.com^
 ||virgintelco.es^
+||es.correos-cliente.co^
 
 ### DOMAINS GROUP VODAFONE
 ||vodafone.com^

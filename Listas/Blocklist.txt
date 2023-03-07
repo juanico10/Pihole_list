@@ -2443,8 +2443,6 @@
 ||imrworldwide.com^
 ||inclk.com^
 ||incognitosearches.com^
-||incoming-telemetry.thunderbird.net^
-||incoming.telemetry.mozilla.org^
 ||indexexchange.com^
 ||indexstats.com^
 ||indexww.com^
@@ -5212,7 +5210,6 @@
 ||pepephone.link^
 ||racctelplus.link^
 ||telecable.link^
-||virgintelco.link^
 ||yoigo.link^
 ||yosoyjoi.es^
 ||yosoylebara.com^
@@ -5223,7 +5220,6 @@
 ||yoigofibra.net^
 ||ofertasyoigo.net^
 ||yoigo.com^
-||virgintelco.es^
 ||es.correos-cliente.co^
 
 ### DOMAINS GROUP VODAFONE
@@ -5265,6 +5261,7 @@
 ||incoming.telemetry.mozilla.org^
 ||telemetry-experiment.cdn.mozilla.net^
 ||telemetry.mozilla.org^
+||incoming-telemetry.thunderbird.net^
 
 ## APPLE ADS
 ||news.iadsdk.apple.com^

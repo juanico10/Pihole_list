@@ -3080,7 +3080,6 @@
 ||movil-app.eu^
 ||movil.verificaciones-online.com^
 ||mowfruit.com^
-||mparticle.com^
 ||mpstat.us^
 ||mr-rank.de^
 ||mrskincash.com^

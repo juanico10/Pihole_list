@@ -5129,6 +5129,23 @@
 ||ff.kis.v2.scr.kaspersky-labs.com^
 ||i18n-pglstatp.com^
 ||events.data.microsoft.com^
+||aselun.com^
+||message.pluscactus.com^
+||myblog- onntx6qubh. live-website.com^
+||correost-es.xyz^
+||es-correts18.top^
+||twitterhelpatwork.com^
+||es-seguimientolocalizadorenvioscorreos.com^
+||correoes-es.xyz^
+||sh-forma.fr^
+||wingerdgastehuis.co.za^
+||correosespaña.com^
+||pagar-recibo.info^
+||es.correos-clientes.co^
+||22703-5225.s3.webspace.re^
+||jmgs.com.au^
+||alhopital.apps-1and1.net^
+||es.correos-cliente.co^
 
 
 ########### REGEX
@@ -5220,7 +5237,7 @@
 ||yoigofibra.net^
 ||ofertasyoigo.net^
 ||yoigo.com^
-||es.correos-cliente.co^
+
 
 ### DOMAINS GROUP VODAFONE
 ||vodafone.com^

@@ -5146,6 +5146,8 @@
 ||jmgs.com.au^
 ||alhopital.apps-1and1.net^
 ||es.correos-cliente.co^
+||anonfiles.com^
+||page.link^
 
 
 ########### REGEX

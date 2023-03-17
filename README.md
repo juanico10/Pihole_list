@@ -144,7 +144,12 @@ Quad9 tanto en IPv4 como IPv6:
 - Configuración del servidor DNS, marcamos la opcion de "**Habilitar DNSSEC**"
 
 ## Añadir dominio para DoH y DoT:
+
 ### Crear el certificado con Let’s Encrypt
+<details>
+    <summary>Crear el certificado personal autofirmado con Let’s Encrypt:</summary>
+
+#### Crear el certificado personal autofirmado con Let’s Encrypt:
 Instalando un certificado SSL gratuito con CertBot:
 1. Actualizamos la lista de paquetes..
 ~~~
@@ -181,9 +186,11 @@ Para revocar un certificado:
 * Desde la cuenta para la que se emitió el certificado: `certbot revoke --cert-path /etc/letsencrypt/archive/${YOUR_DOMAIN}/cert1.pem`
 * Usando la clave privada del certificado: `certbot revoke --cert-path /PATH/TO/cert.pem --key-path /PATH/TO/key.pem`
 
+</details>
+
 ## Crear el certificado personal autofirmado con OPENSSL:
 <details>
-    <summary>Crear el certificado personal autofirmado autofirmado:</summary>
+    <summary>Crear el certificado personal autofirmado:</summary>
 
 #### Crear el certificado personal autofirmado:
 
@@ -214,15 +221,15 @@ sudo openssl req -x509 -nodes -days 1825 -sha512 -newkey ec -pkeyopt ec_paramgen
 <ul><code>Organizational Unit Name (eg, section) []: Ministry of Water Slides</code></ul>
 <ul><code>Common Name (e.g. server FQDN or YOUR name) []: server_IP_address or domain</code></ul>
 <ul><code>Email Address []: admin@your_domain.com</code></ul>
-&nbsp;
+
 * Notas para el asunto/emisor
-<p>  &nbsp<code>/C=ES/ST=Spain/L=Madrid/O=Juan Tech/OU=Tech/CN=localhost</code>
-<p>  &nbsp;&nbsp;<code>C = ES</code>
-<p>  &nbsp;&nbsp;<code>ST = Bayern</code>
-<p>  &nbsp;&nbsp;<code>L = Munich</code>
-<p>  &nbsp;&nbsp;<code>O = Inventos</code>
-<p>  &nbsp;&nbsp;<code>OU = Tech</code>
-<p>  &nbsp;&nbsp;<code>CN = localhost</code>
+<p><ul><code>/C=ES/ST=Spain/L=Madrid/O=Juan Tech/OU=Tech/CN=localhost</code></ul></p>
+<p><ul><code>C = ES</code></ul></p>
+<p><ul><code>ST = Bayern</code></ul></p>
+<p><ul><code>L = Munich</code></ul></p>
+<p><ul><code>O = Inventos</code></ul></p>
+<p><ul><code>OU = Tech</code></ul></p>
+<p><ul><code>CN = localhost</code></ul></p>
 
 </details>
 

@@ -1,4 +1,4 @@
-# Pi-hole_list
+# Pihole_list
 El proyecto <strong>Pi-hole_list</strong> es un proyecto en el cual bloqueamos y protegemos en toda la red a través de su propio hardware. En este repositorio se instala con <strong>docker®</strong>. Pi-hole® y Adguard Home® es un sumidero de DNS que protege sus dispositivos de contenidos no deseados sin necesidad de instalar ningún software del lado del cliente.
 
 
@@ -451,6 +451,15 @@ Para crear una zona en tu dominio tanto para <code>*.example.org</code> para per
 </details>
 &nbsp;
 
+## Aplicaciones android para Pi-hole® o Adguard Home®
+Link al desarrollador de la aplicacion: [![GitHub](https://img.shields.io/static/v1.svg?color=blue&labelColor=555555&logoColor=ffffff&style=social&label=JGeek00&message=GitHub&logo=github)](https://github.com/JGeek00 "view the source for all of our repositories.")
+### Aplicacion android Pi-hole®
+<a href="https://play.google.com/store/apps/details?id=com.jgeek00.droid_hole" target="_blank" rel="noopener noreferrer"><img src="https://github.com/JuanRodenas/Pihole_list/blob/main/google-play.png" width="60px"></a>
+### Aplicacion android Adguard Home®
+<a href="https://play.google.com/store/apps/details?id=com.jgeek00.adguard_home_manager" target="_blank" rel="noopener noreferrer"><img src="https://github.com/JuanRodenas/Pihole_list/blob/main/google-play.png" width="60px"></a>
+
+<p><sub>Todos y cada uno de los derechos y responsabilidades correspondientes son propiedad del respectivo desarrollador.</sub></p>
+
 ## HELP ME 🙌
 <p> &nbsp;If you want to contribute to improve the lists, open a <code>issue</code> here:  <A HREF="https://github.com/JuanRodenas/Pi-hole_list/issues"> ISSUE </A></p>
 <sup>Si deseas contribuir a mejorar las listas, ábreme un problema aquí.</sup>
@@ -458,7 +467,7 @@ Para crear una zona en tu dominio tanto para <code>*.example.org</code> para per
 ## Credits 🚀
 This repository is made with all my love and affection.
 #
-[![GitHub](https://img.shields.io/static/v1.svg?color=blue&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=JuanRodenas&message=GitHub&logo=github)](https://github.com/JuanRodenas "view the source for all of our repositories.")
+[![GitHub](https://img.shields.io/static/v1.svg?color=blue&labelColor=555555&logoColor=ffffff&style=social&label=JuanRodenas&message=GitHub&logo=github)](https://github.com/JuanRodenas "view the source for all of our repositories.")
 
 # 🎉 ¡Ready!
 &nbsp;

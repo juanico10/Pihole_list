@@ -93,8 +93,6 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 <details>
     <summary>Utilizar con AdGuard Home <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/AdGuard_Logo.png" alt="AdGuard Home" width="22"/>:</summary>
 
-# Configuración Adguard Home®:<img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/AdGuard_Logo.png" alt="AdGuard Home" width="32"/>
-
 ## Instrucciones de uso con AdGuard Home:
 
 1. Copie el enlace al formato de AdGuard correspondiente a la lista deseada (de la tabla correspondiente a continuación).
@@ -105,6 +103,8 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 <sup>Las instrucciones son actuales a partir de AdGuard Home v0.107.2</sup>
 </details>
 &nbsp;
+
+# Configuración Adguard Home®:<img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/AdGuard_Logo.png" alt="AdGuard Home" width="32"/>
 
 ## Seguridad
 ### Configuración para tener habilitado DNS over TLS o DNS over HTTPS
@@ -154,13 +154,40 @@ sudo apt-get update
 ~~~
 sudo apt-get install certbot
 ~~~
-<p><sup>Documentación de <a href="https://eff-certbot.readthedocs.io/en/stable/">Certbot</a></sup></p>
+3. Ejecuta el siguiente comando modificando el correo electrónico válido para adquirir un certificado Wildcard:
+~~~
+certbot certonly --manual --preferred-challenges=dns --email usuario@ejemplo.com --server https://acme-v02.api.letsencrypt.org/directory --agree-tos
+~~~
+4. Por último, pedirá realizar un registro _acme-challenge tipo TXT en nuestro proveedor de servidores de nombres con el contenido que nos indica:
+~~~
+
+#### Configuración de Lets encrypt
+Pasos a seguir tras solicitar el certificado:
+* Pedirá la introducción del dominio a certificar, indícalo utilizando *. más el dominio que deseas certificar para obtener el Wildcard.
+* Por último, pedirá realizar un registro _acme-challenge tipo TXT en nuestro proveedor de servidores de nombres con el contenido que nos indica.
+
+Nos crea los siguientes archivos, en el directorio `/etc/letsencrypt/live/`:
+- `fullchain.pem` – su certificado SSL codificado en PEM.
+- `privkey.pem` – su clave privada codificada en PEM.
+
+Para comprobar si el certificado se autorenovará:
+* Prueba de renovación (simulación):`certbot renew --dry-run`
+* Comprueba el estado del servicio de temporizador de Certbot: `systemctl status certbot.timer`
+* Para renovar un certificado: `certbot renew`
+	* Para forzar la autorenovación: `--force-renewal`
+* Para listar los trabajos: `systemctl list-timers --all` Debe aparecer el siguiente configurado para la renovación automática: `certbot.timer - certbot.service`
+* Listando certificados: `certbot certificates`
+
+Para revocar un certificado:
+* Eliminar por completo un certificado: `certbot delete --cert-name example.com`
+* Desde la cuenta para la que se emitió el certificado: `certbot revoke --cert-path /etc/letsencrypt/archive/${YOUR_DOMAIN}/cert1.pem`
+* Usando la clave privada del certificado: `certbot revoke --cert-path /PATH/TO/cert.pem --key-path /PATH/TO/key.pem`
 
 ## Crear el certificado personal autofirmado con OPENSSL:
 <details>
     <summary>Crear el certificado personal autofirmado autofirmado:</summary>
 
-### Crear el certificado personal autofirmado:
+#### Crear el certificado personal autofirmado:
 
 Info: [INFO](https://www.busindre.com/comandos_openssl_utiles_para_certificados)
 1. Actualizamos la lista de paquetes..
@@ -191,19 +218,18 @@ sudo openssl req -x509 -nodes -days 1825 -sha512 -newkey ec -pkeyopt ec_paramgen
 <ul><code>Email Address []: admin@your_domain.com</code></ul>
 &nbsp;
 * Notas para el asunto/emisor
-~~~
+
 /C=ES/ST=Spain/L=Madrid/O=Juan Tech/OU=Tech/CN=localhost
-C = ES
-ST = Bayern
-L = Munich
-O = Inventos
-OU = Tech
-CN = localhost
-~~~
+<p>  &nbsp;&nbsp;<code>C = ES</code>
+<p>  &nbsp;&nbsp;<code>ST = Bayern</code>
+<p>  &nbsp;&nbsp;<code>L = Munich</code>
+<p>  &nbsp;&nbsp;<code>O = Inventos</code>
+<p>  &nbsp;&nbsp;<code>OU = Tech</code>
+<p>  &nbsp;&nbsp;<code>CN = localhost</code>
 </details>
 
 
-### Configurar certificado en AdGuard Home:
+## Configurar certificado en AdGuard Home:
 1. Abra la interfaz web de AdGuard Home y vaya a configuración.
 2. Desplácese hacia abajo hasta la configuración de "Cifrado".
 3. Habilitar el check "Habilitar cifrado (HTTPS, DNS mediante HTTPS y DNS mediante TLS)".
@@ -217,7 +243,7 @@ CN = localhost
 <details>
     <summary>Para crear una zona en tu dominio tanto para <code>*.example.org</code> para permitir los clientes, sigue estos pasos:</summary>
 
-## Instrucciones de uso:
+#### Instrucciones de uso:
 
 1. Accede al panel de control de tu proveedor de alojamiento web o del registrador de dominios donde hayas adquirido el nombre de dominio.
 2. Busca la opción de `Zonas DNS`.

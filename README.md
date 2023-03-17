@@ -1,5 +1,5 @@
 # Pi-hole_list
-El proyecto Pi-hole_list es un proyecto en el cual bloqueamos y protegemos en toda la red a través de su propio hardware con docker®. Pi-hole® y Adguard Home® es un sumidero de DNS que protege sus dispositivos de contenidos no deseados sin necesidad de instalar ningún software del lado del cliente.
+El proyecto <strong>Pi-hole_list</strong> es un proyecto en el cual bloqueamos y protegemos en toda la red a través de su propio hardware. En este repositorio se instala con <strong>docker®</strong>. Pi-hole® y Adguard Home® es un sumidero de DNS que protege sus dispositivos de contenidos no deseados sin necesidad de instalar ningún software del lado del cliente.
 
 
 <p align="center">
@@ -11,7 +11,6 @@ El proyecto Pi-hole_list es un proyecto en el cual bloqueamos y protegemos en to
 </p>
 <!-- markdownlint-enable MD033 -->
 
-
 ![GitHub last commit](https://img.shields.io/github/last-commit/JuanRodenas/Pi-hole_list?color=blue&logo=Github&style=for-the-badge)
 
 ## Enlaces a instalación o desarrollador
@@ -19,7 +18,10 @@ El proyecto Pi-hole_list es un proyecto en el cual bloqueamos y protegemos en to
 | :-- | :--: | :--: |
 | <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/AdGuard_Logo.png" alt="AdGuard Home" width="22"/> Adguard Home® | [INSTALACIÓN](https://github.com/JuanRodenas/AdGuardHome) | [DESARROLLADOR](https://adguard.com/es/adguard-home/overview.html) |
 | <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/pihole.png" alt="Pi-Hole" width="30"/> Pi-hole® | [INSTALACIÓN](https://github.com/JuanRodenas/Pihole) | [DESARROLLADOR](https://pi-hole.net/) |
-
+### Versión latest docker Pi-hole®
+![Docker Image Version (tag latest)](https://img.shields.io/docker/v/pihole/pihole/latest?color=blue&logo=docker&style=for-the-badge)
+### Versión latest docker Adguard Home®
+![Docker Image Version (tag latest)](https://img.shields.io/docker/v/adguard/adguardhome/latest?color=blue&logo=docker&style=for-the-badge)
 
 ## Detalles
 Estas listas se crearon porque quería algo con un poco más de control sobre lo que se bloquea. Muchas listas son de todo o nada. Nos propusimos crear listas con más control sobre lo que se bloquea.
@@ -104,9 +106,8 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 </details>
 &nbsp;
 
-# Configuración Adguard Home®:<img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/AdGuard_Logo.png" alt="AdGuard Home" width="32"/>
+## Configuración Adguard Home®:<img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/AdGuard_Logo.png" alt="AdGuard Home" width="32"/>
 
-## Seguridad
 ### Configuración para tener habilitado DNS over TLS o DNS over HTTPS
 En ajustes de AdGuard, configuración de DNS:
 - Servidores DNS de subida, copiar una de estas URLs:
@@ -164,31 +165,32 @@ sudo apt-get install certbot
 certbot certonly -d '*.your_domain' --manual --preferred-challenges=dns --email usuario@ejemplo.com --server https://acme-v02.api.letsencrypt.org/directory --agree-tos
 ~~~
 4. Por último, pedirá realizar un registro _acme-challenge tipo TXT en nuestro proveedor de servidores de nombres con el contenido que nos indica:
-Nos crea los siguientes archivos, en el directorio `/etc/letsencrypt/live/`:
-- `fullchain.pem` – su certificado SSL codificado en PEM.
-- `privkey.pem` – su clave privada codificada en PEM.
+Nos crea los siguientes archivos, en el directorio <code>/etc/letsencrypt/live/</code>:
+- <code>fullchain.pem</code> – su certificado SSL codificado en PEM.
+- <code>privkey.pem</code> – su clave privada codificada en PEM.
 
 #### Configuración de Lets encrypt
 Pasos a seguir tras solicitar el certificado:
-* Pedirá la introducción del dominio a certificar, indícalo utilizando *. más el dominio que deseas certificar para obtener el Wildcard.
-* Por último, pedirá realizar un registro _acme-challenge tipo TXT en nuestro proveedor de servidores de nombres con el contenido que nos indica.
+* Pedirá la introducción del dominio a certificar, indícalo utilizando <code>*.</code> más el dominio que deseas certificar para obtener el Wildcard.
+* Por último, pedirá realizar un registro <code>_acme-challenge</code> tipo TXT en nuestro proveedor de servidores de nombres con el contenido que nos indica.
 
 Para comprobar si el certificado se autorenovará:
-* Prueba de renovación (simulación):`certbot renew --dry-run`
-* Comprueba el estado del servicio de temporizador de Certbot: `systemctl status certbot.timer`
-* Para renovar un certificado: `certbot renew`
-	* Para forzar la autorenovación: `--force-renewal`
-* Para listar los trabajos: `systemctl list-timers --all` Debe aparecer el siguiente configurado para la renovación automática: `certbot.timer - certbot.service`
-* Listando certificados: `certbot certificates`
+* Prueba de renovación (simulación):<code>certbot renew --dry-run</code>
+* Comprueba el estado del servicio de temporizador de Certbot: <code>systemctl status certbot.timer</code>
+* Para renovar un certificado: <code>certbot renew</code>
+	* Para forzar la autorenovación: <code>--force-renewal</code>
+* Para listar los trabajos: <code>systemctl list-timers --all</code> Debe aparecer el siguiente configurado para la renovación automática: <code>certbot.timer - certbot.service</code>
+* Listando certificados: <code>certbot certificates</code>
 
 Para revocar un certificado:
-* Eliminar por completo un certificado: `certbot delete --cert-name example.com`
-* Desde la cuenta para la que se emitió el certificado: `certbot revoke --cert-path /etc/letsencrypt/archive/${YOUR_DOMAIN}/cert1.pem`
-* Usando la clave privada del certificado: `certbot revoke --cert-path /PATH/TO/cert.pem --key-path /PATH/TO/key.pem`
+* Eliminar por completo un certificado: <code>certbot delete --cert-name example.com</code>
+* Desde la cuenta para la que se emitió el certificado: <code>certbot revoke --cert-path /etc/letsencrypt/archive/${YOUR_DOMAIN}/cert1.pem</code>
+* Usando la clave privada del certificado: <code>certbot revoke --cert-path /PATH/TO/cert.pem --key-path /PATH/TO/key.pem</code>
 
+Si no quieren realizar todo estos pasos, pueden obtener el certificado con [Zero SSL](https://zerossl.com/). pero el certificado wildcard es vía pago.
 </details>
 
-## Crear el certificado personal autofirmado con OPENSSL:
+### Crear el certificado personal autofirmado con OPENSSL:
 <details>
     <summary>Crear el certificado personal autofirmado:</summary>
 
@@ -236,17 +238,16 @@ sudo openssl req -x509 -nodes -days 1825 -sha512 -newkey ec -pkeyopt ec_paramgen
 
 ## Configurar certificado en AdGuard Home:
 1. Abra la interfaz web de AdGuard Home y vaya a configuración.
-2. Desplácese hacia abajo hasta la configuración de "Cifrado".
-3. Habilitar el check "Habilitar cifrado (HTTPS, DNS mediante HTTPS y DNS mediante TLS)".
-4. Habilitar "Redireccionar a HTTPS automáticamente".
-5. Ingrese su nombre de dominio en "Nombre del servidor".
-6. Copie/pegue el contenido del archivo `fullchain.pem` en "Certificados".
-7. Copie / pegue el contenido del archivo `privkey.pem` en "Clave privada".
-8. Haga clic en "Guardar configuración".
+2. Desplácese en el menú hasta la configuración: <code>Configuración de cifrado</code>.
+3. Habilitar el check <code>Habilitar cifrado (HTTPS, DNS mediante HTTPS y DNS mediante TLS)</code>.
+4. Habilitar <code>Redireccionar a HTTPS automáticamente</code>.
+5. Ingrese su nombre de dominio en <code>Nombre del servidor</code>. Si vas a ingresar un wildcard, ingresar con <code>"*."</code>.
+6. Copie/pegue el contenido del archivo `fullchain.pem` en <code>Certificados</code>.
+7. Copie / pegue el contenido del archivo `privkey.pem` en <code>Clave privada</code>.
+8. Haga clic en <code>Guardar configuración</code>.
 
 ## Configurar el dominio para permitir clientes en DNS privado DoH y DoT:
-<details>
-    <summary>Para crear una zona en tu dominio tanto para <code>*.example.org</code> para permitir los clientes, sigue estos pasos:</summary>
+Para crear una zona en tu dominio tanto para <code>*.example.org</code> para permitir los clientes, sigue estos pasos:
 
 #### Instrucciones de uso:
 
@@ -255,9 +256,8 @@ sudo openssl req -x509 -nodes -days 1825 -sha512 -newkey ec -pkeyopt ec_paramgen
 3. Crea una nueva entrada de `Zonas DNS`. Para agregar la entrada `*.example.org`, crea un registro de tipo `CNAME` (Alias) y haz que apunte a `*.example.org`. Esto permitirá que cualquier subdominio que comience con un asterisco, como `subdominio.example.org`.
 4. Configuración de `Configuración/Clientes/Clientes persistentes`. Pulsamos `Añadir clientes` y en `Identificador` creamos un nombre.
 
-&nbsp;
 <sup>Instrucciones actuales en la documentación del desarrollador <a href="https://github.com/AdguardTeam/AdGuardHome/wiki/Clients#clientid">documentación</a>.</sup>
-</details>
+
 
 
 # Listas para Pihole <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/pihole.png" alt="Pi-Hole" width="40"/> y AdGuard Home <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/AdGuard_Logo.png" alt="AdGuard Home" width="32"/>
@@ -463,6 +463,8 @@ This repository is made with all my love and affection.
 # 🎉 ¡Ready!
 &nbsp;
 
-<sup>These files are provided "AS IS", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, arising from, out of or in connection with the files or the use of the files.</sup>
+<sup>Estos archivos/textos se proporcionan "TAL CUAL", sin garantías de ningún tipo, expresas o implícitas, incluidas, entre otras, las garantías de comerciabilidad, idoneidad para un fin determinado y no infracción. En ningún caso los autores o los titulares de los derechos de autor serán responsables de ninguna reclamación, daño u otra responsabilidad derivada de, o relacionada con los archivos o el uso de los mismos.</sup>
 
-<sub>Any and all trademarks are the property of their respective owners.</sub>
+<sub>Todas y cada una de las marcas registradas son propiedad de sus respectivos dueños.</sub>
+
+<p><sup>Iré actualizando con información y añadiendo procedimientos en mi tiempo libre.</sup></p>

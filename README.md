@@ -161,7 +161,7 @@ sudo apt-get install certbot
 ~~~
 3. Ejecuta el siguiente comando modificando el correo electrónico válido para adquirir un certificado Wildcard:
 ~~~
-certbot certonly --manual --preferred-challenges=dns --email usuario@ejemplo.com --server https://acme-v02.api.letsencrypt.org/directory --agree-tos
+certbot certonly -d '*.your_domain' --manual --preferred-challenges=dns --email usuario@ejemplo.com --server https://acme-v02.api.letsencrypt.org/directory --agree-tos
 ~~~
 4. Por último, pedirá realizar un registro _acme-challenge tipo TXT en nuestro proveedor de servidores de nombres con el contenido que nos indica:
 Nos crea los siguientes archivos, en el directorio `/etc/letsencrypt/live/`:

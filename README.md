@@ -3,8 +3,8 @@ El proyecto <strong>Pi-hole_list</strong> es un proyecto en el cual bloqueamos y
 
 
 <p align="center">
-        <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/pihole.png" alt="Pi-hole" width="320"/>
-        <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/AdGuard_Logo.png" alt="AdGuard Home" width="280"/>
+        <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/pihole.png" alt="Pi-hole" width="320"/>
+        <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/AdGuard_Logo.png" alt="AdGuard Home" width="280"/>
     </a>
     <br>
     <strong>Bloqueo de anuncios en toda la red a través de su propio hardware</strong>
@@ -16,8 +16,8 @@ El proyecto <strong>Pi-hole_list</strong> es un proyecto en el cual bloqueamos y
 ## Enlaces a instalación o desarrollador
 | PROYECTO | LINK INSTALACIÓN | LINK DESARROLLADOR |
 | :-- | :--: | :--: |
-| <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/AdGuard_Logo.png" alt="AdGuard Home" width="22"/> Adguard Home® | [INSTALACIÓN](https://github.com/JuanRodenas/AdGuardHome) | [DESARROLLADOR](https://adguard.com/es/adguard-home/overview.html) |
-| <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/pihole.png" alt="Pi-Hole" width="30"/> Pi-hole® | [INSTALACIÓN](https://github.com/JuanRodenas/Pihole) | [DESARROLLADOR](https://pi-hole.net/) |
+| <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/AdGuard_Logo.png" alt="AdGuard Home" width="22"/> Adguard Home® | [INSTALACIÓN](https://github.com/JuanRodenas/AdGuardHome) | [DESARROLLADOR](https://adguard.com/es/adguard-home/overview.html) |
+| <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/pihole.png" alt="Pi-Hole" width="30"/> Pi-hole® | [INSTALACIÓN](https://github.com/JuanRodenas/Pihole) | [DESARROLLADOR](https://pi-hole.net/) |
 ### Versión latest docker Pi-hole®
 ![Docker Image Version (tag latest)](https://img.shields.io/docker/v/pihole/pihole/latest?color=blue&logo=docker&style=for-the-badge)
 ### Versión latest docker Adguard Home®
@@ -79,7 +79,7 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 
 ### Uso:
 <details>
-    <summary>Utilizar con Pi-Hole <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/pihole.png" alt="Pi-Hole" width="30"/>:</summary>
+    <summary>Utilizar con Pi-Hole <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/pihole.png" alt="Pi-Hole" width="30"/>:</summary>
 
 ## Instrucciones de uso con Pi-Hole:
 
@@ -93,7 +93,7 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 &nbsp;
 
 <details>
-    <summary>Utilizar con AdGuard Home <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/AdGuard_Logo.png" alt="AdGuard Home" width="22"/>:</summary>
+    <summary>Utilizar con AdGuard Home <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/AdGuard_Logo.png" alt="AdGuard Home" width="22"/>:</summary>
 
 ## Instrucciones de uso con AdGuard Home:
 
@@ -106,7 +106,7 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 </details>
 &nbsp;
 
-## Configuración Adguard Home®:<img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/AdGuard_Logo.png" alt="AdGuard Home" width="32"/>
+## Configuración Adguard Home®:<img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/AdGuard_Logo.png" alt="AdGuard Home" width="32"/>
 
 ### Configuración para tener habilitado DNS over TLS o DNS over HTTPS
 En ajustes de AdGuard, configuración de DNS:
@@ -260,7 +260,7 @@ Para crear una zona en tu dominio tanto para <code>*.example.org</code> para per
 
 
 
-# Listas para Pihole <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/pihole.png" alt="Pi-Hole" width="40"/> y AdGuard Home <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/AdGuard_Logo.png" alt="AdGuard Home" width="32"/>
+# Listas para Pihole <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/pihole.png" alt="Pi-Hole" width="40"/> y AdGuard Home <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/AdGuard_Logo.png" alt="AdGuard Home" width="32"/>
 
 ## Main safelist
 
@@ -302,7 +302,7 @@ Para crear una zona en tu dominio tanto para <code>*.example.org</code> para per
 | GoodbyeAds-Ultra | [Link](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds-Ultra.txt) &#124; [Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt) | To Block [hagezi](https://github.com/hagezi/dns-blocklists) and [jerryn70](https://github.com/jerryn70/GoodbyeAds) |
 | ads-and-tracking-extended | [Link](https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt) | To Block ads-and-tracking-extended |
 | Adblock_Plus | [Link](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt) &#124; [Link](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/List/Adblock_Plus_Ads.txt) | To Block Tracking AdBlock |
-| Android tracking | [Link](https://github.com/JuanRodenas/Pi-hole_list/blob/main/Listas/android-tracking.txt) | Android tracking for AdGuard Home |
+| Android tracking | [Link](https://github.com/JuanRodenas/Pihole_list/blob/main/Listas/android-tracking.txt) | Android tracking for AdGuard Home |
 
 #### Adguard team filters
 | List Tracking/Ads | Link | Description |
@@ -454,9 +454,9 @@ Para crear una zona en tu dominio tanto para <code>*.example.org</code> para per
 ## Aplicaciones android para Pi-hole® o Adguard Home®
 Link al desarrollador de la aplicacion: [![GitHub](https://img.shields.io/static/v1.svg?color=blue&labelColor=555555&logoColor=ffffff&style=social&label=JGeek00&message=GitHub&logo=github)](https://github.com/JGeek00 "view the source for all of our repositories.")
 ### Aplicacion android Pi-hole®
-<a href="https://play.google.com/store/apps/details?id=com.jgeek00.droid_hole" target="_blank" rel="noopener noreferrer"><img src="https://github.com/JuanRodenas/Pihole_list/blob/main/google-play.png" width="60px"></a>
+<a href="https://play.google.com/store/apps/details?id=com.jgeek00.droid_hole" target="_blank" rel="noopener noreferrer"><img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/google-play.png" width="60px"></a>
 ### Aplicacion android Adguard Home®
-<a href="https://play.google.com/store/apps/details?id=com.jgeek00.adguard_home_manager" target="_blank" rel="noopener noreferrer"><img src="https://github.com/JuanRodenas/Pihole_list/blob/main/google-play.png" width="60px"></a>
+<a href="https://play.google.com/store/apps/details?id=com.jgeek00.adguard_home_manager" target="_blank" rel="noopener noreferrer"><img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/google-play.png" width="60px"></a>
 
 <p><sub>Todos y cada uno de los derechos y responsabilidades correspondientes son propiedad del respectivo desarrollador.</sub></p>
 

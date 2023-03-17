@@ -159,16 +159,14 @@ sudo apt-get install certbot
 certbot certonly --manual --preferred-challenges=dns --email usuario@ejemplo.com --server https://acme-v02.api.letsencrypt.org/directory --agree-tos
 ~~~
 4. Por último, pedirá realizar un registro _acme-challenge tipo TXT en nuestro proveedor de servidores de nombres con el contenido que nos indica:
-~~~
+Nos crea los siguientes archivos, en el directorio `/etc/letsencrypt/live/`:
+- `fullchain.pem` – su certificado SSL codificado en PEM.
+- `privkey.pem` – su clave privada codificada en PEM.
 
 #### Configuración de Lets encrypt
 Pasos a seguir tras solicitar el certificado:
 * Pedirá la introducción del dominio a certificar, indícalo utilizando *. más el dominio que deseas certificar para obtener el Wildcard.
 * Por último, pedirá realizar un registro _acme-challenge tipo TXT en nuestro proveedor de servidores de nombres con el contenido que nos indica.
-
-Nos crea los siguientes archivos, en el directorio `/etc/letsencrypt/live/`:
-- `fullchain.pem` – su certificado SSL codificado en PEM.
-- `privkey.pem` – su clave privada codificada en PEM.
 
 Para comprobar si el certificado se autorenovará:
 * Prueba de renovación (simulación):`certbot renew --dry-run`
@@ -218,14 +216,14 @@ sudo openssl req -x509 -nodes -days 1825 -sha512 -newkey ec -pkeyopt ec_paramgen
 <ul><code>Email Address []: admin@your_domain.com</code></ul>
 &nbsp;
 * Notas para el asunto/emisor
-
-/C=ES/ST=Spain/L=Madrid/O=Juan Tech/OU=Tech/CN=localhost
+<p>  &nbsp<code>/C=ES/ST=Spain/L=Madrid/O=Juan Tech/OU=Tech/CN=localhost</code>
 <p>  &nbsp;&nbsp;<code>C = ES</code>
 <p>  &nbsp;&nbsp;<code>ST = Bayern</code>
 <p>  &nbsp;&nbsp;<code>L = Munich</code>
 <p>  &nbsp;&nbsp;<code>O = Inventos</code>
 <p>  &nbsp;&nbsp;<code>OU = Tech</code>
 <p>  &nbsp;&nbsp;<code>CN = localhost</code>
+
 </details>
 
 

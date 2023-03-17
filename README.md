@@ -93,6 +93,8 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 <details>
     <summary>Utilizar con AdGuard Home <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/AdGuard_Logo.png" alt="AdGuard Home" width="22"/>:</summary>
 
+# Configuración Adguard Home®:<img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/AdGuard_Logo.png" alt="AdGuard Home" width="32"/>
+
 ## Instrucciones de uso con AdGuard Home:
 
 1. Copie el enlace al formato de AdGuard correspondiente a la lista deseada (de la tabla correspondiente a continuación).
@@ -103,6 +105,129 @@ Estas listas se crearon porque quería algo con un poco más de control sobre lo
 <sup>Las instrucciones son actuales a partir de AdGuard Home v0.107.2</sup>
 </details>
 &nbsp;
+
+## Seguridad
+### Configuración para tener habilitado DNS over TLS o DNS over HTTPS
+En ajustes de AdGuard, configuración de DNS:
+- Servidores DNS de subida, copiar una de estas URLs:
+
+Para DoH-DoT de Cloudfare:
+```
+https://dns.cloudflare.com/dns-query
+tls://1dot1dot1dot1.cloudflare-dns.com
+```
+Para DoH-DoT de Quad9:
+```
+https://dns.quad9.net/dns-query
+tls://dns.quad9.net
+```
+
+y marcar la opcion: "**Balanceo de carga**", por defecto esta marcada.
+
+- Servidores DNS de arranque, metemos las DNS que elijamos:
+
+Cloudflared tanto en IPv4 como IPv6:
+```
+1.1.1.1
+1.0.0.1
+2606:4700:4700::1111
+2606:4700:4700::1001
+```
+Quad9 tanto en IPv4 como IPv6:
+```
+9.9.9.9
+149.112.112.112
+2620:fe::fe
+2620:fe::fe:9
+```
+
+- Configuración del servidor DNS, marcamos la opcion de "**Habilitar DNSSEC**"
+
+## Añadir dominio para DoH y DoT:
+### Crear el certificado con Let’s Encrypt
+Instalando un certificado SSL gratuito con CertBot:
+1. Actualizamos la lista de paquetes..
+~~~
+sudo apt-get update
+~~~
+2. Instalamos el paquete de Certbot
+~~~
+sudo apt-get install certbot
+~~~
+<p><sup>Documentación de <a href="https://eff-certbot.readthedocs.io/en/stable/">Certbot</a></sup></p>
+
+## Crear el certificado personal autofirmado con OPENSSL:
+<details>
+    <summary>Crear el certificado personal autofirmado autofirmado:</summary>
+
+### Crear el certificado personal autofirmado:
+
+Info: [INFO](https://www.busindre.com/comandos_openssl_utiles_para_certificados)
+1. Actualizamos la lista de paquetes..
+~~~
+sudo apt-get update
+~~~
+2. Instalamos el paquete de openssl
+~~~
+sudo apt-get install openssl
+~~~
+3. Creamos el directorio donde queremos almacenar los certificados:
+~~~
+mkdir certs 
+cd certs/
+~~~
+4. Creamos certificado con el siguiente comando, cambiando la ruta del certificado o dejamos el nombre del .key y punto crt para almacenarlo en el directorio:
+~~~
+sudo openssl req -x509 -nodes -days 1825 -sha512 -newkey ec -pkeyopt ec_paramgen_curve:prime256v1 -subj "/CN=localhost/O=Tech/C=ES" -addext "subjectAltName = DNS:*.example.org" -keyout privkey.key -out privcert.pem
+~~~
+
+* Puede que nos pregunte estas preguntas:
+<ul><code>Country Name (2 letter code) [AU]: US</code></ul>
+<ul><code>State or Province Name (full name) [Some-State]: New York</code></ul>
+<ul><code>Locality Name (eg, city) []: New York City</code></ul>
+<ul><code>Organization Name (eg, company) [Internet Widgits Pty Ltd]: Bouncy Castles, Inc.</code></ul>
+<ul><code>Organizational Unit Name (eg, section) []: Ministry of Water Slides</code></ul>
+<ul><code>Common Name (e.g. server FQDN or YOUR name) []: server_IP_address or domain</code></ul>
+<ul><code>Email Address []: admin@your_domain.com</code></ul>
+&nbsp;
+* Notas para el asunto/emisor
+~~~
+/C=ES/ST=Spain/L=Madrid/O=Juan Tech/OU=Tech/CN=localhost
+C = ES
+ST = Bayern
+L = Munich
+O = Inventos
+OU = Tech
+CN = localhost
+~~~
+</details>
+
+
+### Configurar certificado en AdGuard Home:
+1. Abra la interfaz web de AdGuard Home y vaya a configuración.
+2. Desplácese hacia abajo hasta la configuración de "Cifrado".
+3. Habilitar el check "Habilitar cifrado (HTTPS, DNS mediante HTTPS y DNS mediante TLS)".
+4. Habilitar "Redireccionar a HTTPS automáticamente".
+5. Ingrese su nombre de dominio en "Nombre del servidor".
+6. Copie/pegue el contenido del archivo `fullchain.pem` en "Certificados".
+7. Copie / pegue el contenido del archivo `privkey.pem` en "Clave privada".
+8. Haga clic en "Guardar configuración".
+
+## Configurar el dominio para permitir clientes en DNS privado DoH y DoT:
+<details>
+    <summary>Para crear una zona en tu dominio tanto para <code>*.example.org</code> para permitir los clientes, sigue estos pasos:</summary>
+
+## Instrucciones de uso:
+
+1. Accede al panel de control de tu proveedor de alojamiento web o del registrador de dominios donde hayas adquirido el nombre de dominio.
+2. Busca la opción de `Zonas DNS`.
+3. Crea una nueva entrada de `Zonas DNS`. Para agregar la entrada `*.example.org`, crea un registro de tipo `CNAME` (Alias) y haz que apunte a `*.example.org`. Esto permitirá que cualquier subdominio que comience con un asterisco, como `subdominio.example.org`.
+4. Configuración de `Configuración/Clientes/Clientes persistentes`. Pulsamos `Añadir clientes` y en `Identificador` creamos un nombre.
+
+&nbsp;
+<sup>Instrucciones actuales en la documentación del desarrollador <a href="https://github.com/AdguardTeam/AdGuardHome/wiki/Clients#clientid">documentación</a>.</sup>
+</details>
+
 
 # Listas para Pihole <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/pihole.png" alt="Pi-Hole" width="40"/> y AdGuard Home <img src="https://github.com/JuanRodenas/Pi-hole_list/blob/main/AdGuard_Logo.png" alt="AdGuard Home" width="32"/>
 

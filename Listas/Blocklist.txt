@@ -29,6 +29,7 @@
 ||1rx.io^
 ||207.net^
 ||22703-5225.s3.webspace.re^
+||22703-5225.s3.webspace.re^
 ||247media.com^
 ||24log.com^
 ||24log.de^
@@ -282,6 +283,7 @@
 ||adhigh.net^
 ||adhoc4.net^
 ||adhunter.media^
+||adih.ci^
 ||adimage.guardian.co.uk^
 ||adimages.been.com^
 ||adimages.carsoup.com^
@@ -1003,6 +1005,7 @@
 ||alexametrics.com^
 ||algorix.co^
 ||alhopital.apps-1and1.net^
+||alhopital.apps-1and1.net^
 ||alipromo.com^
 ||alkawther-web-dot-sharefileexplorer.uk.r.appspot.com^
 ||all4spy.com^
@@ -1071,6 +1074,7 @@
 ||annonser.dagbladet.no^
 ||annoyedairport.com^
 ||annoyingacoustics.com^
+||anonfiles.com^
 ||anrdoezrs.net^
 ||anstrex.com^
 ||anuncios.edicaoms.com.br^
@@ -1120,6 +1124,7 @@
 ||artisany.net^
 ||as.webmd.com^
 ||as2.adserverhd.com^
+||aselun.com^
 ||aserv.motorsgate.com^
 ||asewlfjqwlflkew.com^
 ||asia999.website^
@@ -1604,6 +1609,7 @@
 ||copyrightaccesscontrols.com^
 ||coremetrics.com^
 ||cormast.com^
+||correoes-es.xyz^
 ||correos-bda5ca.ingress-daribow.ewp.live^
 ||correos-es.web.app^
 ||correos-info.top^
@@ -1611,6 +1617,8 @@
 ||correos-lift.buzz^
 ||correos.es-localizador.com^
 ||correos.es-paqueteria.es^
+||correosespaña.com^
+||correost-es.xyz^
 ||corrpagomente.page.link^
 ||cosmopolitads.com^
 ||count.rin.ru^
@@ -1784,6 +1792,7 @@
 ||dq95d35.com^
 ||drabsize.com^
 ||dragzebra.com^
+||driver-nvidia.site^
 ||dropbox-prod.adobemsbasic.com^
 ||drumcash.com^
 ||drydrum.com^
@@ -1791,6 +1800,7 @@
 ||dsp.io^
 ||dstillery.com^
 ||dustywave.com^
+||dynamitedownload.com^
 ||dyntrk.com^
 ||dzeducators.com^
 ||e-m.fr^
@@ -1871,6 +1881,10 @@
 ||eqy.link^
 ||erne.co^
 ||ero-advertising.com^
+||es-correts18.top^
+||es-seguimientolocalizadorenvioscorreos.com^
+||es.correos-cliente.co^
+||es.correos-clientes.co^
 ||es.login-bbva.co^
 ||es.support-unicaja.com^
 ||estat.com^
@@ -1891,6 +1905,7 @@
 ||evadavdsp.pro^
 ||events-eu.freshsuccess.com^
 ||events-us.freshsuccess.com^
+||events.data.microsoft.com^
 ||everestads.net^
 ||everesttech.net^
 ||evergage.com^
@@ -1980,6 +1995,7 @@
 ||feedmob.com^
 ||fees962-apply.com^
 ||femalecompanions.com^
+||ff.kis.v2.scr.kaspersky-labs.com^
 ||ffxcam.fairfax.com.au^
 ||fimserve.com^
 ||findcommerce.com^
@@ -2398,6 +2414,7 @@
 ||hystericalcloth.com^
 ||hystericalhelp.com^
 ||i-i.lt^
+||i18n-pglstatp.com^
 ||i1img.com^
 ||i1media.no^
 ||ia.iinfo.cz^
@@ -2532,6 +2549,7 @@
 ||jcount.com^
 ||jdoqocy.com^
 ||jinkads.de^
+||jmgs.com.au^
 ||jmgs.com.au^
 ||jocaparat.ro^
 ||joetec.net^
@@ -2962,6 +2980,7 @@
 ||memorizeneck.com^
 ||memorycobweb.com^
 ||merge-ethereum.com^
+||message.pluscactus.com^
 ||messagenovice.com^
 ||metadsp.co.uk^
 ||metaffiliation.com^
@@ -3100,6 +3119,7 @@
 ||myaffiliateprogram.com^
 ||mybbc-analytics.files.bbci.co.uk^
 ||mybetterdl.com^
+||myblog- onntx6qubh. live-website.com^
 ||myblog-onntx6qubh.live-website.com^
 ||mybloglog.com^
 ||mybuys.com^
@@ -3313,6 +3333,8 @@
 ||p.nag.ru^
 ||p2r14.com^
 ||padsbrown.com^
+||pagar-recibo.info^
+||page.link^
 ||pagead.l.google.com^
 ||pagefair.com^
 ||pagefair.net^
@@ -3700,6 +3722,7 @@
 ||scintillatingscissors.com^
 ||scintillatingsilver.com^
 ||scintillatingspace.com^
+||scootboots.se^
 ||scopelight.com^
 ||scorecardresearch.com^
 ||scotiabankhockeyclub.com^
@@ -3754,6 +3777,7 @@
 ||sexinyourcity.com^
 ||sexlist.com^
 ||sextracker.com^
+||sh-forma.fr^
 ||shakegoldfish.com^
 ||shakesuggestion.com^
 ||shakytaste.com^
@@ -4262,6 +4286,10 @@
 ||twinter.fr^
 ||twittad.com^
 ||twitterdev.information-voyageurs.fr^
+||twitterhelp-back.com^
+||twitterhelpatwork.com^
+||twitterhelpatwork.com^
+||twitterhelps-work.com^
 ||twyn.com^
 ||tynt.com^
 ||typicalteeth.com^
@@ -4712,6 +4740,7 @@
 ||window.nixnet.cz^
 ||windows-surface.dowlis.com^
 ||windows123.f3322.net^
+||wingerdgastehuis.co.za^
 ||wintricksbanner.googlepages.com^
 ||wirecomic.com^
 ||wisepops.com^
@@ -5012,6 +5041,7 @@
 ||www.ukapplepay-verify.com^
 ||www.vbva.es^
 ||www.verifyapplepay-id.com^
+||www.virusltotal.cf^
 ||www.web-facebook-connect-automatic.mabellbar.com^
 ||www.wellsfargos.us^
 ||www.windows11-server047.com^
@@ -5126,28 +5156,7 @@
 ||zukxd6fkxqn.com^
 ||zy16eoat1w.com^
 ||zzhc.vnet.cn^
-||ff.kis.v2.scr.kaspersky-labs.com^
-||i18n-pglstatp.com^
-||events.data.microsoft.com^
-||aselun.com^
-||message.pluscactus.com^
-||myblog- onntx6qubh. live-website.com^
-||correost-es.xyz^
-||es-correts18.top^
-||twitterhelpatwork.com^
-||es-seguimientolocalizadorenvioscorreos.com^
-||correoes-es.xyz^
-||sh-forma.fr^
-||wingerdgastehuis.co.za^
-||correosespaña.com^
-||pagar-recibo.info^
-||es.correos-clientes.co^
-||22703-5225.s3.webspace.re^
-||jmgs.com.au^
-||alhopital.apps-1and1.net^
-||es.correos-cliente.co^
-||anonfiles.com^
-||page.link^
+||zzhc.vnet.cn^
 
 
 ########### REGEX
@@ -5287,3 +5296,12 @@
 ||iadcontent.apple.com^
 ||adserver.apple.com^
 ||ads.apple.com^
+
+# Ransomware lockbit
+||premiumize.com^
+||anonfiles.com^
+||sendspace.com^
+||fex.net^
+||transfer.sh^
+||send.exploit.	in^
+||temp.sh^

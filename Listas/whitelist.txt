@@ -159,6 +159,8 @@ api.eu-west-1.aiv-delivery.net
 tracksp.cloudflare.com
 info.cloudflare.com
 links1.m.myunidays.com
+@@||pokemon.com^
+assets.adobedtm.com
 
 #### Microsoft
 @@||azure.com^
@@ -228,3 +230,5 @@ id.google.com
 youtube-ui.l.google.com
 ampcid.google.com
 stun.l.google.com
+beacons.gvt2.com
+beacons.gcp.gvt2.com

@@ -22,38 +22,15 @@
 # @@/^(.+[_.-])?api[_.-]/
 
 # Lista de dominios
-@@||azure.com^
-azure.microsoft.com
 ris-prod-atm.trafficmanager.net
 @@||duckdns.org^
 @@||bitwarden.com^
 api.pinterest.com
-apps.skype.com
 dev.virtualearth.net
 ecn.dev.virtualearth.net
 www.noip.com
 no-ip.com
 raw.githubusercontent.com
-office.com
-office365.com
-outlookmobile-office365-tas.msedge.net
-settings-win.data.microsoft.com
-outlook.live.com
-outlook.office365.com
-storage.live.com
-c.microsoft.com
-api.onedrive.com
-npwuscdn-onenote.azureedge.net
-1drv.ms
-config.teams.microsoft.com
-download.windowsupdate.com
-login.microsoftonline.com
-www.msftncsi.com
-i.s-microsoft.com
-c.s-microsoft.com
-@@||update.microsoft.com^
-cdn.onenote.net
-www.onenote.com
 spclient.wg.spotify.com
 t.co
 themoviedb.com
@@ -116,7 +93,6 @@ dynupdate.no-ip.com
 www.no-ip.com
 ocsp.apple.com
 appleid.apple.com
-@@||onedrive.live.com^
 www.proandroid.com
 news.pandora.net
 www.dvdvideosoft.com
@@ -149,8 +125,6 @@ gld.push.samsungosp.com
 china-gld.push.samsungosp.com.cn
 www.somosxbox.com
 movil.bbva.es
-arc.msn.com
-@@||xboxlive.com^
 img.yana.asideas.de
 prod.yana.asideas.de
 data.madridista-premium.realmadrid.com
@@ -179,15 +153,50 @@ cdn.revolut.com
 www.revolut.com
 services.fandom.com
 crt.sectigo.com
-spoppe-b.azureedge.net
-odinvzc.azureedge.net
-sapphire.azureedge.net
 nativesdks.mparticle.com
 identity.mparticle.com
 api.eu-west-1.aiv-delivery.net
 tracksp.cloudflare.com
 info.cloudflare.com
 links1.m.myunidays.com
+
+#### Microsoft
+@@||azure.com^
+azure.microsoft.com
+office.com
+office365.com
+outlookmobile-office365-tas.msedge.net
+settings-win.data.microsoft.com
+outlook.live.com
+outlook.office365.com
+storage.live.com
+c.microsoft.com
+api.onedrive.com
+npwuscdn-onenote.azureedge.net
+config.teams.microsoft.com
+download.windowsupdate.com
+login.microsoftonline.com
+www.msftncsi.com
+i.s-microsoft.com
+c.s-microsoft.com
+@@||update.microsoft.com^
+cdn.onenote.net
+www.onenote.com
+1drv.ms
+apps.skype.com
+@@||onedrive.live.com^
+@@||xboxlive.com^
+spoppe-b.azureedge.net
+odinvzc.azureedge.net
+sapphire.azureedge.net
+arc.msn.com
+
+#### Aliexpress y wallapop
+app.launchdarkly.com
+events.launchdarkly.com
+clientstream.launchdarkly.com
+logx.optimizely.com
+s.click.aliexpress.com
 
 #### Google
 @@||googleapis.com^
@@ -217,3 +226,5 @@ accounts.google.com
 clients.l.google.com
 id.google.com
 youtube-ui.l.google.com
+ampcid.google.com
+stun.l.google.com

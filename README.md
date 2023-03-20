@@ -252,9 +252,10 @@ To create a zone in your domain for both <code>*.example.org</code> to enable cl
 #### Instructions for use:
 
 1. Log into the control panel of your web hosting provider or domain registrar where you purchased the domain name.
-2. Look for the option to `DNS Zones`.
-3. Create a new `DNS Zones` entry. To add the `*.example.org` entry, create a `CNAME` (Alias) record and make it point to `*.example.org`. This will allow any subdomain that starts with an asterisk, such as `subdomain.example.org`.
-4. Configure `Settings/Clients/Persistent Clients`. Click `Add clients` and under `Identifier` create a name.
+2. Find the `DNS Zones` option.
+3. Create a new `DNS Zones` entry. To add the entry for each client, e.g. `one.example.org`.
+This will allow the client created in the `Client Configuration` panel to connect.
+4. Configure `Settings/Client Configuration/Persistent clients`. Click `Add Clients` and under `Identifier` create a name.
 
 <sup>Current instructions in the developer's documentation <a href="https://github.com/AdguardTeam/AdGuardHome/wiki/Clients#clientid">documentación</a>.</sup>
 

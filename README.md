@@ -29,7 +29,7 @@ These lists were created because I wanted something with a bit more control over
 ### Versions:
 
 <details>
-<summary>Version original:</summary>
+<summary>Original version:</summary>
 
 <Original>&nbsp;All urls in this version **are** preceded by an IP address in the txt or host file:</Original>
 
@@ -249,7 +249,7 @@ sudo openssl req -x509 -nodes -days 1825 -sha512 -newkey ec -pkeyopt ec_paramgen
 ## Configure the domain to allow private DNS DoH and DoT clients:
 To create a zone in your domain for both <code>*.example.org</code> to enable clients, follow these steps:
 
-#### Instrucciones de uso:
+#### Instructions for use:
 
 1. Log into the control panel of your web hosting provider or domain registrar where you purchased the domain name.
 2. Look for the option to `Zonas DNS`.
@@ -266,8 +266,8 @@ To create a zone in your domain for both <code>*.example.org</code> to enable cl
 
 | List | Link | Description |
 | :-- | :--: | :-- |
-| safelist repositorio | [Link](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/Listas/whitelist.txt) | safelist JuanRodenas |
-| safelist hagezi | [Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/whitelist.txt) | safelist hagezi |
+| safelist repository | [Link](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/Listas/whitelist.txt) | safelist JuanRodenas |
+| safelist hagezi | [Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/whitelist.txt) | safelist hagezi (Not tested) |
 
 
 ## Main Black Lists
@@ -337,7 +337,7 @@ To create a zone in your domain for both <code>*.example.org</code> to enable cl
 | i-dont-care-about-cookies | [Link](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt) | [Link DEV](https://www.i-dont-care-about-cookies.eu/) | i-dont-care-about-cookies |
 | urlhaus-filter | [Link](https://malware-filter.gitlab.io/malware-filter/urlhaus-filter.txt) | [Link DEV](https://gitlab.com/malware-filter/urlhaus-filter) | urlhaus-filter |
 
-<sup>Se ha añadido una pestaña para AdGuard con listas adaptadas a su formato.</sup>
+<sup>A tab has been added for AdGuard with lists adapted to its format.</sup>
 
 
 ### Check your SelfHosted:
@@ -462,7 +462,6 @@ Link to the developer of the application: [![GitHub](https://img.shields.io/stat
 
 ## HELP ME 🙌
 <p> &nbsp;If you want to contribute to improve the lists, open a <code>issue</code> here:  <A HREF="https://github.com/JuanRodenas/Pi-hole_list/issues"> ISSUE </A></p>
-<sup>Si deseas contribuir a mejorar las listas, ábreme un problema aquí.</sup>
 
 ## Credits 🚀
 This repository is made with all my love and affection.

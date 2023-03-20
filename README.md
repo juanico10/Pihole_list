@@ -236,7 +236,7 @@ sudo openssl req -x509 -nodes -days 1825 -sha512 -newkey ec -pkeyopt ec_paramgen
 </details>
 
 
-## Configurar certificado en AdGuard Home:
+## Configure certificate in AdGuard Home:
 1. Open the AdGuard Home web interface and go to configuration.
 2. Scroll down the menu to settings: <code>Encryption settings</code>.
 3. Enable check<code>Enable encryption (HTTPS, DNS via HTTPS and DNS via TLS)</code>.

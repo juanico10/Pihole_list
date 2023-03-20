@@ -252,7 +252,7 @@ To create a zone in your domain for both <code>*.example.org</code> to enable cl
 #### Instructions for use:
 
 1. Log into the control panel of your web hosting provider or domain registrar where you purchased the domain name.
-2. Look for the option to `Zonas DNS`.
+2. Look for the option to `DNS Zones`.
 3. Create a new `DNS Zones` entry. To add the `*.example.org` entry, create a `CNAME` (Alias) record and make it point to `*.example.org`. This will allow any subdomain that starts with an asterisk, such as `subdomain.example.org`.
 4. Configure `Settings/Clients/Persistent Clients`. Click `Add clients` and under `Identifier` create a name.
 

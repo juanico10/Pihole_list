@@ -18,13 +18,13 @@ The project <strong>Pi-hole_list</strong> is a project in which we block and pro
 | :-- | :--: | :--: |
 | <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/AdGuard_Logo.png" alt="AdGuard Home" width="22"/> Adguard Home® | [INSTALLATION](https://github.com/JuanRodenas/AdGuardHome) | [DEVELOPER](https://adguard.com/es/adguard-home/overview.html) |
 | <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/pihole.png" alt="Pi-Hole" width="30"/> Pi-hole® | [INSTALLATION](https://github.com/JuanRodenas/Pihole) | [DEVELOPER](https://pi-hole.net/) |
-### Version latest docker Pi-hole®
+### Version docker latest Pi-hole®
 ![Docker Image Version (tag latest)](https://img.shields.io/docker/v/pihole/pihole/latest?color=blue&logo=docker&style=for-the-badge)
-### Version latest docker Adguard Home®
+### Version docker latest Adguard Home®
 ![Docker Image Version (tag latest)](https://img.shields.io/docker/v/adguard/adguardhome/latest?color=blue&logo=docker&style=for-the-badge)
 
 ## Details
-These lists were created because I wanted something with a bit more control over what gets blocked. A lot of lists are all-or-nothing. We set out to create lists with more control over what gets blocked.
+These lists were created because I wanted something with a bit more control over what gets blocked. A lot of lists are all-or-nothing. We set out to create lists with more control over what gets blocked, which is why I recommend my lists to you, as they are tested and we block only what is unnecessary.
 
 ### Versions:
 

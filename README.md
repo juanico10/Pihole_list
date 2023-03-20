@@ -1,5 +1,5 @@
 # Pihole_list
-El proyecto <strong>Pi-hole_list</strong> es un proyecto en el cual bloqueamos y protegemos en toda la red a través de su propio hardware. En este repositorio se instala con <strong>docker®</strong>. Pi-hole® y Adguard Home® es un sumidero de DNS que protege sus dispositivos de contenidos no deseados sin necesidad de instalar ningún software del lado del cliente.
+The project <strong>Pi-hole_list</strong> is a project in which we block and protect the entire network through its own hardware. In this repository it is installed with <strong>docker®</strong>. Pi-hole® and Adguard Home® is a DNS sinkhole that protects your devices from unwanted content without the need to install any client-side software.
 
 
 <p align="center">
@@ -7,134 +7,134 @@ El proyecto <strong>Pi-hole_list</strong> es un proyecto en el cual bloqueamos y
         <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/AdGuard_Logo.png" alt="AdGuard Home" width="280"/>
     </a>
     <br>
-    <strong>Bloqueo de anuncios en toda la red a través de su propio hardware</strong>
+    <strong>Network-wide ad blocking via its own hardware.</strong>
 </p>
 <!-- markdownlint-enable MD033 -->
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/JuanRodenas/Pi-hole_list?color=blue&logo=Github&style=for-the-badge)
 
-## Enlaces a instalación o desarrollador
-| PROYECTO | LINK INSTALACIÓN | LINK DESARROLLADOR |
+## Links to installation or developer
+| PROJECT | INSTALLER LINK | DEVELOPER LINK |
 | :-- | :--: | :--: |
-| <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/AdGuard_Logo.png" alt="AdGuard Home" width="22"/> Adguard Home® | [INSTALACIÓN](https://github.com/JuanRodenas/AdGuardHome) | [DESARROLLADOR](https://adguard.com/es/adguard-home/overview.html) |
-| <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/pihole.png" alt="Pi-Hole" width="30"/> Pi-hole® | [INSTALACIÓN](https://github.com/JuanRodenas/Pihole) | [DESARROLLADOR](https://pi-hole.net/) |
-### Versión latest docker Pi-hole®
+| <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/AdGuard_Logo.png" alt="AdGuard Home" width="22"/> Adguard Home® | [INSTALLATION](https://github.com/JuanRodenas/AdGuardHome) | [DEVELOPER](https://adguard.com/es/adguard-home/overview.html) |
+| <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/pihole.png" alt="Pi-Hole" width="30"/> Pi-hole® | [INSTALLATION](https://github.com/JuanRodenas/Pihole) | [DEVELOPER](https://pi-hole.net/) |
+### Version latest docker Pi-hole®
 ![Docker Image Version (tag latest)](https://img.shields.io/docker/v/pihole/pihole/latest?color=blue&logo=docker&style=for-the-badge)
-### Versión latest docker Adguard Home®
+### Version latest docker Adguard Home®
 ![Docker Image Version (tag latest)](https://img.shields.io/docker/v/adguard/adguardhome/latest?color=blue&logo=docker&style=for-the-badge)
 
-## Detalles
-Estas listas se crearon porque quería algo con un poco más de control sobre lo que se bloquea. Muchas listas son de todo o nada. Nos propusimos crear listas con más control sobre lo que se bloquea.
+## Details
+These lists were created because I wanted something with a bit more control over what gets blocked. A lot of lists are all-or-nothing. We set out to create lists with more control over what gets blocked.
 
-### Versiones:
+### Versions:
 
 <details>
-<summary>Versión original:</summary>
+<summary>Version original:</summary>
 
-<Original>&nbsp;Todas las urls de esta versión **van** precedidas de una dirección IP en el archivo txt o host:</Original>
+<Original>&nbsp;All urls in this version **are** preceded by an IP address in the txt or host file:</Original>
 
-<p>  &nbsp;&nbsp;<code>0.0.0.0 example.com</code> – Enviará el dominio example.com a la dirección 0.0.0.0 (pero no para sus subdominios)</p>
-<p>  &nbsp;&nbsp;<code>127.0.0.1 example.com</code> – devolverá la dirección 127.0.0.1 para el dominio example.com (pero no para sus subdominios).</p>
+<p>  &nbsp;&nbsp;<code>0.0.0.0 example.com</code> – It will forward the domain example.com to the address 0.0.0.0 (but not for its subdomains).</p>
+<p>  &nbsp;&nbsp;<code>127.0.0.1 example.com</code> – will return the address 127.0.0.1 for the domain example.com (but not for its subdomains).</p>
 
 </details>
 &nbsp;
 <details>
-<summary>Versión sin IP a la izquierda:</summary>
+<summary>Version without IP on the left:</summary>
 
-<Original>&nbsp;Todas las urls de esta versión **no** van precedidas de una dirección IP en el archivo txt o host:</Original>
+<Original>&nbsp;All urls in this version **no** are preceded by an IP address in the txt or host file:</Original>
 
 <p>  &nbsp;&nbsp;<code>example.com</code></p>
 
-<sup>Nuestros usuarios nos han comunicado que algunos dispositivos dan error si la url va precedida de una dirección IP.</sup>
+<sup>Our users have reported to us that some devices give an error if the url is preceded by an IP address.</sup>
 </details>
 &nbsp;
 <details>
-<summary>Adguard Version:</summary>
+<summary>Adguard version:</summary>
 
-<p>&nbsp;Todas las urls de esta versión de la lista **AdGuard** aparecen en el archivo de hosts de la siguiente manera:</p>
+<p>&nbsp;All urls from this version of the **AdGuard** list appear in the hosts file as follows:</p>
 
-<p>  &nbsp;&nbsp;<code>||example.org^</code> – bloquea el acceso al dominio <code>example.org</code> y a todos sus subdominios</p>
-<p>  &nbsp;&nbsp;<code>@@||example.org^</code> – desbloquea el acceso al dominio <code>example.org</code> y a todos sus subdominios</p>
-<p>  &nbsp;&nbsp;<code>/REGEX/</code> – bloquea el acceso a los dominios que coincidan con la expresión regular especificada. Por ejemplo, la regla <code>/example.*/</code> bloqueará los hosts que coincidan con el <code>example.*</code></p>
-<p>  &nbsp;&nbsp;<code>$</code> – Es el delimitador, que indica que el resto de la regla son modificadores. Los modificadores deben ubicarse al final de la regla después del carácter y estar separados por comas. Por ejemplo <code>||example.org^$important</code>.</p>
-<p>  &nbsp;&nbsp;<code>$important</code> – El modificador aplicado a una regla aumenta su prioridad sobre cualquier otra regla sin el modificador. Incluso por encima de las reglas básicas de excepción.</p>
-<p>  &nbsp;&nbsp;<code>*</code> – el carácter comodín. Se utiliza para representar cualquier conjunto de caracteres. También puede ser una cadena vacía o una cadena de cualquier longitud.</p>
-<p>  &nbsp;&nbsp;<code>^</code> – el carácter separador. A diferencia del bloqueo de anuncios del navegador, no hay nada que separar en un nombre de host, por lo que el único propósito de este carácter es marcar el final del nombre de host.</p>
-<p>  &nbsp;&nbsp;<code>|</code> – un puntero al principio o al final del nombre de host. El valor depende de la ubicación del carácter en la máscara. Por ejemplo, la regla <code>ample.org|</code> corresponde a <code>example.org</code>, pero no a <code>example.org.com</code>. <code>|example</code> corresponde a <code>example.org</code> pero no a <code>test.example.org</code></p>
+<p>  &nbsp;&nbsp;<code>||example.org^</code> – blocks access to the domain <code>example.org</code> and all its subdomains</p>
+<p>  &nbsp;&nbsp;<code>@@||example.org^</code> – unlocks access to the <code>example.org</code> domain and all its subdomains.</p>
+<p>  &nbsp;&nbsp;<code>/REGEX/</code> – blocks access to domains matching the specified regular expression. For example, the rule <code>/example.*/</code> will block hosts matching the <code>example.*</code></p>
+<p>  &nbsp;&nbsp;<code>$</code> – This is the delimiter, which indicates that the rest of the rule is a modifier. Modifiers must be placed at the end of the rule after the character and separated by commas. For example, the modifiers must be placed at the end of the rule after the character and separated by commas. <code>||example.org^$important</code>.</p>
+<p>  &nbsp;&nbsp;<code>$important</code> – The modifier applied to a rule increases its priority over any other rule without the modifier. Even above the basic exception rules.</p>
+<p>  &nbsp;&nbsp;<code>*</code> – the wildcard character. It is used to represent any set of characters. It can also be an empty string or a string of any length.</p>
+<p>  &nbsp;&nbsp;<code>^</code> – the separator character. Unlike browser ad blocking, there is nothing to separate in a hostname, so the only purpose of this character is to mark the end of the hostname.</p>
+<p>  &nbsp;&nbsp;<code>|</code> – a pointer to the beginning or end of the host name. The value depends on the location of the character in the mask. For example, the rule <code>ample.org|</code> corresponds to <code>example.org</code>, but not to <code>example.org.com</code>. <code>|example</code> corresponds to <code>example.org</code> but not to <code>test.example.org</code></p>
     
-<sup>Las instrucciones son actuales a partir de [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome/wiki/Hosts-Blocklists#special-characters) v0.107.2. AdGuard admite las versiones anteriores.</sup>
-<sup>Las instrucciones que admite [AdGuard Home](https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters).</sup>
+<sup>The instructions are current as of [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome/wiki/Hosts-Blocklists#special-characters) v0.107.2. AdGuard supports older versions.</sup>
+<sup>The instructions it supports [AdGuard Home](https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters).</sup>
 </details>
 &nbsp;
 <details>
-<summary>Comentarios en las listas:</summary>
+<summary>Comments on the lists:</summary>
 
-<p>&nbsp;Todas las urls de esta versión de la lista aparecen en el archivo de hosts de la siguiente manera</p>
+<p>&nbsp;All urls for this version of the list appear in the hosts file in the following way</p>
 
-<p>  &nbsp;&nbsp;<code># comentario</code> – solo un comentario</p>
-<p>  &nbsp;&nbsp;<code>! comentario</code> – solo un comentario</p>
+<p>  &nbsp;&nbsp;<code># comment</code> – just a comment</p>
+<p>  &nbsp;&nbsp;<code>! comment</code> – just a comment</p>
 
 </details>
 &nbsp;
 
-### Uso:
+### Use:
 <details>
-    <summary>Utilizar con Pi-Hole <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/pihole.png" alt="Pi-Hole" width="30"/>:</summary>
+    <summary>Use with Pi-Hole <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/pihole.png" alt="Pi-Hole" width="30"/>:</summary>
 
-## Instrucciones de uso con Pi-Hole:
+## Instructions for use with Pi-Hole:
 
-1. Copie el enlace al formato Pi-hole de la lista deseada (de la tabla correspondiente que aparece a continuación).
-2. Añade la URL a las listas de bloqueo de tu Pi-hole (**Inicio de sesión** > **Gestión de grupos** > **Listas** > **Pega la URL de la lista en el campo "Dirección", añade un comentario** > **Haz clic en "Añadir "**)
-3. Actualizar Gravity (**Herramientas** > **Actualizar Gravity** > **Hacer clic en "Actualizar "** )
+1. Copy the link to the Pi-hole format of the desired list (from the corresponding table below).
+2. Add the URL to your Pi-hole block lists (**Login** > **Groups management** > **Lists** > **Paste the URL of the list in the "Address" field, add a comment** > **Click "Add "**).
+3. Update Gravity (**Tools** > **Update Gravity** > **Click on "Update "** )
 
 &nbsp;
-<sup>Instrucciones actuales a partir de Pi-hole 5.2.4. Las instrucciones pueden ser ligeramente diferentes en la actualidad. Las instrucciones se actualizarán cuando se publique la versión 6.</sup>
+<sup>Current instructions as of Pi-hole 5.2.4. Instructions may be slightly different at present. Instructions will be updated when version 6 is released.</sup>
 </details>
 &nbsp;
 
 <details>
-    <summary>Utilizar con AdGuard Home <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/AdGuard_Logo.png" alt="AdGuard Home" width="22"/>:</summary>
+    <summary>Use with AdGuard Home <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/AdGuard_Logo.png" alt="AdGuard Home" width="22"/>:</summary>
 
-## Instrucciones de uso con AdGuard Home:
+## Instructions for use with AdGuard Home:
 
-1. Copie el enlace al formato de AdGuard correspondiente a la lista deseada (de la tabla correspondiente a continuación).
-2. Añada la URL a su lista de bloqueo de AdGuard (**Inicio de sesión** > **Filtros** > **Listas de bloqueo DNS** > **Añadir lista de bloqueo** > **Añadir una lista personalizada** > **Introducir nombre** > **Pegar la URL del enlace copiado**)
-3. La lista se activa automáticamente y está lista para empezar a bloquear.
+1. copy the link to the AdGuard format corresponding to the desired list (from the corresponding table below).
+2. Add the URL to your AdGuard block list (**Login** > **Filters** > **DNS block lists** > **Add block list** > **Add a custom list** > **Enter name** > **Paste the URL of the copied link**).
+3. The list is automatically activated and is ready to start blocking.
 
 &nbsp;
-<sup>Las instrucciones son actuales a partir de AdGuard Home v0.107.2</sup>
+<sup>Instructions are current as of AdGuard Home v0.107.2</sup>
 </details>
 &nbsp;
 
-## Configuración Adguard Home®:<img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/AdGuard_Logo.png" alt="AdGuard Home" width="32"/>
+## Adguard Home® configuration:<img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/AdGuard_Logo.png" alt="AdGuard Home" width="32"/>
 
-### Configuración para tener habilitado DNS over TLS o DNS over HTTPS
-En ajustes de AdGuard, configuración de DNS:
-- Servidores DNS de subida, copiar una de estas URLs:
+### Setting to have DNS over TLS or DNS over HTTPS enabled
+In AdGuard settings, DNS settings:
+- Upstream DNS servers, copy one of these URLs:
 
-Para DoH-DoT de Cloudfare:
+For Cloudfare DoH-DoT:
 ```
 https://dns.cloudflare.com/dns-query
 tls://1dot1dot1dot1.cloudflare-dns.com
 ```
-Para DoH-DoT de Quad9:
+For DoH-DoT de Quad9:
 ```
 https://dns.quad9.net/dns-query
 tls://dns.quad9.net
 ```
 
-y marcar la opcion: "**Balanceo de carga**", por defecto esta marcada.
+and check the option: "**Load balancing**", by default this option is checked.
 
-- Servidores DNS de arranque, metemos las DNS que elijamos:
+- Boot DNS servers, we put the DNS of our choice:
 
-Cloudflared tanto en IPv4 como IPv6:
+Cloudflared in both IPv4 and IPv6:
 ```
 1.1.1.1
 1.0.0.1
 2606:4700:4700::1111
 2606:4700:4700::1001
 ```
-Quad9 tanto en IPv4 como IPv6:
+Quad9 in both IPv4 and IPv6:
 ```
 9.9.9.9
 149.112.112.112
@@ -142,80 +142,80 @@ Quad9 tanto en IPv4 como IPv6:
 2620:fe::fe:9
 ```
 
-- Configuración del servidor DNS, marcamos la opcion de "**Habilitar DNSSEC**"
+- DNS server configuration, check the option "**Enable DNSSEC**".
 
-## Añadir dominio para DoH y DoT:
+## Add domain for DoH and DoT:
 
-### Crear el certificado con Let’s Encrypt
+### Create the certificate with Let's Encrypt
 <details>
-    <summary>Crear el certificado personal autofirmado con Let’s Encrypt:</summary>
+    <summary>Create the self-signed personal certificate with Let's Encrypt:</summary>
 
-#### Crear el certificado personal autofirmado con Let’s Encrypt:
-Instalando un certificado SSL gratuito con CertBot:
-1. Actualizamos la lista de paquetes..
+#### Create the self-signed personal certificate with Let's Encrypt:
+Installing a free SSL certificate with CertBot:
+1. We update the list of packages.
 ~~~
 sudo apt-get update
 ~~~
-2. Instalamos el paquete de Certbot
+2. Install the Certbot package
 ~~~
 sudo apt-get install certbot
 ~~~
-3. Ejecuta el siguiente comando modificando el correo electrónico válido para adquirir un certificado Wildcard:
+3. Run the following command modifying the valid email to acquire a Wildcard certificate:
 ~~~
 certbot certonly -d '*.your_domain' --manual --preferred-challenges=dns --email usuario@ejemplo.com --server https://acme-v02.api.letsencrypt.org/directory --agree-tos
 ~~~
-4. Por último, pedirá realizar un registro _acme-challenge tipo TXT en nuestro proveedor de servidores de nombres con el contenido que nos indica:
-Nos crea los siguientes archivos, en el directorio <code>/etc/letsencrypt/live/</code>:
-- <code>fullchain.pem</code> – su certificado SSL codificado en PEM.
-- <code>privkey.pem</code> – su clave privada codificada en PEM.
+4. Finally, it will ask to make an <code>_acme-challenge</code> TXT record in our name server provider with the content it tells us:
+It creates the following files, in the directory <code>/etc/letsencrypt/live/</code>:
+- <code>fullchain.pem</code> – your SSL certificate encrypted in PEM.
+- <code>privkey.pem</code> – your private key encrypted in PEM.
 
 #### Configuración de Lets encrypt
-Pasos a seguir tras solicitar el certificado:
-* Pedirá la introducción del dominio a certificar, indícalo utilizando <code>*.</code> más el dominio que deseas certificar para obtener el Wildcard.
-* Por último, pedirá realizar un registro <code>_acme-challenge</code> tipo TXT en nuestro proveedor de servidores de nombres con el contenido que nos indica.
+Steps to follow after requesting the certificate:
+* You will be prompted to enter the domain to be certified, enter it using <code>*.</code> plus the domain you wish to certify to obtain the Wildcard.
+* Finally, it will ask you to register <code>_acme-challenge</code> TXT type in our name server provider with the content you indicate.
 
-Para comprobar si el certificado se autorenovará:
-* Prueba de renovación (simulación):<code>certbot renew --dry-run</code>
-* Comprueba el estado del servicio de temporizador de Certbot: <code>systemctl status certbot.timer</code>
-* Para renovar un certificado: <code>certbot renew</code>
-	* Para forzar la autorenovación: <code>--force-renewal</code>
-* Para listar los trabajos: <code>systemctl list-timers --all</code> Debe aparecer el siguiente configurado para la renovación automática: <code>certbot.timer - certbot.service</code>
-* Listando certificados: <code>certbot certificates</code>
+To check if the certificate will self-renew:
+* Renewal test (simulación):<code>certbot renew --dry-run</code>
+* Check the status of the Certbot timer service: <code>systemctl status certbot.timer</code>
+* To renew a certificate: <code>certbot renew</code>
+	* To force self-renewal: <code>--force-renewal</code>
+* To list jobs: <code>systemctl list-timers --all</code> Debe aparecer el siguiente configurado para la renovación automática: <code>certbot.timer - certbot.service</code>
+* Listing certificates: <code>certbot certificates</code>
 
-Para revocar un certificado:
-* Eliminar por completo un certificado: <code>certbot delete --cert-name example.com</code>
-* Desde la cuenta para la que se emitió el certificado: <code>certbot revoke --cert-path /etc/letsencrypt/archive/${YOUR_DOMAIN}/cert1.pem</code>
-* Usando la clave privada del certificado: <code>certbot revoke --cert-path /PATH/TO/cert.pem --key-path /PATH/TO/key.pem</code>
+To revoke a certificate:
+* Delete a certificate completely: <code>certbot delete --cert-name example.com</code>
+* From the account for which the certificate was issued: <code>certbot revoke --cert-path /etc/letsencrypt/archive/${YOUR_DOMAIN}/cert1.pem</code>
+* Using the certificate's private key: <code>certbot revoke --cert-path /PATH/TO/cert.pem --key-path /PATH/TO/key.pem</code>
 
-Si no quieren realizar todo estos pasos, pueden obtener el certificado con [Zero SSL](https://zerossl.com/). pero el certificado wildcard es vía pago.
+If you don't want to go through all these steps, you can obtain the certificate with [Zero SSL](https://zerossl.com/). but the wildcard certificate is via payment.
 </details>
 
-### Crear el certificado personal autofirmado con OPENSSL:
+### Create the self-signed personal certificate with OPENSSL:
 <details>
-    <summary>Crear el certificado personal autofirmado:</summary>
+    <summary>Create the self-signed personal certificate:</summary>
 
 #### Crear el certificado personal autofirmado:
 
 Info: [INFO](https://www.busindre.com/comandos_openssl_utiles_para_certificados)
-1. Actualizamos la lista de paquetes..
+1. We update the list of packages.
 ~~~
 sudo apt-get update
 ~~~
-2. Instalamos el paquete de openssl
+2. Install the openssl package
 ~~~
 sudo apt-get install openssl
 ~~~
-3. Creamos el directorio donde queremos almacenar los certificados:
+3. Create the directory where we want to store the certificates:
 ~~~
 mkdir certs 
 cd certs/
 ~~~
-4. Creamos certificado con el siguiente comando, cambiando la ruta del certificado o dejamos el nombre del .key y punto crt para almacenarlo en el directorio:
+4. Create certificate with the following command, changing the certificate path or leave the name of the .key and dot crt to store it in the directory:
 ~~~
 sudo openssl req -x509 -nodes -days 1825 -sha512 -newkey ec -pkeyopt ec_paramgen_curve:prime256v1 -subj "/CN=localhost/O=Tech/C=ES" -addext "subjectAltName = DNS:*.example.org" -keyout privkey.key -out privcert.pem
 ~~~
 
-* Puede que nos pregunte estas preguntas:
+* You may ask us these questions:
 <ul><code>Country Name (2 letter code) [AU]: US</code></ul>
 <ul><code>State or Province Name (full name) [Some-State]: New York</code></ul>
 <ul><code>Locality Name (eg, city) []: New York City</code></ul>
@@ -224,7 +224,7 @@ sudo openssl req -x509 -nodes -days 1825 -sha512 -newkey ec -pkeyopt ec_paramgen
 <ul><code>Common Name (e.g. server FQDN or YOUR name) []: server_IP_address or domain</code></ul>
 <ul><code>Email Address []: admin@your_domain.com</code></ul>
 
-* Notas para el asunto/emisor
+* Notes to the subject/issuer
 <p><ul><code>/C=ES/ST=Spain/L=Madrid/O=Juan Tech/OU=Tech/CN=localhost</code></ul></p>
 <p><ul><code>C = ES</code></ul></p>
 <p><ul><code>ST = Bayern</code></ul></p>
@@ -237,30 +237,30 @@ sudo openssl req -x509 -nodes -days 1825 -sha512 -newkey ec -pkeyopt ec_paramgen
 
 
 ## Configurar certificado en AdGuard Home:
-1. Abra la interfaz web de AdGuard Home y vaya a configuración.
-2. Desplácese en el menú hasta la configuración: <code>Configuración de cifrado</code>.
-3. Habilitar el check <code>Habilitar cifrado (HTTPS, DNS mediante HTTPS y DNS mediante TLS)</code>.
-4. Habilitar <code>Redireccionar a HTTPS automáticamente</code>.
-5. Ingrese su nombre de dominio en <code>Nombre del servidor</code>. Si vas a ingresar un wildcard, ingresar con <code>"*."</code>.
-6. Copie/pegue el contenido del archivo `fullchain.pem` en <code>Certificados</code>.
-7. Copie / pegue el contenido del archivo `privkey.pem` en <code>Clave privada</code>.
-8. Haga clic en <code>Guardar configuración</code>.
+1. Open the AdGuard Home web interface and go to configuration.
+2. Scroll down the menu to settings: <code>Encryption settings</code>.
+3. Enable check<code>Enable encryption (HTTPS, DNS via HTTPS and DNS via TLS)</code>.
+4. Enable <code>Redirect to HTTPS automatically</code>.
+5. Enter your domain name in <code>Server name</code>. If you are entering a wildcard, enter the domain name only<code>"example.com"</code>.
+6. Copy/paste the contents of the file `fullchain.pem` in <code>Certificados</code>.
+7. Copy / paste the contents of the file `privkey.pem` in <code>Private key</code>.
+8. Click <code>Save configuration</code>.
 
-## Configurar el dominio para permitir clientes en DNS privado DoH y DoT:
-Para crear una zona en tu dominio tanto para <code>*.example.org</code> para permitir los clientes, sigue estos pasos:
+## Configure the domain to allow private DNS DoH and DoT clients:
+To create a zone in your domain for both <code>*.example.org</code> to enable clients, follow these steps:
 
 #### Instrucciones de uso:
 
-1. Accede al panel de control de tu proveedor de alojamiento web o del registrador de dominios donde hayas adquirido el nombre de dominio.
-2. Busca la opción de `Zonas DNS`.
-3. Crea una nueva entrada de `Zonas DNS`. Para agregar la entrada `*.example.org`, crea un registro de tipo `CNAME` (Alias) y haz que apunte a `*.example.org`. Esto permitirá que cualquier subdominio que comience con un asterisco, como `subdominio.example.org`.
-4. Configuración de `Configuración/Clientes/Clientes persistentes`. Pulsamos `Añadir clientes` y en `Identificador` creamos un nombre.
+1. Log into the control panel of your web hosting provider or domain registrar where you purchased the domain name.
+2. Look for the option to `Zonas DNS`.
+3. Create a new `DNS Zones` entry. To add the `*.example.org` entry, create a `CNAME` (Alias) record and make it point to `*.example.org`. This will allow any subdomain that starts with an asterisk, such as `subdomain.example.org`.
+4. Configure `Settings/Clients/Persistent Clients`. Click `Add clients` and under `Identifier` create a name.
 
-<sup>Instrucciones actuales en la documentación del desarrollador <a href="https://github.com/AdguardTeam/AdGuardHome/wiki/Clients#clientid">documentación</a>.</sup>
+<sup>Current instructions in the developer's documentation <a href="https://github.com/AdguardTeam/AdGuardHome/wiki/Clients#clientid">documentación</a>.</sup>
 
 
 
-# Listas para Pihole <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/pihole.png" alt="Pi-Hole" width="40"/> y AdGuard Home <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/AdGuard_Logo.png" alt="AdGuard Home" width="32"/>
+# List for Pihole <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/pihole.png" alt="Pi-Hole" width="40"/> and AdGuard Home <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/AdGuard_Logo.png" alt="AdGuard Home" width="32"/>
 
 ## Main safelist
 
@@ -271,7 +271,7 @@ Para crear una zona en tu dominio tanto para <code>*.example.org</code> para per
 
 
 ## Main Black Lists
-<sup>Columna Link: Pi-hole® | Adguard Home®.</sup>
+<sup>Column Link: Pi-hole® | Adguard Home®.</sup>
 
 #### Host
 | List Host | Link | Description |
@@ -340,12 +340,12 @@ Para crear una zona en tu dominio tanto para <code>*.example.org</code> para per
 <sup>Se ha añadido una pestaña para AdGuard con listas adaptadas a su formato.</sup>
 
 
-### Comprobar tu SelfHosted:
+### Check your SelfHosted:
 
 <details>
 <summary>fivefilters:</summary>
 
-<Original>&nbsp;Pagina para comprobar tu selfhosted de fivefilters</Original>
+<Original>&nbsp;Page to check your selfhosted from fivefilters</Original>
 
 <p>  &nbsp;&nbsp;https://blockads.fivefilters.org/</p>
 </details>
@@ -354,7 +354,7 @@ Para crear una zona en tu dominio tanto para <code>*.example.org</code> para per
 <details>
 <summary>d3ward:</summary>
 
-<Original>&nbsp;Pagina para comprobar tu selfhosted de [d3ward](https://d3ward.github.io/toolz/)</Original>
+<Original>&nbsp;Page to check your selfhosted from [d3ward](https://d3ward.github.io/toolz/)</Original>
 
 <p>  &nbsp;&nbsp;https://d3ward.github.io/toolz/adblock.html</p>
 </details>
@@ -363,7 +363,7 @@ Para crear una zona en tu dominio tanto para <code>*.example.org</code> para per
 <details>
 <summary>canyoublockit:</summary>
 
-<Original>&nbsp;Pagina para comprobar tu selfhosted de canyoublockit</Original>
+<Original>&nbsp;Page to check your selfhosted from canyoublockit</Original>
 
 <p>  &nbsp;&nbsp;https://canyoublockit.com/</p>
 </details>
@@ -372,7 +372,7 @@ Para crear una zona en tu dominio tanto para <code>*.example.org</code> para per
 <details>
 <summary>No more ads:</summary>
 
-<Original>&nbsp;Pagina para comprobar tu selfhosted de No more ads</Original>
+<Original>&nbsp;Page to check your selfhosted from No more ads</Original>
 
 <p>  &nbsp;&nbsp;https://ads-blocker.com/es/pruebas/</p>
 </details>
@@ -382,18 +382,18 @@ Para crear una zona en tu dominio tanto para <code>*.example.org</code> para per
 <details>
 <summary>AdBlock Tester:</summary>
 
-<Original>&nbsp;Pagina para comprobar tu selfhosted de AdBlock Tester</Original>
+<Original>&nbsp;Page to check your selfhosted from AdBlock Tester</Original>
 
 <p>  &nbsp;&nbsp;https://adblock-tester.com/</p>
 </details>
 &nbsp;
 
-### Comprobar DoH, DoT y DDNSSEC:
+### Check DoH, DoT and DDNSSEC:
 
 <details>
 <summary>1.1.1.1 de Cloudflare:</summary>
 
-<Original>&nbsp;Pagina para comprobar cifrado de 1.1.1.1 de Cloudflare</Original>
+<Original>&nbsp;Page to check encryption of 1.1.1.1 de Cloudflare</Original>
 
 <p>  &nbsp;&nbsp;https://1.1.1.1/help</p>
 </details>
@@ -402,7 +402,7 @@ Para crear una zona en tu dominio tanto para <code>*.example.org</code> para per
 <details>
 <summary>Tenta VPN Browser:</summary>
 
-<Original>&nbsp;Pagina para comprobar cifrado de Tenta VPN Browser</Original>
+<Original>&nbsp;Page to check encryption of Tenta VPN Browser</Original>
 
 <p>  &nbsp;&nbsp;https://tenta.com/test/</p>
 </details>
@@ -411,18 +411,18 @@ Para crear una zona en tu dominio tanto para <code>*.example.org</code> para per
 <details>
 <summary>Cloudflare:</summary>
 
-<Original>&nbsp;Pagina para comprobar cifrado de Cloudflare</Original>
+<Original>&nbsp;Page to check encryption of Cloudflare</Original>
 
 <p>  &nbsp;&nbsp;https://www.cloudflare.com/es-es/ssl/encrypted-sni/</p>
 
-#### Las tecnologías analizadas son:
-1. Secure DNS: una tecnología que cifra las consultas DNS e incluye DNS-over-TLS y DNS-over-HTTPS.
-2. DNSSEC: tecnología diseñada para verificar la autenticidad de las consultas DNS.
-3. TLS 1.3: la última versión del protocolo TLS que incluye muchas mejoras y cierra brechas de seguridad de las anteriores.
-4. Encrypted SNI: siglas de Server Name Indication cifrado que desvela el nombre del hostname durante una conexión TLS. Esta tecnología busca asegurar que sólo pueda filtrarse la dirección IP.
-<p><sup>El único navegador que soporta las cuatro tecnologías es Firefox.</sup></p>
+#### The technologies analysed are:
+1. Secure DNS: a technology that encrypts DNS queries and includes DNS-over-TLS and DNS-over-HTTPS.
+2. DNSSEC: a technology designed to verify the authenticity of DNS queries.
+3. TLS 1.3: the latest version of the TLS protocol that includes many improvements and closes security holes from previous versions.
+4. Encrypted SNI: stands for Server Name Indication encryption that reveals the hostname during a TLS connection. This technology aims to ensure that only the IP address can be leaked.
+<p><sup>The only browser that supports all four technologies is Firefox.</sup></p>
 
-#### Para activar las tecnologías debemos acceder a `about:config` y activar:
+#### To activate the technologies, go to `about:config` and activate:
 <p>  &nbsp;&nbsp;<code>network.security.esni.enabled</code> - pulsamos en el <code>+</code> y se ponga en <code>true</code>.</p>
 <p>  &nbsp;&nbsp;<code>network.trr.mode</code> – (valor 2)</p>
 <p>  &nbsp;&nbsp;<code>network.trr.uri</code> – <a href="https://mozilla.cloudflare-dns.com/dns-query">valor en la web Mozilla.</a></p>
@@ -433,7 +433,7 @@ Para crear una zona en tu dominio tanto para <code>*.example.org</code> para per
 <details>
 <summary>DNSSEC Resolver Test:</summary>
 
-<Original>&nbsp;Pagina para comprobar cifrado DNSSEC por Matthäus Wander</Original>
+<Original>&nbsp;Page to check DNSSEC encryption by Matthäus Wander</Original>
 
 <p>  &nbsp;&nbsp;http://dnssec.vs.uni-due.de/</p>
 <p>  &nbsp;&nbsp;http://www.dnssec-or-not.com/</p>
@@ -444,21 +444,21 @@ Para crear una zona en tu dominio tanto para <code>*.example.org</code> para per
 <details>
 <summary>DNS leak test:</summary>
 
-<Original>&nbsp;Pagina para comprobar fuga de DNS</Original>
+<Original>&nbsp;Page to check DNS leakage</Original>
 
 <p>  &nbsp;&nbsp;https://www.dnsleaktest.com/</p>
 
 </details>
 &nbsp;
 
-## Aplicaciones android para Pi-hole® o Adguard Home®
-Link al desarrollador de la aplicacion: [![GitHub](https://img.shields.io/static/v1.svg?color=blue&labelColor=555555&logoColor=ffffff&style=social&label=JGeek00&message=GitHub&logo=github)](https://github.com/JGeek00 "view the source for all of our repositories.")
-### Aplicacion android Pi-hole®
+## android applications for Pi-hole® or Adguard Home®.
+Link to the developer of the application: [![GitHub](https://img.shields.io/static/v1.svg?color=blue&labelColor=555555&logoColor=ffffff&style=social&label=JGeek00&message=GitHub&logo=github)](https://github.com/JGeek00 "view the source for all of our repositories.")
+### Pi-hole® android application
 <a href="https://play.google.com/store/apps/details?id=com.jgeek00.droid_hole" target="_blank" rel="noopener noreferrer"><img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/google-play.png" width="60px"></a>
-### Aplicacion android Adguard Home®
+### Adguard Home® android application
 <a href="https://play.google.com/store/apps/details?id=com.jgeek00.adguard_home_manager" target="_blank" rel="noopener noreferrer"><img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/google-play.png" width="60px"></a>
 
-<p><sub>Todos y cada uno de los derechos y responsabilidades correspondientes son propiedad del respectivo desarrollador.</sub></p>
+<p><sub>Any and all rights and responsibilities pertaining thereto remain the property of the respective developer.</sub></p>
 
 ## HELP ME 🙌
 <p> &nbsp;If you want to contribute to improve the lists, open a <code>issue</code> here:  <A HREF="https://github.com/JuanRodenas/Pi-hole_list/issues"> ISSUE </A></p>
@@ -472,8 +472,8 @@ This repository is made with all my love and affection.
 # 🎉 ¡Ready!
 &nbsp;
 
-<sup>Estos archivos/textos se proporcionan "TAL CUAL", sin garantías de ningún tipo, expresas o implícitas, incluidas, entre otras, las garantías de comerciabilidad, idoneidad para un fin determinado y no infracción. En ningún caso los autores o los titulares de los derechos de autor serán responsables de ninguna reclamación, daño u otra responsabilidad derivada de, o relacionada con los archivos o el uso de los mismos.</sup>
+<sup>These files/texts are provided "AS IS", without warranties of any kind, express or implied, including, but not limited to, warranties of merchantability, fitness for a particular purpose and non-infringement. In no event shall the authors or copyright holders be liable for any claims, damages or other liability arising out of or relating to the files or the use thereof.</sup>
 
-<sub>Todas y cada una de las marcas registradas son propiedad de sus respectivos dueños.</sub>
+<sub>Any and all trademarks are the property of their respective owners.</sub>
 
-<p><sup>Iré actualizando con información y añadiendo procedimientos en mi tiempo libre.</sup></p>
+<p><sup>I will be updating with information and adding procedures in my spare time.</sup></p>

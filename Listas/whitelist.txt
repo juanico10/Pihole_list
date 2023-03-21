@@ -161,6 +161,7 @@ info.cloudflare.com
 links1.m.myunidays.com
 @@||pokemon.com^
 assets.adobedtm.com
+cloudfront-labs.amazonaws.com
 
 #### Microsoft
 @@||azure.com^

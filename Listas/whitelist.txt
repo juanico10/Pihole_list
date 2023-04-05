@@ -164,6 +164,7 @@ assets.adobedtm.com
 cloudfront-labs.amazonaws.com
 @@||appsflyer.com^
 blog.pixelexperience.org
+static.cloud.coveo.com
 
 #### Microsoft
 @@||azure.com^
@@ -195,6 +196,7 @@ spoppe-b.azureedge.net
 odinvzc.azureedge.net
 sapphire.azureedge.net
 arc.msn.com
+download.visualstudio.microsoft.com
 
 #### Aliexpress y wallapop
 app.launchdarkly.com

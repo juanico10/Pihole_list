@@ -183,7 +183,7 @@ c.microsoft.com
 api.onedrive.com
 npwuscdn-onenote.azureedge.net
 config.teams.microsoft.com
-download.windowsupdate.com
+@@||download.windowsupdate.com^
 login.microsoftonline.com
 www.msftncsi.com
 i.s-microsoft.com

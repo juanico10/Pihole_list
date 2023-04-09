@@ -165,6 +165,9 @@ cloudfront-labs.amazonaws.com
 @@||appsflyer.com^
 blog.pixelexperience.org
 static.cloud.coveo.com
+cn.pccomponentes.com
+logo.clearbit.com
+
 
 #### Microsoft
 @@||azure.com^

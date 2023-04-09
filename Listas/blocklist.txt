@@ -5157,6 +5157,7 @@
 ||zy16eoat1w.com^
 ||zzhc.vnet.cn^
 ||zzhc.vnet.cn^
+||app-measurement.com^
 
 
 ########### REGEX
@@ -5303,5 +5304,11 @@
 ||sendspace.com^
 ||fex.net^
 ||transfer.sh^
-||send.exploit.	in^
+||send.exploit.in^
 ||temp.sh^
+
+
+# whatsapp
+||dit.whatsapp.net^
+||crashlogs.whatsapp.net^
+||privatestats.whatsapp.net^

@@ -167,7 +167,12 @@ blog.pixelexperience.org
 static.cloud.coveo.com
 cn.pccomponentes.com
 logo.clearbit.com
+www.etsy.com
 
+# HBO
+sessions.api.hbo.com
+oauth.api.hbo.com
+static.hbo.com
 
 #### Microsoft
 @@||azure.com^

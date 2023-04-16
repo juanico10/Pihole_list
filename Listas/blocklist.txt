@@ -2228,7 +2228,6 @@
 ||githùb.com^
 ||githüb.com^
 ||githūb.com^
-||githᴜb.com^
 ||gitihub.com^
 ||gitiub.com^
 ||gitjhub.com^
@@ -2323,7 +2322,6 @@
 ||gww.duckdns.org^
 ||gythub.com^
 ||gìthub.com^
-||gıthub.com^
 ||h-bid.com^
 ||h0.t.hubspotemail.net^
 ||h78xb.pw^
@@ -2833,7 +2831,6 @@
 ||mail.googyle.com^
 ||mail.googzle.com^
 ||mail.googīe.com^
-||mail.googɩe.com^
 ||mail.goohgle.com^
 ||mail.goohle.com^
 ||mail.gookgle.com^
@@ -2853,7 +2850,6 @@
 ||mail.gooġle.com^
 ||mail.gooģle.com^
 ||mail.gooǥle.com^
-||mail.gooɡle.com^
 ||mail.gooɢle.com^
 ||mail.gopgle.com^
 ||mail.goơgle.com^
@@ -2897,8 +2893,6 @@
 ||mail.ġoogle.com^
 ||mail.ģoogle.com^
 ||mail.ǥoogle.com^
-||mail.ɡooɡle.com^
-||mail.ɡᴏᴏɡle.com^
 ||mail.ɢoogle.com^
 ||mailgoogle.com^
 ||main.df70hszwdo6v0.amplifyapp.com^
@@ -4664,7 +4658,6 @@
 ||web.whytsapp.com^
 ||web.whzatsapp.com^
 ||web.whztsapp.com^
-||web.whɑtsɑpp.com^
 ||web.whạtsapp.com^
 ||web.wiatsapp.com^
 ||web.wihatsapp.com^
@@ -4681,7 +4674,6 @@
 ||web.wxatsapp.com^
 ||web.wyhatsapp.com^
 ||web.xhatsapp.com^
-||web.ᴡhatsapp.com^
 ||web.ẉhatsapp.com^
 ||web2.deja.com^
 ||webads.co.nz^
@@ -5178,7 +5170,6 @@
 /(^|\.)ru$/
 /(^|\.)su$/
 /(^|\.)by$/
-/(^|\.)РУС$/
 /(^|\.)РФ$/
 /(^|\.)hk$/
 /(^|\.)cn$/

@@ -168,6 +168,8 @@ static.cloud.coveo.com
 cn.pccomponentes.com
 logo.clearbit.com
 www.etsy.com
+crl.digicert.cn
+ocsp.digicert.cn
 
 # HBO
 sessions.api.hbo.com
@@ -205,6 +207,12 @@ odinvzc.azureedge.net
 sapphire.azureedge.net
 arc.msn.com
 download.visualstudio.microsoft.com
+
+#### PC Manager Microsoft
+pcmanager.officeplus.cn
+sdk.privacy-center.org
+pcmactivity.chinacloudsites.cn
+pcmanager.microsoft.com
 
 #### Aliexpress y wallapop
 app.launchdarkly.com

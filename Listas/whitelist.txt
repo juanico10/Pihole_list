@@ -171,7 +171,8 @@ www.etsy.com
 crl.digicert.cn
 ocsp.digicert.cn
 correos.tt.omtrdc.net
-
+servicelayer.king.com
+farmheroesmobile.king.com
 
 # HBO
 sessions.api.hbo.com
@@ -255,3 +256,4 @@ ampcid.google.com
 stun.l.google.com
 beacons.gvt2.com
 beacons.gcp.gvt2.com
+www.youtube-nocookie.com

@@ -179,7 +179,7 @@ static.hbo.com
 #### Microsoft
 @@||azure.com^
 azure.microsoft.com
-office.com
+c.office.com
 office365.com
 outlookmobile-office365-tas.msedge.net
 settings-win.data.microsoft.com
@@ -220,6 +220,13 @@ events.launchdarkly.com
 clientstream.launchdarkly.com
 logx.optimizely.com
 s.click.aliexpress.com
+
+#### ChatGPT
+widget.intercom.io
+nexus-websocket-a.intercom.io
+api-iam.intercom.io
+js.intercomcdn.com
+chat.openai.com
 
 #### Google
 @@||googleapis.com^

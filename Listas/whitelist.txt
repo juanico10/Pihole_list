@@ -170,6 +170,8 @@ www.etsy.com
 crl.digicert.cn
 ocsp.digicert.cn
 correos.tt.omtrdc.net
+cp.certmetrics.com
+api.certmetrics.com
 
 # HBO
 sessions.api.hbo.com

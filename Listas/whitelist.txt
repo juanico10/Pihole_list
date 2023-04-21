@@ -142,10 +142,9 @@ www.cyberciti.biz
 global.cainiao.com
 reddit.app.link
 app.adjust.com
-linksynergy.com
+www.linksynergy.com
 www.therapychat.com
 static.mailerlite.com
-sysdig.com
 aqueduct.revolutlabs.com
 chat.revolut.com
 api.revolut.com
@@ -259,3 +258,4 @@ tunnel.googlezip.net
 dns-tunnel-check.googlezip.net
 ota.googlezip.net
 ota-cache1.googlezip.net
+@@-ds.metric.gstatic.com^|$important

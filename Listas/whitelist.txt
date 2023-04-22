@@ -174,7 +174,11 @@ cp.certmetrics.com
 api.certmetrics.com
 c.paypal.com
 t.paypal.com
+creativecdn.com
+fledge-usa.creativecdn.com
+tags.creativecdn.com
 us.creativecdn.com
+statics-usa.creativecdn.com
 
 # HBO
 sessions.api.hbo.com

@@ -179,6 +179,8 @@ fledge-usa.creativecdn.com
 tags.creativecdn.com
 us.creativecdn.com
 statics-usa.creativecdn.com
+ced.sascdn.com
+loader.unblockia.com
 
 # HBO
 sessions.api.hbo.com

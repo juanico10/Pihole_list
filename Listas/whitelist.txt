@@ -172,6 +172,9 @@ ocsp.digicert.cn
 correos.tt.omtrdc.net
 cp.certmetrics.com
 api.certmetrics.com
+c.paypal.com
+t.paypal.com
+us.creativecdn.com
 
 # HBO
 sessions.api.hbo.com

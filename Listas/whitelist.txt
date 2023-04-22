@@ -155,12 +155,9 @@ crt.sectigo.com
 nativesdks.mparticle.com
 identity.mparticle.com
 api.eu-west-1.aiv-delivery.net
-tracksp.cloudflare.com
-info.cloudflare.com
 links1.m.myunidays.com
 @@||pokemon.com^
 assets.adobedtm.com
-cloudfront-labs.amazonaws.com
 @@||appsflyer.com^
 blog.pixelexperience.org
 static.cloud.coveo.com
@@ -181,8 +178,13 @@ us.creativecdn.com
 statics-usa.creativecdn.com
 ced.sascdn.com
 loader.unblockia.com
+alb.reddit.com
 
-# HBO
+#### Cloufdare
+cloudfront-labs.amazonaws.com
+@@.cloudfront.net^|
+
+#### HBO
 sessions.api.hbo.com
 oauth.api.hbo.com
 static.hbo.com
@@ -238,6 +240,12 @@ nexus-websocket-a.intercom.io
 api-iam.intercom.io
 js.intercomcdn.com
 chat.openai.com
+
+#### King
+farmheroesmobile.king.com
+servicelayer.king.com
+king-contenido-prod.secure2.footprint.net
+king-farmking-prod.secure2.footprint.net
 
 #### Google
 @@||googleapis.com^

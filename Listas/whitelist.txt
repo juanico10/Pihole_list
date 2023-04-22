@@ -67,7 +67,6 @@ download.amd.com
 t.me
 telegram.me
 td.telegram.org
-sdk.iad-03.braze.com
 apple.com
 amazonaws.com
 amazonwebservices.com
@@ -80,13 +79,12 @@ radio.garden
 unsplash.com
 www.amazon.es
 www.amazon.com
-@@||addons.mozilla.org^
+@@addons.mozilla.org^|
 www.solvetic.com
 aip.enaire.es
 sourceforge.net
 wallhaven.cc
 in.appcenter.ms
-ggpht.com
 redirector.gvt1.com
 candycrush.king.com
 dynupdate.no-ip.com
@@ -104,7 +102,6 @@ clickio.mgr.consensu.org
 quantcast.mgr.consensu.org
 trustarc.mgr.consensu.org
 @@||minexmr.com^
-g.live.com
 safeweb.norton.com
 www.fosshub.com
 apis.justwatch.com
@@ -119,7 +116,6 @@ monitor.firefox.com
 download.mozilla.org
 www.mozilla.org
 view.genial.ly
-getpocket.com
 accounts.firefox.com
 gld.push.samsungosp.com
 china-gld.push.samsungosp.com.cn
@@ -220,6 +216,7 @@ odinvzc.azureedge.net
 sapphire.azureedge.net
 arc.msn.com
 download.visualstudio.microsoft.com
+g.live.com
 
 #### PC Manager Microsoft
 pcmanager.officeplus.cn
@@ -285,3 +282,4 @@ dns-tunnel-check.googlezip.net
 ota.googlezip.net
 ota-cache1.googlezip.net
 @@-ds.metric.gstatic.com^|$important
+ggpht.com

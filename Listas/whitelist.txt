@@ -192,6 +192,10 @@ c.office.com
 office365.com
 outlookmobile-office365-tas.msedge.net
 settings-win.data.microsoft.com
+self.events.data.microsoft.com
+eu-teams.events.data.microsoft.com
+teams.events.data.microsoft.com
+@@.delivery.mp.microsoft.com^|
 outlook.live.com
 outlook.office365.com
 storage.live.com
@@ -209,7 +213,7 @@ cdn.onenote.net
 www.onenote.com
 1drv.ms
 apps.skype.com
-@@||onedrive.live.com^
+onedrive.live.com
 @@||xboxlive.com^
 spoppe-b.azureedge.net
 odinvzc.azureedge.net

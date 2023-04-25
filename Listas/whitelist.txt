@@ -175,6 +175,8 @@ statics-usa.creativecdn.com
 ced.sascdn.com
 loader.unblockia.com
 alb.reddit.com
+www.balena.io
+
 
 #### Cloufdare
 cloudfront-labs.amazonaws.com
@@ -247,6 +249,13 @@ farmheroesmobile.king.com
 servicelayer.king.com
 king-contenido-prod.secure2.footprint.net
 king-farmking-prod.secure2.footprint.net
+
+#### newsletters
+link.email.nianticlabs.com
+click.mlsend.com
+newsletter.ene.ba
+click.mail.teashop.com
+inbound.studentbeans.com
 
 #### Google
 @@||googleapis.com^

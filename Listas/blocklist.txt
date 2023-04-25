@@ -5696,6 +5696,11 @@
 ||zukxd6fkxqn.com^
 ||zy16eoat1w.com^
 ||zzhc.vnet.cn^
+||2317.denylosscity.live^
+||denylosscity.live^
+||sweetwins.life^
+||hjckkdn.scuolanazionalepastorizia.it^
+||scuolanazionalepastorizia.it^
 
 
 ########### REGEX

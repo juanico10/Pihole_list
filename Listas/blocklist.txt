@@ -2051,7 +2051,6 @@
 ||eventlogger.soundcloud.com^
 ||events-eu.freshsuccess.com^
 ||events-us.freshsuccess.com^
-||events.data.microsoft.com^
 ||events.jora.com^
 ||events.privy.com^
 ||events.reddit.com^
@@ -5724,7 +5723,6 @@
 /(^|\.)РФ$/
 /(^|\.)hk$/
 /(^|\.)cn$/
-/(^|\.)cat$/
 /(^|\.)zip$/
 /(^|\.)kin$/
 /(^|\.)gq$/

@@ -194,9 +194,7 @@ c.office.com
 office365.com
 outlookmobile-office365-tas.msedge.net
 settings-win.data.microsoft.com
-self.events.data.microsoft.com
-eu-teams.events.data.microsoft.com
-teams.events.data.microsoft.com
+@@data.microsoft.com^|
 @@.delivery.mp.microsoft.com^|
 outlook.live.com
 outlook.office365.com

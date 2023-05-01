@@ -5700,6 +5700,8 @@
 ||sweetwins.life^
 ||hjckkdn.scuolanazionalepastorizia.it^
 ||scuolanazionalepastorizia.it^
+||es.bbva-portal-clientes.com^
+||bbva-portal-clientes.com^
 
 
 ########### REGEX

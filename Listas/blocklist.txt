@@ -4028,7 +4028,6 @@
 ||semasio.net^
 ||send.vpcontact.com^
 ||sendmepixel.com^
-||sentry.io^
 ||separatesilver.com^
 ||serbatic-06593.vass.inet^$important
 ||serbatic.com.mx^
@@ -5700,7 +5699,6 @@
 ||sweetwins.life^
 ||hjckkdn.scuolanazionalepastorizia.it^
 ||scuolanazionalepastorizia.it^
-||es.bbva-portal-clientes.com^
 ||bbva-portal-clientes.com^
 
 

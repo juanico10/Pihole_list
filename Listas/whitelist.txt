@@ -120,8 +120,15 @@ accounts.firefox.com
 gld.push.samsungosp.com
 china-gld.push.samsungosp.com.cn
 www.somosxbox.com
-movil.bbva.es
 img.yana.asideas.de
+api.revolut.com
+aqueduct.revolutlabs.com
+assets.revolut.com
+cdn.revolut.com
+chat.revolut.com
+merchant-mgmt.revolut.com
+sso.revolut.com
+www.revolut.com
 prod.yana.asideas.de
 data.madridista-premium.realmadrid.com
 adhandler.kissfmradio.cires21.com
@@ -141,11 +148,11 @@ app.adjust.com
 www.linksynergy.com
 www.therapychat.com
 static.mailerlite.com
-aqueduct.revolutlabs.com
-chat.revolut.com
-api.revolut.com
-cdn.revolut.com
-www.revolut.com
+gam.movil.bbva.es
+movil.bbva.es
+servicios.bbva.es
+web.bbva.es
+www.bbva.es
 services.fandom.com
 crt.sectigo.com
 nativesdks.mparticle.com
@@ -176,7 +183,6 @@ ced.sascdn.com
 loader.unblockia.com
 alb.reddit.com
 www.balena.io
-
 
 #### Cloufdare
 cloudfront-labs.amazonaws.com

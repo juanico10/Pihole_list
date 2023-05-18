@@ -183,6 +183,7 @@ ced.sascdn.com
 loader.unblockia.com
 alb.reddit.com
 www.balena.io
+store.steampowered.com
 
 #### Cloufdare
 cloudfront-labs.amazonaws.com
@@ -261,6 +262,8 @@ click.mlsend.com
 newsletter.ene.ba
 click.mail.teashop.com
 inbound.studentbeans.com
+app.getresponse.com
+
 
 #### Google
 @@||googleapis.com^

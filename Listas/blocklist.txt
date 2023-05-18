@@ -5700,7 +5700,8 @@
 ||hjckkdn.scuolanazionalepastorizia.it^
 ||scuolanazionalepastorizia.it^
 ||bbva-portal-clientes.com^
-
+||bazaarvoice.com^
+||foo.com^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

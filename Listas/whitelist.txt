@@ -304,3 +304,5 @@ ota.googlezip.net
 ota-cache1.googlezip.net
 @@-ds.metric.gstatic.com^|$important
 ggpht.com
+inbox.google.com
+mtalk.google.com

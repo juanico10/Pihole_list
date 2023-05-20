@@ -263,7 +263,7 @@ newsletter.ene.ba
 click.mail.teashop.com
 inbound.studentbeans.com
 app.getresponse.com
-
+click.linksynergy.com
 
 #### Google
 @@||googleapis.com^

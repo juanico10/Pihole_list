@@ -161,7 +161,8 @@ sudo apt-get install certbot
 ~~~
 3. Run the following command modifying the valid email to acquire a Wildcard certificate:
 ~~~
-certbot certonly -d '*.your_domain' --manual --preferred-challenges=dns --email usuario@ejemplo.com --server https://acme-v02.api.letsencrypt.org/directory --agree-tos
+certbot certonly --manual --preferred-challenges=dns --email usuario@ejemplo.com --agree-tos --server https://acme-v02.api.letsencrypt.org/directory -d "*.your_domain"
+
 ~~~
 4. Finally, it will ask to make an <code>_acme-challenge</code> TXT record in our name server provider with the content it tells us:
 It creates the following files, in the directory <code>/etc/letsencrypt/live/</code>:
@@ -211,7 +212,7 @@ cd certs/
 ~~~
 4. Create certificate with the following command, changing the certificate path or leave the name of the .key and dot crt to store it in the directory:
 ~~~
-sudo openssl req -x509 -nodes -days 1825 -sha512 -newkey ec -pkeyopt ec_paramgen_curve:prime256v1 -subj "/CN=localhost/O=Tech/C=ES" -addext "subjectAltName = DNS:*.example.org" -keyout privkey.key -out privcert.pem
+sudo openssl req -x509 -nodes -days 1825 -sha384 -newkey ec:secp384r1 -keyout privkey.key -out privcert.pem
 ~~~
 
 * You may ask us these questions:
@@ -222,15 +223,6 @@ sudo openssl req -x509 -nodes -days 1825 -sha512 -newkey ec -pkeyopt ec_paramgen
 <ul><code>Organizational Unit Name (eg, section) []: Ministry of Water Slides</code></ul>
 <ul><code>Common Name (e.g. server FQDN or YOUR name) []: server_IP_address or domain</code></ul>
 <ul><code>Email Address []: admin@your_domain.com</code></ul>
-
-* Notes to the subject/issuer
-<p><ul><code>/C=ES/ST=Spain/L=Madrid/O=Juan Tech/OU=Tech/CN=localhost</code></ul></p>
-<p><ul><code>C = ES</code></ul></p>
-<p><ul><code>ST = Bayern</code></ul></p>
-<p><ul><code>L = Munich</code></ul></p>
-<p><ul><code>O = Inventos</code></ul></p>
-<p><ul><code>OU = Tech</code></ul></p>
-<p><ul><code>CN = localhost</code></ul></p>
 
 </details>
 
@@ -455,11 +447,15 @@ Once the data has been changed, restart adguard.
 <details>
 <summary>DNSSEC Resolver Test:</summary>
 
-<Original>&nbsp;Page to check DNSSEC encryption by Matthäus Wander</Original>
+<Original>&nbsp;Page to check DNSSEC</Original>
 
 <p>  &nbsp;&nbsp;http://dnssec.vs.uni-due.de/</p>
 <p>  &nbsp;&nbsp;http://www.dnssec-or-not.com/</p>
 <p>  &nbsp;&nbsp;http://en.conn.internet.nl/connection/</p>
+<p>  &nbsp;&nbsp;https://wander.science/projects/dns/dnssec-resolver-test/</p>
+
+<Original>&nbsp;Page to check DNSSEC encryption</Original>
+<p>  &nbsp;&nbsp;https://rootcanary.org/test.html</p>
 </details>
 &nbsp;
 

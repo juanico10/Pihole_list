@@ -5702,6 +5702,7 @@
 ||bbva-portal-clientes.com^
 ||bazaarvoice.com^
 ||foo.com^
+||r.d4v.is^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important
@@ -5725,6 +5726,7 @@
 /(^|\.)hk$/
 /(^|\.)cn$/
 /(^|\.)zip$/
+/(^|\.)mov$/
 /(^|\.)kin$/
 /(^|\.)gq$/
 /(^|\.)ga$/

@@ -186,6 +186,8 @@ www.balena.io
 store.steampowered.com
 static.atgsvcs.com
 rules.atgsvcs.com
+s.correosexpress.com
+startpage.com
 
 #### Cloufdare
 cloudfront-labs.amazonaws.com

@@ -5802,6 +5802,18 @@
 ||zukxd6fkxqn.com^
 ||zy16eoat1w.com^
 ||zzhc.vnet.cn^
+<<<<<<< HEAD
+=======
+||2317.denylosscity.live^
+||denylosscity.live^
+||sweetwins.life^
+||hjckkdn.scuolanazionalepastorizia.it^
+||scuolanazionalepastorizia.it^
+||bbva-portal-clientes.com^
+||bazaarvoice.com^
+||foo.com^
+||r.d4v.is^
+>>>>>>> f586c82d4674e111a68d4a76e7875aa50e3c90cd
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important
@@ -5825,6 +5837,9 @@
 /(^|\.)hk$/
 /(^|\.)cn$/
 /(^|\.)zip$/
+/(^|\.)mov$/
+/(^|\.)FOO$/
+/(^|\.)PHD$/
 /(^|\.)kin$/
 /(^|\.)gq$/
 /(^|\.)ga$/

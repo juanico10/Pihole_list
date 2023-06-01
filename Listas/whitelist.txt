@@ -184,6 +184,8 @@ loader.unblockia.com
 alb.reddit.com
 www.balena.io
 store.steampowered.com
+static.atgsvcs.com
+rules.atgsvcs.com
 
 #### Cloufdare
 cloudfront-labs.amazonaws.com

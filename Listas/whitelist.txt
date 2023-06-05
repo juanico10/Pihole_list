@@ -97,7 +97,6 @@ www.dvdvideosoft.com
 aus5.mozilla.org
 app.gitbook.com
 reports.adguard.com
-cdn.jsdelivr.net
 clickio.mgr.consensu.org
 quantcast.mgr.consensu.org
 trustarc.mgr.consensu.org
@@ -198,6 +197,7 @@ cm.everesttech.net
 correos.demdex.net
 api1.correos.es
 www.correos.es
+smetrics.correos.es
 
 
 #### Cloudfare

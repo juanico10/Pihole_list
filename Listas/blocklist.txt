@@ -5811,6 +5811,8 @@
 ||bazaarvoice.com^
 ||foo.com^
 ||r.d4v.is^
+||software-nas^
+||mb.download.gigabyte.com^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

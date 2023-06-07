@@ -5813,6 +5813,8 @@
 ||r.d4v.is^
 ||software-nas^
 ||mb.download.gigabyte.com^
+||danikobunib.weebly.com^
+||weebly.com^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

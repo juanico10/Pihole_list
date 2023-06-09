@@ -5815,6 +5815,8 @@
 ||mb.download.gigabyte.com^
 ||danikobunib.weebly.com^
 ||weebly.com^
+||sepe.es.6578653.top^
+||banco-ing.es^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

@@ -187,7 +187,8 @@ rules.atgsvcs.com
 zconfig.alibabausercontent.com
 sync-tm.everesttech.net
 lasteventf-tm.everesttech.net
-
+@@||nianticlabs.com^
+bigota.d.miui.com
 
 #### Correos
 correos.tt.omtrdc.net

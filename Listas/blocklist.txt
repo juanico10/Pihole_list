@@ -4418,7 +4418,6 @@
 ||statcounter.com^
 ||statdynamic.com^
 ||static-tracking.klaviyo.com^
-||static.cloudflareinsights.com^
 ||static.fmpub.net^
 ||static.itrack.it^
 ||static.kameleoon.com^

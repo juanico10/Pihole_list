@@ -158,9 +158,9 @@ nativesdks.mparticle.com
 identity.mparticle.com
 api.eu-west-1.aiv-delivery.net
 links1.m.myunidays.com
-@@||pokemon.com^
+@@||pokemon.com^|
 assets.adobedtm.com
-@@||appsflyer.com^
+@@||appsflyer.com^|
 blog.pixelexperience.org
 static.cloud.coveo.com
 cn.pccomponentes.com
@@ -187,8 +187,11 @@ rules.atgsvcs.com
 zconfig.alibabausercontent.com
 sync-tm.everesttech.net
 lasteventf-tm.everesttech.net
-@@||nianticlabs.com^
+@@.nianticlabs.com^|
 bigota.d.miui.com
+@@.upd.kaspersky.com^|
+iptvremote.blogspot.com
+
 
 #### Correos
 correos.tt.omtrdc.net

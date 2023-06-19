@@ -5816,6 +5816,12 @@
 ||weebly.com^
 ||sepe.es.6578653.top^
 ||banco-ing.es^
+||kwjsun.com^
+||apncar.net^
+||ncnfitness.net^
+||psjgame.com^
+||rrdcar.info^
+||news.dominos.fr^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

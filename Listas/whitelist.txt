@@ -191,7 +191,7 @@ lasteventf-tm.everesttech.net
 bigota.d.miui.com
 @@.upd.kaspersky.com^|
 iptvremote.blogspot.com
-
+static.wikia.nocookie.net
 
 #### Correos
 correos.tt.omtrdc.net

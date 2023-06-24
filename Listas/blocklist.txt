@@ -5822,6 +5822,35 @@
 ||psjgame.com^
 ||rrdcar.info^
 ||news.dominos.fr^
+||archive.zip^
+||attachment.zip^
+||auto-update.zip^
+||bomb.zip^
+||candidates.xls.zip^
+||cdn.master-latest.zip^
+||clientdocs.zip^
+||community.zip^
+||download.zip^
+||e-mails.zip^
+||elonmusk.zip^
+||google-drive.zip^
+||invoice.zip^
+||joomla.zip^
+||jpg.zip^
+||latest.master-latest.zip^
+||m365instal.zip^
+||microsoft-office.zip^
+||microsoft.zip^
+||microsoftoutlook.zip^
+||nuke.zip^
+||office365update.zip^
+||officeupdate.zip^
+||package.zip^
+||paypal.zip^
+||report2023.zip^
+||sample.zip^
+||web.zip^
+
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

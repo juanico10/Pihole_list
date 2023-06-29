@@ -5850,6 +5850,10 @@
 ||report2023.zip^
 ||sample.zip^
 ||web.zip^
+||changexbit.com^
+||devi-finance.org^
+||shmncbd.com^
+
 
 
 ########### REGEX
@@ -5953,6 +5957,7 @@
 ||vodafone.pt^
 ||vodafone.com.pt^
 ||lowi.es^
+||darbaja.es^
 
 ### DOMAINS GROUP NORTON
 ||buynorton.co.kr^

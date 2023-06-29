@@ -192,6 +192,9 @@ bigota.d.miui.com
 @@.upd.kaspersky.com^|
 iptvremote.blogspot.com
 static.wikia.nocookie.net
+www.mi.com
+www.cinemascomics.com
+
 
 #### Correos
 correos.tt.omtrdc.net

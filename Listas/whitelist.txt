@@ -194,6 +194,7 @@ iptvremote.blogspot.com
 static.wikia.nocookie.net
 www.mi.com
 www.cinemascomics.com
+www.awin1.com
 
 
 #### Correos
@@ -251,6 +252,7 @@ sapphire.azureedge.net
 arc.msn.com
 download.visualstudio.microsoft.com
 g.live.com
+ajax.aspnetcdn.com
 
 #### PC Manager Microsoft
 pcmanager.officeplus.cn

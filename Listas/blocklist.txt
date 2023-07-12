@@ -5853,7 +5853,9 @@
 ||changexbit.com^
 ||devi-finance.org^
 ||shmncbd.com^
-
+||sp-correos^
+||bsh-entregas.es^
+||t-online.de^
 
 
 ########### REGEX

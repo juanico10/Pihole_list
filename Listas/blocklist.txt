@@ -5856,6 +5856,10 @@
 ||sp-correos^
 ||bsh-entregas.es^
 ||t-online.de^
+||liderak.com^
+||forms.zohopublic.eu^
+||zfrmz.eu^
+||www.your-promos.com^
 
 
 ########### REGEX

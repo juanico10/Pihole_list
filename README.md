@@ -109,6 +109,9 @@ These lists were created because I wanted something with a bit more control over
 
 ## Adguard Home® configuration: <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/adguard_home_lightmode.svg" alt="AdGuard Home" width="100"/>
 
+## General configuration
+- One of the recommendations, in AdGuard settings, General configuration, Filter update interval in 1 hour. It will update the rules every hour.
+
 ### Setting to have DNS over TLS or DNS over HTTPS enabled
 In AdGuard settings, DNS settings:
 - Upstream DNS servers, copy one of these URLs:
@@ -188,7 +191,9 @@ To revoke a certificate:
 * From the account for which the certificate was issued: <code>certbot revoke --cert-path /etc/letsencrypt/archive/${YOUR_DOMAIN}/cert1.pem</code>
 * Using the certificate's private key: <code>certbot revoke --cert-path /PATH/TO/cert.pem --key-path /PATH/TO/key.pem</code>
 
-If you don't want to go through all these steps, you can obtain the certificate with [![ZeroSSL](https://img.shields.io/badge/-ZeroSSL-3849b8?style=flat&labelColor=3849b8)](https://zerossl.com/). but the wildcard certificate is via payment.
+<p>If you do not want to follow all these steps, you can obtain the certificate with <code>ZeroSSL</code>, but the wildcard certificate is charged.</p>
+<p><a href="https://zerossl.com/"><img src="https://img.shields.io/badge/-ZeroSSL-3849b8?style=flat&labelColor=3849b8" alt="ZeroSSL"></a></p>
+
 </details>
 
 ### Create the self-signed personal certificate with OPENSSL:
@@ -196,8 +201,10 @@ If you don't want to go through all these steps, you can obtain the certificate 
     <summary>Create the self-signed personal certificate:</summary>
 
 #### Crear el certificado personal autofirmado:
-Steps you can follow to create a self-signed RSA certificate using OpenSSL with SHA-512 and Subject Alternative Names (SAN).
-To learn more about on useful openssl commands for certificates: [![Link](https://img.shields.io/badge/-Link-learn-c4302b?style=flat&labelColor=c4302b)](https://www.busindre.com/comandos_openssl_utiles_para_certificados)
+<p>Steps you can follow to create a self-signed RSA certificate using OpenSSL with SHA-512 and Subject Alternative Names (SAN).</p>
+<p>To learn more about on useful openssl commands for certificates:</p>
+<p><a href="https://www.busindre.com/comandos_openssl_utiles_para_certificados"><img src="https://img.shields.io/badge/-Link-df8a47?style=flat&labelColor=df8a47" alt="Link"></a></p>
+
 1. We update the list of packages.
 ~~~shell
 sudo apt update && sudo apt upgrade
@@ -253,7 +260,7 @@ cd certs/
 </details>
 
 
-## Configure certificate in AdGuard Home:
+### Configure certificate in AdGuard Home:
 1. Open the AdGuard Home web interface and go to configuration.
 2. Scroll down the menu to settings: <code>Encryption settings</code>.
 3. Enable check<code>Enable encryption (HTTPS, DNS via HTTPS and DNS via TLS)</code>.
@@ -263,7 +270,7 @@ cd certs/
 7. Copy / paste the contents of the file `privkey.pem` in <code>Private key</code>.
 8. Click <code>Save configuration</code>.
 
-## Configure the domain to allow private DNS DoH and DoT clients:
+### Configure the domain to allow private DNS DoH and DoT clients:
 To create a zone in your domain to enable clients, follow these steps:
 
 1. Mainly in the encryption Adguard section, you must enable the domain <code>example.org</code>.

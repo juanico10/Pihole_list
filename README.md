@@ -155,11 +155,11 @@ Quad9 in both IPv4 and IPv6:
 Installing a free SSL certificate with CertBot:
 1. We update the list of packages.
 ~~~shell
-sudo apt-get update
+sudo apt update && sudo apt upgrade
 ~~~
 2. Install the Certbot package
 ~~~shell
-sudo apt-get install certbot
+sudo apt install certbot
 ~~~
 3. Run the following command modifying the valid email to acquire a Wildcard certificate:
 ~~~shell
@@ -212,21 +212,22 @@ mkdir certs &&\
 cd certs/
 ~~~
 4. Create certificate with the following command, changing the certificate path or leave the name of the .key and dot crt to store it in the directory:
+
 	4.1 Generate an RSA private key:
-	~~~shell
-	vi csrconfig.cnf
-	~~~
 	~~~shell
 	openssl genpkey -algorithm RSA -out privkey.key -pkeyopt rsa_keygen_bits:2048
 	~~~
 	4.2 Next, we will create a certificate request (CSR) which will contain the certificate information:
+	~~~shell
+	vi csrconfig.cnf
+	~~~
 	~~~shell
 	[req]
 	distinguished_name = req_distinguished_name
 	req_extensions = v3_req
 
 	[req_distinguished_name]
-	commonName = your website's domain name
+	commonName = your website domain name
 	organizationName = Your Company Name
 	countryName = ES
 

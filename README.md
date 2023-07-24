@@ -16,7 +16,7 @@ The project <strong>Pi-hole_list</strong> is a project in which we block and pro
 ## Links to installation or developer
 | PROJECT | INSTALLER LINK | DEVELOPER LINK |
 | :-- | :--: | :--: |
-| <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/AdGuard_Logo.png" alt="AdGuard Home" width="80"/> Adguard Home® | [INSTALLATION](https://github.com/JuanRodenas/AdGuardHome) | [DEVELOPER](https://adguard.com/es/adguard-home/overview.html) |
+| <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/AdGuard_Logo.png" alt="AdGuard Home" width="26"/> Adguard Home® | [INSTALLATION](https://github.com/JuanRodenas/AdGuardHome) | [DEVELOPER](https://adguard.com/es/adguard-home/overview.html) |
 | <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/pihole.png" alt="Pi-Hole" width="30"/> Pi-hole® | [INSTALLATION](https://github.com/JuanRodenas/Pihole) | [DEVELOPER](https://pi-hole.net/) |
 ### Version docker latest Pi-hole®
 ![Docker Image Version (tag latest)](https://img.shields.io/docker/v/pihole/pihole/latest?style=flat&logo=docker&logoColor=white&labelColor=0088cc&color=0088cc)
@@ -281,8 +281,8 @@ Once the data has been changed, restart adguard.
 
 | List | Link | Description |
 | :-- | :--: | :-- |
-| safelist repository | [Link](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/Listas/whitelist.txt) | safelist JuanRodenas |
-| safelist hagezi | [Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/whitelist.txt) | safelist hagezi (Not tested) |
+| safelist repository | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/Listas/whitelist.txt) | safelist JuanRodenas |
+| safelist hagezi | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/whitelist.txt) | safelist hagezi (Not tested) |
 
 
 ## Main Black Lists
@@ -291,66 +291,66 @@ Once the data has been changed, restart adguard.
 #### Host
 | List Host | Link | Description |
 | :-- | :--: | :-- |
-| List oisd | [Link](https://dbl.oisd.nl) &#124; [Link](https://abp.oisd.nl) | To Block host Adguard and domains [dbl.oisd](https://oisd.nl/) |
-| The big list | [Link](https://big.oisd.nl/domains) &#124; [Link](https://big.oisd.nl/) | The big list [oisd](https://oisd.nl/) |
-| urlhaus-filter-domains | [Link](https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-domains.txt) &#124; [Link](https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh.txt) | urlhaus-filter DEV [Link](https://gitlab.com/malware-filter/urlhaus-filter) |
-| everything | [Link](https://blocklistproject.github.io/Lists/everything.txt) &#124; [Link](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/everything-ags.txt) | To Block everything |
-| energized pro | [Link](https://energized.pro/unified/formats/hosts.txt) &#124; [Link](https://block.energized.pro/ultimate/formats/hosts.txt) | To Block [energized](https://energized.pro/) |
-| d3ward | [Link](https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.txt) &#124; [Link](https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock) | [d3ward](https://github.com/d3ward) popular list |
+| List oisd | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://dbl.oisd.nl) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://abp.oisd.nl) | To Block host Adguard and domains [dbl.oisd](https://oisd.nl/) |
+| The big list | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://big.oisd.nl/domains) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://big.oisd.nl/) | The big list [oisd](https://oisd.nl/) |
+| urlhaus-filter-domains | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-domains.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh.txt) | urlhaus-filter DEV [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://gitlab.com/malware-filter/urlhaus-filter) |
+| everything | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://blocklistproject.github.io/Lists/everything.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/everything-ags.txt) | To Block everything |
+| energized pro | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://energized.pro/unified/formats/hosts.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://block.energized.pro/ultimate/formats/hosts.txt) | To Block [energized](https://energized.pro/) |
+| d3ward | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock) | [d3ward](https://github.com/d3ward) popular list |
 
 
 #### Malware / Shock / Porn / Adult 
 | List | Link | Description |
 | :-- | :--: | :-- |
-| The NSFW list | [Link](https://nsfw.oisd.nl/domains) &#124; [Link](https://nsfw.oisd.nl/) | The NSFW list [oisd](https://oisd.nl/) |
-| Gambling-porn | [Link](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/List/Gambling.txt) &#124; [Link](https://github.com/blocklistproject/Lists/blob/master/adguard/gambling-ags.txt) | To Block Gambling and porn |
-| Malware | [Link](https://blocklistproject.github.io/Lists/malware.txt) &#124; [Link](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/malware-ags.txt) | To Block malware |
-| Ransomware | [Link](https://raw.githubusercontent.com/blocklistproject/Lists/master/ransomware.txt) &#124; [Link](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/ransomware-ags.txt) | To Block ransomware |
-| phishing | [Link](https://phishing.army/download/phishing_army_blocklist_extended.txt) | To Block phishing |
+| The NSFW list | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://nsfw.oisd.nl/domains) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://nsfw.oisd.nl/) | The NSFW list [oisd](https://oisd.nl/) |
+| Gambling-porn | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/List/Gambling.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://github.com/blocklistproject/Lists/blob/master/adguard/gambling-ags.txt) | To Block Gambling and porn |
+| Malware | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://blocklistproject.github.io/Lists/malware.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/malware-ags.txt) | To Block malware |
+| Ransomware | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://raw.githubusercontent.com/blocklistproject/Lists/master/ransomware.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/ransomware-ags.txt) | To Block ransomware |
+| phishing | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://phishing.army/download/phishing_army_blocklist_extended.txt) | To Block phishing |
 
 
 #### Tracking/Ads
 | List Tracking/Ads | Link | Description |
 | :-- | :--: | :-- |
-| SmartTV | [Link](https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt) &#124; [Link](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/smart-tv-ags.txt) | To Block SmartTV |
-| WindowsSpyBlocker | [Link](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt) | To Block WindowsSpyBlocker |
-| GoodbyeAds-Ultra | [Link](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds-Ultra.txt) &#124; [Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt) | To Block [hagezi](https://github.com/hagezi/dns-blocklists) and [jerryn70](https://github.com/jerryn70/GoodbyeAds) |
-| ads-and-tracking-extended | [Link](https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt) | To Block ads-and-tracking-extended |
-| Adblock_Plus | [Link](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt) &#124; [Link](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/List/Adblock_Plus_Ads.txt) | To Block Tracking AdBlock |
-| Android tracking | [Link](https://github.com/JuanRodenas/Pihole_list/blob/main/Listas/android-tracking.txt) | Android tracking for AdGuard Home |
+| SmartTV | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/smart-tv-ags.txt) | To Block SmartTV |
+| WindowsSpyBlocker | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt) | To Block WindowsSpyBlocker |
+| GoodbyeAds-Ultra | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds-Ultra.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt) | To Block [hagezi](https://github.com/hagezi/dns-blocklists) and [jerryn70](https://github.com/jerryn70/GoodbyeAds) |
+| ads-and-tracking-extended | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt) | To Block ads-and-tracking-extended |
+| Adblock_Plus | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/List/Adblock_Plus_Ads.txt) | To Block Tracking AdBlock |
+| Android tracking | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://github.com/JuanRodenas/Pihole_list/blob/main/Listas/android-tracking.txt) | Android tracking for AdGuard Home |
 
 #### Adguard team filters
 | List Tracking/Ads | Link | Description |
 | :-- | :--: | :-- |
-| AdGuardSDNSFilter | [Link](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt) | AdGuard team DNS filter |
-| AdAway | [Link](https://adaway.org/hosts.txt) | AdAway default blocklist |
-| Game Console Adblock List | [Link](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt) | Game Console Adblock List |
-| SmartTV-AGH | [Link](https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt) | Smart-TV Blocklist for AdGuard Home |
-| Peter Lowe's List | [Link](https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext) | Blocklist for use with Adblock Plus |
+| AdGuardSDNSFilter | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt) | AdGuard team DNS filter |
+| AdAway | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://adaway.org/hosts.txt) | AdAway default blocklist |
+| Game Console Adblock List | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt) | Game Console Adblock List |
+| SmartTV-AGH | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt) | Smart-TV Blocklist for AdGuard Home |
+| Peter Lowe's List | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext) | Blocklist for use with Adblock Plus |
 
 #### Services
 | List Services | Link | Description |
 | :-- | :--: | :-- |
-| Youtube | [Link](https://raw.githubusercontent.com/blocklistproject/Lists/master/youtube.txt) &#124; [Link](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/youtube-ags.txt) | To Block youtube |
-| Facebook | [Link](https://github.com/jmdugan/blocklists/blob/master/corporations/facebook/all) | To Block Facebook/Instagram/Whatsapp |
-| Whatsapp open | [Link](https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/facebook/all-but-whatsapp) | To Block Facebook/Instagram but leave Whatsapp open |
-| Google | [Link](https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/google/all) | To Block Google |
-| Mozilla | [Link](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/List/mozilla.txt) &#124; [Link](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/List/mozilla_adguard.txt) | To Block Mozilla tracking |
-| Microsoft | [Link](https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/microsoft/all) | To Block Microsoft |
-| VideoGamesAdiction | [Link](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/List/VideoGamesAdiction.txt) | To Block VideoGames Adiction |
+| Youtube | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://raw.githubusercontent.com/blocklistproject/Lists/master/youtube.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/youtube-ags.txt) | To Block youtube |
+| Facebook | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://github.com/jmdugan/blocklists/blob/master/corporations/facebook/all) | To Block Facebook/Instagram/Whatsapp |
+| Whatsapp open | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/facebook/all-but-whatsapp) | To Block Facebook/Instagram but leave Whatsapp open |
+| Google | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/google/all) | To Block Google |
+| Mozilla | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/List/mozilla.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/List/mozilla_adguard.txt) | To Block Mozilla tracking |
+| Microsoft | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/microsoft/all) | To Block Microsoft |
+| VideoGamesAdiction | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/List/VideoGamesAdiction.txt) | To Block VideoGames Adiction |
 
 
 #### uBlock Origin uAssets
 | List Services | Link | Link dev | Description |
 | :-- | :--: | :--: | :-- |
-| uBlock filters | [Link](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | uBlock filters |
-| Badware risks | [Link](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | uBlock filters – Badware risks |
-| Privacy | [Link](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | uBlock filters – Privacy |
-| Quick fixes list | [Link](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/quick-fixes.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | Quick fixes list |
-| Resource abuse | [Link](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | uBlock filters – Resource abuse |
-| Unbreak | [Link](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | uBlock filters – Unbreak |
-| i-dont-care-about-cookies | [Link](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt) | [Link DEV](https://www.i-dont-care-about-cookies.eu/) | i-dont-care-about-cookies |
-| urlhaus-filter | [Link](https://malware-filter.gitlab.io/malware-filter/urlhaus-filter.txt) | [Link DEV](https://gitlab.com/malware-filter/urlhaus-filter) | urlhaus-filter |
+| uBlock filters | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | uBlock filters |
+| Badware risks | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | uBlock filters – Badware risks |
+| Privacy | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | uBlock filters – Privacy |
+| Quick fixes list | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/quick-fixes.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | Quick fixes list |
+| Resource abuse | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | uBlock filters – Resource abuse |
+| Unbreak | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | uBlock filters – Unbreak |
+| i-dont-care-about-cookies | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt) | [Link DEV](https://www.i-dont-care-about-cookies.eu/) | i-dont-care-about-cookies |
+| urlhaus-filter | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat&logo=download)](https://malware-filter.gitlab.io/malware-filter/urlhaus-filter.txt) | [Link DEV](https://gitlab.com/malware-filter/urlhaus-filter) | urlhaus-filter |
 
 <sup>A tab has been added for AdGuard with lists adapted to its format.</sup>
 

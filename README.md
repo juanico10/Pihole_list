@@ -362,7 +362,7 @@ Once the data has been changed, restart adguard.
 
 <Original>&nbsp;Page to check your selfhosted from fivefilters</Original>
 
-<p>  &nbsp;&nbsp;<a href="https://blockads.fivefilters.org/"><img src="https://img.shields.io/badge/Link-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>  &nbsp;&nbsp;<a href="https://blockads.fivefilters.org/"><img src="https://img.shields.io/badge/fivefilters-2aa8ff.svg?style=flat" alt="Link"></a></p>
 </details>
 &nbsp;
 
@@ -371,7 +371,7 @@ Once the data has been changed, restart adguard.
 
 <Original>&nbsp;Page to check your selfhosted from [d3ward](https://d3ward.github.io/toolz/)</Original>
 
-<p>  &nbsp;&nbsp;<a href="https://d3ward.github.io/toolz/adblock.html"><img src="https://img.shields.io/badge/Link-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>  &nbsp;&nbsp;<a href="https://d3ward.github.io/toolz/adblock.html"><img src="https://img.shields.io/badge/d3ward-2aa8ff.svg?style=flat" alt="Link"></a></p>
 </details>
 &nbsp;
 
@@ -380,7 +380,7 @@ Once the data has been changed, restart adguard.
 
 <Original>&nbsp;Page to check your selfhosted from canyoublockit</Original>
 
-<p>  &nbsp;&nbsp;<a href="https://canyoublockit.com/"><img src="https://img.shields.io/badge/Link-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>  &nbsp;&nbsp;<a href="https://canyoublockit.com/"><img src="https://img.shields.io/badge/CanYouBlockit-2aa8ff.svg?style=flat" alt="Link"></a></p>
 </details>
 &nbsp;
 
@@ -389,7 +389,7 @@ Once the data has been changed, restart adguard.
 
 <Original>&nbsp;Page to check your selfhosted from No more ads</Original>
 
-<p>  &nbsp;&nbsp;<a href="https://ads-blocker.com/es/pruebas/"><img src="https://img.shields.io/badge/Link-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>  &nbsp;&nbsp;<a href="https://ads-blocker.com/es/pruebas/"><img src="https://img.shields.io/badge/Nomoreads-2aa8ff.svg?style=flat" alt="Link"></a></p>
 </details>
 &nbsp;
 
@@ -399,7 +399,7 @@ Once the data has been changed, restart adguard.
 
 <Original>&nbsp;Page to check your selfhosted from AdBlock Tester</Original>
 
-<p>  &nbsp;&nbsp;<a href="https://adblock-tester.com/"><img src="https://img.shields.io/badge/Link-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>  &nbsp;&nbsp;<a href="https://adblock-tester.com/"><img src="https://img.shields.io/badge/AdBlock-tester-2aa8ff.svg?style=flat" alt="Link"></a></p>
 </details>
 &nbsp;
 
@@ -410,7 +410,7 @@ Once the data has been changed, restart adguard.
 
 <Original>&nbsp;Page to check encryption of 1.1.1.1 de Cloudflare</Original>
 
-<p>  &nbsp;&nbsp;<a href="https://1.1.1.1/help"><img src="https://img.shields.io/badge/Link-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>  &nbsp;&nbsp;<a href="https://1.1.1.1/help"><img src="https://img.shields.io/badge/Cloudflare-2aa8ff.svg?style=flat" alt="Link"></a></p>
 </details>
 &nbsp;
 
@@ -419,7 +419,7 @@ Once the data has been changed, restart adguard.
 
 <Original>&nbsp;Page to check encryption of Tenta VPN Browser</Original>
 
-<p>  &nbsp;&nbsp;<a href="https://tenta.com/test/"><img src="https://img.shields.io/badge/Link-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>  &nbsp;&nbsp;<a href="https://tenta.com/test/"><img src="https://img.shields.io/badge/Tenta-Browser-2aa8ff.svg?style=flat" alt="Link"></a></p>
 </details>
 &nbsp;
 
@@ -428,7 +428,7 @@ Once the data has been changed, restart adguard.
 
 <Original>&nbsp;Page to check encryption of Cloudflare</Original>
 
-<p>  &nbsp;&nbsp;<a href="https://www.cloudflare.com/es-es/ssl/encrypted-sni/"><img src="https://img.shields.io/badge/Link-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>  &nbsp;&nbsp;<a href="https://www.cloudflare.com/es-es/ssl/encrypted-sni/"><img src="https://img.shields.io/badge/cloudflare-encryptedsni-2aa8ff.svg?style=flat" alt="Link"></a></p>
 
 #### The technologies analysed are:
 1. Secure DNS: a technology that encrypts DNS queries and includes DNS-over-TLS and DNS-over-HTTPS.
@@ -450,13 +450,13 @@ Once the data has been changed, restart adguard.
 
 <Original>&nbsp;Page to check DNSSEC</Original>
 
-<p>  &nbsp;&nbsp;<a href="http://dnssec.vs.uni-due.de/"><img src="https://img.shields.io/badge/Link-2aa8ff.svg?style=flat" alt="Link"></a></p>
-<p>  &nbsp;&nbsp;<a href="http://www.dnssec-or-not.com/"><img src="https://img.shields.io/badge/Link-2aa8ff.svg?style=flat" alt="Link"></a></p>
-<p>  &nbsp;&nbsp;<a href="http://en.conn.internet.nl/connection/"><img src="https://img.shields.io/badge/Link-2aa8ff.svg?style=flat" alt="Link"></a></p>
-<p>  &nbsp;&nbsp;<a href="https://wander.science/projects/dns/dnssec-resolver-test/"><img src="https://img.shields.io/badge/Link-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>  &nbsp;&nbsp;<a href="http://dnssec.vs.uni-due.de/"><img src="https://img.shields.io/badge/dnssec-unidue-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>  &nbsp;&nbsp;<a href="http://www.dnssec-or-not.com/"><img src="https://img.shields.io/badge/dnssec-ornot-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>  &nbsp;&nbsp;<a href="http://en.conn.internet.nl/connection/"><img src="https://img.shields.io/badge/connection-internet-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>  &nbsp;&nbsp;<a href="https://wander.science/projects/dns/dnssec-resolver-test/"><img src="https://img.shields.io/badge/wander-project-2aa8ff.svg?style=flat" alt="Link"></a></p>
 
 <Original>&nbsp;Page to check DNSSEC encryption</Original>
-<p>  &nbsp;&nbsp;<a href="https://rootcanary.org/test.html"><img src="https://img.shields.io/badge/Link-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>  &nbsp;&nbsp;<a href="https://rootcanary.org/test.html"><img src="https://img.shields.io/badge/rootcanary-2aa8ff.svg?style=flat" alt="Link"></a></p>
 </details>
 &nbsp;
 
@@ -465,7 +465,7 @@ Once the data has been changed, restart adguard.
 
 <Original>&nbsp;Page to check DNS leakage</Original>
 
-<p>  &nbsp;&nbsp;<a href="https://www.dnsleaktest.com/"><img src="https://img.shields.io/badge/Link-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>  &nbsp;&nbsp;<a href="https://www.dnsleaktest.com/"><img src="https://img.shields.io/badge/DNSleak-test-2aa8ff.svg?style=flat" alt="Link"></a></p>
 
 </details>
 &nbsp;
@@ -483,7 +483,7 @@ Link to the developer of the application:
 
 ## HELP ME AND CONTRIBUTION 🙌
 <p> &nbsp;If you want to contribute to improve the lists, open a <code>issue</code> here:</p>
-[![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://github.com/JuanRodenas/Pi-hole_list/issues)
+<a href="https://github.com/JuanRodenas/Pi-hole_list/issues"><img src="https://img.shields.io/badge/issues-green.svg?style=flat" alt="Link"></a>
 
 ## Credits 🚀
 This repository is made with all my love and affection.

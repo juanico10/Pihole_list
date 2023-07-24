@@ -1,6 +1,6 @@
 <h1 align="center"> The project that protects your devices </h1>
 
-The project <strong>Pi-hole_list</strong> is a project in which we block and protect the entire network through its own hardware. In this repository it is installed with <strong>docker®</strong>. Pi-hole® and Adguard Home® is a DNS sinkhole that protects your devices from unwanted content without the need to install any client-side software.
+The <strong>Pi-hole_list</strong> project is an initiative that aims to lock down and secure the entire network through its own hardware. In this repository, it is installed via Docker®. Pi-hole® and Adguard Home® are DNS sinkholes that protect your devices from unwanted content without the need to install any software on client devices.
 
 <div align="center">
     <a href="https://github.com/JuanRodenas/Pihole_list">
@@ -525,7 +525,7 @@ This repository is made with all my love and affection.
 
 [![GitHub](https://img.shields.io/badge/-JuanRodenas-171515?style=flat&logo=Github&logoColor=black&labelColor=ececec&color=ececec)](https://github.com/JuanRodenas/)
 
-# 🎉 ¡Ready!
+## 🎉 ¡Ready!
 &nbsp;
 
 <p><sup>These files/texts are provided "AS IS", without warranties of any kind, express or implied, including, but not limited to, warranties of merchantability, fitness for a particular purpose and non-infringement. In no event shall the authors or copyright holders be liable for any claims, damages or other liability arising out of or relating to the files or the use thereof.</sup></p>

@@ -495,4 +495,4 @@ This repository is made with all my love and affection.
 
 <p><sup>These files/texts are provided "AS IS", without warranties of any kind, express or implied, including, but not limited to, warranties of merchantability, fitness for a particular purpose and non-infringement. In no event shall the authors or copyright holders be liable for any claims, damages or other liability arising out of or relating to the files or the use thereof.</sup></p>
 <p><sub>Any and all trademarks are the property of their respective owners.</sub></p>
-<p><sup>I will be updating with information and adding procedures in my spare time.</sup></p>
+<p><sup>I will be updating with information and adding procedures in my spare time. This repository is licensed under the Creative Commons Attribution - Non-Commercial - No Derivative Works (by-nc-nd) Attribution Attribution - Non-Commercial - No Derivative Works (by-nc-nd) license..</sup></p>

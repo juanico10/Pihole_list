@@ -239,7 +239,10 @@ sudo openssl req -x509 -nodes -days 365 -subj "/CN=example.org/O=Bouncy Castles,
 8. Click <code>Save configuration</code>.
 
 ## Configure the domain to allow private DNS DoH and DoT clients:
-To create a zone in your domain for both <code>*.example.org</code> to enable clients, follow these steps:
+To create a zone in your domain to enable clients, follow these steps:
+
+1. Mainly in the encryption Adguard section, you must enable the domain <code>example.org</code>.
+2. You have the wildcard <code>*.example.org</code> certificate created.
 
 #### Instructions for use:
 
@@ -260,7 +263,7 @@ In order to change the password in Adguard we can access these websites and crea
 - [![wtools](https://img.shields.io/badge/-wtools-c4302b?style=flat&labelColor=c4302b)](https://wtools.io/generate-htpasswd-online)
 
 <p>We create the user and password. Once created, it has this format:</p>
-<p><code>ser:$apr1$x4gcjzrl$qSvcJK46C2rQUGRl4z1kl0</code></p>
+<p><code>user:$apr1$x4gcjzrl$qSvcJK46C2rQUGRl4z1kl0</code></p>
 
 <p>Once the user and password have been created, we proceed to access the adguard configuration file, <code>AdGuardHome.yaml</code>.</p>
 <p>We look for the following line in the configuration file and replace the created data.</p>

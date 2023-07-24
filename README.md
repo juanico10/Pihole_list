@@ -1,4 +1,5 @@
-# Pihole_list
+<h1 align="center"> The project that protects your devices </h1>
+
 The project <strong>Pi-hole_list</strong> is a project in which we block and protect the entire network through its own hardware. In this repository it is installed with <strong>docker®</strong>. Pi-hole® and Adguard Home® is a DNS sinkhole that protects your devices from unwanted content without the need to install any client-side software.
 
 <div align="center">
@@ -10,7 +11,7 @@ The project <strong>Pi-hole_list</strong> is a project in which we block and pro
     <h3>Network-wide ad blocking via its own hardware.</h3>
 </div>
 
-![GitHub last commit](https://img.shields.io/github/last-commit/JuanRodenas/Pi-hole_list?color=blue&logo=Github&style=for-the-badge)
+![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/JuanRodenas/Pi-hole_list?style=flat&logo=Github&logoColor=white&label=last-commit&labelColor=253B80&color=253B80)
 
 ## Links to installation or developer
 | PROJECT | INSTALLER LINK | DEVELOPER LINK |
@@ -18,9 +19,10 @@ The project <strong>Pi-hole_list</strong> is a project in which we block and pro
 | <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/adguard_home_lightmode.svg" alt="AdGuard Home" width="80"/> Adguard Home® | [INSTALLATION](https://github.com/JuanRodenas/AdGuardHome) | [DEVELOPER](https://adguard.com/es/adguard-home/overview.html) |
 | <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/pihole.png" alt="Pi-Hole" width="30"/> Pi-hole® | [INSTALLATION](https://github.com/JuanRodenas/Pihole) | [DEVELOPER](https://pi-hole.net/) |
 ### Version docker latest Pi-hole®
-![Docker Image Version (tag latest)](https://img.shields.io/docker/v/pihole/pihole/latest?color=blue&logo=docker&style=for-the-badge)
+![Docker Image Version (tag latest)](https://img.shields.io/docker/v/pihole/pihole/latest?style=flat&logo=docker&logoColor=white&labelColor=0088cc&color=0088cc)
+
 ### Version docker latest Adguard Home®
-![Docker Image Version (tag latest)](https://img.shields.io/docker/v/adguard/adguardhome/latest?color=blue&logo=docker&style=for-the-badge)
+![Docker Image Version (tag latest)](https://img.shields.io/docker/v/adguard/adguardhome/latest?style=flat&logo=docker&logoColor=white&labelColor=0088cc&color=0088cc)
 
 ## Details
 These lists were created because I wanted something with a bit more control over what gets blocked. A lot of lists are all-or-nothing. We set out to create lists with more control over what gets blocked, which is why I recommend my lists to you, as they are tested and we block only what is unnecessary.
@@ -212,7 +214,7 @@ cd certs/
 ~~~
 4. Create certificate with the following command, changing the certificate path or leave the name of the .key and dot crt to store it in the directory:
 ~~~
-sudo openssl req -x509 -nodes -days 1825 -sha384 -newkey ec:secp384r1 -keyout privkey.key -out privcert.pem
+sudo openssl req -x509 -nodes -days 365 -subj "/CN=example.org/O=Bouncy Castles, Inc/C=US" -sha384 -newkey ec:secp384r1 -keyout privkey.key -out privcert.pem
 ~~~
 
 * You may ask us these questions:
@@ -470,21 +472,22 @@ Once the data has been changed, restart adguard.
 &nbsp;
 
 ## android applications for Pi-hole® or Adguard Home®.
-Link to the developer of the application: [![GitHub](https://img.shields.io/static/v1.svg?color=blue&labelColor=555555&logoColor=ffffff&style=social&label=JGeek00&message=GitHub&logo=github)](https://github.com/JGeek00 "view the source for all of our repositories.")
+Link to the developer of the application: [![GitHub](https://img.shields.io/badge/-github-171515?style=flat&labelColor=171515&logo=github&logoColor=white)](https://github.com/JGeek00/)
+
 ### Pi-hole® android application
-<a href="https://play.google.com/store/apps/details?id=com.jgeek00.droid_hole" target="_blank" rel="noopener noreferrer"><img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/google-play.png" width="60px"></a>
+<a href="https://play.google.com/store/apps/details?id=com.jgeek00.droid_hole" target="_blank" rel="noopener noreferrer"><img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/google-play.png" width="40px"></a>
 ### Adguard Home® android application
-<a href="https://play.google.com/store/apps/details?id=com.jgeek00.adguard_home_manager" target="_blank" rel="noopener noreferrer"><img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/google-play.png" width="60px"></a>
+<a href="https://play.google.com/store/apps/details?id=com.jgeek00.adguard_home_manager" target="_blank" rel="noopener noreferrer"><img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/google-play.png" width="40px"></a>
 
 <p><sub>Any and all rights and responsibilities pertaining thereto remain the property of the respective developer.</sub></p>
 
-## HELP ME 🙌
+## HELP ME AND CONTRIBUTION 🙌
 <p> &nbsp;If you want to contribute to improve the lists, open a <code>issue</code> here:  <A HREF="https://github.com/JuanRodenas/Pi-hole_list/issues"> ISSUE </A></p>
+
 
 ## Credits 🚀
 This repository is made with all my love and affection.
-#
-[![GitHub](https://img.shields.io/static/v1.svg?color=blue&labelColor=555555&logoColor=ffffff&style=social&label=JuanRodenas&message=GitHub&logo=github)](https://github.com/JuanRodenas "view the source for all of our repositories.")
+[![GitHub](https://img.shields.io/badge/-github-171515?style=flat&labelColor=171515&logo=github&logoColor=white)](https://github.com/JuanRodenas/)
 
 # 🎉 ¡Ready!
 &nbsp;

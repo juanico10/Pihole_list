@@ -200,11 +200,11 @@ If you don't want to go through all these steps, you can obtain the certificate 
 Info: [INFO](https://www.busindre.com/comandos_openssl_utiles_para_certificados)
 1. We update the list of packages.
 ~~~shell
-sudo apt-get update
+sudo apt update && sudo apt upgrade
 ~~~
 2. Install the openssl package
 ~~~shell
-sudo apt-get install openssl
+sudo apt install openssl
 ~~~
 3. Create the directory where we want to store the certificates:
 ~~~shell
@@ -212,19 +212,43 @@ mkdir certs &&\
 cd certs/
 ~~~
 4. Create certificate with the following command, changing the certificate path or leave the name of the .key and dot crt to store it in the directory:
-~~~shell
-sudo openssl req -x509 -nodes -days 365 -subj "/CN=example.org/O=Bouncy Castles, Inc/C=US" -sha384 -newkey ec:secp384r1 -keyout privkey.key -out privcert.pem
-~~~
+	4.1 Generate an RSA private key:
+	~~~shell
+	vi csrconfig.cnf
+	~~~
+	~~~shell
+	openssl genpkey -algorithm RSA -out privkey.key -pkeyopt rsa_keygen_bits:2048
+	~~~
+	4.2 Next, we will create a certificate request (CSR) which will contain the certificate information:
+	~~~shell
+	[req]
+	distinguished_name = req_distinguished_name
+	req_extensions = v3_req
 
-* You may ask us these questions:
-<ul><code>Country Name (2 letter code) [AU]: US</code></ul>
-<ul><code>State or Province Name (full name) [Some-State]: New York</code></ul>
-<ul><code>Locality Name (eg, city) []: New York City</code></ul>
-<ul><code>Organization Name (eg, company) [Internet Widgits Pty Ltd]: Bouncy Castles, Inc.</code></ul>
-<ul><code>Organizational Unit Name (eg, section) []: Ministry of Water Slides</code></ul>
-<ul><code>Common Name (e.g. server FQDN or YOUR name) []: server_IP_address or domain</code></ul>
-<ul><code>Email Address []: admin@your_domain.com</code></ul>
+	[req_distinguished_name]
+	commonName = your website's domain name
+	organizationName = Your Company Name
+	countryName = ES
 
+	[v3_req]
+	subjectAltName = @alt_names
+
+	[alt_names]
+	DNS.1 = example.com
+	DNS.2 = www.example.com
+	~~~
+	4.3 We generate the self-signed certificate with the CSR data:
+	~~~
+	openssl req -new -key privkey.key -out chain.csr -sha512 -config csrconfig.cnf
+	~~~
+	4.4 Create self-signed certificate in PEM format:
+	~~~
+	openssl x509 -req -in chain.csr -signkey privkey.key -out fullchain.pem -sha512 -days 365 -extfile csrconfig.cnf -extensions v3_req
+	~~~
+	4.5 After creating the self-signed certificate, we can verify the content of the certificate if it has been created correctly:
+	~~~shell
+	openssl x509 -in fullchain.pem -text -noout
+	~~~
 </details>
 
 
@@ -498,4 +522,4 @@ This repository is made with all my love and affection.
 
 <p><sup>These files/texts are provided "AS IS", without warranties of any kind, express or implied, including, but not limited to, warranties of merchantability, fitness for a particular purpose and non-infringement. In no event shall the authors or copyright holders be liable for any claims, damages or other liability arising out of or relating to the files or the use thereof.</sup></p>
 <p><sub>Any and all trademarks are the property of their respective owners.</sub></p>
-<p><sup>I will be updating with information and adding procedures in my spare time. This repository is licensed under the Creative Commons Attribution - Non-Commercial - No Derivative Works (by-nc-nd) Attribution Attribution - Non-Commercial - No Derivative Works (by-nc-nd) license..</sup></p>
+<p><sup>I will be updating with information and adding procedures in my spare time. This repository is licensed under the Creative Commons Attribution - Non-Commercial - No Derivative Works (by-nc-nd) license.</sup></p>

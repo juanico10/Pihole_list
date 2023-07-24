@@ -16,7 +16,7 @@ The project <strong>Pi-hole_list</strong> is a project in which we block and pro
 ## Links to installation or developer
 | PROJECT | INSTALLER LINK | DEVELOPER LINK |
 | :-- | :--: | :--: |
-| <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/adguard_home_lightmode.svg" alt="AdGuard Home" width="80"/> Adguard Home® | [INSTALLATION](https://github.com/JuanRodenas/AdGuardHome) | [DEVELOPER](https://adguard.com/es/adguard-home/overview.html) |
+| <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/AdGuard_Logo.png" alt="AdGuard Home" width="80"/> Adguard Home® | [INSTALLATION](https://github.com/JuanRodenas/AdGuardHome) | [DEVELOPER](https://adguard.com/es/adguard-home/overview.html) |
 | <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/pihole.png" alt="Pi-Hole" width="30"/> Pi-hole® | [INSTALLATION](https://github.com/JuanRodenas/Pihole) | [DEVELOPER](https://pi-hole.net/) |
 ### Version docker latest Pi-hole®
 ![Docker Image Version (tag latest)](https://img.shields.io/docker/v/pihole/pihole/latest?style=flat&logo=docker&logoColor=white&labelColor=0088cc&color=0088cc)
@@ -255,9 +255,9 @@ This will allow the client created in the `Client Configuration` panel to connec
 ## Change password in Adguard
 In order to change the password in Adguard we can access these websites and create a username and password:
 
-- [web2generators](https://www.web2generators.com/apache-tools/htpasswd-generator)
-- [ipvoid](https://www.ipvoid.com/htpasswd-generator/)
-- [wtools](https://wtools.io/generate-htpasswd-online)
+- [![web2generators](https://img.shields.io/badge/-web2generators-c4302b?style=flat&labelColor=c4302b)](https://www.web2generators.com/apache-tools/htpasswd-generator)
+- [![ipvoid](https://img.shields.io/badge/-ipvoid-c4302b?style=flat&labelColor=c4302b)](https://www.ipvoid.com/htpasswd-generator/)
+- [![wtools](https://img.shields.io/badge/-wtools-c4302b?style=flat&labelColor=c4302b)](https://wtools.io/generate-htpasswd-online)
 
 <p>We create the user and password. Once created, it has this format:</p>
 <p><code>ser:$apr1$x4gcjzrl$qSvcJK46C2rQUGRl4z1kl0</code></p>

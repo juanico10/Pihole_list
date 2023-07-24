@@ -107,10 +107,33 @@ These lists were created because I wanted something with a bit more control over
 </details>
 &nbsp;
 
-## Adguard Home® configuration: <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/adguard_home_lightmode.svg" alt="AdGuard Home" width="100"/>
+# Adguard Home®  <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/adguard_home_lightmode.svg" alt="AdGuard Home" width="100"/>
 
 ## General configuration
 - One of the recommendations, in AdGuard settings, General configuration, Filter update interval in 1 hour. It will update the rules every hour.
+
+### Change password in Adguard
+In order to change the password in Adguard we can access these websites and create a username and password:
+
+- [![web2generators](https://img.shields.io/badge/-web2generators-c4302b?style=flat&labelColor=c4302b)](https://www.web2generators.com/apache-tools/htpasswd-generator)
+- [![ipvoid](https://img.shields.io/badge/-ipvoid-c4302b?style=flat&labelColor=c4302b)](https://www.ipvoid.com/htpasswd-generator/)
+- [![wtools](https://img.shields.io/badge/-wtools-c4302b?style=flat&labelColor=c4302b)](https://wtools.io/generate-htpasswd-online)
+
+<p>We create the user and password. Once created, it has this format:</p>
+<p><code>user:$apr1$x4gcjzrl$qSvcJK46C2rQUGRl4z1kl0</code></p>
+
+<p>Once the user and password have been created, we proceed to access the adguard configuration file, <code>AdGuardHome.yaml</code>.</p>
+<p>We look for the following line in the configuration file and replace the created data.</p>
+<ul>
+<li>For the <code>user</code>: user</li>
+<li>For the <code>password</code>: $qSvcJK46C2rQUGRl4z1kl0</li>
+</ul>
+<pre><code class="lang-yaml">users:
+  - name: <span class="hljs-literal">user</span>
+    password: <span class="hljs-variable">$apr1</span><span class="hljs-variable">$x4gcjzrl</span><span class="hljs-variable">$qSvcJK46C2rQUGRl4z1kl0</span>
+</code></pre>
+
+Once the data has been changed, restart adguard.
 
 ### Setting to have DNS over TLS or DNS over HTTPS enabled
 In AdGuard settings, DNS settings:
@@ -286,29 +309,6 @@ This will allow the client created in the `Client Configuration` panel to connec
 
 <sup>Current instructions in the developer's documentation <a href="https://github.com/AdguardTeam/AdGuardHome/wiki/Clients#clientid">documentación</a>.</sup>
 
-
-## Change password in Adguard
-In order to change the password in Adguard we can access these websites and create a username and password:
-
-- [![web2generators](https://img.shields.io/badge/-web2generators-c4302b?style=flat&labelColor=c4302b)](https://www.web2generators.com/apache-tools/htpasswd-generator)
-- [![ipvoid](https://img.shields.io/badge/-ipvoid-c4302b?style=flat&labelColor=c4302b)](https://www.ipvoid.com/htpasswd-generator/)
-- [![wtools](https://img.shields.io/badge/-wtools-c4302b?style=flat&labelColor=c4302b)](https://wtools.io/generate-htpasswd-online)
-
-<p>We create the user and password. Once created, it has this format:</p>
-<p><code>user:$apr1$x4gcjzrl$qSvcJK46C2rQUGRl4z1kl0</code></p>
-
-<p>Once the user and password have been created, we proceed to access the adguard configuration file, <code>AdGuardHome.yaml</code>.</p>
-<p>We look for the following line in the configuration file and replace the created data.</p>
-<ul>
-<li>For the <code>user</code>: user</li>
-<li>For the <code>password</code>: $qSvcJK46C2rQUGRl4z1kl0</li>
-</ul>
-<pre><code class="lang-yaml">users:
-  - name: <span class="hljs-literal">user</span>
-    password: <span class="hljs-variable">$apr1</span><span class="hljs-variable">$x4gcjzrl</span><span class="hljs-variable">$qSvcJK46C2rQUGRl4z1kl0</span>
-</code></pre>
-
-Once the data has been changed, restart adguard.
 
 # List for Pihole <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/pihole.png" alt="Pi-Hole" width="40"/> and AdGuard Home <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/AdGuard_Logo.png" alt="AdGuard Home" width="32"/>
 

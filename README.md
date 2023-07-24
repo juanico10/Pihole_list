@@ -114,12 +114,12 @@ In AdGuard settings, DNS settings:
 - Upstream DNS servers, copy one of these URLs:
 
 For Cloudfare DoH-DoT:
-```
+```shell
 https://dns.cloudflare.com/dns-query
 tls://1dot1dot1dot1.cloudflare-dns.com
 ```
 For DoH-DoT de Quad9:
-```
+```shell
 https://dns.quad9.net/dns-query
 tls://dns.quad9.net
 ```
@@ -129,14 +129,14 @@ and check the option: "**Load balancing**", by default this option is checked.
 - Boot DNS servers, we put the DNS of our choice:
 
 Cloudflared in both IPv4 and IPv6:
-```
+```shell
 1.1.1.1
 1.0.0.1
 2606:4700:4700::1111
 2606:4700:4700::1001
 ```
 Quad9 in both IPv4 and IPv6:
-```
+```shell
 9.9.9.9
 149.112.112.112
 2620:fe::fe
@@ -154,17 +154,16 @@ Quad9 in both IPv4 and IPv6:
 #### Create the self-signed personal certificate with Let's Encrypt:
 Installing a free SSL certificate with CertBot:
 1. We update the list of packages.
-~~~
+~~~shell
 sudo apt-get update
 ~~~
 2. Install the Certbot package
-~~~
+~~~shell
 sudo apt-get install certbot
 ~~~
 3. Run the following command modifying the valid email to acquire a Wildcard certificate:
-~~~
+~~~shell
 certbot certonly --manual --preferred-challenges=dns --rsa-key-size 4096 --email usuario@ejemplo.com --agree-tos --server https://acme-v02.api.letsencrypt.org/directory -d "*.your_domain"
-
 ~~~
 4. Finally, it will ask to make an <code>_acme-challenge</code> TXT record in our name server provider with the content it tells us:
 It creates the following files, in the directory <code>/etc/letsencrypt/live/</code>:
@@ -200,20 +199,20 @@ If you don't want to go through all these steps, you can obtain the certificate 
 
 Info: [INFO](https://www.busindre.com/comandos_openssl_utiles_para_certificados)
 1. We update the list of packages.
-~~~
+~~~shell
 sudo apt-get update
 ~~~
 2. Install the openssl package
-~~~
+~~~shell
 sudo apt-get install openssl
 ~~~
 3. Create the directory where we want to store the certificates:
-~~~
+~~~shell
 mkdir certs 
 cd certs/
 ~~~
 4. Create certificate with the following command, changing the certificate path or leave the name of the .key and dot crt to store it in the directory:
-~~~
+~~~shell
 sudo openssl req -x509 -nodes -days 365 -subj "/CN=example.org/O=Bouncy Castles, Inc/C=US" -sha384 -newkey ec:secp384r1 -keyout privkey.key -out privcert.pem
 ~~~
 

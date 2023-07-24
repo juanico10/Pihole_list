@@ -208,7 +208,7 @@ sudo apt-get install openssl
 ~~~
 3. Create the directory where we want to store the certificates:
 ~~~shell
-mkdir certs 
+mkdir certs &&\
 cd certs/
 ~~~
 4. Create certificate with the following command, changing the certificate path or leave the name of the .key and dot crt to store it in the directory:
@@ -471,7 +471,8 @@ Once the data has been changed, restart adguard.
 &nbsp;
 
 ## android applications for Pi-hole® or Adguard Home®.
-Link to the developer of the application: [![GitHub](https://img.shields.io/badge/-github-171515?style=flat&labelColor=171515&logo=github&logoColor=white)](https://github.com/JGeek00/)
+Link to the developer of the application:
+[![GitHub](https://img.shields.io/badge/-JGeek00-171515?style=flat&logo=Github&logoColor=black&labelColor=ffffff&color=ffffff)](https://github.com/JGeek00/)
 
 ### Pi-hole® android application
 <a href="https://play.google.com/store/apps/details?id=com.jgeek00.droid_hole" target="_blank" rel="noopener noreferrer"><img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/google-play.png" width="40px"></a>
@@ -486,7 +487,8 @@ Link to the developer of the application: [![GitHub](https://img.shields.io/badg
 
 ## Credits 🚀
 This repository is made with all my love and affection.
-[![GitHub](https://img.shields.io/badge/-github-171515?style=flat&labelColor=171515&logo=github&logoColor=white)](https://github.com/JuanRodenas/)
+
+[![GitHub](https://img.shields.io/badge/-JuanRodenas-171515?style=flat&logo=Github&logoColor=black&labelColor=ececec&color=ececec)](https://github.com/JuanRodenas/)
 
 # 🎉 ¡Ready!
 &nbsp;

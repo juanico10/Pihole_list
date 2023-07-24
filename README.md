@@ -399,7 +399,7 @@ Once the data has been changed, restart adguard.
 
 <Original>&nbsp;Page to check your selfhosted from AdBlock Tester</Original>
 
-<p>  &nbsp;&nbsp;<a href="https://adblock-tester.com/"><img src="https://img.shields.io/badge/AdBlock-tester-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>  &nbsp;&nbsp;<a href="https://adblock-tester.com/"><img src="https://img.shields.io/badge/AdBlocktester-2aa8ff.svg?style=flat" alt="Link"></a></p>
 </details>
 &nbsp;
 
@@ -410,7 +410,7 @@ Once the data has been changed, restart adguard.
 
 <Original>&nbsp;Page to check encryption of 1.1.1.1 de Cloudflare</Original>
 
-<p>  &nbsp;&nbsp;<a href="https://1.1.1.1/help"><img src="https://img.shields.io/badge/Cloudflare-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>  &nbsp;&nbsp;<a href="https://1.1.1.1/help"><img src="https://img.shields.io/badge/Cloudflare-1.1.1.1-2aa8ff.svg?style=flat" alt="Link"></a></p>
 </details>
 &nbsp;
 

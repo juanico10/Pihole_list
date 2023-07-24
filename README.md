@@ -188,7 +188,7 @@ To revoke a certificate:
 * From the account for which the certificate was issued: <code>certbot revoke --cert-path /etc/letsencrypt/archive/${YOUR_DOMAIN}/cert1.pem</code>
 * Using the certificate's private key: <code>certbot revoke --cert-path /PATH/TO/cert.pem --key-path /PATH/TO/key.pem</code>
 
-If you don't want to go through all these steps, you can obtain the certificate with [Zero SSL](https://zerossl.com/). but the wildcard certificate is via payment.
+If you don't want to go through all these steps, you can obtain the certificate with [![ZeroSSL](https://img.shields.io/badge/-ZeroSSL-3849b8?style=flat&labelColor=3849b8)](https://zerossl.com/). but the wildcard certificate is via payment.
 </details>
 
 ### Create the self-signed personal certificate with OPENSSL:
@@ -196,13 +196,13 @@ If you don't want to go through all these steps, you can obtain the certificate 
     <summary>Create the self-signed personal certificate:</summary>
 
 #### Crear el certificado personal autofirmado:
-
-Info: [INFO](https://www.busindre.com/comandos_openssl_utiles_para_certificados)
+Steps you can follow to create a self-signed RSA certificate using OpenSSL with SHA-512 and Subject Alternative Names (SAN).
+To learn more about on useful openssl commands for certificates: [![Link](https://img.shields.io/badge/-Link-learn-c4302b?style=flat&labelColor=c4302b)](https://www.busindre.com/comandos_openssl_utiles_para_certificados)
 1. We update the list of packages.
 ~~~shell
 sudo apt update && sudo apt upgrade
 ~~~
-2. Install the openssl package
+2. Make sure you have OpenSSL installed on your system before proceeding. Install the openssl package:
 ~~~shell
 sudo apt install openssl
 ~~~

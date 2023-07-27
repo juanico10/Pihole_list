@@ -516,6 +516,14 @@ Link to the developer of the application:
 
 <p><sub>Any and all rights and responsibilities pertaining thereto remain the property of the respective developer.</sub></p>
 
+## applications desktop for Adguard Home®.
+Link to the developer of the application:
+[![GitHub](https://img.shields.io/badge/-JGeek00-171515?style=flat&logo=Github&logoColor=black&labelColor=ffffff&color=ffffff)](https://github.com/JGeek00/)
+
+<p><a><a href="https://github.com/JGeek00/adguard-home-manager/releases" target="_blank" rel="noopener noreferrer"><img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/get-github.png" width="30px"></a></p>
+
+<p><sub>Any and all rights and responsibilities pertaining thereto remain the property of the respective developer.</sub></p>
+
 ## HELP ME AND CONTRIBUTION 🙌
 <p> &nbsp;If you want to contribute to improve the lists, open a <code>issue</code> here:</p>
 <a href="https://github.com/JuanRodenas/Pi-hole_list/issues"><img src="https://img.shields.io/badge/issues-green.svg?style=flat" alt="Link"></a>

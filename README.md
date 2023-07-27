@@ -511,16 +511,12 @@ Link to the developer of the application:
 
 ### Pi-hole® android application
 <a href="https://play.google.com/store/apps/details?id=com.jgeek00.droid_hole" target="_blank" rel="noopener noreferrer"><img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/google-play.png" width="40px"></a>
+
 ### Adguard Home® android application
 <a href="https://play.google.com/store/apps/details?id=com.jgeek00.adguard_home_manager" target="_blank" rel="noopener noreferrer"><img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/google-play.png" width="40px"></a>
 
-<p><sub>Any and all rights and responsibilities pertaining thereto remain the property of the respective developer.</sub></p>
-
-## applications desktop for Adguard Home®.
-Link to the developer of the application:
-[![GitHub](https://img.shields.io/badge/-JGeek00-171515?style=flat&logo=Github&logoColor=black&labelColor=ffffff&color=ffffff)](https://github.com/JGeek00/)
-
-<p><a><a href="https://github.com/JGeek00/adguard-home-manager/releases" target="_blank" rel="noopener noreferrer"><img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/get-github.png" width="30px"></a></p>
+### Desktop applications for Adguard Home®.
+<p><a><a href="https://github.com/JGeek00/adguard-home-manager/releases" target="_blank" rel="noopener noreferrer"><img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/get-github.png" width="120px"></a></p>
 
 <p><sub>Any and all rights and responsibilities pertaining thereto remain the property of the respective developer.</sub></p>
 

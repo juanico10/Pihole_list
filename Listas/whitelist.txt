@@ -196,6 +196,7 @@ www.mi.com
 www.cinemascomics.com
 www.iconarchive.com
 www.seriesadictos.com
+aeatapplication.page.link
 
 
 #### Correos
@@ -254,6 +255,7 @@ arc.msn.com
 download.visualstudio.microsoft.com
 g.live.com
 ajax.aspnetcdn.com
+az15297.vo.msecnd.net
 
 #### PC Manager Microsoft
 pcmanager.officeplus.cn

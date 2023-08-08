@@ -5860,7 +5860,8 @@
 ||forms.zohopublic.eu^
 ||zfrmz.eu^
 ||www.your-promos.com^
-
+||le-correos.top^
+||is.gd^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

@@ -353,6 +353,7 @@ This will allow the client created in the `Client Configuration` panel to connec
 | ads-and-tracking-extended | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt) | To Block ads-and-tracking-extended |
 | Adblock_Plus | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/List/Adblock_Plus_Ads.txt) | To Block Tracking AdBlock |
 | Android tracking | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://github.com/JuanRodenas/Pihole_list/blob/main/Listas/android-tracking.txt) | Android tracking for AdGuard Home |
+| Disconnect.me | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt) | To Block disconnect.me |
 
 #### Adguard team filters
 | List Tracking/Ads | Link | Description |

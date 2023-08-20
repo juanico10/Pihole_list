@@ -25809,6 +25809,8 @@
 ||zz.cqcounter.com^
 ||zzhc.vnet.cn^
 ||zzz.clickbank.net^
+||correos.es.aeno.top^
+||track-correos.shop^
 
 
 ########### REGEX

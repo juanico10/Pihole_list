@@ -18,8 +18,6 @@
 !-----------------------------------------------------------------------!
 #### Regla regex para permitir los CDNs
 @@/^(.+[_.-])?cdn[_.-]/
-#### Regla regex para permitir las APIS
-# @@/^(.+[_.-])?api[_.-]/
 
 # Lista de dominios
 ris-prod-atm.trafficmanager.net
@@ -146,6 +144,7 @@ reddit.app.link
 app.adjust.com
 www.linksynergy.com
 www.therapychat.com
+www.therapyside.com
 static.mailerlite.com
 gam.movil.bbva.es
 movil.bbva.es

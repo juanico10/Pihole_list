@@ -25811,6 +25811,7 @@
 ||zzz.clickbank.net^
 ||correos.es.aeno.top^
 ||track-correos.shop^
+||cancelacion-pagos.net^
 
 
 ########### REGEX

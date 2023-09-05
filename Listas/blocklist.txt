@@ -25812,6 +25812,7 @@
 ||correos.es.aeno.top^
 ||track-correos.shop^
 ||cancelacion-pagos.net^
+||estore.malwarebytes.com^
 
 
 ########### REGEX

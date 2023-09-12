@@ -25813,6 +25813,9 @@
 ||track-correos.shop^
 ||cancelacion-pagos.net^
 ||estore.malwarebytes.com^
+||sabadell.devolucion-personal.com^
+||bankes-usajl.formstack.com^
+||es.apps-sabadell.com^
 
 
 ########### REGEX

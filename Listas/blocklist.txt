@@ -25817,7 +25817,8 @@
 ||bankes-usajl.formstack.com^
 ||es.apps-sabadell.com^
 ||mi-tarjetasanitaria.com^
-
+||banco-unicaja.es-consultar.link^
+||bitwariden.com^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

@@ -25819,6 +25819,8 @@
 ||banco-unicaja.es-consultar.link^
 ||bitwariden.com^
 ||mi-tarjetasanitaria.com^
+||bitly.ws^
+||lamp.softprodigy.in^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

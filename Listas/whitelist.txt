@@ -200,6 +200,9 @@ aeatapplication.page.link
 @@foro.noticias3d.com^|
 web.docker.com
 www.nintenderos.com
+@@||doctoralia.es^|
+@@||doctoralia.com^|
+sessions.bugsnag.com
 
 #### Correos
 correos.tt.omtrdc.net

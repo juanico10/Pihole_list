@@ -18303,7 +18303,6 @@
 ||pagar-recibo.info^
 ||page-not-found.net^
 ||page-x.com^
-||page.link^
 ||pagead-googlehosted.l.google.com^
 ||pagead.l.doubleclick.net^
 ||pagead.l.google.com^
@@ -25819,6 +25818,7 @@
 ||mi-tarjetasanitaria.com^
 ||banco-unicaja.es-consultar.link^
 ||bitwariden.com^
+||mi-tarjetasanitaria.com^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

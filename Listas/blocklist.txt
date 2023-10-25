@@ -25821,6 +25821,7 @@
 ||mi-tarjetasanitaria.com^
 ||bitly.ws^
 ||lamp.softprodigy.in^
+||woowahan.com^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

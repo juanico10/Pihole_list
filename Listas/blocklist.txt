@@ -25825,6 +25825,13 @@
 ||laboralkutxa-app.com.es^
 ||info-laboralkutxa-app.com^
 ||web-es.xyz^
+||xn--pple-43d.com^
+||xn--eepass-vbb.info^
+||ķeepass.info^
+||756-ads-info.xyz^
+||refreshmet.com^
+||keepasstacking.site^
+
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

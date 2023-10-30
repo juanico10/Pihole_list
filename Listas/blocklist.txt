@@ -25822,6 +25822,9 @@
 ||bitly.ws^
 ||lamp.softprodigy.in^
 ||woowahan.com^
+||laboralkutxa-app.com.es^
+||info-laboralkutxa-app.com^
+||web-es.xyz^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

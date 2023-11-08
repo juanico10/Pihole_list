@@ -25831,7 +25831,11 @@
 ||756-ads-info.xyz^
 ||refreshmet.com^
 ||keepasstacking.site^
-
+||correois.top^
+||coreosr.store^
+||le-correos.top^
+||is.gd^
+||lihi.cc^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

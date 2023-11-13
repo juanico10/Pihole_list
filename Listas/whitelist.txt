@@ -203,6 +203,7 @@ www.nintenderos.com
 @@||doctoralia.es^|
 @@||doctoralia.com^|
 sessions.bugsnag.com
+hardcoregamer.com
 
 #### Correos
 correos.tt.omtrdc.net

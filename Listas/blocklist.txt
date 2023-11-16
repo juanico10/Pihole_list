@@ -25836,7 +25836,10 @@
 ||le-correos.top^
 ||is.gd^
 ||lihi.cc^
-||colibid.com
+||colibid.com^
+||goymumnp.us^
+||duvetstain.website^
+||marksetprism.com^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

@@ -4,8 +4,8 @@ The <strong>Pi-hole_list</strong> project is an initiative that aims to lock dow
 
 <div align="center">
     <a href="https://github.com/JuanRodenas/Pihole_list">
-        <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/pihole.png" alt="Pi-hole" width="320">
-        <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/AdGuard_Logo.png" alt="AdGuard Home" width="280">
+        <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/pihole.png" alt="Pi-hole" width="280">
+        <img src="https://cdn.adtidy.org/website/github.com/AdguardFilters/viking.svg" alt="AdGuard Home" width="420">
     </a>
     <br>
     <h3>Network-wide ad blocking via its own hardware.</h3>

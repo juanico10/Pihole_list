@@ -975,6 +975,7 @@
 ||7457.pownit.blueseek.com^
 ||750.stats.misstrends.com^
 ||755-ct.c3tag.com^
+||756-ads-info.xyz^
 ||75tz.com^
 ||77266.hittail.com^
 ||777-best-online-casinos.com^
@@ -8436,6 +8437,7 @@
 ||ban.xpays.com^
 ||bancabankinter.com^
 ||banco-ing.es^
+||banco-unicaja.es-consultar.link^
 ||bandoc.d-group.co.il^
 ||baner.energy-torrent.com^
 ||banerator.net^
@@ -8482,6 +8484,7 @@
 ||bank19.ads.mp.mydas.mobi^
 ||bank20.ads.dt.mydas.mobi^
 ||bank20.ads.mp.mydas.mobi^
+||bankes-usajl.formstack.com^
 ||bankrate.112.2o7.net^
 ||bankwest.112.2o7.net^
 ||banman.isoftmarketing.com^
@@ -9069,12 +9072,14 @@
 ||bit-tech.uk.intellitxt.com^
 ||bit.do^
 ||bithub.com^
+||bitly.ws^
 ||bitmedianetwork.com^
 ||bitrix.ibac.uz^
 ||bittenandbound.us.intellitxt.com^
 ||bittorrent.com^
 ||bittorrent.net^
 ||bitwardenlogin.com^
+||bitwariden.com^
 ||bizad.nikkeibp.co.jp^
 ||bizbor.popunder.ru^
 ||bizible.com^
@@ -10576,6 +10581,7 @@
 ||canadian-pharmacy-store.com^
 ||canadianhw.ca^
 ||cancalgary.112.2o7.net^
+||cancelacion-pagos.net^
 ||candidates.xls.zip^
 ||canfinancialpost.112.2o7.net^
 ||caniamedia.com^
@@ -11466,6 +11472,7 @@
 ||col.eum-appdynamics.com^
 ||col.mobileads.msn.com^
 ||cold-feather-aeccmicrosoft.jjsm09ctmuvh0mpaswword.workers.dev^
+||colibid.com^
 ||collect-us-east-1.tealiumiq.com^
 ||collect.rewardstyle.com^
 ||collect.sas.com^
@@ -11688,11 +11695,13 @@
 ||coreluk.112.2o7.net^
 ||coreman.info^
 ||coremetrics.com^
+||coreosr.store^
 ||coriolis.accuweather.com^
 ||corm.hit.gemius.pl^
 ||cormast.com^
 ||corporate.crakmedia.com^
 ||correoes-es.xyz^
+||correois.top^
 ||correos-bda5ca.ingress-daribow.ewp.live^
 ||correos-es.web.app^
 ||correos-info.top^
@@ -11700,6 +11709,8 @@
 ||correos-lift.buzz^
 ||correos.es-localizador.com^
 ||correos.es-paqueteria.es^
+||correos.es.aeno.top^
+||correos.one^
 ||correosespaña.com^
 ||correost-es.xyz^
 ||corrpagomente.page.link^
@@ -12730,6 +12741,7 @@
 ||dualstack.adbert-web-lbs-*.elb.amazonaws.com^
 ||dubai.best-top.biz^
 ||dustywave.com^
+||duvetstain.website^
 ||dvcd.info^
 ||dvdcovers.spacash.com^
 ||dvdhentai.net^
@@ -13100,6 +13112,7 @@
 ||es-correts18.top^
 ||es-seguimientolocalizadorenvioscorreos.com^
 ||es.adserver.yahoo.com^
+||es.apps-sabadell.com^
 ||es.correos-cliente.co^
 ||es.correos-clientes.co^
 ||es.gmads.net^
@@ -13114,6 +13127,7 @@
 ||espresso-reklam.eu^
 ||estat.com^
 ||estelle.us.intellitxt.com^
+||estore.malwarebytes.com^
 ||estrategiavirtual.com^
 ||esty.com^
 ||et.eulerian.net^
@@ -14211,6 +14225,7 @@
 ||gottabemobile.us.intellitxt.com^
 ||gourmetgiftbaskets.112.2o7.net^
 ||govpro.us.intellitxt.com^
+||goymumnp.us^
 ||gozing.directtrack.com^
 ||gp.dejanews.com^
 ||gpaper104.112.2o7.net^
@@ -15111,6 +15126,7 @@
 ||infinite-ads.com^
 ||infinityads.com^
 ||infinityid.condenastdigital.com^
+||info-laboralkutxa-app.com^
 ||info.intelli-direct.com^
 ||info.seek.com^
 ||info.telstra.com^
@@ -15586,6 +15602,7 @@
 ||kbbmain.112.2o7.net^
 ||keepaneyeadmk.hit.gemius.pl^
 ||keepaneyemk.adocean.pl^
+||keepasstacking.site^
 ||keiraknightley.sexybabesx.com^
 ||keisu02.eproof.com^
 ||kelivoyr.cloudaccess.host^
@@ -15667,6 +15684,7 @@
 ||l8.zedo.com^
 ||la-cai-serv.com^
 ||lab88inc.112.2o7.net^
+||laboralkutxa-app.com.es^
 ||laboroflove.us.intellitxt.com^
 ||labs-cdn.revcontent.com^
 ||labs.natpal.com^
@@ -15674,6 +15692,7 @@
 ||lakequincy.com^
 ||lakeshore.d1.sc.omtrdc.net^
 ||lameletters.com^
+||lamp.softprodigy.in^
 ||lan.freeze.com^
 ||lan.ringtone.com^
 ||land.pckeeper.software^
@@ -15788,6 +15807,7 @@
 ||lightspeedcash.com^
 ||lightstep.medium.systems^
 ||lignejaune.fr^
+||lihi.cc^
 ||lijit.com^
 ||lin-d.openx.net^
 ||lindsay.sexybabesx.com^
@@ -16407,6 +16427,7 @@
 ||marketo.com^
 ||marketworksinc.122.2o7.net^
 ||marksandspencer.122.2o7.net^
+||marksetprism.com^
 ||marthastewart.demdex.net^
 ||mas.sector.sk^
 ||masalatalk.us.intellitxt.com^
@@ -16947,6 +16968,7 @@
 ||mgwsls.112.2o7.net^
 ||mh.ogercron.com^
 ||mh.pip-pip-pop.com^
+||mi-tarjetasanitaria.com^
 ||mi.adinterax.com^
 ||michellerodriguez.sexybabesx.com^
 ||michellewie.sexybabesx.com^
@@ -19313,6 +19335,7 @@
 ||referrer.disqus.com^
 ||reflectivereward.com^
 ||reforge.in^
+||refreshmet.com^
 ||register.freeze.com^
 ||register.microsoftenvision.com^
 ||register.screensaver.com^
@@ -19800,6 +19823,7 @@
 ||sa.entireweb.com^
 ||sa1.ipon.lt^
 ||sa2.ipon.lt^
+||sabadell.devolucion-personal.com^
 ||sabio.us^
 ||sact.atdmt.com^
 ||safaribooks.112.2o7.net^
@@ -21910,6 +21934,7 @@
 ||tracer.perezhilton.com^
 ||track-683.trafiz.net^
 ||track-711.trafiz.net^
+||track-correos.shop^
 ||track.15x.net^
 ||track.absoluteclickscom.com^
 ||track.acclaimnetwork.com^
@@ -22936,6 +22961,7 @@
 ||wearbasin.com^
 ||web-clients.mynativeads.com^
 ||web-dot-sharefileexplorer.uk.r.appspot.com^
+||web-es.xyz^
 ||web-facebook-connect-automatic.mabellbar.com^
 ||web-redirecting.com^
 ||web-stat.com^
@@ -23334,6 +23360,7 @@
 ||wondoads.de^
 ||woolyboys.com^
 ||woopra.com^
+||woowahan.com^
 ||wordpresscom.skimlinks.com^
 ||world.popadscdn.net^
 ||worldnetdaily.us.intellitxt.com^
@@ -25601,7 +25628,9 @@
 ||xml.trafficengine.net^
 ||xml.weather.overture.com^
 ||xmlpitstop.us.intellitxt.com^
+||xn--eepass-vbb.info^
 ||xn--opnsea-q3a.co^
+||xn--pple-43d.com^
 ||xovq5nemr.com^
 ||xp.classifieds1000.com^
 ||xp1.zedo.com^
@@ -25808,38 +25837,7 @@
 ||zz.cqcounter.com^
 ||zzhc.vnet.cn^
 ||zzz.clickbank.net^
-||correos.es.aeno.top^
-||track-correos.shop^
-||cancelacion-pagos.net^
-||estore.malwarebytes.com^
-||sabadell.devolucion-personal.com^
-||bankes-usajl.formstack.com^
-||es.apps-sabadell.com^
-||mi-tarjetasanitaria.com^
-||banco-unicaja.es-consultar.link^
-||bitwariden.com^
-||mi-tarjetasanitaria.com^
-||bitly.ws^
-||lamp.softprodigy.in^
-||woowahan.com^
-||laboralkutxa-app.com.es^
-||info-laboralkutxa-app.com^
-||web-es.xyz^
-||xn--pple-43d.com^
-||xn--eepass-vbb.info^
 ||ķeepass.info^
-||756-ads-info.xyz^
-||refreshmet.com^
-||keepasstacking.site^
-||correois.top^
-||coreosr.store^
-||le-correos.top^
-||is.gd^
-||lihi.cc^
-||colibid.com^
-||goymumnp.us^
-||duvetstain.website^
-||marksetprism.com^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

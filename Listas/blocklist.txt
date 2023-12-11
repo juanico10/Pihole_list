@@ -25838,6 +25838,7 @@
 ||zzhc.vnet.cn^
 ||zzz.clickbank.net^
 ||ķeepass.info^
+||escorrese.top^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

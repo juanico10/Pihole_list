@@ -187,26 +187,17 @@ sudo apt update && sudo apt upgrade
 ~~~shell
 sudo apt install certbot
 ~~~
-3. With cerbot, when using the dns challenge, certbot will ask you to place a` TXT DNS` record with specific contents under the domain name consisting of the hostname for which you want a certificate issued, prepended by `_acme-challenge`.
-For example, for the domain `example.com`, a zone file entry would look like:
-```shell
-_acme-challenge.example.com. 300 IN TXT "gfj9Xq...Rg85nM"
-```
-Run the following command modifying the valid email to acquire a Wildcard certificate:
-~~~shell
-certbot certonly --manual --preferred-challenges=dns --rsa-key-size 4096 --email usuario@ejemplo.com --agree-tos --server https://acme-v02.api.letsencrypt.org/directory -d "*.your_domain"
-~~~
-* Let's see the command options:
+3. In this section we are going to see the most important options of the command. You can choose the options that you consider most convenient.
 
-3.1 You can add as many domains as you wish with the `--domain` variable. Example:
+:point_right: 3.1 You can add as many domains as you wish with the `--domain` variable. Example:
   | Description | example |
-  | :--: | :-- |
+  | :-- | :-- |
   | --domain | --domain example.com --domain example.org |
   | --domain | --domain example.org,www.example.org |
-  | --d | -d example.com -d example.org |
-  | --d | -d example.org,www.example.org |
+  | -d | -d example.com -d example.org |
+  | -d | -d example.org,www.example.org |
 
-3.2 You can change the variable `--rsa-key-size` to the size:
+:point_right: 3.2 You can change the variable `--rsa-key-size` to the size:
   | Bit size | Description |
   | :--: | :-- |
   | 512 | Insecure |
@@ -215,28 +206,31 @@ certbot certonly --manual --preferred-challenges=dns --rsa-key-size 4096 --email
   | 4096 | Increased security |
   | 8192 | Maximum security |
 
-3.3. `--csr` The csr variable and a `.cnf` file can perform the following functions. Currently --csr only works with the 'certonly' subcommand.
-	- Follow this tutorial that I have added separately to create the csr [![Link](https://img.shields.io/badge/Create_CSR-green.svg?style=flat)](./assets/create-csr.md)
+:point_right: 3.3. `--csr` The csr variable and a `.cnf` file can perform the following functions. Currently --csr only works with the `certonly` subcommand.
+- Follow this tutorial that I have added separately to create the csr [![Link](https://img.shields.io/badge/Create_CSR-green.svg?style=flat)](./assets/create-csr.md)
 
-3.4. `--config-dir` You can configure the configuration file with the variable. The certificate specific configuration options must be set in the .conf and I attach an example: [![example.org.conf](https://img.shields.io/badge/-example.org.conf-3849b8?style=flat&labelColor=3849b8)](./assets/example.org.conf)
+:point_right: 3.4. `--config-dir` You can configure the configuration file with the variable.
+- The certificate specific configuration options must be set in the `.conf` and I attach an example: [![example.org.conf](https://img.shields.io/badge/example.org.conf-3849b8?style=flat&labelColor=3849b8)](./assets/example.org.conf)
 
-3.5. `--staging` Use the Let's Encrypt staging server to obtain or revoke test (invalid) certificates; equivalent to server acme-staging-v02.
+:point_right: 3.5. `--test-cert, --staging` Use the Let's Encrypt staging server to obtain or revoke test (invalid) certificates; equivalent to `--server acme-staging`
 
-3.6. `--hsts` Add the Strict-Transport-Security header to every HTTP response. Force the browser to always use SSL for the domain.
+:point_right: 3.6. `--hsts` Add the Strict-Transport-Security header to every HTTP response. Force the browser to always use SSL for the domain.
 
-3.7. `--key-type {rsa,ecdsa}`. Type of generated private key. Only *ONE* per invocation can be provided at this time.
+:point_right: 3.7. `--key-type {rsa,ecdsa}`. Type of generated private key. Only *ONE* per invocation can be provided at this time.
 
-3.8. `--quiet` Silence all output except errors.
+:point_right: 3.8. `--quiet` Silence all output except errors.
 
-3.9. `--cert-name` Certificate name to apply. This name is used by Certbot for housekeeping and in file paths; it doesn't affect the content of the certificate itself.
+:point_right: 3.9. `--cert-name` Certificate name to apply. This name is used by Certbot for housekeeping and in file paths; it doesn't affect the content of the certificate itself.
 
-3.10. `--server` Choose the ACME Directory Resource URI for your server.
+:point_right: 3.10 `--debug` Show tracebacks in case of errors
+
+:point_right: 3.11. `--server` Choose the ACME Directory Resource URI for your server.
   | Description | Server |
   | :--: | :-- |
   | Certificate for production server | https://acme-v02.api.letsencrypt.org/directory |
   | Certificate for test server | https://acme-staging-v02.api.letsencrypt.org/directory |
 
-3.11. `--elliptic-curve` (default: secp256r1) The SECG elliptic curve name to use.
+:point_right: 3.12. `--elliptic-curve` (default: secp256r1) The SECG elliptic curve name to use.
   | Type algorithm | Bit size | Description |
   | :-- | :--: | :-- |
   | secp192r1 | 192 | Insecure |
@@ -261,16 +255,25 @@ Examples of applications that could use each curve:
 | Security | Basic | Higher |
 | Common uses | Digital signature, Cryptocurrencies, public keys encryption | Public key encryption for critical applications, encryption, Public Key Infrastructure (PKI) |
 
+Run the following command modifying the valid email and options as you see fit for your example.
+
+This example is for acquiring a Wildcard certificate:
+~~~shell
+certbot certonly --manual --preferred-challenges=dns --rsa-key-size 4096 --email usuario@ejemplo.com --agree-tos --server https://acme-v02.api.letsencrypt.org/directory -d "*.your_domain"
+~~~
+
 4. Finally, it will ask to make an <code>_acme-challenge</code> TXT record in our name server provider with the content it tells us:
+With cerbot, when using the dns challenge, certbot will ask you to place a` TXT DNS` record with specific contents under the domain name consisting of the hostname for which you want a certificate issued, prepended by `_acme-challenge`.
+For example, for the domain `example.com`, a zone file entry would look like:
+```shell
+_acme-challenge.example.com. 300 IN TXT "gfj9Xq...Rg85nM"
+```
+
 It creates the following files, in the directory <code>/etc/letsencrypt/live/</code>:
 - <code>fullchain.pem</code> – your SSL certificate encrypted in PEM.
 - <code>privkey.pem</code> – your private key encrypted in PEM.
 
 #### Configuración de Lets encrypt
-Steps to follow after requesting the certificate:
-* You will be prompted to enter the domain to be certified, enter it using <code>*.</code> plus the domain you wish to certify to obtain the Wildcard.
-* Finally, it will ask you to register <code>_acme-challenge</code> TXT type in our name server provider with the content you indicate.
-
 To check if the certificate will self-renew:
 * Renewal test (simulación):<code>certbot renew --dry-run</code>
 * Check the status of the Certbot timer service: <code>systemctl status certbot.timer</code>

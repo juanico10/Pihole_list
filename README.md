@@ -179,17 +179,19 @@ Quad9 in both IPv4 and IPv6:
 
 #### Create the self-signed personal certificate with Let's Encrypt:
 Installing a free SSL certificate with CertBot:
-1. We update the list of packages.
+:one: We update the list of packages.
 ~~~shell
 sudo apt update && sudo apt upgrade
 ~~~
-2. Install the Certbot package
+
+:two: Install the Certbot package
 ~~~shell
 sudo apt install certbot
 ~~~
-3. In this section we are going to see the most important options of the command. You can choose the options that you consider most convenient.
 
-:point_right: 3.1 You can add as many domains as you wish with the `--domain` variable. Example:
+:three: In this section we are going to see the most important options of the command. You can choose the options that you consider most convenient.
+
+ :point_right: 3.1 You can add as many domains as you wish with the `--domain` variable. Example:
   | Description | example |
   | :-- | :-- |
   | --domain | --domain example.com --domain example.org |
@@ -197,7 +199,7 @@ sudo apt install certbot
   | -d | -d example.com -d example.org |
   | -d | -d example.org,www.example.org |
 
-:point_right: 3.2 You can change the variable `--rsa-key-size` to the size:
+ :point_right: 3.2 You can change the variable `--rsa-key-size` to the size:
   | Bit size | Description |
   | :--: | :-- |
   | 512 | Insecure |
@@ -206,31 +208,31 @@ sudo apt install certbot
   | 4096 | Increased security |
   | 8192 | Maximum security |
 
-:point_right: 3.3. `--csr` The csr variable and a `.cnf` file can perform the following functions. Currently --csr only works with the `certonly` subcommand.
-- Follow this tutorial that I have added separately to create the csr [![Link](https://img.shields.io/badge/Create_CSR-green.svg?style=flat)](./assets/create-csr.md)
+ :point_right: 3.3. `--csr` The csr variable and a `.cnf` file can perform the following functions. Currently --csr only works with the `certonly` subcommand.
+  - Follow this tutorial that I have added separately to create the csr [![Link](https://img.shields.io/badge/Create_CSR-green.svg?style=flat)](./assets/create-csr.md)
 
-:point_right: 3.4. `--config-dir` You can configure the configuration file with the variable.
-- The certificate specific configuration options must be set in the `.conf` and I attach an example: [![example.org.conf](https://img.shields.io/badge/example.org.conf-3849b8?style=flat&labelColor=3849b8)](./assets/example.org.conf)
+ :point_right: 3.4. `--config-dir` You can configure the configuration file with the variable.
+  - The certificate specific configuration options must be set in the `.conf` and I attach an example: [![example.org.conf](https://img.shields.io/badge/example.org.conf-3849b8?style=flat&labelColor=3849b8)](./assets/example.org.conf)
 
-:point_right: 3.5. `--test-cert, --staging` Use the Let's Encrypt staging server to obtain or revoke test (invalid) certificates; equivalent to `--server acme-staging`
+ :point_right: 3.5. `--test-cert, --staging` Use the Let's Encrypt staging server to obtain or revoke test (invalid) certificates; equivalent to `--server acme-staging`
 
-:point_right: 3.6. `--hsts` Add the Strict-Transport-Security header to every HTTP response. Force the browser to always use SSL for the domain.
+ :point_right: 3.6. `--hsts` Add the Strict-Transport-Security header to every HTTP response. Force the browser to always use SSL for the domain.
 
-:point_right: 3.7. `--key-type {rsa,ecdsa}`. Type of generated private key. Only *ONE* per invocation can be provided at this time.
+ :point_right: 3.7. `--key-type {rsa,ecdsa}`. Type of generated private key. Only *ONE* per invocation can be provided at this time.
 
-:point_right: 3.8. `--quiet` Silence all output except errors.
+ :point_right: 3.8. `--quiet` Silence all output except errors.
 
-:point_right: 3.9. `--cert-name` Certificate name to apply. This name is used by Certbot for housekeeping and in file paths; it doesn't affect the content of the certificate itself.
+ :point_right: 3.9. `--cert-name` Certificate name to apply. This name is used by Certbot for housekeeping and in file paths; it doesn't affect the content of the certificate itself.
 
-:point_right: 3.10 `--debug` Show tracebacks in case of errors
+ :point_right: 3.10 `--debug` Show tracebacks in case of errors
 
-:point_right: 3.11. `--server` Choose the ACME Directory Resource URI for your server.
+ :point_right: 3.11. `--server` Choose the ACME Directory Resource URI for your server.
   | Description | Server |
   | :--: | :-- |
   | Certificate for production server | https://acme-v02.api.letsencrypt.org/directory |
   | Certificate for test server | https://acme-staging-v02.api.letsencrypt.org/directory |
 
-:point_right: 3.12. `--elliptic-curve` (default: secp256r1) The SECG elliptic curve name to use.
+ :point_right: 3.12. `--elliptic-curve` (default: secp256r1) The SECG elliptic curve name to use.
   | Type algorithm | Bit size | Description |
   | :-- | :--: | :-- |
   | secp192r1 | 192 | Insecure |
@@ -241,19 +243,19 @@ sudo apt install certbot
   | secp521k1 | 521 | Maximum security |
   | secp521r1 | 521 | Maximum security |
   
-For the choice of the key to be chosen the difference in the definition of the base point has two important consequences:
-* **The secpXXXk1 curve has a higher computational efficiency than the secpXXXr1 curve.** This is because the base point of the secpXXXk1 curve is a generation point, which means that it can be used to generate all the other points of the curve. The base point of the secpXXXr1 curve, on the other hand, is not a generation point, so more operations need to be calculated to generate all the other points of the curve.
-* **The secpXXXr1 curve has higher security than the secpXXXk1 curve.** This is because the base point of the secpXXXr1 curve is a more random point than the base point of the secpXXXk1 curve. This makes it more difficult for attackers to find points on the curve that are not in the set of generation points.
-In general, the secpXXXXk1 curve is a good choice for applications that require computational efficiency, while the secpXXXr1 curve is a good choice for applications that require security.
+ For the choice of the key to be chosen the difference in the definition of the base point has two important consequences:
+  * **The secpXXXk1 curve has a higher computational efficiency than the secpXXXr1 curve.** This is because the base point of the secpXXXk1 curve is a generation point, which means that it can be used to generate all the other points of the curve. The base point of the secpXXXr1 curve, on the other hand, is not a generation point, so more operations need to be calculated to generate all the other points of the curve.
+  * **The secpXXXr1 curve has higher security than the secpXXXk1 curve.** This is because the base point of the secpXXXr1 curve is a more random point than the base point of the secpXXXk1 curve. This makes it more difficult for attackers to find points on the curve that are not in the set of generation points.
+ In general, the secpXXXXk1 curve is a good choice for applications that require computational efficiency, while the secpXXXr1 curve is a good choice for applications that require security.
 
-Examples of applications that could use each curve:
-| Feature | secpXXXk1 | secpXXXr1 |
-|---|---|---|
-| base point | Lower | Higher |
-| Type | Computational | Security |
-| Computational Efficiency | Higher | Basic |
-| Security | Basic | Higher |
-| Common uses | Digital signature, Cryptocurrencies, public keys encryption | Public key encryption for critical applications, encryption, Public Key Infrastructure (PKI) |
+ Examples of applications that could use each curve:
+  | Feature | secpXXXk1 | secpXXXr1 |
+  |---|---|---|
+  | base point | Lower | Higher |
+  | Type | Computational | Security |
+  | Computational Efficiency | Higher | Basic |
+  | Security | Basic | Higher |
+  | Common uses | Digital signature, Cryptocurrencies, public keys encryption | Public key encryption for critical applications, encryption, Public Key Infrastructure (PKI) |
 
 Run the following command modifying the valid email and options as you see fit for your example.
 
@@ -262,16 +264,16 @@ This example is for acquiring a Wildcard certificate:
 certbot certonly --manual --preferred-challenges=dns --rsa-key-size 4096 --email usuario@ejemplo.com --agree-tos --server https://acme-v02.api.letsencrypt.org/directory -d "*.your_domain"
 ~~~
 
-4. Finally, it will ask to make an <code>_acme-challenge</code> TXT record in our name server provider with the content it tells us:
-With cerbot, when using the dns challenge, certbot will ask you to place a` TXT DNS` record with specific contents under the domain name consisting of the hostname for which you want a certificate issued, prepended by `_acme-challenge`.
+:four: Finally, it will ask to make an <code>_acme-challenge</code> TXT record in our name server provider with the content it tells us:
+With cerbot, when using the dns challenge, certbot will ask you to place a` TXT DNS` record with specific contents under the domain name consisting of the hostname for which you want a certificate issued, prepended `_acme-challenge`.
 For example, for the domain `example.com`, a zone file entry would look like:
 ```shell
 _acme-challenge.example.com. 300 IN TXT "gfj9Xq...Rg85nM"
 ```
 
 It creates the following files, in the directory <code>/etc/letsencrypt/live/</code>:
-- <code>fullchain.pem</code> – your SSL certificate encrypted in PEM.
-- <code>privkey.pem</code> – your private key encrypted in PEM.
+ - <code>fullchain.pem</code> – your SSL certificate encrypted in PEM.
+ - <code>privkey.pem</code> – your private key encrypted in PEM.
 
 #### Configuración de Lets encrypt
 To check if the certificate will self-renew:

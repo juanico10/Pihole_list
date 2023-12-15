@@ -611,5 +611,6 @@ This repository is made with all my love and affection.
 &nbsp;
 
 <p><sup>These files/texts are provided "AS IS", without warranties of any kind, express or implied, including, but not limited to, warranties of merchantability, fitness for a particular purpose and non-infringement. In no event shall the authors or copyright holders be liable for any claims, damages or other liability arising out of or relating to the files or the use thereof.</sup></p>
+<p><sup>I will be updating with information and adding procedures in my spare time. The content is licensed under the Creative Commons Attribution - Noncommercial - No Derivative Works (by-nc-nd) license. For more information on Creative Commons licensing, visit the <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es">link to Creative Commons page</a>.</sup></p>
+<p><sup>The author of the content is JuanRodenas. You can contact me at <a href="mailto:juanrodenas07@gmail.com?Subject=from%20github">mailto</a> and the author's website is <a href="https://github.com/JuanRodenas/">website</a>.</p></sup>
 <p><sub>Any and all trademarks are the property of their respective owners.</sub></p>
-<p><sup>I will be updating with information and adding procedures in my spare time. This repository is licensed under the Creative Commons Attribution - Non-Commercial - No Derivative Works (by-nc-nd) license.</sup></p>

@@ -187,10 +187,65 @@ sudo apt update && sudo apt upgrade
 ~~~shell
 sudo apt install certbot
 ~~~
-3. Run the following command modifying the valid email to acquire a Wildcard certificate:
+3. With cerbot, when using the dns challenge, certbot will ask you to place a` TXT DNS` record with specific contents under the domain name consisting of the hostname for which you want a certificate issued, prepended by `_acme-challenge`.
+For example, for the domain `example.com`, a zone file entry would look like:
+```shell
+_acme-challenge.example.com. 300 IN TXT "gfj9Xq...Rg85nM"
+```
+Run the following command modifying the valid email to acquire a Wildcard certificate:
 ~~~shell
 certbot certonly --manual --preferred-challenges=dns --rsa-key-size 4096 --email usuario@ejemplo.com --agree-tos --server https://acme-v02.api.letsencrypt.org/directory -d "*.your_domain"
 ~~~
+* Let's see the command options:
+
+3.1 You can add as many domains as you wish with the `--domain` variable. Example, `--domain *.example.org --domain example.org`
+3.2 You can change the variable `--rsa-key-size` to the size:
+  | Bit size | Description |
+  | :--: | :-- |
+  | 512 | Insecure |
+  | 1024 | Basic security |
+  | 2048 | Recommended security |
+  | 4096 | Increased security |
+  | 8192 | Maximum security |
+3.3. `--csr` The csr variable and a `.cnf` file can perform the following functions. Currently --csr only works with the 'certonly' subcommand.
+	- Follow this tutorial that I have added separately to create the csr [![Link](https://img.shields.io/badge/Create_CSR-green.svg?style=flat)](./assets/create-csr.md)
+3.4. `--config-dir` You can configure the configuration file with the variable. The certificate specific configuration options must be set in the .conf and I attach an example: [![example.org.conf](https://img.shields.io/badge/-example.org.conf-3849b8?style=flat&labelColor=3849b8)](./assets/example.org.conf)
+3.5. `--staging` Use the Let's Encrypt staging server to obtain or revoke test (invalid) certificates; equivalent to server acme-staging-v02.
+3.6. `--hsts` Add the Strict-Transport-Security header to every HTTP response. Force the browser to always use SSL for the domain.
+3.7. `--key-type {rsa,ecdsa}`. Type of generated private key. Only *ONE* per invocation can be provided at this time.
+3.8. `--quiet` Silence all output except errors.
+3.9. `--cert-name` Certificate name to apply. This name is used by Certbot for housekeeping and in file paths; it doesn't affect the content of the certificate itself.
+3.10. `--server` Choose the ACME Directory Resource URI for your server.
+  | Description | Server |
+  | :--: | :-- |
+  | Certificate for production server | https://acme-v02.api.letsencrypt.org/directory |
+  | Certificate for test server | https://acme-staging-v02.api.letsencrypt.org/directory |
+
+3.11. `--elliptic-curve` (default: secp256r1) The SECG elliptic curve name to use.
+  | Type algorithm | Bit size | Description |
+  | :-- | :--: | :-- |
+  | secp192r1 | 192 | Insecure |
+  | secp224k1 | 224 | Basic security |
+  | secp224r1 | 224 | Basic security |
+  | secp256k1 | 256 | Recommended security |
+  | secp256r1 | 256 | Recommended security |
+  | secp521k1 | 521 | Maximum security |
+  | secp521r1 | 521 | Maximum security |
+  
+For the choice of the key to be chosen the difference in the definition of the base point has two important consequences:
+* **The secpXXXk1 curve has a higher computational efficiency than the secpXXXr1 curve.** This is because the base point of the secpXXXk1 curve is a generation point, which means that it can be used to generate all the other points of the curve. The base point of the secpXXXr1 curve, on the other hand, is not a generation point, so more operations need to be calculated to generate all the other points of the curve.
+* **The secpXXXr1 curve has higher security than the secpXXXk1 curve.** This is because the base point of the secpXXXr1 curve is a more random point than the base point of the secpXXXk1 curve. This makes it more difficult for attackers to find points on the curve that are not in the set of generation points.
+In general, the secpXXXXk1 curve is a good choice for applications that require computational efficiency, while the secpXXXr1 curve is a good choice for applications that require security.
+
+Examples of applications that could use each curve:
+| Feature | secpXXXk1 | secpXXXr1 |
+|---|---|---|
+| base point | Lower | Higher |
+| Type | Computational | Security |
+| Computational Efficiency | Higher | Basic |
+| Security | Basic | Higher |
+| Common uses | Digital signature, Cryptocurrencies, public keys encryption | Public key encryption for critical applications, encryption, Public Key Infrastructure (PKI) |
+
 4. Finally, it will ask to make an <code>_acme-challenge</code> TXT record in our name server provider with the content it tells us:
 It creates the following files, in the directory <code>/etc/letsencrypt/live/</code>:
 - <code>fullchain.pem</code> – your SSL certificate encrypted in PEM.
@@ -210,9 +265,9 @@ To check if the certificate will self-renew:
 * Listing certificates: <code>certbot certificates</code>
 
 To revoke a certificate:
-* Delete a certificate completely: <code>certbot delete --cert-name example.com</code>
-* From the account for which the certificate was issued: <code>certbot revoke --cert-path /etc/letsencrypt/archive/${YOUR_DOMAIN}/cert1.pem</code>
-* Using the certificate's private key: <code>certbot revoke --cert-path /PATH/TO/cert.pem --key-path /PATH/TO/key.pem</code>
+* Delete a certificate completely: <code>certbot delete --cert-name example.com --reason keycompromise</code>
+* From the account for which the certificate was issued: <code>certbot revoke --cert-path /etc/letsencrypt/archive/${YOUR_DOMAIN}/cert1.pem --reason keycompromise</code>
+* Using the certificate's private key: <code>certbot revoke --cert-path /PATH/TO/cert.pem --key-path /PATH/TO/key.pem --reason keycompromise</code>
 
 <p>If you do not want to follow all these steps, you can obtain the certificate with <code>ZeroSSL</code>, but the wildcard certificate is charged.</p>
 <p><a href="https://zerossl.com/"><img src="https://img.shields.io/badge/-ZeroSSL-3849b8?style=flat&labelColor=3849b8" alt="ZeroSSL"></a></p>

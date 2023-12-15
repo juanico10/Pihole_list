@@ -198,7 +198,14 @@ certbot certonly --manual --preferred-challenges=dns --rsa-key-size 4096 --email
 ~~~
 * Let's see the command options:
 
-3.1 You can add as many domains as you wish with the `--domain` variable. Example, `--domain *.example.org --domain example.org`
+3.1 You can add as many domains as you wish with the `--domain` variable. Example:
+  | Description | example |
+  | :--: | :-- |
+  | --domain | --domain example.com --domain example.org |
+  | --domain | --domain example.org,www.example.org |
+  | --d | -d example.com -d example.org |
+  | --d | -d example.org,www.example.org |
+
 3.2 You can change the variable `--rsa-key-size` to the size:
   | Bit size | Description |
   | :--: | :-- |
@@ -207,14 +214,22 @@ certbot certonly --manual --preferred-challenges=dns --rsa-key-size 4096 --email
   | 2048 | Recommended security |
   | 4096 | Increased security |
   | 8192 | Maximum security |
+
 3.3. `--csr` The csr variable and a `.cnf` file can perform the following functions. Currently --csr only works with the 'certonly' subcommand.
 	- Follow this tutorial that I have added separately to create the csr [![Link](https://img.shields.io/badge/Create_CSR-green.svg?style=flat)](./assets/create-csr.md)
+
 3.4. `--config-dir` You can configure the configuration file with the variable. The certificate specific configuration options must be set in the .conf and I attach an example: [![example.org.conf](https://img.shields.io/badge/-example.org.conf-3849b8?style=flat&labelColor=3849b8)](./assets/example.org.conf)
+
 3.5. `--staging` Use the Let's Encrypt staging server to obtain or revoke test (invalid) certificates; equivalent to server acme-staging-v02.
+
 3.6. `--hsts` Add the Strict-Transport-Security header to every HTTP response. Force the browser to always use SSL for the domain.
+
 3.7. `--key-type {rsa,ecdsa}`. Type of generated private key. Only *ONE* per invocation can be provided at this time.
+
 3.8. `--quiet` Silence all output except errors.
+
 3.9. `--cert-name` Certificate name to apply. This name is used by Certbot for housekeeping and in file paths; it doesn't affect the content of the certificate itself.
+
 3.10. `--server` Choose the ACME Directory Resource URI for your server.
   | Description | Server |
   | :--: | :-- |

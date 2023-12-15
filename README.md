@@ -179,6 +179,7 @@ Quad9 in both IPv4 and IPv6:
 
 #### Create the self-signed personal certificate with Let's Encrypt:
 Installing a free SSL certificate with CertBot:
+
 :one: We update the list of packages.
 ~~~shell
 sudo apt update && sudo apt upgrade
@@ -260,9 +261,10 @@ sudo apt install certbot
 Run the following command modifying the valid email and options as you see fit for your example.
 
 This example is for acquiring a Wildcard certificate:
-~~~shell
-certbot certonly --manual --preferred-challenges=dns --rsa-key-size 4096 --email usuario@ejemplo.com --agree-tos --server https://acme-v02.api.letsencrypt.org/directory -d "*.your_domain"
-~~~
+```shell
+certbot certonly --manual --preferred-challenges=dns --rsa-key-size 4096 --email usuario@ejemplo.com --agree-tos
+--server https://acme-v02.api.letsencrypt.org/directory -d "*.your_domain"
+```
 
 :four: Finally, it will ask to make an <code>_acme-challenge</code> TXT record in our name server provider with the content it tells us:
 With cerbot, when using the dns challenge, certbot will ask you to place a` TXT DNS` record with specific contents under the domain name consisting of the hostname for which you want a certificate issued, prepended `_acme-challenge`.

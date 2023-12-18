@@ -241,8 +241,14 @@ sudo apt install certbot
   | secp224r1 | 224 | Basic security |
   | secp256k1 | 256 | Recommended security |
   | secp256r1 | 256 | Recommended security |
-  | secp521k1 | 521 | Maximum security |
+  | secp283k1 | 283 | Basic security |
+  | secp283r1 | 283 | Basic security |
+  | secp384r1 | 384 | Recommended security |
+  | secp409r1 | 409 | Maximum security |
+  | secp409k1 | 409 | Maximum security |
   | secp521r1 | 521 | Maximum security |
+  | secp571r1 | 571 | Maximum security |
+  | secp571k1 | 571 | Maximum security |
   
  For the choice of the key to be chosen the difference in the definition of the base point has two important consequences:
   * **The secpXXXk1 curve has a higher computational efficiency than the secpXXXr1 curve.** This is because the base point of the secpXXXk1 curve is a generation point, which means that it can be used to generate all the other points of the curve. The base point of the secpXXXr1 curve, on the other hand, is not a generation point, so more operations need to be calculated to generate all the other points of the curve.

@@ -604,16 +604,16 @@ Link to the developer of the application:
 
 <p><sub>Any and all rights and responsibilities pertaining thereto remain the property of the respective developer.</sub></p>
 
-## HELP ME AND CONTRIBUTION 🙌
+## HELP ME AND CONTRIBUTION :raised_hands:
 <p> &nbsp;If you want to contribute to improve the lists, open a <code>issue</code> here:</p>
 <a href="https://github.com/JuanRodenas/Pi-hole_list/issues"><img src="https://img.shields.io/badge/issues-green.svg?style=flat" alt="Link"></a>
 
-## Credits 🚀
+## Credits :rocket:
 This repository is made with all my love and affection.
 
 [![GitHub](https://img.shields.io/badge/-JuanRodenas-171515?style=flat&logo=Github&logoColor=black&labelColor=ececec&color=ececec)](https://github.com/JuanRodenas/)
 
-## 🎉 ¡Ready!
+## :tada: ¡Ready!
 &nbsp;
 
 <p><sup>These files/texts are provided "AS IS", without warranties of any kind, express or implied, including, but not limited to, warranties of merchantability, fitness for a particular purpose and non-infringement. In no event shall the authors or copyright holders be liable for any claims, damages or other liability arising out of or relating to the files or the use thereof.</sup></p>

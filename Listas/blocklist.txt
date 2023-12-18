@@ -25839,6 +25839,7 @@
 ||zzz.clickbank.net^
 ||ķeepass.info^
 ||escorrese.top^
+||zbvhwaakws.com^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

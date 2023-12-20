@@ -25840,6 +25840,7 @@
 ||ķeepass.info^
 ||escorrese.top^
 ||zbvhwaakws.com^
+||myshopify.com^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

@@ -1,0 +1,41 @@
+name: 🐞 Bug report
+description: Thanks for taking the time to fill out this bug report! Please fill the form in **English or Spanish**
+labels: ["bug"]
+body:
+  - type: textarea
+    id: desc
+    attributes:
+      label: Bug Description
+      description: What steps can we take to reproduce this behavior? A clear and concise description of what you expected to happen
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Please add screenshots to help explain your problem, if applicable, please upload video.
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system(s) on local side and remote side
+      description: What operating system(s) do you see this bug on? local side -> remote side.
+      placeholder: |
+        Docker -> Android
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: List of url used
+      description: Try to indicate the url as final as possible.
+      placeholder: |
+        https://raw.githubusercontent.com/JuanRodenas/Pihole_list/...
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Add any additonal context about the problem here

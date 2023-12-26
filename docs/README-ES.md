@@ -73,8 +73,8 @@ Estas listas fueron creadas porque quería tener un poco más de control sobre l
 
 <p>&nbsp;Todas las urls de esta versión de la lista aparecen en el archivo hosts de la siguiente forma</p>
 
-<p>  &nbsp;&nbsp;<code># comment</code> – sólo un comentario</p>
-<p>  &nbsp;&nbsp;<code>! comment</code> – sólo un comentario</p>
+<p>&nbsp;&nbsp;<code># comentario</code> – sólo un comentario</p>
+<p>&nbsp;&nbsp;<code>! comentario</code> – sólo un comentario</p>
 
 </details>
 &nbsp;
@@ -286,52 +286,52 @@ Crea los siguientes archivos, en el directorio <code>/etc/letsencrypt/live/</cod
 
 #### Configuración de Lets encrypt
 To check if the certificate will self-renew:
-* Renewal test (simulación):<code>certbot renew --dry-run</code>
-* Check the status of the Certbot timer service: <code>systemctl status certbot.timer</code>
-* To renew a certificate: <code>certbot renew</code>
-	* To force self-renewal: <code>--force-renewal</code>
-* To list jobs: <code>systemctl list-timers --all</code> Debe aparecer el siguiente configurado para la renovación automática: <code>certbot.timer - certbot.service</code>
-* Listing certificates: <code>certbot certificates</code>
+* Prueba de renovación (simulación):<code>certbot renew --dry-run</code>
+* Compruebe el estado del servicio de temporizador de Certbot: <code>systemctl status certbot.timer</code>
+* Para renovar un certificado: <code>certbot renew</code>
+	* Para forzar la autorrenovación: <code>--force-renewal</code>
+* Para listar trabajos: <code>systemctl list-timers --all</code> Debe aparecer el siguiente configurado para la renovación automática: <code>certbot.timer - certbot.service</code>
+* Certificados de cotización: <code>certbot certificates</code>
 
-To revoke a certificate:
-* Delete a certificate completely: <code>certbot delete --cert-name example.com --reason keycompromise</code>
-* From the account for which the certificate was issued: <code>certbot revoke --cert-path /etc/letsencrypt/archive/${YOUR_DOMAIN}/cert1.pem --reason keycompromise</code>
-* Using the certificate's private key: <code>certbot revoke --cert-path /PATH/TO/cert.pem --key-path /PATH/TO/key.pem --reason keycompromise</code>
+Para revocar un certificado:
+* Eliminar un certificado por completo: <code>certbot delete --cert-name example.com --reason keycompromise</code>
+* De la cuenta para la que se emitió el certificado: <code>certbot revoke --cert-path /etc/letsencrypt/archive/${YOUR_DOMAIN}/cert1.pem --reason keycompromise</code>
+* Utilizando la clave privada del certificado: <code>certbot revoke --cert-path /PATH/TO/cert.pem --key-path /PATH/TO/key.pem --reason keycompromise</code>
 
-<p>If you do not want to follow all these steps, you can obtain the certificate with <code>ZeroSSL</code>, but the wildcard certificate is charged.</p>
+<p>Si no desea seguir todos estos pasos, puede obtener el certificado con <code>ZeroSSL</code>, pero se carga el certificado comodín.</p>
 <p><a href="https://zerossl.com/"><img src="https://img.shields.io/badge/-ZeroSSL-3849b8?style=flat&labelColor=3849b8" alt="ZeroSSL"></a></p>
 
 </details>
 
 ### Create the self-signed personal certificate with OPENSSL:
 <details>
-    <summary>Create the self-signed personal certificate:</summary>
+    <summary>Crear el certificado personal autofirmado:</summary>
 
 #### Crear el certificado personal autofirmado:
-<p>Steps you can follow to create a self-signed RSA certificate using OpenSSL with SHA-512 and Subject Alternative Names (SAN).</p>
-<p>To learn more about on useful openssl commands for certificates:</p>
+<p>Pasos que puedes seguir para crear un certificado RSA autofirmado usando OpenSSL con SHA-512 y Subject Alternative Names (SAN).</p> <p>
+<p>Para saber más sobre comandos openssl útiles para certificados:</p>
 <p><a href="https://www.busindre.com/comandos_openssl_utiles_para_certificados"><img src="https://img.shields.io/badge/-Link-df8a47?style=flat&labelColor=df8a47" alt="Link"></a></p>
 
-1. We update the list of packages.
+1. Actualizamos la lista de paquetes.
 ~~~shell
 sudo apt update && sudo apt upgrade
 ~~~
-2. Make sure you have OpenSSL installed on your system before proceeding. Install the openssl package:
+2. Asegúrese de que tiene OpenSSL instalado en su sistema antes de continuar. Instale el paquete openssl:
 ~~~shell
 sudo apt install openssl
 ~~~
-3. Create the directory where we want to store the certificates:
+3. Cree el directorio donde queremos almacenar los certificados:
 ~~~shell
 mkdir certs &&\
 cd certs/
 ~~~
-4. Create certificate with the following command, changing the certificate path or leave the name of the .key and dot crt to store it in the directory:
+4. Cree el certificado con el siguiente comando, cambiando la ruta del certificado o deje el nombre de la `.key` y el `.crt` para almacenarlo en el directorio:
 
-	4.1 Generate an RSA private key:
+	4.1 Generar una clave privada RSA:
 	~~~shell
 	openssl genpkey -algorithm RSA -out privkey.key -pkeyopt rsa_keygen_bits:2048
 	~~~
-	4.2 Next, we will create a certificate request (CSR) which will contain the certificate information:
+	4.2 A continuación, crearemos una solicitud de certificado (CSR) que contendrá la información del certificado:
 	~~~shell
 	vi csrconfig.cnf
 	~~~
@@ -352,15 +352,15 @@ cd certs/
 	DNS.1 = example.com
 	DNS.2 = www.example.com
 	~~~
-	4.3 We generate the self-signed certificate with the CSR data:
+	4.3 Generamos el certificado autofirmado con los datos de la CSR:
 	~~~
 	openssl req -new -key privkey.key -out chain.csr -sha512 -config csrconfig.cnf
 	~~~
-	4.4 Create self-signed certificate in PEM format:
+	4.4 Crear certificado autofirmado en formato PEM:
 	~~~
 	openssl x509 -req -in chain.csr -signkey privkey.key -out fullchain.pem -sha512 -days 365 -extfile csrconfig.cnf -extensions v3_req
 	~~~
-	4.5 After creating the self-signed certificate, we can verify the content of the certificate if it has been created correctly:
+	4.5 Después de crear el certificado autofirmado, podemos verificar el contenido del certificado si se ha creado correctamente:
 	~~~shell
 	openssl x509 -in fullchain.pem -text -noout
 	~~~
@@ -393,21 +393,21 @@ Para crear una zona en tu dominio y habilitar clientes, sigue estos pasos:
 <sup>Instrucciones actuales en la documentación del desarrollador <a href="https://github.com/AdguardTeam/AdGuardHome/wiki/Clients#clientid">documentación</a>.</sup>
 
 
-# List for Pihole <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/pihole.png" alt="Pi-Hole" width="40"/> y AdGuard Home <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/AdGuard_Logo.png" alt="AdGuard Home" width="32"/>
+# Lista para Pihole <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/pihole.png" alt="Pi-Hole" width="40"/> y AdGuard Inicio <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/AdGuard_Logo.png" alt="AdGuard Home" width="32"/>
 
-## Main safelist
+## Principal lista segura
 
-| List | Link | Description |
+| Lista | Link | Descripción |
 | :-- | :--: | :-- |
 | safelist repository | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/Listas/whitelist.txt) | safelist JuanRodenas |
-| safelist hagezi | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/whitelist.txt) | safelist hagezi (Not tested) |
+| safelist hagezi | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/whitelist.txt) | safelist hagezi (No comprobada) |
 
 
-## Main Black Lists
-<sup>Column Link: Pi-hole® | Adguard Home®.</sup>
+## Principal lista bloqueo
+<sup>Columna Link: Pi-hole® | Adguard Home®.</sup>
 
 #### Host
-| List Host | Link | Description |
+| Lista | Link | Descripción |
 | :-- | :--: | :-- |
 | List oisd | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://dbl.oisd.nl) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://abp.oisd.nl) | To Block host Adguard and domains [dbl.oisd](https://oisd.nl/) |
 | The big list | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://big.oisd.nl/domains) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://big.oisd.nl/) | The big list [oisd](https://oisd.nl/) |
@@ -418,7 +418,7 @@ Para crear una zona en tu dominio y habilitar clientes, sigue estos pasos:
 
 
 #### Malware / Shock / Porn / Adult 
-| List | Link | Description |
+| Lista | Link | Descripción |
 | :-- | :--: | :-- |
 | The NSFW list | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://nsfw.oisd.nl/domains) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://nsfw.oisd.nl/) | The NSFW list [oisd](https://oisd.nl/) |
 | Gambling-porn | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/List/Gambling.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://github.com/blocklistproject/Lists/blob/master/adguard/gambling-ags.txt) | To Block Gambling and porn |
@@ -428,7 +428,7 @@ Para crear una zona en tu dominio y habilitar clientes, sigue estos pasos:
 
 
 #### Tracking/Ads
-| List Tracking/Ads | Link | Description |
+| Lista Tracking/Ads | Link | Descripción |
 | :-- | :--: | :-- |
 | SmartTV | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/smart-tv-ags.txt) | To Block SmartTV |
 | WindowsSpyBlocker | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt) | To Block WindowsSpyBlocker |
@@ -439,7 +439,7 @@ Para crear una zona en tu dominio y habilitar clientes, sigue estos pasos:
 | Disconnect.me | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt) | To Block disconnect.me |
 
 #### Adguard team filters
-| List Tracking/Ads | Link | Description |
+| Lista Tracking/Ads | Link | Descripción |
 | :-- | :--: | :-- |
 | AdGuardSDNSFilter | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt) | AdGuard team DNS filter |
 | AdAway | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://adaway.org/hosts.txt) | AdAway default blocklist |
@@ -447,8 +447,8 @@ Para crear una zona en tu dominio y habilitar clientes, sigue estos pasos:
 | SmartTV-AGH | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt) | Smart-TV Blocklist for AdGuard Home |
 | Peter Lowe's List | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext) | Blocklist for use with Adblock Plus |
 
-#### Services
-| List Services | Link | Description |
+#### Servicios
+| Lista Servicios | Link | Descripción |
 | :-- | :--: | :-- |
 | Youtube | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/blocklistproject/Lists/master/youtube.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/youtube-ags.txt) | To Block youtube |
 | Facebook | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://github.com/jmdugan/blocklists/blob/master/corporations/facebook/all) | To Block Facebook/Instagram/Whatsapp |
@@ -460,7 +460,7 @@ Para crear una zona en tu dominio y habilitar clientes, sigue estos pasos:
 
 
 #### uBlock Origin uAssets
-| List Services | Link | Link dev | Description |
+| Lista | Link | Link dev | Descripción |
 | :-- | :--: | :--: | :-- |
 | uBlock filters | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | uBlock filters |
 | Badware risks | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt) | [Link DEV](https://github.com/uBlockOrigin/uAssets/tree/master/filters) | uBlock filters – Badware risks |
@@ -474,14 +474,14 @@ Para crear una zona en tu dominio y habilitar clientes, sigue estos pasos:
 <sup>Se ha añadido una pestaña para AdGuard con listas adaptadas a su formato.</sup>
 
 
-### Comprueba tu SelfHosted:
+### Comprueba tu autoalojamiento:
 
 <details>
 <summary>fivefilters:</summary>
 
 <Original>&nbsp;Página para comprobar tu autoalojamiento desde fivefilters</Original>
 
-<p>  &nbsp;&nbsp;<a href="https://blockads.fivefilters.org/"><img src="https://img.shields.io/badge/fivefilters-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>&nbsp;&nbsp;<a href="https://blockads.fivefilters.org/"><img src="https://img.shields.io/badge/fivefilters-2aa8ff.svg?style=flat" alt="Link"></a></p>
 </details>
 &nbsp;
 
@@ -490,7 +490,7 @@ Para crear una zona en tu dominio y habilitar clientes, sigue estos pasos:
 
 <Original>&nbsp;Página para comprobar tu autoalojamiento desde [d3ward](https://d3ward.github.io/toolz/)</Original>
 
-<p>  &nbsp;&nbsp;<a href="https://d3ward.github.io/toolz/adblock.html"><img src="https://img.shields.io/badge/d3ward-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>&nbsp;&nbsp;<a href="https://d3ward.github.io/toolz/adblock.html"><img src="https://img.shields.io/badge/d3ward-2aa8ff.svg?style=flat" alt="Link"></a></p>
 </details>
 &nbsp;
 
@@ -499,7 +499,7 @@ Para crear una zona en tu dominio y habilitar clientes, sigue estos pasos:
 
 <Original>&nbsp;Página para comprobar tu autoalojamiento desde canyoublockit</Original>
 
-<p>  &nbsp;&nbsp;<a href="https://canyoublockit.com/"><img src="https://img.shields.io/badge/CanYouBlockit-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>&nbsp;&nbsp;<a href="https://canyoublockit.com/"><img src="https://img.shields.io/badge/CanYouBlockit-2aa8ff.svg?style=flat" alt="Link"></a></p>
 </details>
 &nbsp;
 
@@ -508,7 +508,7 @@ Para crear una zona en tu dominio y habilitar clientes, sigue estos pasos:
 
 <Original>&nbsp;Página para comprobar tu autoalojamiento desde No more ads</Original>
 
-<p>  &nbsp;&nbsp;<a href="https://ads-blocker.com/es/pruebas/"><img src="https://img.shields.io/badge/Nomoreads-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>&nbsp;&nbsp;<a href="https://ads-blocker.com/es/pruebas/"><img src="https://img.shields.io/badge/Nomoreads-2aa8ff.svg?style=flat" alt="Link"></a></p>
 </details>
 &nbsp;
 
@@ -518,18 +518,18 @@ Para crear una zona en tu dominio y habilitar clientes, sigue estos pasos:
 
 <Original>&nbsp;Página para comprobar tu autoalojamiento desde AdBlock Tester</Original>
 
-<p>  &nbsp;&nbsp;<a href="https://adblock-tester.com/"><img src="https://img.shields.io/badge/AdBlocktester-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>&nbsp;&nbsp;<a href="https://adblock-tester.com/"><img src="https://img.shields.io/badge/AdBlocktester-2aa8ff.svg?style=flat" alt="Link"></a></p>
 </details>
 &nbsp;
 
-### Check DoH, DoT and DDNSSEC:
+### Comprobar DoH, DoT y DDNSSEC:
 
 <details>
 <summary>1.1.1.1 de Cloudflare:</summary>
 
 <Original>&nbsp;Página para comprobar el cifrado de 1.1.1.1 de Cloudflare</Original>
 
-<p>  &nbsp;&nbsp;<a href="https://1.1.1.1/help"><img src="https://img.shields.io/badge/Cloudflare-1.1.1.1-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>&nbsp;&nbsp;<a href="https://1.1.1.1/help"><img src="https://img.shields.io/badge/Cloudflare-1.1.1.1-2aa8ff.svg?style=flat" alt="Link"></a></p>
 </details>
 &nbsp;
 
@@ -538,7 +538,7 @@ Para crear una zona en tu dominio y habilitar clientes, sigue estos pasos:
 
 <Original>&nbsp;Página para comprobar el cifrado de Tenta VPN Browser</Original>
 
-<p>  &nbsp;&nbsp;<a href="https://tenta.com/test/"><img src="https://img.shields.io/badge/Tenta-Browser-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>&nbsp;&nbsp;<a href="https://tenta.com/test/"><img src="https://img.shields.io/badge/Tenta-Browser-2aa8ff.svg?style=flat" alt="Link"></a></p>
 </details>
 &nbsp;
 
@@ -547,7 +547,7 @@ Para crear una zona en tu dominio y habilitar clientes, sigue estos pasos:
 
 <Original>&nbsp;Página para comprobar el cifrado de Cloudflare</Original>
 
-<p>  &nbsp;&nbsp;<a href="https://www.cloudflare.com/es-es/ssl/encrypted-sni/"><img src="https://img.shields.io/badge/cloudflare-encryptedsni-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>&nbsp;&nbsp;<a href="https://www.cloudflare.com/es-es/ssl/encrypted-sni/"><img src="https://img.shields.io/badge/cloudflare-encryptedsni-2aa8ff.svg?style=flat" alt="Link"></a></p>
 
 #### Las tecnologías analizadas son:
 1. Secure DNS: una tecnología que cifra las consultas DNS e incluye DNS-over-TLS y DNS-over-HTTPS.
@@ -556,11 +556,11 @@ Para crear una zona en tu dominio y habilitar clientes, sigue estos pasos:
 4. Encrypted SNI: significa encriptación de Server Name Indication que revela el nombre del servidor durante una conexión TLS. Esta tecnología tiene como objetivo asegurar que solo se pueda filtrar la dirección IP.
 <p><sup>El único navegador que admite las cuatro tecnologías es Firefox.</sup></p>
 
-#### Para activar las tecnologías, vaya a `about:config` y active:
-<p>  &nbsp;&nbsp;<code>network.security.esni.enabled</code> - pulsamos en el <code>+</code> y se ponga en <code>true</code>.</p>
-<p>  &nbsp;&nbsp;<code>network.trr.mode</code> – (valor 2)</p>
-<p>  &nbsp;&nbsp;<code>network.trr.uri</code> – <a href="https://mozilla.cloudflare-dns.com/dns-query">valor en la web Mozilla.</a></p>
-<p>  &nbsp;&nbsp;<code>HTTPS-Only Mode</code> - pulsamos en el <code>+</code> y se ponga en <code>true</code>.</p>
+#### Para activar las tecnologías, vaya a *about:config* y active:
+<p>&nbsp;&nbsp;<code>network.security.esni.enabled</code> - pulsamos en el <code>+</code> y se ponga en <code>true</code>.</p>
+<p>&nbsp;&nbsp;<code>network.trr.mode</code> – (valor 2)</p>
+<p>&nbsp;&nbsp;<code>network.trr.uri</code> – <a href="https://mozilla.cloudflare-dns.com/dns-query">valor en la web Mozilla.</a></p>
+<p>&nbsp;&nbsp;<code>HTTPS-Only Mode</code> - pulsamos en el <code>+</code> y se ponga en <code>true</code>.</p>
 </details>
 &nbsp;
 
@@ -569,13 +569,13 @@ Para crear una zona en tu dominio y habilitar clientes, sigue estos pasos:
 
 <Original>&nbsp;Página para comprobar DNSSEC</Original>
 
-<p>  &nbsp;&nbsp;<a href="http://dnssec.vs.uni-due.de/"><img src="https://img.shields.io/badge/dnssec-unidue-2aa8ff.svg?style=flat" alt="Link"></a></p>
-<p>  &nbsp;&nbsp;<a href="http://www.dnssec-or-not.com/"><img src="https://img.shields.io/badge/dnssec-ornot-2aa8ff.svg?style=flat" alt="Link"></a></p>
-<p>  &nbsp;&nbsp;<a href="http://en.conn.internet.nl/connection/"><img src="https://img.shields.io/badge/connection-internet-2aa8ff.svg?style=flat" alt="Link"></a></p>
-<p>  &nbsp;&nbsp;<a href="https://wander.science/projects/dns/dnssec-resolver-test/"><img src="https://img.shields.io/badge/wander-project-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>&nbsp;&nbsp;<a href="http://dnssec.vs.uni-due.de/"><img src="https://img.shields.io/badge/dnssec-unidue-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>&nbsp;&nbsp;<a href="http://www.dnssec-or-not.com/"><img src="https://img.shields.io/badge/dnssec-ornot-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>&nbsp;&nbsp;<a href="http://en.conn.internet.nl/connection/"><img src="https://img.shields.io/badge/connection-internet-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>&nbsp;&nbsp;<a href="https://wander.science/projects/dns/dnssec-resolver-test/"><img src="https://img.shields.io/badge/wander-project-2aa8ff.svg?style=flat" alt="Link"></a></p>
 
 <Original>&nbsp;Página para comprobar el cifrado DNSSEC</Original>
-<p>  &nbsp;&nbsp;<a href="https://rootcanary.org/test.html"><img src="https://img.shields.io/badge/rootcanary-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>&nbsp;&nbsp;<a href="https://rootcanary.org/test.html"><img src="https://img.shields.io/badge/rootcanary-2aa8ff.svg?style=flat" alt="Link"></a></p>
 </details>
 &nbsp;
 
@@ -584,7 +584,7 @@ Para crear una zona en tu dominio y habilitar clientes, sigue estos pasos:
 
 <Original>&nbsp;Página para comprobar la fuga de DNS</Original>
 
-<p>  &nbsp;&nbsp;<a href="https://www.dnsleaktest.com/"><img src="https://img.shields.io/badge/DNSleak-test-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>&nbsp;&nbsp;<a href="https://www.dnsleaktest.com/"><img src="https://img.shields.io/badge/DNSleak-test-2aa8ff.svg?style=flat" alt="Link"></a></p>
 
 </details>
 &nbsp;
@@ -604,7 +604,7 @@ Enlace al desarrollador de la aplicación:
 
 <p><sub>Todos y cada uno de los derechos y responsabilidades correspondientes seguirán siendo propiedad del promotor respectivo.</sub></p>
 
-## AYUDA Y CONTRIBUCIÓN :raised_hands:
+## Ayuda y contribución :raised_hands:
 <p> &nbsp;Si quieres contribuir a mejorar las listas, abre un <code>issue</code> aquí:</p>
 <a href="https://github.com/JuanRodenas/Pi-hole_list/issues"><img src="https://img.shields.io/badge/issues-green.svg?style=flat" alt="Link"></a>
 

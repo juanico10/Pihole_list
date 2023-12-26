@@ -24,7 +24,7 @@ The <strong>Pi-hole_list</strong> project is an initiative that aims to lock dow
 ### Version docker latest Adguard Home®
 ![Docker Image Version (tag latest)](https://img.shields.io/docker/v/adguard/adguardhome/latest?style=flat&logo=docker&logoColor=white&labelColor=0088cc&color=0088cc)
 
-:warning: __This README has been translated into Spanish. Este README ha sido traducido a español.__ :arrow_right: [**here**](./docs/README-ES.md).
+:warning: *This README has been translated into Spanish. Este README ha sido traducido a español.* :arrow_right: [**here**](./docs/README-ES.md).
 
 ## Details
 These lists were created because I wanted something with a bit more control over what gets blocked. A lot of lists are all-or-nothing. We set out to create lists with more control over what gets blocked, which is why I recommend my lists to you, as they are tested and we block only what is unnecessary.
@@ -36,8 +36,8 @@ These lists were created because I wanted something with a bit more control over
 
 <Original>&nbsp;All urls in this version **are** preceded by an IP address in the txt or host file:</Original>
 
-<p>  &nbsp;&nbsp;<code>0.0.0.0 example.com</code> – It will forward the domain example.com to the address 0.0.0.0 (but not for its subdomains).</p>
-<p>  &nbsp;&nbsp;<code>127.0.0.1 example.com</code> – will return the address 127.0.0.1 for the domain example.com (but not for its subdomains).</p>
+<p>&nbsp;&nbsp;<code>0.0.0.0 example.com</code> – It will forward the domain example.com to the address 0.0.0.0 (but not for its subdomains).</p>
+<p>&nbsp;&nbsp;<code>127.0.0.1 example.com</code> – will return the address 127.0.0.1 for the domain example.com (but not for its subdomains).</p>
 
 </details>
 &nbsp;
@@ -46,7 +46,7 @@ These lists were created because I wanted something with a bit more control over
 
 <Original>&nbsp;All urls in this version **no** are preceded by an IP address in the txt or host file:</Original>
 
-<p>  &nbsp;&nbsp;<code>example.com</code></p>
+<p>&nbsp;&nbsp;<code>example.com</code></p>
 
 <sup>Our users have reported to us that some devices give an error if the url is preceded by an IP address.</sup>
 </details>
@@ -56,14 +56,14 @@ These lists were created because I wanted something with a bit more control over
 
 <p>&nbsp;All urls from this version of the **AdGuard** list appear in the hosts file as follows:</p>
 
-<p>  &nbsp;&nbsp;<code>||example.org^</code> – blocks access to the domain <code>example.org</code> and all its subdomains</p>
-<p>  &nbsp;&nbsp;<code>@@||example.org^</code> – unlocks access to the <code>example.org</code> domain and all its subdomains.</p>
-<p>  &nbsp;&nbsp;<code>/REGEX/</code> – blocks access to domains matching the specified regular expression. For example, the rule <code>/example.*/</code> will block hosts matching the <code>example.*</code></p>
-<p>  &nbsp;&nbsp;<code>$</code> – This is the delimiter, which indicates that the rest of the rule is a modifier. Modifiers must be placed at the end of the rule after the character and separated by commas. For example, the modifiers must be placed at the end of the rule after the character and separated by commas. <code>||example.org^$important</code>.</p>
-<p>  &nbsp;&nbsp;<code>$important</code> – The modifier applied to a rule increases its priority over any other rule without the modifier. Even above the basic exception rules.</p>
-<p>  &nbsp;&nbsp;<code>*</code> – the wildcard character. It is used to represent any set of characters. It can also be an empty string or a string of any length.</p>
-<p>  &nbsp;&nbsp;<code>^</code> – the separator character. Unlike browser ad blocking, there is nothing to separate in a hostname, so the only purpose of this character is to mark the end of the hostname.</p>
-<p>  &nbsp;&nbsp;<code>|</code> – a pointer to the beginning or end of the host name. The value depends on the location of the character in the mask. For example, the rule <code>ample.org|</code> corresponds to <code>example.org</code>, but not to <code>example.org.com</code>. <code>|example</code> corresponds to <code>example.org</code> but not to <code>test.example.org</code></p>
+<p>&nbsp;&nbsp;<code>||example.org^</code> – blocks access to the domain <code>example.org</code> and all its subdomains</p>
+<p>&nbsp;&nbsp;<code>@@||example.org^</code> – unlocks access to the <code>example.org</code> domain and all its subdomains.</p>
+<p>&nbsp;&nbsp;<code>/REGEX/</code> – blocks access to domains matching the specified regular expression. For example, the rule <code>/example.*/</code> will block hosts matching the <code>example.*</code></p>
+<p>&nbsp;&nbsp;<code>$</code> – This is the delimiter, which indicates that the rest of the rule is a modifier. Modifiers must be placed at the end of the rule after the character and separated by commas. For example, the modifiers must be placed at the end of the rule after the character and separated by commas. <code>||example.org^$important</code>.</p>
+<p>&nbsp;&nbsp;<code>$important</code> – The modifier applied to a rule increases its priority over any other rule without the modifier. Even above the basic exception rules.</p>
+<p>&nbsp;&nbsp;<code>*</code> – the wildcard character. It is used to represent any set of characters. It can also be an empty string or a string of any length.</p>
+<p>&nbsp;&nbsp;<code>^</code> – the separator character. Unlike browser ad blocking, there is nothing to separate in a hostname, so the only purpose of this character is to mark the end of the hostname.</p>
+<p>&nbsp;&nbsp;<code>|</code> – a pointer to the beginning or end of the host name. The value depends on the location of the character in the mask. For example, the rule <code>ample.org|</code> corresponds to <code>example.org</code>, but not to <code>example.org.com</code>. <code>|example</code> corresponds to <code>example.org</code> but not to <code>test.example.org</code></p>
     
 <sup>The instructions are current as of [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome/wiki/Hosts-Blocklists#special-characters) v0.107.2. AdGuard supports older versions.</sup>
 <sup>The instructions it supports [AdGuard Home](https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters).</sup>
@@ -74,8 +74,8 @@ These lists were created because I wanted something with a bit more control over
 
 <p>&nbsp;All urls for this version of the list appear in the hosts file in the following way</p>
 
-<p>  &nbsp;&nbsp;<code># comment</code> – just a comment</p>
-<p>  &nbsp;&nbsp;<code>! comment</code> – just a comment</p>
+<p>&nbsp;&nbsp;<code># comment</code> – just a comment</p>
+<p>&nbsp;&nbsp;<code>! comment</code> – just a comment</p>
 
 </details>
 &nbsp;
@@ -183,14 +183,14 @@ Quad9 in both IPv4 and IPv6:
 Installing a free SSL certificate with CertBot:
 
 :one: We update the list of packages.
-~~~shell
+```shell
 sudo apt update && sudo apt upgrade
-~~~
+```
 
 :two: Install the Certbot package
-~~~shell
+```shell
 sudo apt install certbot
-~~~
+```
 
 :three: In this section we are going to see the most important options of the command. You can choose the options that you consider most convenient.
 
@@ -314,29 +314,29 @@ To revoke a certificate:
 <p><a href="https://www.busindre.com/comandos_openssl_utiles_para_certificados"><img src="https://img.shields.io/badge/-Link-df8a47?style=flat&labelColor=df8a47" alt="Link"></a></p>
 
 1. We update the list of packages.
-~~~shell
+```shell
 sudo apt update && sudo apt upgrade
-~~~
+```
 2. Make sure you have OpenSSL installed on your system before proceeding. Install the openssl package:
-~~~shell
+```shell
 sudo apt install openssl
-~~~
+```
 3. Create the directory where we want to store the certificates:
-~~~shell
+```shell
 mkdir certs &&\
 cd certs/
-~~~
+```
 4. Create certificate with the following command, changing the certificate path or leave the name of the .key and dot crt to store it in the directory:
 
 	4.1 Generate an RSA private key:
-	~~~shell
+	```shell
 	openssl genpkey -algorithm RSA -out privkey.key -pkeyopt rsa_keygen_bits:2048
-	~~~
+	```
 	4.2 Next, we will create a certificate request (CSR) which will contain the certificate information:
-	~~~shell
+	```shell
 	vi csrconfig.cnf
-	~~~
-	~~~shell
+	```
+	```shell
 	[req]
 	distinguished_name = req_distinguished_name
 	req_extensions = v3_req
@@ -352,19 +352,19 @@ cd certs/
 	[alt_names]
 	DNS.1 = example.com
 	DNS.2 = www.example.com
-	~~~
+	```
 	4.3 We generate the self-signed certificate with the CSR data:
-	~~~
+	```
 	openssl req -new -key privkey.key -out chain.csr -sha512 -config csrconfig.cnf
-	~~~
+	```
 	4.4 Create self-signed certificate in PEM format:
-	~~~
+	```
 	openssl x509 -req -in chain.csr -signkey privkey.key -out fullchain.pem -sha512 -days 365 -extfile csrconfig.cnf -extensions v3_req
-	~~~
+	```
 	4.5 After creating the self-signed certificate, we can verify the content of the certificate if it has been created correctly:
-	~~~shell
+	```shell
 	openssl x509 -in fullchain.pem -text -noout
-	~~~
+	```
 </details>
 
 
@@ -405,7 +405,7 @@ This will allow the client created in the `Client Configuration` panel to connec
 | safelist hagezi | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/whitelist.txt) | safelist hagezi (Not tested) |
 
 
-## Main Black Lists
+## Main BlockLists
 <sup>Column Link: Pi-hole® | Adguard Home®.</sup>
 
 #### Host
@@ -483,7 +483,7 @@ This will allow the client created in the `Client Configuration` panel to connec
 
 <Original>&nbsp;Page to check your selfhosted from fivefilters</Original>
 
-<p>  &nbsp;&nbsp;<a href="https://blockads.fivefilters.org/"><img src="https://img.shields.io/badge/fivefilters-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>&nbsp;&nbsp;<a href="https://blockads.fivefilters.org/"><img src="https://img.shields.io/badge/fivefilters-2aa8ff.svg?style=flat" alt="Link"></a></p>
 </details>
 &nbsp;
 
@@ -492,7 +492,7 @@ This will allow the client created in the `Client Configuration` panel to connec
 
 <Original>&nbsp;Page to check your selfhosted from [d3ward](https://d3ward.github.io/toolz/)</Original>
 
-<p>  &nbsp;&nbsp;<a href="https://d3ward.github.io/toolz/adblock.html"><img src="https://img.shields.io/badge/d3ward-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>&nbsp;&nbsp;<a href="https://d3ward.github.io/toolz/adblock.html"><img src="https://img.shields.io/badge/d3ward-2aa8ff.svg?style=flat" alt="Link"></a></p>
 </details>
 &nbsp;
 
@@ -501,7 +501,7 @@ This will allow the client created in the `Client Configuration` panel to connec
 
 <Original>&nbsp;Page to check your selfhosted from canyoublockit</Original>
 
-<p>  &nbsp;&nbsp;<a href="https://canyoublockit.com/"><img src="https://img.shields.io/badge/CanYouBlockit-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>&nbsp;&nbsp;<a href="https://canyoublockit.com/"><img src="https://img.shields.io/badge/CanYouBlockit-2aa8ff.svg?style=flat" alt="Link"></a></p>
 </details>
 &nbsp;
 
@@ -510,7 +510,7 @@ This will allow the client created in the `Client Configuration` panel to connec
 
 <Original>&nbsp;Page to check your selfhosted from No more ads</Original>
 
-<p>  &nbsp;&nbsp;<a href="https://ads-blocker.com/es/pruebas/"><img src="https://img.shields.io/badge/Nomoreads-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>&nbsp;&nbsp;<a href="https://ads-blocker.com/es/pruebas/"><img src="https://img.shields.io/badge/Nomoreads-2aa8ff.svg?style=flat" alt="Link"></a></p>
 </details>
 &nbsp;
 
@@ -520,7 +520,7 @@ This will allow the client created in the `Client Configuration` panel to connec
 
 <Original>&nbsp;Page to check your selfhosted from AdBlock Tester</Original>
 
-<p>  &nbsp;&nbsp;<a href="https://adblock-tester.com/"><img src="https://img.shields.io/badge/AdBlocktester-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>&nbsp;&nbsp;<a href="https://adblock-tester.com/"><img src="https://img.shields.io/badge/AdBlocktester-2aa8ff.svg?style=flat" alt="Link"></a></p>
 </details>
 &nbsp;
 
@@ -531,7 +531,7 @@ This will allow the client created in the `Client Configuration` panel to connec
 
 <Original>&nbsp;Page to check encryption of 1.1.1.1 de Cloudflare</Original>
 
-<p>  &nbsp;&nbsp;<a href="https://1.1.1.1/help"><img src="https://img.shields.io/badge/Cloudflare-1.1.1.1-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>&nbsp;&nbsp;<a href="https://1.1.1.1/help"><img src="https://img.shields.io/badge/Cloudflare-1.1.1.1-2aa8ff.svg?style=flat" alt="Link"></a></p>
 </details>
 &nbsp;
 
@@ -540,7 +540,7 @@ This will allow the client created in the `Client Configuration` panel to connec
 
 <Original>&nbsp;Page to check encryption of Tenta VPN Browser</Original>
 
-<p>  &nbsp;&nbsp;<a href="https://tenta.com/test/"><img src="https://img.shields.io/badge/Tenta-Browser-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>&nbsp;&nbsp;<a href="https://tenta.com/test/"><img src="https://img.shields.io/badge/Tenta-Browser-2aa8ff.svg?style=flat" alt="Link"></a></p>
 </details>
 &nbsp;
 
@@ -549,7 +549,7 @@ This will allow the client created in the `Client Configuration` panel to connec
 
 <Original>&nbsp;Page to check encryption of Cloudflare</Original>
 
-<p>  &nbsp;&nbsp;<a href="https://www.cloudflare.com/es-es/ssl/encrypted-sni/"><img src="https://img.shields.io/badge/cloudflare-encryptedsni-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>&nbsp;&nbsp;<a href="https://www.cloudflare.com/es-es/ssl/encrypted-sni/"><img src="https://img.shields.io/badge/cloudflare-encryptedsni-2aa8ff.svg?style=flat" alt="Link"></a></p>
 
 #### The technologies analysed are:
 1. Secure DNS: a technology that encrypts DNS queries and includes DNS-over-TLS and DNS-over-HTTPS.
@@ -559,10 +559,10 @@ This will allow the client created in the `Client Configuration` panel to connec
 <p><sup>The only browser that supports all four technologies is Firefox.</sup></p>
 
 #### To activate the technologies, go to `about:config` and activate:
-<p>  &nbsp;&nbsp;<code>network.security.esni.enabled</code> - pulsamos en el <code>+</code> y se ponga en <code>true</code>.</p>
-<p>  &nbsp;&nbsp;<code>network.trr.mode</code> – (valor 2)</p>
-<p>  &nbsp;&nbsp;<code>network.trr.uri</code> – <a href="https://mozilla.cloudflare-dns.com/dns-query">valor en la web Mozilla.</a></p>
-<p>  &nbsp;&nbsp;<code>HTTPS-Only Mode</code> - pulsamos en el <code>+</code> y se ponga en <code>true</code>.</p>
+<p>&nbsp;&nbsp;<code>network.security.esni.enabled</code> - pulsamos en el <code>+</code> y se ponga en <code>true</code>.</p>
+<p>&nbsp;&nbsp;<code>network.trr.mode</code> – (valor 2)</p>
+<p>&nbsp;&nbsp;<code>network.trr.uri</code> – <a href="https://mozilla.cloudflare-dns.com/dns-query">valor en la web Mozilla.</a></p>
+<p>&nbsp;&nbsp;<code>HTTPS-Only Mode</code> - pulsamos en el <code>+</code> y se ponga en <code>true</code>.</p>
 </details>
 &nbsp;
 
@@ -571,13 +571,13 @@ This will allow the client created in the `Client Configuration` panel to connec
 
 <Original>&nbsp;Page to check DNSSEC</Original>
 
-<p>  &nbsp;&nbsp;<a href="http://dnssec.vs.uni-due.de/"><img src="https://img.shields.io/badge/dnssec-unidue-2aa8ff.svg?style=flat" alt="Link"></a></p>
-<p>  &nbsp;&nbsp;<a href="http://www.dnssec-or-not.com/"><img src="https://img.shields.io/badge/dnssec-ornot-2aa8ff.svg?style=flat" alt="Link"></a></p>
-<p>  &nbsp;&nbsp;<a href="http://en.conn.internet.nl/connection/"><img src="https://img.shields.io/badge/connection-internet-2aa8ff.svg?style=flat" alt="Link"></a></p>
-<p>  &nbsp;&nbsp;<a href="https://wander.science/projects/dns/dnssec-resolver-test/"><img src="https://img.shields.io/badge/wander-project-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>&nbsp;&nbsp;<a href="http://dnssec.vs.uni-due.de/"><img src="https://img.shields.io/badge/dnssec-unidue-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>&nbsp;&nbsp;<a href="http://www.dnssec-or-not.com/"><img src="https://img.shields.io/badge/dnssec-ornot-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>&nbsp;&nbsp;<a href="http://en.conn.internet.nl/connection/"><img src="https://img.shields.io/badge/connection-internet-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>&nbsp;&nbsp;<a href="https://wander.science/projects/dns/dnssec-resolver-test/"><img src="https://img.shields.io/badge/wander-project-2aa8ff.svg?style=flat" alt="Link"></a></p>
 
 <Original>&nbsp;Page to check DNSSEC encryption</Original>
-<p>  &nbsp;&nbsp;<a href="https://rootcanary.org/test.html"><img src="https://img.shields.io/badge/rootcanary-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>&nbsp;&nbsp;<a href="https://rootcanary.org/test.html"><img src="https://img.shields.io/badge/rootcanary-2aa8ff.svg?style=flat" alt="Link"></a></p>
 </details>
 &nbsp;
 
@@ -586,7 +586,7 @@ This will allow the client created in the `Client Configuration` panel to connec
 
 <Original>&nbsp;Page to check DNS leakage</Original>
 
-<p>  &nbsp;&nbsp;<a href="https://www.dnsleaktest.com/"><img src="https://img.shields.io/badge/DNSleak-test-2aa8ff.svg?style=flat" alt="Link"></a></p>
+<p>&nbsp;&nbsp;<a href="https://www.dnsleaktest.com/"><img src="https://img.shields.io/badge/DNSleak-test-2aa8ff.svg?style=flat" alt="Link"></a></p>
 
 </details>
 &nbsp;
@@ -606,7 +606,7 @@ Link to the developer of the application:
 
 <p><sub>Any and all rights and responsibilities pertaining thereto remain the property of the respective developer.</sub></p>
 
-## HELP ME AND CONTRIBUTION :raised_hands:
+## Help me and contribution :raised_hands:
 <p> &nbsp;If you want to contribute to improve the lists, open a <code>issue</code> here:</p>
 <a href="https://github.com/JuanRodenas/Pi-hole_list/issues"><img src="https://img.shields.io/badge/issues-green.svg?style=flat" alt="Link"></a>
 

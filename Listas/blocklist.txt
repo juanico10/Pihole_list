@@ -25841,6 +25841,13 @@
 ||escorrese.top^
 ||zbvhwaakws.com^
 ||myshopify.com^
+||xjp-jmacs.m.taobao.com^
+||guide-acs.m.taobao.com^
+||xjp-msgacs.m.taobao.com^
+||acs.m.taobao.com^
+||adashx4ae.ut.taobao.com^
+||h-adashx4ae.ut.taobao.com^
+||fourier.taobao.com^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

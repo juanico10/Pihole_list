@@ -10784,7 +10784,6 @@
 ||cdn.flashtalking.com^
 ||cdn.freshmarketer.com^
 ||cdn.g.promosrv.com^
-||cdn.gigya.com^
 ||cdn.gms1.net^
 ||cdn.gumgum.com^
 ||cdn.heapanalytics.com^
@@ -13924,7 +13923,6 @@
 ||gighub.com^
 ||gigthub.com^
 ||gigwise.us.intellitxt.com^
-||gigya.com^
 ||gihtub.com^
 ||gihub.com^
 ||giithub.com^
@@ -14348,9 +14346,6 @@
 ||grychiphidu.com^
 ||gs.spylog.ru^
 ||gscontxt.net^
-||gscounters.eu1.gigya.com^
-||gscounters.gigya.com^
-||gscounters.us1.gigya.com^
 ||gsf-cf.softonic.com^
 ||gsim.webservicehosts.com^
 ||gsmarena.us.intellitxt.com^

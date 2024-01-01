@@ -17,7 +17,7 @@
 !									!
 !-----------------------------------------------------------------------!
 #### Regla regex para permitir los CDNs
-@@/^(.+[_.-])?cdn[_.-]/
+@@/(.*[_.-])?cdn([_.-].*)?/
 
 # Lista de dominios
 ris-prod-atm.trafficmanager.net
@@ -204,6 +204,7 @@ www.nintenderos.com
 @@||doctoralia.com^|
 sessions.bugsnag.com
 hardcoregamer.com
+smartplugin.youbora.com
 
 #### Correos
 correos.tt.omtrdc.net
@@ -261,7 +262,10 @@ arc.msn.com
 download.visualstudio.microsoft.com
 g.live.com
 ajax.aspnetcdn.com
-az15297.vo.msecnd.net
+rofiles.azureedge.net
+@@vo.msecnd.net^
+gallerycdn.vsassets.io
+crl.microsoft.com
 
 #### PC Manager Microsoft
 pcmanager.officeplus.cn

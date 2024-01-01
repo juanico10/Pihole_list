@@ -205,6 +205,10 @@ www.nintenderos.com
 sessions.bugsnag.com
 hardcoregamer.com
 smartplugin.youbora.com
+sdk.privacy-center.org
+api.privacy-center.org
+a-fds.youborafds01.com
+
 
 #### Correos
 correos.tt.omtrdc.net
@@ -301,6 +305,15 @@ click.mail.teashop.com
 inbound.studentbeans.com
 app.getresponse.com
 click.linksynergy.com
+
+#### Mediaset
+ms20.spxl.socy.es
+sext.spxl.socy.es
+razo.spxl.socy.es
+prep.spxl.socy.es
+prra.spxl.socy.es
+info.spxl.socy.es
+elep.spxl.socy.es
 
 #### Google
 @@||googleapis.com^

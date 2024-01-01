@@ -26054,6 +26054,12 @@
 ||xenty.club^
 ||xtvip.online^
 ||zoro.to^
+||smartmeapp.com^
+||permutive.app^
+||sensic.net^
+||indigitall.com^
+||chartbeat.com^
+||bkrtx.com^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

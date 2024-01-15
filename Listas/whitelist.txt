@@ -297,6 +297,14 @@ servicelayer.king.com
 king-contenido-prod.secure2.footprint.net
 king-farmking-prod.secure2.footprint.net
 
+#### ea mobile
+syn-dir.sn.eamobile.com
+user.sn.eamobile.com
+ping1.tnt-ea.com
+prod.simpsons-ea.com
+pin-river.data.ea.com
+river-mobile.data.ea.com
+
 #### newsletters
 link.email.nianticlabs.com
 click.mlsend.com

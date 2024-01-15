@@ -26065,6 +26065,8 @@
 ||liddles73202090.blogspot.com^
 ||oyn.at^
 ||postal-center-service.monster^
+||ja.cat^
+||remarkabiedates.com^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

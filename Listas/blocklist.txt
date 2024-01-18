@@ -26073,6 +26073,11 @@
 ||247realmedia.com^
 ||btlyngby.dk^
 ||web.app^
+||one-time-offer.com^
+||qhcd2.obstawiamsport.pl^
+||linkofenjoy.live^
+||phish.farm^
+||r.d4v.is^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

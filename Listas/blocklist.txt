@@ -26078,6 +26078,7 @@
 ||linkofenjoy.live^
 ||phish.farm^
 ||r.d4v.is^
+||eventproxy.na1.data.vmwservices.com^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

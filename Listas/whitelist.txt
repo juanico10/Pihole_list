@@ -234,6 +234,7 @@ scontent.cdninstagram.com
 gateway.instagram.com
 www.instagram.com
 edge-mqtt.facebook.com
+lookaside.facebook.com
 
 #### Microsoft
 @@||azure.com^

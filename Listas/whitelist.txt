@@ -50,7 +50,6 @@ www.zigbee2mqtt.io
 dietpi.com
 deb.debian.org
 stpete-mirror.armbian.com
-i.instagram.com
 gfwsl.geforce.com
 api.gfe.nvidia.com
 activation.gfe.nvidia.com
@@ -130,7 +129,6 @@ prod.yana.asideas.de
 data.madridista-premium.realmadrid.com
 adhandler.kissfmradio.cires21.com
 email.stickermule.com
-scontent.cdninstagram.com
 scontent-mad1-2.xx.fbcdn.net
 scontent.xx.fbcdn.net
 kit.fontawesome.com
@@ -229,6 +227,13 @@ cloudfront-labs.amazonaws.com
 sessions.api.hbo.com
 oauth.api.hbo.com
 static.hbo.com
+
+#### instagram
+i.instagram.com
+scontent.cdninstagram.com
+gateway.instagram.com
+www.instagram.com
+edge-mqtt.facebook.com
 
 #### Microsoft
 @@||azure.com^

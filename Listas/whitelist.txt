@@ -230,6 +230,7 @@ static.hbo.com
 
 #### instagram
 i.instagram.com
+b.i.instagram.com
 scontent.cdninstagram.com
 gateway.instagram.com
 www.instagram.com

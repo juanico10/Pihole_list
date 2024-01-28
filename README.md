@@ -195,6 +195,8 @@ sudo apt install certbot
 
 :three: In this section we are going to see the most important options of the command. You can choose the options that you consider most convenient.
 
+Certbot supports a lot of command line options. Here’s the full list, from `certbot --help all`:
+
  :point_right: 3.1 You can add as many domains as you wish with the `--domain` variable. Example:
   | Description | example |
   | :-- | :-- |
@@ -213,10 +215,10 @@ sudo apt install certbot
   | 8192 | Maximum security |
 
  :point_right: 3.3. `--csr` The csr variable and a `.cnf` file can perform the following functions. Currently --csr only works with the `certonly` subcommand.
-  - Follow this tutorial that I have added separately to create the csr [![Link](https://img.shields.io/badge/Create_CSR-green.svg?style=flat)](./assets/create-csr.md)
+  - Follow this tutorial that I have added separately to create the csr [![Link](https://img.shields.io/badge/Create_CSR-green.svg?style=flat)](./docs/create-csr.md)
 
  :point_right: 3.4. `--config-dir` You can configure the configuration file with the variable.
-  - The certificate specific configuration options must be set in the `.conf` and I attach an example: [![example.org.conf](https://img.shields.io/badge/example.org.conf-3849b8?style=flat&labelColor=3849b8)](./assets/example.org.conf)
+  - The certificate specific configuration options must be set in the `.conf` and I attach an example: [![example.org.conf](https://img.shields.io/badge/example.org.conf-3849b8?style=flat&labelColor=3849b8)](./docs/example.org.conf)
 
  :point_right: 3.5. `--test-cert, --staging` Use the Let's Encrypt staging server to obtain or revoke test (invalid) certificates; equivalent to `--server acme-staging`
 
@@ -230,13 +232,17 @@ sudo apt install certbot
 
  :point_right: 3.10 `--debug` Show tracebacks in case of errors
 
- :point_right: 3.11. `--server` Choose the ACME Directory Resource URI for your server.
+ :point_right: 3.11 `--dry-run` Perform a test run against the Let's Encrypt staging server, obtaining test (invalid) certificates but not saving them to disk.
+
+ :point_right: 3.12 `--dns-cloudflare` Obtain certificates using a DNS TXT record (if you are using Cloudflare for DNS).
+
+ :point_right: 3.13. `--server` Choose the ACME Directory Resource URI for your server.
   | Description | Server |
   | :--: | :-- |
   | Certificate for production server | https://acme-v02.api.letsencrypt.org/directory |
   | Certificate for test server | https://acme-staging-v02.api.letsencrypt.org/directory |
 
- :point_right: 3.12. `--elliptic-curve` (default: secp256r1) The SECG elliptic curve name to use.
+ :point_right: 3.14. `--elliptic-curve` (default: secp256r1) The SECG elliptic curve name to use.
   | Type algorithm | Bit size | Description |
   | :-- | :--: | :-- |
   | secp192r1 | 192 | Insecure |

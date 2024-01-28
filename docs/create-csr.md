@@ -76,4 +76,10 @@ X509v3 Subject Alternative Name:
 DNS:www.example.org, DNS:example.org, ...etc
 ```
 
-In addition, we can test with cerbot and the "-dry-run" command in order to only test the sending of the CSR. Once the result is satisfactory, the command is used without it.
+In addition, we can test with cerbot and the **--dry-run** command in order to only test the sending of the CSR. Once the result is satisfactory, the command is used without it.
+* Example:
+  * The test command would look like this in the console:
+    `certbot certonly --dry-run --domain "example.com" --domain "*.example.com" --csr example.csr`
+
+  * Once the result is satisfactory, use the following command:
+    `certbot certonly --domain "example.com" --domain "*.example.com" --csr example.csr`

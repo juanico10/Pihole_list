@@ -10,8 +10,14 @@ It uses key-based authentication and since I am not using the LE client
 client I need to generate my own key. I am using OpenSSL for 
 to generate a new 4096 bit RSA key.
 
+* RSA
 ```bash
-openssl genrsa 4096 -out private.key 
+openssl genrsa 4096 -out privkey.pem 
+```
+
+* Eliptic curve
+```bash
+openssl ecparam -genkey -name secp384r1 -out privkey.pem
 ```
 
 It's also a good idea to make a backup copy of this key in a safe place.
@@ -19,21 +25,28 @@ It's also a good idea to make a backup copy of this key in a safe place.
 ## Create a custom OpenSSL conf
 When generating the Certificate Signing Request (CSR) for use with LE, download a customized copy of the OpenSSL conf to use for CSR generation to maintain order and make it easier to generate new CSRs in the future. Take a copy of your OpenSSL configuration file.
 * Edit your new copy of the file with the following, use nano, vim, vi.... whichever you wish:
-````bash
+```bash
 nano openssl.cnf
 ```
+In the [ dname ] or “Distinguished Name” section you must configure:
+* commonName
+* emailAddress
+* countryName
 
 In the file you have to look for the [ req ] section and then find and uncomment the following line. If the line does not exist you can simply add it. This ensures that the next config section we make is included.
-````bash
+
+```bash
 req_extensions = v3_req
 ```
 
 Once you have done this you have to go to the [ v3_req ] section and add the following line. This indicates that we want to fill the SAN field with the array we are going to create.
+
 ```
 subjectAltName = @alt_names
 ```
 Finally, you need to create the array of names you want in the SAN. Remember, this includes all domains! You will see that I have example.org and www.example.org. Don't forget to do something similar if necessary. Since all the "example.org" domains are hosted on this server, I'm going to add them all to the SAN so I can manage everything with one certificate from now on, and one renewal. 
 Create this new section at the bottom of the configuration file and fill it in according to your needs.
+
 ```bash
 [ alt_names ]
 
@@ -46,7 +59,7 @@ DNS.4 = weakssl.example.org
 ## Generate the new CSR
 Now we're all set to generate the CSR that we will use to get LE to sign our new certificates each renewal.
 ```bash
-openssl req -new -key /path/to/your/private.key -out example.csr -config openssl.cnf
+openssl req -new -config openssl.cnf -key private.pem -out example.csr 
 ```
 
 You don't need to enter a password so just hit enter to pass through the prompts.
@@ -66,3 +79,5 @@ In the output look for the following sections and check they are correct:
 X509v3 Subject Alternative Name:
 DNS:www.example.org, DNS:example.org, ...etc
 ```
+
+In addition, we can test with cerbot and the "-dry-run" command in order to only test the sending of the CSR. Once the result is satisfactory, the command is used without it.

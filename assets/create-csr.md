@@ -12,12 +12,12 @@ to generate a new 4096 bit RSA key.
 
 * RSA
 ```bash
-openssl genrsa 4096 -out privkey.pem 
+openssl genrsa 4096 -out private.pem 
 ```
 
 * Eliptic curve
 ```bash
-openssl ecparam -genkey -name secp384r1 -out privkey.pem
+openssl ecparam -genkey -name secp384r1 -out private.pem
 ```
 
 It's also a good idea to make a backup copy of this key in a safe place.
@@ -28,10 +28,6 @@ When generating the Certificate Signing Request (CSR) for use with LE, download 
 ```bash
 nano openssl.cnf
 ```
-In the [ dname ] or “Distinguished Name” section you must configure:
-* commonName
-* emailAddress
-* countryName
 
 In the file you have to look for the [ req ] section and then find and uncomment the following line. If the line does not exist you can simply add it. This ensures that the next config section we make is included.
 

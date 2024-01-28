@@ -12,6 +12,9 @@ The <strong>Pi-hole_list</strong> project is an initiative that aims to lock dow
 </div>
 
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/JuanRodenas/Pi-hole_list?style=flat&logo=Github&logoColor=white&label=last-commit&labelColor=253B80&color=253B80)
+<a href="https://github.com/JuanRodenas/Pi-hole_list/commits/master" > 
+    <img src="https://img.shields.io/github/commit-activity/m/JuanRodenas/Pi-hole_list?style=flat&logo=Github&logoColor=white&label=Commit%20Activity&labelColor=253B80&color=253B80" alt="commit activity" >
+  <a/>
 
 ## Links to installation or developer
 | PROJECT | INSTALLER LINK | DEVELOPER LINK |
@@ -603,10 +606,10 @@ Link to the developer of the application:
 [![GitHub](https://img.shields.io/badge/-JGeek00-171515?style=flat&logo=Github&logoColor=black&labelColor=ffffff&color=ffffff)](https://github.com/JGeek00/)
 
 ### Pi-hole® android application
-<p><a><a href="https://play.google.com/store/apps/details?id=com.jgeek00.droid_hole" target="_blank" rel="noopener noreferrer"><img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/get_google_play.png" width="40px"></a></p>
+<p><a><a href="https://play.google.com/store/apps/details?id=com.jgeek00.droid_hole" target="_blank" rel="noopener noreferrer"><img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/get_google_play.png" width="120px"></a></p>
 
 ### Adguard Home® android application
-<p><a><a href="https://play.google.com/store/apps/details?id=com.jgeek00.adguard_home_manager" target="_blank" rel="noopener noreferrer"><img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/get_google_play.png" width="40px"></a></p>
+<p><a><a href="https://play.google.com/store/apps/details?id=com.jgeek00.adguard_home_manager" target="_blank" rel="noopener noreferrer"><img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/get_google_play.png" width="120px"></a></p>
 
 ### Desktop applications for Adguard Home®.
 <p><a><a href="https://github.com/JGeek00/adguard-home-manager/releases" target="_blank" rel="noopener noreferrer"><img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/get-github.png" width="120px"></a></p>

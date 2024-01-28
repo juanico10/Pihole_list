@@ -176,7 +176,7 @@ Quad9 in both IPv4 and IPv6:
 
 ### Crear el certificado con Let's Encrypt
 <details>
-    <summary>Create the self-signed personal certificate with Let's Encrypt:</summary>
+    <summary>Crear el certificado personal autofirmado con Let's Encrypt:</summary>
 
 #### Crear el certificado personal autofirmado con Let's Encrypt:
 Instalar un certificado SSL gratuito con CertBot:
@@ -191,7 +191,9 @@ sudo apt update && sudo apt upgrade
 sudo apt install certbot
 ~~~
 
-:three: In this section we are going to see the most important options of the command. You can choose the options that you consider most convenient.
+<p>Documentación de Cerbot: <a href="https://eff-certbot.readthedocs.io/en/latest/"><img src="https://img.shields.io/badge/-Certbot-3849b8?style=flat&labelColor=3849b8" alt="Certbot"></a></p>
+
+:three: En esta sección vamos a ver las opciones más importantes del comando. Puedes elegir las opciones que consideres más convenientes.
 
  :point_right: 3.1 You can add as many domains as you wish with the `--domain` variable. Example:
   | Description | example |
@@ -303,7 +305,7 @@ Para revocar un certificado:
 
 </details>
 
-### Create the self-signed personal certificate with OPENSSL:
+### Crear el certificado personal autofirmado con OPENSSL:
 <details>
     <summary>Crear el certificado personal autofirmado:</summary>
 

@@ -320,6 +320,7 @@ click.mail.teashop.com
 inbound.studentbeans.com
 app.getresponse.com
 click.linksynergy.com
+crownsportnutrition.us13.list-manage.com
 
 #### Mediaset
 ms20.spxl.socy.es

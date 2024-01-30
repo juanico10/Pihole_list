@@ -26155,6 +26155,9 @@
 ||Kooralivs.com^
 ||Stad.livehd7s.live^
 ||opcc-maintenance.avonandsomerset.police.uk^
+||bbva.es-381.com^
+||u.to^
+||padulanetwork.net^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

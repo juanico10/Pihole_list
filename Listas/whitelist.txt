@@ -236,6 +236,8 @@ gateway.instagram.com
 www.instagram.com
 edge-mqtt.facebook.com
 lookaside.facebook.com
+rupload.facebook.com
+rupload-fallback.facebook.com
 
 #### Microsoft
 @@||azure.com^

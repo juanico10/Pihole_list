@@ -26158,6 +26158,7 @@
 ||bbva.es-381.com^
 ||u.to^
 ||padulanetwork.net^
+||graph-fallback.instagram.com^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

@@ -12,7 +12,7 @@ The <strong>Pi-hole_list</strong> project is an initiative that aims to lock dow
 </div>
 
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/JuanRodenas/Pi-hole_list?style=flat&logo=Github&logoColor=white&label=last-commit&labelColor=253B80&color=253B80)
-<a href="https://github.com/JuanRodenas/Pi-hole_list/commits/master" > 
+<a href="https://github.com/JuanRodenas/Pi-hole_list/commits/master" >
     <img src="https://img.shields.io/github/commit-activity/m/JuanRodenas/Pi-hole_list?style=flat&logo=Github&logoColor=white&label=Commit%20Activity&labelColor=253B80&color=253B80" alt="commit activity" >
   <a/>
 
@@ -67,7 +67,7 @@ These lists were created because I wanted something with a bit more control over
 <p>&nbsp;&nbsp;<code>*</code> – the wildcard character. It is used to represent any set of characters. It can also be an empty string or a string of any length.</p>
 <p>&nbsp;&nbsp;<code>^</code> – the separator character. Unlike browser ad blocking, there is nothing to separate in a hostname, so the only purpose of this character is to mark the end of the hostname.</p>
 <p>&nbsp;&nbsp;<code>|</code> – a pointer to the beginning or end of the host name. The value depends on the location of the character in the mask. For example, the rule <code>ample.org|</code> corresponds to <code>example.org</code>, but not to <code>example.org.com</code>. <code>|example</code> corresponds to <code>example.org</code> but not to <code>test.example.org</code></p>
-    
+
 <sup>The instructions are current as of [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome/wiki/Hosts-Blocklists#special-characters) v0.107.2. AdGuard supports older versions.</sup>
 <sup>The instructions it supports [AdGuard Home](https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters).</sup>
 </details>
@@ -261,7 +261,7 @@ Certbot supports a lot of command line options. Here’s the full list, from `ce
   | secp521r1 | 521 | Maximum security |
   | secp571r1 | 571 | Maximum security |
   | secp571k1 | 571 | Maximum security |
-  
+
  For the choice of the key to be chosen the difference in the definition of the base point has two important consequences:
   * **The secpXXXk1 curve has a higher computational efficiency than the secpXXXr1 curve.** This is because the base point of the secpXXXk1 curve is a generation point, which means that it can be used to generate all the other points of the curve. The base point of the secpXXXr1 curve, on the other hand, is not a generation point, so more operations need to be calculated to generate all the other points of the curve.
   * **The secpXXXr1 curve has higher security than the secpXXXk1 curve.** This is because the base point of the secpXXXr1 curve is a more random point than the base point of the secpXXXk1 curve. This makes it more difficult for attackers to find points on the curve that are not in the set of generation points.
@@ -318,7 +318,7 @@ To revoke a certificate:
 <details>
     <summary>Create the self-signed personal certificate:</summary>
 
-#### Crear el certificado personal autofirmado:
+#### Create a self-signed personal certificate:
 <p>Steps you can follow to create a self-signed RSA certificate using OpenSSL with SHA-512 and Subject Alternative Names (SAN).</p>
 <p>To learn more about on useful openssl commands for certificates:</p>
 <p><a href="https://www.busindre.com/comandos_openssl_utiles_para_certificados"><img src="https://img.shields.io/badge/-Link-df8a47?style=flat&labelColor=df8a47" alt="Link"></a></p>
@@ -429,7 +429,7 @@ This will allow the client created in the `Client Configuration` panel to connec
 | d3ward | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock) | [d3ward](https://github.com/d3ward) popular list |
 
 
-#### Malware / Shock / Porn / Adult 
+#### Malware / Shock / Porn / Adult
 | List | Link | Description |
 | :-- | :--: | :-- |
 | The NSFW list | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://nsfw.oisd.nl/domains) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://nsfw.oisd.nl/) | The NSFW list [oisd](https://oisd.nl/) |

@@ -26078,7 +26078,6 @@
 ||linkofenjoy.live^
 ||phish.farm^
 ||r.d4v.is^
-||eventproxy.na1.data.vmwservices.com^
 ||livehd7.club^
 ||livekooora.tv^
 ||livekoora.io^
@@ -26159,6 +26158,7 @@
 ||u.to^
 ||padulanetwork.net^
 ||graph-fallback.instagram.com^
+||reservationupdate.com^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important
@@ -26173,6 +26173,9 @@
 /^stat(s|istics)?[0-9]*[_.-]/$important
 /([0-9]*[_.-])?metrics?[0-9]*[_.-]/$important
 /(.+[_.-])?facebook[_.-]?/$important
+/^(.+[_.-])?wpad?[0-9]*[_.-]/$important
+/^aff(iliat(es?|ion))?[_.-]/$important
+/(^|\.)xn--p1ai$/$important
 
 ########## REGEX DOMAIN HAZARD
 /(^|\.)ru$/
@@ -26195,6 +26198,8 @@
 /(^|\.)tk$/
 /(^|\.)vn$/
 /(^|\.)il$/
+/(^|\.)ir$/
+/(^|\.)kp$/
 /(^|\.)al$/
 /(^|\.)ao$/
 /(^|\.)cd$/
@@ -26203,6 +26208,12 @@
 /(^|\.)ng$/
 /(^|\.)icbc$/
 /(^|\.)unicom$/
+
+### adult
+/(^|\.)club$/
+/(^|\.)cam$/
+/(^|\.)chat$/
+/(^|\.)date$/
 
 ### DOMAINS GROUP MASMOVIL
 ||bestmovil.es^

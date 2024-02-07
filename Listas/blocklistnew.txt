@@ -1049,7 +1049,7 @@
 ||wmff.warnermediacdn.com^
 ||invoca.net^
 ||client.optimizely.com^
-||eventproxy.na1.data.vmwservices.com^
+#||eventproxy.na1.data.vmwservices.com^
 ||yandexadexchange.net^
 ||cdn.blisspointmedia.com^
 ||analyticspixel.microsoft.com^

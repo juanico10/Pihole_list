@@ -238,6 +238,7 @@ edge-mqtt.facebook.com
 lookaside.facebook.com
 rupload.facebook.com
 rupload-fallback.facebook.com
+fallback.instagram.com
 
 #### Microsoft
 @@||azure.com^

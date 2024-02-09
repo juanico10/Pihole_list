@@ -26159,6 +26159,15 @@
 ||padulanetwork.net^
 ||graph-fallback.instagram.com^
 ||reservationupdate.com^
+||deutschlandaws.com^
+||as202248.net^
+||intesre.com^
+||x46o7.io^
+||efix-dns.io^
+||solia-aka.net^
+||sbg-fr.net^
+||bacb7c.to^
+||in3tia.to^
 
 ########### REGEX
 /[_.-]?porn(o)?[_.-]*/$important

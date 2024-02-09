@@ -26035,7 +26035,6 @@
 ||www.elitegol.tv^
 ||www.elitegoles.com^
 ||www.elitegoltv.org^
-||www.facebook.com^
 ||www.futbolgratis.workers.dev^
 ||www.hdmatch.xyz^
 ||www.intergoles.me^

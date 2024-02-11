@@ -3,7 +3,7 @@
 !-----------------------------------------------------------------------!
 # Developer & Maintainer: Juan Rodenas
 # Title: whitelist
-# Description: Open domains for Facebook
+# Description: Open domains for Family
 # Format: List IPs and groups
 # Created: dom 11 feb 2024 13:54:13 CET
 # https://github.com/JuanRodenas
@@ -16,6 +16,10 @@
 !      ___________________________________________________/		!
 !									!
 !-----------------------------------------------------------------------!
+#### whitelist
+www.intimissimi.com
+
+
 #### instagram
 i.instagram.com
 b.i.instagram.com
@@ -37,3 +41,5 @@ scontent-mad1-1.xx.fbcdn.net
 scontent-mad1-2.xx.fbcdn.net
 scontent.xx.fbcdn.net
 mqtt-mini.facebook.com
+gateway.facebook.com
+graph.facebook.com

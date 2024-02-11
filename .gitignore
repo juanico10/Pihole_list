@@ -1,0 +1,6 @@
+*.stats
+*.md5
+md5.*
+black.*
+*.bak
+*.kate-swp

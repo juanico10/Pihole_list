@@ -11,6 +11,8 @@ The <strong>Pi-hole_list</strong> project is an initiative that aims to lock dow
     <h3>Network-wide ad blocking via its own hardware.</h3>
 </div>
 
+&nbsp;
+
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/JuanRodenas/Pi-hole_list?style=flat&logo=Github&logoColor=white&label=last-commit&labelColor=253B80&color=253B80)
 <a href="https://github.com/JuanRodenas/Pi-hole_list/commits/master" >
     <img src="https://img.shields.io/github/commit-activity/m/JuanRodenas/Pi-hole_list?style=flat&logo=Github&logoColor=white&label=Commit%20Activity&labelColor=253B80&color=253B80" alt="commit activity" >
@@ -626,9 +628,12 @@ This repository is made with all my love and affection.
 [![GitHub](https://img.shields.io/badge/-JuanRodenas-171515?style=flat&logo=Github&logoColor=black&labelColor=ececec&color=ececec)](https://github.com/JuanRodenas/)
 
 ## :tada: ¡Ready!
+
 &nbsp;
 
+<p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" /></p>
+
 <p><sup>These files/texts are provided "AS IS", without warranties of any kind, express or implied, including, but not limited to, warranties of merchantability, fitness for a particular purpose and non-infringement. In no event shall the authors or copyright holders be liable for any claims, damages or other liability arising out of or relating to the files or the use thereof.</sup></p>
-<p><sup>I will be updating with information and adding procedures in my spare time. The content is licensed under the Creative Commons Attribution - Noncommercial - No Derivative Works (by-nc-nd) license. For more information on Creative Commons licensing, visit the <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es">link to Creative Commons page</a>.</sup></p>
-<p><sup>The author of the content is JuanRodenas. You can contact me at <a href="mailto:juanrodenas07@gmail.com?Subject=from%20github">mailto</a> and the author's website is <a href="https://github.com/JuanRodenas/">website</a>.</p></sup>
+<p><sup>I will be updating with information and adding procedures in my spare time. The author of the content is JuanRodenas. You can contact me at <a href="mailto:juanrodenas07@gmail.com?Subject=from%20github">mailto</a> and the author's website is <a href="https://github.com/JuanRodenas/">website</a>.</p></sup>
 <p><sub>Any and all trademarks are the property of their respective owners.</sub></p>
+<p align="center"><a href="https://raw.githubusercontent.com/JuanRodenas/Pihole_list/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=302d41&colorB=b7bdf8"/></a></p>

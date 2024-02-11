@@ -69,7 +69,6 @@ amazonaws.com
 amazonwebservices.com
 @@||arduino.cc^
 www.factoriadeficcion.com
-scontent-mad1-1.xx.fbcdn.net
 www.documaniatv.com
 open.spotify.com
 radio.garden
@@ -129,8 +128,6 @@ prod.yana.asideas.de
 data.madridista-premium.realmadrid.com
 adhandler.kissfmradio.cires21.com
 email.stickermule.com
-scontent-mad1-2.xx.fbcdn.net
-scontent.xx.fbcdn.net
 kit.fontawesome.com
 msh.amazon.co.uk
 fls-eu.amazon.es
@@ -239,6 +236,9 @@ lookaside.facebook.com
 rupload.facebook.com
 rupload-fallback.facebook.com
 fallback.instagram.com
+scontent-mad1-1.xx.fbcdn.net
+scontent-mad1-2.xx.fbcdn.net
+scontent.xx.fbcdn.net
 
 #### Microsoft
 @@||azure.com^

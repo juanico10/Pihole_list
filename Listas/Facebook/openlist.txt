@@ -1,0 +1,39 @@
+!-----------------------------------------------------------------------!
+! 	                P A C K  D E T A I L S				!
+!-----------------------------------------------------------------------!
+# Developer & Maintainer: Juan Rodenas
+# Title: whitelist
+# Description: Open domains for Facebook
+# Format: List IPs and groups
+# Created: dom 11 feb 2024 13:54:13 CET
+# https://github.com/JuanRodenas
+!-----------------------------------------------------------------------!
+!           _   __    ______                __   _			!
+!          / | / /___/_  __/________ ______/ /__(_)___  ____ _ 	   	!
+!         /  |/ / __ \/ / / ___/ __ `/ ___/ //_/ / __ \/ __ `/	   	!
+!        / /|  / /_/ / / / /  / /_/ / /__/ ,< / / / / / /_/ /	   	!
+!       /_/ |_/\____/_/ /_/   \__,_/\___/_/|_/_/_/ /_/\__, /		!
+!      ___________________________________________________/		!
+!									!
+!-----------------------------------------------------------------------!
+#### instagram
+i.instagram.com
+b.i.instagram.com
+scontent.cdninstagram.com
+gateway.instagram.com
+www.instagram.com
+edge-mqtt.facebook.com
+lookaside.facebook.com
+rupload.facebook.com
+rupload-fallback.facebook.com
+fallback.instagram.com
+
+#### Facebook
+b-api.facebook.com
+b-graph.facebook.com
+web.facebook.com
+www.facebook.com
+scontent-mad1-1.xx.fbcdn.net
+scontent-mad1-2.xx.fbcdn.net
+scontent.xx.fbcdn.net
+mqtt-mini.facebook.com

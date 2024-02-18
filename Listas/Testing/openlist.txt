@@ -43,3 +43,11 @@ scontent.xx.fbcdn.net
 mqtt-mini.facebook.com
 gateway.facebook.com
 graph.facebook.com
+
+#### Permitir Juegos
+@@cdp.cloud.unity3d.com^$client='Isa|Miri'
+@@d.applovin.com^$client='Isa|Miri'
+@@rt.applovin.com^$client='Isa|Miri'
+@@ms.applovin.com^$client='Isa|Miri'
+@@bid.applovin.com^$client='Isa|Miri'
+@@prod-a4.applovin.com^$client='Isa|Miri'

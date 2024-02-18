@@ -26323,3 +26323,10 @@
 ||dit.whatsapp.net^
 ||crashlogs.whatsapp.net^
 ||privatestats.whatsapp.net^
+
+#### Permitir Juegos
+||img.applovin.com^$client='Isa|Miri'
+||prod-a-events.applovin.com^$client='Isa|Miri'
+||prod-mediate-events.applovin.com^$client='Isa|Miri'
+||res1.applovin.com^$client='Isa|Miri'
+||ms4.applovin.com^$client='Isa|Miri'

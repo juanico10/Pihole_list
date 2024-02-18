@@ -993,7 +993,6 @@
 ||7979.nosubid.blueseek.com^
 ||7adpower.com^
 ||7art-screensavers.com^
-||7bc68e3b-6dd6-4.vass.inet^$important
 ||7bpeople.com^
 ||7come11casino.com^
 ||7days.ws^
@@ -20125,11 +20124,6 @@
 ||seomatrix.webtrackingservices.com^
 ||separatesilver.com^
 ||sepe.es.6578653.top^
-||serbatic-06593.vass.inet^$important
-||serbatic.com.mx^
-||serbatic.com^
-||serbatic.es^
-||serbatic.eu^
 ||serenawilliams.sexybabesx.com^
 ||serenescreen-marine-aquarium.en.softonic.com^
 ||serials.ws^
@@ -22628,19 +22622,6 @@
 ||vanschie.app^
 ||vap1iad1.lijit.com^
 ||varsityads.directtrack.com^
-||vass.co^
-||vass.com.mx^
-||vass.es^
-||vass.inet^
-||vass.pe^
-||vasscompany.com^
-||vassit.co.uk^
-||vassit.us^
-||vasslatam.cl^
-||vasslatam.co^
-||vasslatam.com^
-||vasslatam.mx^
-||vasslatam.pe^
 ||vast.bp3854536.btrll.com^
 ||vast.bp3855098.btrll.com^
 ||vast.bp3855099.btrll.com^
@@ -23373,7 +23354,6 @@
 ||wp.hit.gemius.pl^
 ||wp1.cor-natty.com^
 ||wpad.home^
-||wpad.vass.inet^$important
 ||wpc.gammacdn.net^
 ||wpc.v0cdn.net^
 ||wpni.112.2o7.net^
@@ -26332,3 +26312,8 @@
 ||dit.whatsapp.net^
 ||crashlogs.whatsapp.net^
 ||privatestats.whatsapp.net^
+
+## VASS
+||7bc68e3b-6dd6-4.vass.inet^$important
+||serbatic-06593.vass.inet^$important
+||wpad.vass.inet^$important

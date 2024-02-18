@@ -26151,7 +26151,7 @@
 ||allawnos.com^
 
 ########### REGEX
-/[_.-]?porn(o)?[_.-]*/$important
+/(.+[_.-]+[0-9]*)?porn(o)?([0-9])*[_.-]?/$important
 /^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]/$important
 /^(.+[_.-])?telemetry[_.-]/$important
 /^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]/$important
@@ -26162,10 +26162,11 @@
 /^banners?[_.-]/$important
 /^stat(s|istics)?[0-9]*[_.-]/$important
 /([0-9]*[_.-])?metrics?[0-9]*[_.-]/$important
-/(.+[_.-])?facebook[_.-]?/$important
-/^(.+[_.-])?wpad?[0-9]*[_.-]/$important
+/(.+[_.-]+[0-9]*)?facebook[_.-]?/$important
+/^(.+[_.-]+[0-9]*)?wpad?([0-9])*[_.-]?/$important
 /^aff(iliat(es?|ion))?[_.-]/$important
 /(^|\.)xn--p1ai$/$important
+/^count(ers?)?([0-9])*[_.-]?/$/$important
 
 ########## REGEX DOMAIN HAZARD
 /(^|\.)ru$/

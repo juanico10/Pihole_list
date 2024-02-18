@@ -203,7 +203,8 @@ smartplugin.youbora.com
 sdk.privacy-center.org
 api.privacy-center.org
 a-fds.youborafds01.com
-
+@@||openstreetmap.org^|
+mparticle.weather.com
 
 #### Correos
 correos.tt.omtrdc.net

@@ -17,7 +17,7 @@
 !									!
 !-----------------------------------------------------------------------!
 #### Regla regex para permitir los CDNs
-@@/(.+[_.-])?cdn?[0-9]*[_.-]?/
+@@/(.+[_.-])?cdn?([0-9])*[_.-]?/
 
 # Lista de dominios
 ris-prod-atm.trafficmanager.net

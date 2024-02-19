@@ -26166,7 +26166,8 @@
 /^(.+[_.-]+[0-9]*)?wpad?([0-9])*[_.-]?/$important
 /^aff(iliat(es?|ion))?[_.-]/$important
 /(^|\.)xn--p1ai$/$important
-/^count(ers?)?([0-9])*[_.-]?/$/$important
+/^count(ers?)?([0-9])*[_.-]?/$important
+/^(.+[_.-])?graph?([0-9])*[_.-]?/$important
 
 ########## REGEX DOMAIN HAZARD
 /(^|\.)ru$/

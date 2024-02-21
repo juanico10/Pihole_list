@@ -26149,6 +26149,7 @@
 ||bacb7c.to^
 ||in3tia.to^
 ||allawnos.com^
+||sentry.io^
 
 ########### REGEX
 /(.+[_.-]+[0-9]*)?porn(o)?([0-9])*[_.-]?/$important

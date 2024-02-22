@@ -205,6 +205,9 @@ api.privacy-center.org
 a-fds.youborafds01.com
 @@||openstreetmap.org^|
 mparticle.weather.com
+e.reddit.com
+w3-reporting.reddit.com
+clear.wallapop.com
 
 #### Correos
 correos.tt.omtrdc.net

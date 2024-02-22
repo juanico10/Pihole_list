@@ -19,8 +19,7 @@
 #### whitelist
 www.intimissimi.com
 @@||forms.gle^
-
-
+www.deviantart.com
 
 #### instagram
 i.instagram.com

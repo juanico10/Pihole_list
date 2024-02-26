@@ -18,6 +18,7 @@
 !-----------------------------------------------------------------------!
 #### Regla regex para permitir los CDNs
 @@/(.+[_.-])?cdn?([0-9])*[_.-]?/
+@@/(.+[_.-]+[0-9]*)?xbox(live)?([0-9])*[_.-]?/$important
 
 # Lista de dominios
 ris-prod-atm.trafficmanager.net
@@ -112,6 +113,7 @@ download.mozilla.org
 www.mozilla.org
 view.genial.ly
 accounts.firefox.com
+graphql.accounts.firefox.com
 gld.push.samsungosp.com
 china-gld.push.samsungosp.com.cn
 www.somosxbox.com
@@ -243,6 +245,8 @@ fallback.instagram.com
 scontent-mad1-1.xx.fbcdn.net
 scontent-mad1-2.xx.fbcdn.net
 scontent.xx.fbcdn.net
+l.instagram.com
+mqtt-mini.facebook.com
 
 #### Microsoft
 @@||azure.com^

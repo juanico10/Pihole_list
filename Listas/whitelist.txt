@@ -36,7 +36,6 @@ themoviedb.com
 www.simbrief.com
 time.windows.com
 time.android.com
-time.apple.com
 pool.debian.com
 pool.ntp.com
 hora.roa.es
@@ -65,7 +64,7 @@ download.amd.com
 t.me
 telegram.me
 td.telegram.org
-apple.com
+@@||apple.com^
 amazonaws.com
 amazonwebservices.com
 @@||arduino.cc^

@@ -16,9 +16,10 @@
 !      ___________________________________________________/		!
 !									!
 !-----------------------------------------------------------------------!
-#### Regla regex para permitir los CDNs
+#### Reglas regex para permitir los CDNs
 @@/(.+[_.-])?cdn?([0-9])*[_.-]?/
 @@/(.+[_.-]+[0-9]*)?xbox(live)?([0-9])*[_.-]?/$important
+@@/^(.+[_.-])?graph?([0-9])*[_.-]?/$important
 
 # Lista de dominios
 ris-prod-atm.trafficmanager.net
@@ -209,6 +210,7 @@ mparticle.weather.com
 e.reddit.com
 w3-reporting.reddit.com
 clear.wallapop.com
+@@||onetrust.com^
 
 #### Correos
 correos.tt.omtrdc.net
@@ -383,3 +385,4 @@ ggpht.com
 inbox.google.com
 mtalk.google.com
 play-lh.googleusercontent.com
+fundingchoicesmessages.google.com

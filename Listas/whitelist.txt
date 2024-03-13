@@ -211,6 +211,8 @@ e.reddit.com
 w3-reporting.reddit.com
 clear.wallapop.com
 @@||onetrust.com^
+www.sequra.com
+app.sequra.com
 
 #### Correos
 correos.tt.omtrdc.net

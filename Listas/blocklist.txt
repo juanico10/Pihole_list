@@ -26149,6 +26149,8 @@
 ||in3tia.to^
 ||allawnos.com^
 ||sentry.io^
+||hoster.ru^
+||hoster-test.ru^
 
 ########### REGEX
 /(.+[_.-]+[0-9]*)?porn(o)?([0-9])*[_.-]?/$important

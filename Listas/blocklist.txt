@@ -26151,6 +26151,10 @@
 ||sentry.io^
 ||hoster.ru^
 ||hoster-test.ru^
+||mp.org.pl^
+||www.hbworks.jp^
+||es.caixabank-inicios.com^
+||digital-awpp.com^
 
 ########### REGEX
 /(.+[_.-]+[0-9]*)?porn(o)?([0-9])*[_.-]?/$important

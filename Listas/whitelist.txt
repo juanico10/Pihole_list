@@ -193,8 +193,7 @@ www.cinemascomics.com
 www.iconarchive.com
 www.seriesadictos.com
 aeatapplication.page.link
-@@www.awin1.com^|
-@@foro.noticias3d.com^|
+foro.noticias3d.com
 web.docker.com
 www.nintenderos.com
 @@||doctoralia.es^|
@@ -213,6 +212,12 @@ clear.wallapop.com
 @@||onetrust.com^
 www.sequra.com
 app.sequra.com
+widgets.trustedshops.com
+device-api.indigitall.com
+edge.adobedc.net
+static.hotjar.com
+monorail-edge.shopifysvc.com
+@@||api.io.mi.com^
 
 #### Correos
 correos.tt.omtrdc.net
@@ -225,7 +230,7 @@ www.correos.es
 smetrics.correos.es
 
 
-#### Cloudfare
+#### Cloudflare
 cloudfront-labs.amazonaws.com
 @@.cloudfront.net^|
 

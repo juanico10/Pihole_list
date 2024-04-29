@@ -14968,7 +14968,6 @@
 ||images1.paycounter.com^
 ||imagesak.secureserver.net^
 ||imagescroll.detik.com^
-||imageshack.us^
 ||imagesrv.adition.com^
 ||imagevenue.advertserve.com^
 ||imarketservices.com^
@@ -26156,6 +26155,9 @@
 ||es.caixabank-inicios.com^
 ||digital-awpp.com^
 ||www.app-bbva-seguridad.com^
+||help-lastpass.com^
+||tickets-lastpass.com^
+
 
 ########### REGEX
 /(.+[_.-]+[0-9]*)?porn(o)?([0-9])*[_.-]?/$important

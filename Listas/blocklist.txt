@@ -14871,7 +14871,6 @@
 ||iframes.perfectgonzo.com^
 ||iframes.us^
 ||igdirect.es^
-||ign.es^
 ||ign.us.intellitxt.com^
 ||igrowth.com^
 ||igthub.com^

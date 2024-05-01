@@ -14871,7 +14871,6 @@
 ||iframes.perfectgonzo.com^
 ||iframes.us^
 ||igdirect.es^
-||ign.es^
 ||ign.us.intellitxt.com^
 ||igrowth.com^
 ||igthub.com^
@@ -14968,7 +14967,6 @@
 ||images1.paycounter.com^
 ||imagesak.secureserver.net^
 ||imagescroll.detik.com^
-||imageshack.us^
 ||imagesrv.adition.com^
 ||imagevenue.advertserve.com^
 ||imarketservices.com^
@@ -25815,7 +25813,6 @@
 ||ķeepass.info^
 ||escorrese.top^
 ||zbvhwaakws.com^
-||myshopify.com^
 ||xjp-jmacs.m.taobao.com^
 ||guide-acs.m.taobao.com^
 ||xjp-msgacs.m.taobao.com^

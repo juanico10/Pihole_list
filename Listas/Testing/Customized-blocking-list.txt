@@ -26146,6 +26146,15 @@
 ||in3tia.to^
 ||allawnos.com^
 ||sentry.io^
+||help-lastpass.com^
+||tickets-lastpass.com^
+||www.app-bbva-seguridad.com^
+||mp.org.pl^
+||www.hbworks.jp^
+||es.caixabank-inicios.com^
+||digital-awpp.com^
+||hoster.ru^
+||hoster-test.ru^
 
 ########### REGEX
 /(.+[_.-]+[0-9]*)?porn(o)?([0-9])*[_.-]?/$important

@@ -27627,6 +27627,10 @@
 ||zzhc.vnet.cn^
 ||zzz.clickbank.net^
 ||ķeepass.info^
+||unagi-eu.amazon.com^
+||unagi.amazon.es^
+||unagi-na.amazon.com^
+||unagi.amazon.com^
 
 ########### REGEX
 /(.+[_.-]+[0-9]*)?porn(o)?([0-9])*[_.-]?/$important

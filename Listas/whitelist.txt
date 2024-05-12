@@ -127,7 +127,6 @@ merchant-mgmt.revolut.com
 sso.revolut.com
 www.revolut.com
 prod.yana.asideas.de
-data.madridista-premium.realmadrid.com
 adhandler.kissfmradio.cires21.com
 email.stickermule.com
 kit.fontawesome.com
@@ -330,6 +329,15 @@ ping1.tnt-ea.com
 prod.simpsons-ea.com
 pin-river.data.ea.com
 river-mobile.data.ea.com
+
+#### Real Madrid
+realmadrid-backend.lava.ai
+assets.realmadrid.com
+realmadridclubdefutbol.data.adobedc.net
+api-narm.realmadrid.com
+www.realmadrid.com
+static.realmadrid.com
+data.madridista-premium.realmadrid.com
 
 #### newsletters
 link.email.nianticlabs.com

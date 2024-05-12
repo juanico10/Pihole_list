@@ -29,7 +29,8 @@ The <strong>Pi-hole_list</strong> project is an initiative that aims to lock dow
 ### Version docker latest Adguard Home®
 ![Docker Image Version (tag latest)](https://img.shields.io/docker/v/adguard/adguardhome/latest?style=flat&logo=docker&logoColor=white&labelColor=0088cc&color=0088cc)
 
-:warning: *This README has been translated into Spanish. Este README ha sido traducido a español.* :arrow_right: [**here**](./docs/README-ES.md).
+> :warning: *This README has been translated into Spanish <img src="https://hatscripts.github.io/circle-flags/flags/es.svg" width="20">. \
+>  Este README ha sido traducido a español <img src="https://hatscripts.github.io/circle-flags/flags/es.svg" width="20">.* :arrow_right: [**here**](./docs/README-ES.md).
 
 ## Details
 These lists were created because I wanted something with a bit more control over what gets blocked. A lot of lists are all-or-nothing. We set out to create lists with more control over what gets blocked, which is why I recommend my lists to you, as they are tested and we block only what is unnecessary.

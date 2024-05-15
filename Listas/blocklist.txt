@@ -27825,7 +27825,3 @@
 #||shard-6-pop-es-cf.dash.pv-cdn.net^
 #||shard-4-pop-es-cf.dash.pv-cdn.net^
 # Posibilidad de anuncios
-/shard([_.-]+[0-9]*[_.-]+)?pop-es-cf.dash.pv-cdn.net/$important
-||prod.us-east-1.sonar.prime-video.amazon.dev^
-||aiv-delivery.net^$important
-/([_.-]+[0-9])?pop-es-cf.dash.pv-cdn.net/$important

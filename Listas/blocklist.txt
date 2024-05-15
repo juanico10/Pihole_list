@@ -27819,9 +27819,3 @@
 ||dit.whatsapp.net^
 ||crashlogs.whatsapp.net^
 ||privatestats.whatsapp.net^
-
-# Bloquear anuncios prime video
-#||shard-5-pop-es-cf.dash.pv-cdn.net^
-#||shard-6-pop-es-cf.dash.pv-cdn.net^
-#||shard-4-pop-es-cf.dash.pv-cdn.net^
-# Posibilidad de anuncios

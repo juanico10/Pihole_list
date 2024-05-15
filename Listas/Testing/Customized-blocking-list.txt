@@ -22313,7 +22313,6 @@
 ||stat010.mylivepage.com^
 ||stat24.com^
 ||stat24.meta.ua^
-||statcounter.com^
 ||statdb.pressflex.com^
 ||statdynamic.com^
 ||stathat.com^
@@ -27631,6 +27630,29 @@
 ||unagi.amazon.es^
 ||unagi-na.amazon.com^
 ||unagi.amazon.com^
+||2h.ae^
+||fpp.ygs.mybluehost.me^
+||dgt-multas-gob.com^
+||7bc68e3b-6dd6-4.vass.inet^$important
+||serbatic-06593.vass.inet^$important
+||wpad.vass.inet^$important
+||vass.co^
+||vass.com.mx^
+||vass.es^
+||vass.inet^
+||vass.pe^
+||vasscompany.com^
+||vassit.co.uk^
+||vassit.us^
+||vasslatam.cl^
+||vasslatam.co^
+||vasslatam.com^
+||vasslatam.mx^
+||vasslatam.pe^
+||serbatic.com.mx^
+||serbatic.com^
+||serbatic.es^
+||serbatic.eu^
 
 ########### REGEX
 /(.+[_.-]+[0-9]*)?porn(o)?([0-9])*[_.-]?/$important
@@ -27796,8 +27818,3 @@
 ||prod-mediate-events.applovin.com^$client='Isa|Miri'
 ||res1.applovin.com^$client='Isa|Miri'
 ||ms4.applovin.com^$client='Isa|Miri'
-
-## VASS
-||7bc68e3b-6dd6-4.vass.inet^$important
-||serbatic-06593.vass.inet^$important
-||wpad.vass.inet^$important

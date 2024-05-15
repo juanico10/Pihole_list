@@ -22313,7 +22313,6 @@
 ||stat010.mylivepage.com^
 ||stat24.com^
 ||stat24.meta.ua^
-||statcounter.com^
 ||statdb.pressflex.com^
 ||statdynamic.com^
 ||stathat.com^

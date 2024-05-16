@@ -55,7 +55,7 @@ mqtt-mini.facebook.com
 gateway.facebook.com
 graph.facebook.com
 
-#### Permitir Juegos
+#### Permitir solo a usuarios
 @@cdp.cloud.unity3d.com^$client='Isa|Miri'
 @@d.applovin.com^$client='Isa|Miri'
 @@rt.applovin.com^$client='Isa|Miri'

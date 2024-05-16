@@ -27656,21 +27656,21 @@
 
 ########### REGEX
 /(.+[_.-]+[0-9]*)?porn(o)?([0-9])*[_.-]?/
-/^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]/$important
-/^(.+[_.-])?telemetry[_.-]/$important
-/^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]/$important
-/^adim(age|g)s?[0-9]*[_.-]/$important
-/^adtrack(er|ing)?[0-9]*[_.-]/$important
-/^advert(s|is(ing|ements?))?[0-9]*[_.-]/$important
-/^analytics?[_.-]/$important
-/^banners?[_.-]/$important
-/^stat(s|istics)?[0-9]*[_.-]/$important
-/([0-9]*[_.-])?metrics?[0-9]*[_.-]/$important
-/^(.+[_.-]+[0-9]*)?wpad?([0-9])*[_.-]?/$important
-/^aff(iliat(es?|ion))?[_.-]/$important
-/(^|\.)xn--p1ai$/$important
-/^count(ers?)?([0-9])*[_.-]?/$important
-#/^(.+[_.-])?graph?([0-9])*[_.-]?/$important
+/^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]/
+/^(.+[_.-])?telemetry[_.-]/
+/^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]/
+/^adim(age|g)s?[0-9]*[_.-]/
+/^adtrack(er|ing)?[0-9]*[_.-]/
+/^advert(s|is(ing|ements?))?[0-9]*[_.-]/
+/^analytics?[_.-]/
+/^banners?[_.-]/
+/^stat(s|istics)?[0-9]*[_.-]/
+/([0-9]*[_.-])?metrics?[0-9]*[_.-]/
+/^(.+[_.-]+[0-9]*)?wpad?([0-9])*[_.-]?/
+/^aff(iliat(es?|ion))?[_.-]/
+/(^|\.)xn--p1ai$/
+/^count(ers?)?([0-9])*[_.-]?/
+#/^(.+[_.-])?graph?([0-9])*[_.-]?/
 
 ########## REGEX DOMAIN HAZARD
 /(^|\.)ru$/

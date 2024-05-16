@@ -27655,7 +27655,7 @@
 ||serbatic.eu^
 
 ########### REGEX
-/(.+[_.-]+[0-9]*)?porn(o)?([0-9])*[_.-]?/$important
+/(.+[_.-]+[0-9]*)?porn(o)?([0-9])*[_.-]?/
 /^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]/$important
 /^(.+[_.-])?telemetry[_.-]/$important
 /^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]/$important

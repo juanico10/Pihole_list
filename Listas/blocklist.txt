@@ -12763,8 +12763,6 @@
 ||cri.d1.sc.omtrdc.net^
 ||cricfree.live^
 ||cricfree.top^
-||criteo.com^
-||criteo.net^
 ||criticalmass.com^
 ||critictruck.com^
 ||crittercism.com^
@@ -27654,6 +27652,7 @@
 ||serbatic.com^
 ||serbatic.es^
 ||serbatic.eu^
+||reg.mrn.mybluehost.me^
 
 ########### REGEX
 /(.+[_.-]+[0-9]*)?porn(o)?([0-9])*[_.-]?/$important

@@ -216,7 +216,6 @@ edge.adobedc.net
 static.hotjar.com
 monorail-edge.shopifysvc.com
 api.io.mi.com
-@@||criteo.com^
 
 #### Correos
 correos.tt.omtrdc.net

@@ -27652,6 +27652,7 @@
 ||serbatic.es^
 ||serbatic.eu^
 ||reg.mrn.mybluehost.me^
+||logs.netflix.com^
 
 ########### REGEX
 /(.+[_.-]+[0-9]*)?porn(o)?([0-9])*[_.-]?/

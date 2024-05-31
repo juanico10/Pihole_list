@@ -56,12 +56,12 @@ gateway.facebook.com
 graph.facebook.com
 
 #### Permitir solo a usuarios
-@@cdp.cloud.unity3d.com^$client='Isa'
-@@d.applovin.com^$client='Isa'
-@@rt.applovin.com^$client='Isa'
-@@ms.applovin.com^$client='Isa'
-@@bid.applovin.com^$client='Isa'
-@@prod-a4.applovin.com^$client='Isa'
+@@cdp.cloud.unity3d.com^$client=Isa|Miguel
+@@d.applovin.com^$client=Isa|Miguel
+@@rt.applovin.com^$client=Isa|Miguel
+@@ms.applovin.com^$client=Isa|Miguel
+@@bid.applovin.com^$client=Isa|Miguel
+@@prod-a4.applovin.com^$client=Isa|Miguel
 
 ## Pablo
 @@||pornhub.com^$client='Pablo'

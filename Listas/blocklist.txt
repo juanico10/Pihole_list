@@ -28643,6 +28643,8 @@
 ||serbatic.eu^
 ||reg.mrn.mybluehost.me^
 ||logs.netflix.com^
+||bancosabadell.seguridados.es^
+||srv213832.hoster-test.ru^
 
 ########### REGEX
 /(.+[_.-]+[0-9]*)?porn(o)?([0-9])*[_.-]?/$important

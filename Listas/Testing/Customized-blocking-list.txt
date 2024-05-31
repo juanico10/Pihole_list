@@ -28809,5 +28809,4 @@
 ||ms4.applovin.com^$client='Isa|Miri'
 
 # Ads streaming
-/(-isp.1|-ix.1)*[-._]+oca.nflxvideo.net/
 /(aa-a|3ww-a)*[-._]+akamaihd.net/

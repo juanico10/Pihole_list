@@ -28810,5 +28810,4 @@
 ||privatestats.whatsapp.net^
 
 # Ads streaming
-/(-isp.1|-ix.1)*[-._]+oca.nflxvideo.net/
 /(aa-a|3ww-a)*[-._]+akamaihd.net/

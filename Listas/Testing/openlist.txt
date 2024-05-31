@@ -67,3 +67,7 @@ graph.facebook.com
 @@||pornhub.com^$client='Pablo'
 @@www.awin1.com^$client='Pablo'
 @@clk.tradedoubler.com^$client='Pablo'
+@@ad.doubleclick.net^$client='Pablo'
+@@skyscanner.pxf.io^$client='Pablo'
+@@www.dpbolvw.net^$client='Pablo'
+@@prf.hn^$client='Pablo'

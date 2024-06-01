@@ -149,8 +149,6 @@ web.bbva.es
 www.bbva.es
 services.fandom.com
 crt.sectigo.com
-nativesdks.mparticle.com
-identity.mparticle.com
 links1.m.myunidays.com
 @@||pokemon.com^|
 assets.adobedtm.com

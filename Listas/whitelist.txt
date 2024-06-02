@@ -305,6 +305,8 @@ events.launchdarkly.com
 clientstream.launchdarkly.com
 logx.optimizely.com
 s.click.aliexpress.com
+audid-api.taobao.com
+@@/sdk.iad-[0-9]*.braze.com/
 
 #### ChatGPT
 widget.intercom.io
@@ -337,6 +339,7 @@ static.realmadrid.com
 data.madridista-premium.realmadrid.com
 realmadridclubdefutbol.data.adobedc.net
 apps.monterosa.cloud
+script.hotjar.com
 
 #### newsletters
 link.email.nianticlabs.com

@@ -28646,6 +28646,8 @@
 ||bancosabadell.seguridados.es^
 ||srv213832.hoster-test.ru^
 ||mparticle.com^
+||fourier.aliexpress.com^
+
 
 ########### REGEX
 /(.+[_.-]+[0-9]*)?porn(o)?([0-9])*[_.-]?/$important

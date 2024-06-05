@@ -214,6 +214,11 @@ edge.adobedc.net
 static.hotjar.com
 monorail-edge.shopifysvc.com
 api.io.mi.com
+dpm.demdex.net
+h-adashx4ae.ut.taobao.com
+adashx4ae.ut.taobao.com
+api.onesignal.com
+cdn.onesignal.com
 
 #### Correos
 correos.tt.omtrdc.net
@@ -224,7 +229,6 @@ correos.demdex.net
 api1.correos.es
 www.correos.es
 smetrics.correos.es
-
 
 #### Cloudflare
 cloudfront-labs.amazonaws.com

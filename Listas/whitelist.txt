@@ -406,3 +406,4 @@ inbox.google.com
 mtalk.google.com
 play-lh.googleusercontent.com
 fundingchoicesmessages.google.com
+connectivitycheck.gstatic.com

@@ -6,7 +6,7 @@
 # Description: Block domains for Pi-hole/Adguard
 # Format: Original and AdGuard format
 # Created: 13.01.2022 21:04:17
-# https://github.com/JuanRodenas
+# https://github.com/juanico10/Pihole_list/blob/main/Listas/Testing/Customized-blocking-list.txt
 !-----------------------------------------------------------------------!
 !           _   __    ______                __   _			!
 !          / | / /___/_  __/________ ______/ /__(_)___  ____ _ 	   	!
@@ -28656,6 +28656,7 @@
 ||adashx.ut.miravia.es^
 ||m.stripe.com^
 ||gcp.gvt2.com^
+||trackjs.com^
 
 
 ########### REGEX

@@ -74,8 +74,6 @@ www.documaniatv.com
 open.spotify.com
 radio.garden
 unsplash.com
-www.amazon.es
-www.amazon.com
 @@addons.mozilla.org^|
 www.solvetic.com
 aip.enaire.es
@@ -130,8 +128,6 @@ prod.yana.asideas.de
 adhandler.kissfmradio.cires21.com
 email.stickermule.com
 kit.fontawesome.com
-msh.amazon.co.uk
-fls-eu.amazon.es
 e.customeriomail.com
 unaaldia.hispasec.com
 www.cyberciti.biz
@@ -203,7 +199,6 @@ a-fds.youborafds01.com
 mparticle.weather.com
 e.reddit.com
 w3-reporting.reddit.com
-clear.wallapop.com
 @@||onetrust.com^
 @@||onetrust.io^
 www.sequra.com
@@ -212,11 +207,12 @@ widgets.trustedshops.com
 device-api.indigitall.com
 edge.adobedc.net
 static.hotjar.com
-monorail-edge.shopifysvc.com
 api.io.mi.com
-dpm.demdex.net
 api.onesignal.com
 cdn.onesignal.com
+app.launchdarkly.com
+events.launchdarkly.com
+clientstream.launchdarkly.com
 
 #### Correos
 correos.tt.omtrdc.net
@@ -301,14 +297,21 @@ sdk.privacy-center.org
 pcmactivity.chinacloudsites.cn
 pcmanager.microsoft.com
 
-#### Aliexpress y wallapop
-app.launchdarkly.com
-events.launchdarkly.com
-clientstream.launchdarkly.com
+#### Plataformas de eCommerce
+dpm.demdex.net
+monorail-edge.shopifysvc.com
+msh.amazon.co.uk
+fls-eu.amazon.es
+www.amazon.es
+www.amazon.com
 s.click.aliexpress.com
 audid-api.taobao.com
 @@/sdk.iad-[0-9]*.braze.com/
 @@||wallapop.com^
+rktstats.reskyt.com
+notifications.api.reskyt.com
+app.reskyt.com
+api.reskyt.com
 
 #### ChatGPT
 widget.intercom.io

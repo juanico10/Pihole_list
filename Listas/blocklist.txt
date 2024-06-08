@@ -28657,6 +28657,7 @@
 ||adashx.ut.miravia.es^
 ||m.stripe.com^
 ||gcp.gvt2.com^
+||trackjs.com^
 
 
 ########### REGEX

@@ -3,8 +3,8 @@
 The <strong>Pi-hole_list</strong> project is an initiative that aims to lock down and secure the entire network through its own hardware. In this repository, it is installed via Docker®. Pi-hole® and Adguard Home® are DNS sinkholes that protect your devices from unwanted content without the need to install any software on client devices.
 
 <div align="center">
-    <a href="https://github.com/JuanRodenas/Pihole_list">
-        <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/pihole.png" alt="Pi-hole" width="280">
+    <a href="https://github.com/juanico10/Pihole_list">
+        <img src="https://github.com/juanico10/Pihole_list/blob/main/assets/pihole.png" alt="Pi-hole" width="280">
         <img src="https://cdn.adtidy.org/website/github.com/AdguardFilters/viking.svg" alt="AdGuard Home" width="420">
     </a>
     <br>
@@ -14,15 +14,15 @@ The <strong>Pi-hole_list</strong> project is an initiative that aims to lock dow
 &nbsp;
 
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/JuanRodenas/Pi-hole_list?style=flat&logo=Github&logoColor=white&label=last-commit&labelColor=253B80&color=253B80)
-<a href="https://github.com/JuanRodenas/Pi-hole_list/commits/master" >
+<a href="https://github.com/juanico10/Pi-hole_list/commits/master" >
     <img src="https://img.shields.io/github/commit-activity/m/JuanRodenas/Pi-hole_list?style=flat&logo=Github&logoColor=white&label=Commit%20Activity&labelColor=253B80&color=253B80" alt="commit activity" >
   <a/>
 
 ## Links to installation or developer
 | PROJECT | INSTALLER LINK | DEVELOPER LINK |
 | :-- | :--: | :--: |
-| <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/AdGuard_Logo.png" alt="AdGuard Home" width="26"/> Adguard Home® | [INSTALLATION](https://github.com/JuanRodenas/AdGuardHome) | [DEVELOPER](https://adguard.com/es/adguard-home/overview.html) |
-| <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/pihole.png" alt="Pi-Hole" width="30"/> Pi-hole® | [INSTALLATION](https://github.com/JuanRodenas/Pihole) | [DEVELOPER](https://pi-hole.net/) |
+| <img src="https://github.com/juanico10/Pihole_list/blob/main/assets/AdGuard_Logo.png" alt="AdGuard Home" width="26"/> Adguard Home® | [INSTALLATION](https://github.com/juanico10/AdGuardHome) | [DEVELOPER](https://adguard.com/es/adguard-home/overview.html) |
+| <img src="https://github.com/juanico10/Pihole_list/blob/main/assets/pihole.png" alt="Pi-Hole" width="30"/> Pi-hole® | [INSTALLATION](https://github.com/juanico10/Pihole) | [DEVELOPER](https://pi-hole.net/) |
 ### Version docker latest Pi-hole®
 ![Docker Image Version (tag latest)](https://img.shields.io/docker/v/pihole/pihole/latest?style=flat&logo=docker&logoColor=white&labelColor=0088cc&color=0088cc)
 
@@ -88,7 +88,7 @@ These lists were created because I wanted something with a bit more control over
 
 ### Use:
 <details>
-    <summary>Use with Pi-Hole <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/pihole.png" alt="Pi-Hole" width="30"/>:</summary>
+    <summary>Use with Pi-Hole <img src="https://github.com/juanico10/Pihole_list/blob/main/assets/pihole.png" alt="Pi-Hole" width="30"/>:</summary>
 
 ## Instructions for use with Pi-Hole:
 
@@ -102,7 +102,7 @@ These lists were created because I wanted something with a bit more control over
 &nbsp;
 
 <details>
-    <summary>Use with AdGuard Home <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/AdGuard_Logo.png" alt="AdGuard Home" width="22"/>:</summary>
+    <summary>Use with AdGuard Home <img src="https://github.com/juanico10/Pihole_list/blob/main/assets/AdGuard_Logo.png" alt="AdGuard Home" width="22"/>:</summary>
 
 ## Instructions for use with AdGuard Home:
 
@@ -115,7 +115,7 @@ These lists were created because I wanted something with a bit more control over
 </details>
 &nbsp;
 
-# Adguard Home®  <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/adguard_home_lightmode.svg" alt="AdGuard Home" width="100"/>
+# Adguard Home®  <img src="https://github.com/juanico10/Pihole_list/blob/main/assets/adguard_home_lightmode.svg" alt="AdGuard Home" width="100"/>
 
 ## General configuration
 - One of the recommendations, in AdGuard settings, General configuration, Filter update interval in 1 hour. It will update the rules every hour.
@@ -408,7 +408,7 @@ This will allow the client created in the `Client Configuration` panel to connec
 <sup>Current instructions in the developer's documentation <a href="https://github.com/AdguardTeam/AdGuardHome/wiki/Clients#clientid">documentación</a>.</sup>
 
 
-# List for Pihole <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/pihole.png" alt="Pi-Hole" width="40"/> and AdGuard Home <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/AdGuard_Logo.png" alt="AdGuard Home" width="32"/>
+# List for Pihole <img src="https://github.com/juanico10/Pihole_list/blob/main/assets/pihole.png" alt="Pi-Hole" width="40"/> and AdGuard Home <img src="https://github.com/juanico10/Pihole_list/blob/main/assets/AdGuard_Logo.png" alt="AdGuard Home" width="32"/>
 
 ## Main safelist
 
@@ -450,7 +450,7 @@ This will allow the client created in the `Client Configuration` panel to connec
 | GoodbyeAds-Ultra | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds-Ultra.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt) | To Block [hagezi](https://github.com/hagezi/dns-blocklists) and [jerryn70](https://github.com/jerryn70/GoodbyeAds) |
 | ads-and-tracking-extended | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt) | To Block ads-and-tracking-extended |
 | Adblock_Plus | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/JuanRodenas/Pi-hole_list/main/List/Adblock_Plus_Ads.txt) | To Block Tracking AdBlock |
-| Android tracking | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://github.com/JuanRodenas/Pihole_list/blob/main/Listas/android-tracking.txt) | Android tracking for AdGuard Home |
+| Android tracking | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://github.com/juanico10/Pihole_list/blob/main/Listas/android-tracking.txt) | Android tracking for AdGuard Home |
 | Disconnect.me | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt) | To Block disconnect.me |
 
 #### Adguard team filters
@@ -609,24 +609,24 @@ Link to the developer of the application:
 [![GitHub](https://img.shields.io/badge/-JGeek00-171515?style=flat&logo=Github&logoColor=black&labelColor=ffffff&color=ffffff)](https://github.com/JGeek00/)
 
 ### Pi-hole® android application
-<p><a><a href="https://play.google.com/store/apps/details?id=com.jgeek00.droid_hole" target="_blank" rel="noopener noreferrer"><img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/get_google_play.png" width="120px"></a></p>
+<p><a><a href="https://play.google.com/store/apps/details?id=com.jgeek00.droid_hole" target="_blank" rel="noopener noreferrer"><img src="https://github.com/juanico10/Pihole_list/blob/main/assets/get_google_play.png" width="120px"></a></p>
 
 ### Adguard Home® android application
-<p><a><a href="https://play.google.com/store/apps/details?id=com.jgeek00.adguard_home_manager" target="_blank" rel="noopener noreferrer"><img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/get_google_play.png" width="120px"></a></p>
+<p><a><a href="https://play.google.com/store/apps/details?id=com.jgeek00.adguard_home_manager" target="_blank" rel="noopener noreferrer"><img src="https://github.com/juanico10/Pihole_list/blob/main/assets/get_google_play.png" width="120px"></a></p>
 
 ### Desktop applications for Adguard Home®.
-<p><a><a href="https://github.com/JGeek00/adguard-home-manager/releases" target="_blank" rel="noopener noreferrer"><img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/get-github.png" width="120px"></a></p>
+<p><a><a href="https://github.com/JGeek00/adguard-home-manager/releases" target="_blank" rel="noopener noreferrer"><img src="https://github.com/juanico10/Pihole_list/blob/main/assets/get-github.png" width="120px"></a></p>
 
 <p><sub>Any and all rights and responsibilities pertaining thereto remain the property of the respective developer.</sub></p>
 
 ## Help me and contribution :raised_hands:
 <p> &nbsp;If you want to contribute to improve the lists, open a <code>issue</code> here:</p>
-<a href="https://github.com/JuanRodenas/Pi-hole_list/issues"><img src="https://img.shields.io/badge/issues-green.svg?style=flat" alt="Link"></a>
+<a href="https://github.com/juanico10/Pi-hole_list/issues"><img src="https://img.shields.io/badge/issues-green.svg?style=flat" alt="Link"></a>
 
 ## Credits :rocket:
 This repository is made with all my love and affection.
 
-[![GitHub](https://img.shields.io/badge/-JuanRodenas-171515?style=flat&logo=Github&logoColor=black&labelColor=ececec&color=ececec)](https://github.com/JuanRodenas/)
+[![GitHub](https://img.shields.io/badge/-JuanRodenas-171515?style=flat&logo=Github&logoColor=black&labelColor=ececec&color=ececec)](https://github.com/juanico10/)
 
 ## :tada: ¡Ready!
 
@@ -635,6 +635,6 @@ This repository is made with all my love and affection.
 <p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" /></p>
 
 <p><sup>These files/texts are provided "AS IS", without warranties of any kind, express or implied, including, but not limited to, warranties of merchantability, fitness for a particular purpose and non-infringement. In no event shall the authors or copyright holders be liable for any claims, damages or other liability arising out of or relating to the files or the use thereof.</sup></p>
-<p><sup>I will be updating with information and adding procedures in my spare time. The author of the content is JuanRodenas. You can contact me at <a href="mailto:juanrodenas07@gmail.com?Subject=from%20github">mailto</a> and the author's website is <a href="https://github.com/JuanRodenas/">website</a>.</p></sup>
+<p><sup>I will be updating with information and adding procedures in my spare time. The author of the content is JuanRodenas. You can contact me at <a href="mailto:juanrodenas07@gmail.com?Subject=from%20github">mailto</a> and the author's website is <a href="https://github.com/juanico10/">website</a>.</p></sup>
 <p><sub>Any and all trademarks are the property of their respective owners.</sub></p>
 <p align="center"><a href="https://raw.githubusercontent.com/JuanRodenas/Pihole_list/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=302d41&colorB=b7bdf8"/></a></p>

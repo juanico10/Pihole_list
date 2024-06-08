@@ -2,11 +2,11 @@
 ! 	                P A C K  D E T A I L S				!
 !-----------------------------------------------------------------------!
 # Developer & Maintainer: Juan Rodenas
-# Title: whitelist
-# Description: Blocking dangerous ips
+# Title: Safelist domains
+# Description: Secure domain checklist
 # Format: List IPs and groups
 # Created: 05.01.2022 20:04:17
-# https://github.com/JuanRodenas
+# https://github.com/juanico10/Pihole_list/blob/main/Listas/whitelist.txt
 !-----------------------------------------------------------------------!
 !           _   __    ______                __   _			!
 !          / | / /___/_  __/________ ______/ /__(_)___  ____ _ 	   	!
@@ -205,6 +205,7 @@ e.reddit.com
 w3-reporting.reddit.com
 clear.wallapop.com
 @@||onetrust.com^
+@@||onetrust.io^
 www.sequra.com
 app.sequra.com
 widgets.trustedshops.com
@@ -304,11 +305,9 @@ pcmanager.microsoft.com
 app.launchdarkly.com
 events.launchdarkly.com
 clientstream.launchdarkly.com
-logx.optimizely.com
 s.click.aliexpress.com
 audid-api.taobao.com
 @@/sdk.iad-[0-9]*.braze.com/
-cdn.optimizely.com
 @@||wallapop.com^
 
 #### ChatGPT
@@ -393,8 +392,6 @@ id.google.com
 youtube-ui.l.google.com
 ampcid.google.com
 stun.l.google.com
-beacons.gvt2.com
-beacons.gcp.gvt2.com
 www.youtube-nocookie.com
 tunnel.googlezip.net
 dns-tunnel-check.googlezip.net
@@ -407,3 +404,4 @@ mtalk.google.com
 play-lh.googleusercontent.com
 fundingchoicesmessages.google.com
 connectivitycheck.gstatic.com
+store.google.com

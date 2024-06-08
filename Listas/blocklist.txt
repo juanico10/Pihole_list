@@ -6,7 +6,7 @@
 # Description: Block domains for Pi-hole/Adguard
 # Format: Original and AdGuard format
 # Created: 13.01.2022 21:04:17
-# https://github.com/JuanRodenas
+# https://github.com/juanico10/Pihole_list/blob/main/Listas/blocklist.txt
 !-----------------------------------------------------------------------!
 !           _   __    ______                __   _			!
 !          / | / /___/_  __/________ ______/ /__(_)___  ____ _ 	   	!
@@ -4761,6 +4761,8 @@
 ||adjuggler.yourdictionary.com^
 ||adjunct.budulay.com^
 ||adjust.com^
+||adjust.net.in^
+||adjust.world^
 ||adjustnetwork.com^
 ||adk2.co^
 ||adk2.com^
@@ -28649,6 +28651,13 @@
 ||fourier.aliexpress.com^
 ||criteo.com^
 ||abtest.alibaba.com^
+||browser-intake-datadoghq.com^
+||beacons.gvt2.com^
+||px-intl.ucweb.com^
+||adashx.ut.miravia.es^
+||m.stripe.com^
+||gcp.gvt2.com^
+
 
 ########### REGEX
 /(.+[_.-]+[0-9]*)?porn(o)?([0-9])*[_.-]?/$important
@@ -28668,6 +28677,7 @@
 /(^|\.)xn--p1ai$/$important
 /^count(ers?)?([0-9])*[_.-]?/$important
 #/^(.+[_.-])?graph?([0-9])*[_.-]?/$important #prueba
+/(beacons|beacons[0-9]).(gvt2|gvt3).com/$important #prueba
 
 ########## REGEX DOMAIN HAZARD
 /(^|\.)ru$/

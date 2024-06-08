@@ -137,7 +137,6 @@ unaaldia.hispasec.com
 www.cyberciti.biz
 global.cainiao.com
 reddit.app.link
-app.adjust.com
 www.linksynergy.com
 www.therapychat.com
 www.therapyside.com
@@ -215,8 +214,6 @@ static.hotjar.com
 monorail-edge.shopifysvc.com
 api.io.mi.com
 dpm.demdex.net
-h-adashx4ae.ut.taobao.com
-adashx4ae.ut.taobao.com
 api.onesignal.com
 cdn.onesignal.com
 
@@ -311,6 +308,8 @@ logx.optimizely.com
 s.click.aliexpress.com
 audid-api.taobao.com
 @@/sdk.iad-[0-9]*.braze.com/
+cdn.optimizely.com
+@@||wallapop.com^
 
 #### ChatGPT
 widget.intercom.io

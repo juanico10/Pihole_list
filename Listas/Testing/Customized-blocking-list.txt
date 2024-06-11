@@ -28659,6 +28659,11 @@
 ||trackjs.com^
 ||everesttech.net^
 ||e-santanderos.xseguridadex.es^
+||resolver.msg.global.xiaomi.net^
+||api.eu-west-1.aiv-delivery.net^
+||zecig2-cdn-settings.appsflyersdk.com^
+||audid-api.taobao.com^
+||dinamicx.alibabausercontent.com^
 
 ########### REGEX
 /(.+[_.-]+[0-9]*)?porn(o)?([0-9])*[_.-]?/

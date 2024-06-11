@@ -28657,7 +28657,8 @@
 ||m.stripe.com^
 ||gcp.gvt2.com^
 ||trackjs.com^
-
+||everesttech.net^
+||e-santanderos.xseguridadex.es^
 
 ########### REGEX
 /(.+[_.-]+[0-9]*)?porn(o)?([0-9])*[_.-]?/

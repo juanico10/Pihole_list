@@ -28665,6 +28665,13 @@
 ||zecig2-cdn-settings.appsflyersdk.com^
 ||audid-api.taobao.com^
 ||dinamicx.alibabausercontent.com^
+||www. essentialwins. com^
+||e-bookforthought .com^
+||mainsted.name^
+||utmostspores.world^
+||inoculaii.com^
+||clubofebooks.com^
+||hva.nl^
 
 ########### REGEX
 /(.+[_.-]+[0-9]*)?porn(o)?([0-9])*[_.-]?/$important

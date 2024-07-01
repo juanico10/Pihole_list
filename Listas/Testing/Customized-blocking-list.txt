@@ -28674,6 +28674,11 @@
 ||netflix.ultimo-recordatorio.com^
 ||www.mediapart.fr^
 ||40926828.servicio-online.net^
+||Footybite.co^
+||Streamcheck.link^
+||SportBay.sx^
+||TVFutbol.info^
+||Catchystream.com^
 
 ########### REGEX
 /(.+[_.-]+[0-9]*)?porn(o)?([0-9])*[_.-]?/

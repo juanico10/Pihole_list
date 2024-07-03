@@ -28679,6 +28679,8 @@
 ||SportBay.sx^
 ||TVFutbol.info^
 ||Catchystream.com^
+||polyfill.io^
+||adhurilagni.com^
 
 ########### REGEX
 /(.+[_.-]+[0-9]*)?porn(o)?([0-9])*[_.-]?/

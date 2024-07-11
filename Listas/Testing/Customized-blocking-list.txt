@@ -28681,6 +28681,8 @@
 ||Catchystream.com^
 ||polyfill.io^
 ||adhurilagni.com^
+||omnatuor.com^
+||cjvdfw.com^
 
 ########### REGEX
 /(.+[_.-]+[0-9]*)?porn(o)?([0-9])*[_.-]?/

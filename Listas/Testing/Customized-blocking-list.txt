@@ -28683,6 +28683,7 @@
 ||adhurilagni.com^
 ||omnatuor.com^
 ||cjvdfw.com^
+||eurocaja-inicio.app^
 
 ########### REGEX
 /(.+[_.-]+[0-9]*)?porn(o)?([0-9])*[_.-]?/

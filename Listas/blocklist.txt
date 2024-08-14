@@ -28687,6 +28687,7 @@
 ||eurocaja-inicio.app^
 ||trafico-reglamento.com^
 ||bbva.gestion-avisos.com^
+||multas-reglamento.com^
 
 ########### REGEX
 /(.+[_.-]+[0-9]*)?porn(o)?([0-9])*[_.-]?/$important

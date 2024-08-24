@@ -28687,6 +28687,9 @@
 ||trafico-reglamento.com^
 ||bbva.gestion-avisos.com^
 ||multas-reglamento.com^
+||soluciones-app.com^
+||wz.gy^
+||temporary.site^
 
 ########### REGEX
 /(.+[_.-]+[0-9]*)?porn(o)?([0-9])*[_.-]?/

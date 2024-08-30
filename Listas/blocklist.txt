@@ -28691,6 +28691,7 @@
 ||soluciones-app.com^
 ||wz.gy^
 ||temporary.site^
+||hacienda-incidencia.com^
 
 ########### REGEX
 /(.+[_.-]+[0-9]*)?porn(o)?([0-9])*[_.-]?/$important
@@ -28749,6 +28750,7 @@
 /(^|\.)cam$/
 /(^|\.)chat$/
 /(^|\.)date$/
+/(^|\.)buzz$/
 
 ### DOMAINS GROUP MASMOVIL
 ||bestmovil.es^

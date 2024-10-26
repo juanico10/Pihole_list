@@ -29266,6 +29266,9 @@
 ||zorrotv.xyz^
 ||dgt-es-00.serv00.net^
 ||mhz.syi.temporary.site^
+||bb.vapersonas.com^
+||srv222144.hoster-test.ru^
+||es.bbvaclientes-login.info^
 
 ########### REGEX
 /(.+[_.-]+[0-9]*)?porn(o)?([0-9])*[_.-]?/

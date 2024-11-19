@@ -29271,6 +29271,7 @@
 ||es.bbvaclientes-login.info^
 ||aemet.blog^
 ||www.acceso-bbvamovil.com^
+||bbva.solicitud-servicio.com^
 
 ########### REGEX
 /(.+[_.-]+[0-9]*)?porn(o)?([0-9])*[_.-]?/

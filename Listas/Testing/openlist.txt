@@ -30,6 +30,8 @@ path3.xtracloud.net
 xtrapath1.izatcloud.net
 xtrapath2.izatcloud.net
 xtrapath3.izatcloud.net
+@@||voyage-prive.com^
+@@||eulerian.net^
 
 #### instagram
 i.instagram.com
@@ -62,6 +64,8 @@ graph.facebook.com
 @@ms.applovin.com^$client=Isa|Miguel
 @@bid.applovin.com^$client=Isa|Miguel
 @@prod-a4.applovin.com^$client=Isa|Miguel
+@@||awstrack.me^$client='Avelina'
+
 
 ## Pablo
 @@||pornhub.com^$client='Pablo'

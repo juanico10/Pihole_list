@@ -29274,6 +29274,11 @@
 ||www.acceso-bbvamovil.com^
 ||bbva.solicitud-servicio.com^
 ||seedtag.com^
+||privacy-center.org^$important
+||sts.applovin.com^$important
+||collector.lunalabs.io^$important
+|cdn.liftoff-creatives.io^$important
+||iads.unity3d.com^
 
 ########### REGEX
 /(.+[_.-]+[0-9]*)?porn(o)?([0-9])*[_.-]?/$important

@@ -411,9 +411,9 @@ This will allow the client created in the `Client Configuration` panel to connec
 After two years of use, I have collected the data from the Adguard cache with very optimal values. I recommend these usage values:
 
 - We recommend that the **cache size** be greater than 64 megabytes. If you leave it at 0, you disable it.
-- I recommend a minimum TTL value of 600
-- I recommend a maximum TTL value of 21600
-And I recommend enabling optimistic caching, which allows serving old cached responses while they are updated in the background.
+- I recommend a **minimum TTL** value of **600**
+- I recommend a **maximum TTL** value of **21600** \
+And I recommend **enabling optimistic caching**, which allows serving old cached responses while they are updated in the background.
 
 # List for Pihole <img src="https://github.com/juanico10/Pihole_list/blob/main/assets/pihole.png" alt="Pi-Hole" width="40"/> and AdGuard Home <img src="https://github.com/juanico10/Pihole_list/blob/main/assets/AdGuard_Logo.png" alt="AdGuard Home" width="32"/>
 

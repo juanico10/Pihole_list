@@ -395,6 +395,15 @@ Para crear una zona en tu dominio y habilitar clientes, sigue estos pasos:
 <sup>Instrucciones actuales en la documentación del desarrollador <a href="https://github.com/AdguardTeam/AdGuardHome/wiki/Clients#clientid">documentación</a>.</sup>
 
 
+## Configuración de la caché DNS
+Tras dos años de uso, he recolectado los datos de la caché de Adguard con unos valores muy óptimos. Os recomiendo estos valores de uso:
+
+- Recomendamos que el **tamaño de la caché** sea superior a 64 megabytes. Si lo dejas en 0 la desactivas.
+- Recomiendo un valor de TTL mínimo en 600
+- Recomiendo un valor de TTL máximo 21600
+Y recomiendo activar la caché optimista, permite servir respuestas antiguas en caché mientras se actualizan en segundo plano.
+
+
 # Lista para Pihole <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/pihole.png" alt="Pi-Hole" width="40"/> y AdGuard Inicio <img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/AdGuard_Logo.png" alt="AdGuard Home" width="32"/>
 
 ## Principal lista segura

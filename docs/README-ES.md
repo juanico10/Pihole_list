@@ -611,7 +611,7 @@ Enlace al desarrollador de la aplicación:
 <p><a><a href="https://play.google.com/store/apps/details?id=com.jgeek00.adguard_home_manager" target="_blank" rel="noopener noreferrer"><img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/google-play.png" width="40px"></a></p>
 
 ### Aplicaciones de escritorio para Adguard Home®.
-<p><a><a href="https://github.com/JGeek00/adguard-home-manager/releases" target="_blank" rel="noopener noreferrer"><img src="https://github.com/JuanRodenas/Pihole_list/blob/main/assets/get-github.png" width="120px"></a></p>
+<p><a><a href="https://github.com/juanico10/adguard-home-manager-desktop" target="_blank" rel="noopener noreferrer"><img src="https://github.com/juanico10/Pihole_list/blob/main/assets/get-github.png" width="120px"></a></p>
 
 <p><sub>Todos y cada uno de los derechos y responsabilidades correspondientes seguirán siendo propiedad del promotor respectivo.</sub></p>
 

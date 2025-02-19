@@ -623,7 +623,7 @@ Link to the developer of the application:
 <p><a><a href="https://play.google.com/store/apps/details?id=com.jgeek00.adguard_home_manager" target="_blank" rel="noopener noreferrer"><img src="https://github.com/juanico10/Pihole_list/blob/main/assets/get_google_play.png" width="120px"></a></p>
 
 ### Desktop applications for Adguard Home®.
-<p><a><a href="https://github.com/JGeek00/adguard-home-manager/releases" target="_blank" rel="noopener noreferrer"><img src="https://github.com/juanico10/Pihole_list/blob/main/assets/get-github.png" width="120px"></a></p>
+<p><a><a href="https://github.com/juanico10/adguard-home-manager-desktop" target="_blank" rel="noopener noreferrer"><img src="https://github.com/juanico10/Pihole_list/blob/main/assets/get-github.png" width="120px"></a></p>
 
 <p><sub>Any and all rights and responsibilities pertaining thereto remain the property of the respective developer.</sub></p>
 

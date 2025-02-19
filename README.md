@@ -179,6 +179,15 @@ Quad9 in both IPv4 and IPv6:
 
 - DNS server configuration, check the option "**Enable DNSSEC**".
 
+## DNS Cache Configuration
+After two years of use, I have collected the data from the Adguard cache with very optimal values. I recommend these usage values:
+
+- We recommend that the **cache size** be greater than 64 megabytes. If you leave it at 0, you disable it.
+- I recommend a **minimum TTL** value of **600**
+- I recommend a **maximum TTL** value of **21600**
+
+And I recommend **enabling optimistic caching**, which allows serving old cached responses while they are updated in the background.
+
 ## Add domain for DoH and DoT:
 
 ### Create the certificate with Let's Encrypt
@@ -406,14 +415,6 @@ This will allow the client created in the `Client Configuration` panel to connec
 4. Configure `Settings/Client Configuration/Persistent clients`. Click `Add Clients` and under `Identifier` create a name.
 
 <sup>Current instructions in the developer's documentation <a href="https://github.com/AdguardTeam/AdGuardHome/wiki/Clients#clientid">documentación</a>.</sup>
-
-## DNS Cache Configuration
-After two years of use, I have collected the data from the Adguard cache with very optimal values. I recommend these usage values:
-
-- We recommend that the **cache size** be greater than 64 megabytes. If you leave it at 0, you disable it.
-- I recommend a **minimum TTL** value of **600**
-- I recommend a **maximum TTL** value of **21600** \
-And I recommend **enabling optimistic caching**, which allows serving old cached responses while they are updated in the background.
 
 # List for Pihole <img src="https://github.com/juanico10/Pihole_list/blob/main/assets/pihole.png" alt="Pi-Hole" width="40"/> and AdGuard Home <img src="https://github.com/juanico10/Pihole_list/blob/main/assets/AdGuard_Logo.png" alt="AdGuard Home" width="32"/>
 

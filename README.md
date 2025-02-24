@@ -422,7 +422,7 @@ This will allow the client created in the `Client Configuration` panel to connec
 
 | List | Link | Description |
 | :-- | :--: | :-- |
-| safelist repository | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/juanico10/Pi-hole_list/main/Listas/whitelist.txt) | safelist juanico10 |
+| safelist repository | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/juanico10/Pihole_list/main/Listas/whitelist.txt) | safelist juanico10 |
 | safelist hagezi | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/whitelist.txt) | safelist hagezi (Not tested) |
 
 
@@ -444,7 +444,7 @@ This will allow the client created in the `Client Configuration` panel to connec
 | List | Link | Description |
 | :-- | :--: | :-- |
 | The NSFW list | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://nsfw.oisd.nl/domains) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://nsfw.oisd.nl/) | The NSFW list [oisd](https://oisd.nl/) |
-| Gambling-porn | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/juanico10/Pi-hole_list/main/List/Gambling.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://github.com/blocklistproject/Lists/blob/master/adguard/gambling-ags.txt) | To Block Gambling and porn |
+| Gambling-porn | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/juanico10/Pihole_list/main/List/Gambling.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://github.com/blocklistproject/Lists/blob/master/adguard/gambling-ags.txt) | To Block Gambling and porn |
 | Malware | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://blocklistproject.github.io/Lists/malware.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/malware-ags.txt) | To Block malware |
 | Ransomware | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/blocklistproject/Lists/master/ransomware.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/ransomware-ags.txt) | To Block ransomware |
 | phishing | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://phishing.army/download/phishing_army_blocklist_extended.txt) | To Block phishing |
@@ -457,7 +457,7 @@ This will allow the client created in the `Client Configuration` panel to connec
 | WindowsSpyBlocker | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt) | To Block WindowsSpyBlocker |
 | GoodbyeAds-Ultra | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds-Ultra.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt) | To Block [hagezi](https://github.com/hagezi/dns-blocklists) and [jerryn70](https://github.com/jerryn70/GoodbyeAds) |
 | ads-and-tracking-extended | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt) | To Block ads-and-tracking-extended |
-| Adblock_Plus | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/juanico10/Pi-hole_list/main/List/Adblock_Plus_Ads.txt) | To Block Tracking AdBlock |
+| Adblock_Plus | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/juanico10/Pihole_list/main/List/Adblock_Plus_Ads.txt) | To Block Tracking AdBlock |
 | Android tracking | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://github.com/juanico10/Pihole_list/blob/main/Listas/android-tracking.txt) | Android tracking for AdGuard Home |
 | Disconnect.me | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt) | To Block disconnect.me |
 
@@ -477,9 +477,9 @@ This will allow the client created in the `Client Configuration` panel to connec
 | Facebook | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://github.com/jmdugan/blocklists/blob/master/corporations/facebook/all) | To Block Facebook/Instagram/Whatsapp |
 | Whatsapp open | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/facebook/all-but-whatsapp) | To Block Facebook/Instagram but leave Whatsapp open |
 | Google | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/google/all) | To Block Google |
-| Mozilla | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/juanico10/Pi-hole_list/main/List/mozilla.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/juanico10/Pi-hole_list/main/List/mozilla_adguard.txt) | To Block Mozilla tracking |
+| Mozilla | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/juanico10/Pihole_list/main/List/mozilla.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/juanico10/Pihole_list/main/List/mozilla_adguard.txt) | To Block Mozilla tracking |
 | Microsoft | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/microsoft/all) | To Block Microsoft |
-| VideoGamesAdiction | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/juanico10/Pi-hole_list/main/List/VideoGamesAdiction.txt) | To Block VideoGames Adiction |
+| VideoGamesAdiction | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/juanico10/Pihole_list/main/List/VideoGamesAdiction.txt) | To Block VideoGames Adiction |
 
 
 #### uBlock Origin uAssets

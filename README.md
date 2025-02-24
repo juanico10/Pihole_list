@@ -111,7 +111,7 @@ These lists were created because I wanted something with a bit more control over
 3. The list is automatically activated and is ready to start blocking.
 
 &nbsp;
-<sup>Instructions are current as of AdGuard Home v0.107.2</sup>
+<sup>Instructions are current as of AdGuard Home v0.107.54</sup>
 </details>
 &nbsp;
 

@@ -1,6 +1,6 @@
 <h1 align="center"> The project that protects your devices </h1>
 
-The <strong>SacureDNS</strong> project is an initiative that aims to lock down and secure the entire network through its own hardware. In this repository, it is installed via Docker®. Pi-hole® and Adguard Home® are DNS sinkholes that protect your devices from unwanted content without the need to install any software on client devices.
+The <strong>SecureDNS</strong> project is an initiative that aims to lock down and secure the entire network through its own hardware. In this repository, it is installed via Docker®. Pi-hole® and Adguard Home® are DNS sinkholes that protect your devices from unwanted content without the need to install any software on client devices.
 
 <div align="center">
     <a href="https://github.com/juanico10/Pihole_list">
@@ -13,9 +13,9 @@ The <strong>SacureDNS</strong> project is an initiative that aims to lock down a
 
 &nbsp;
 
-![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/juanico10/SacureDNS?style=flat&logo=Github&logoColor=white&label=last-commit&labelColor=253B80&color=253B80)
-<a href="https://github.com/juanico10/SacureDNS/commits/master" >
-    <img src="https://img.shields.io/github/commit-activity/m/juanico10/SacureDNS?style=flat&logo=Github&logoColor=white&label=Commit%20Activity&labelColor=253B80&color=253B80" alt="commit activity" >
+![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/juanico10/SecureDNS?style=flat&logo=Github&logoColor=white&label=last-commit&labelColor=253B80&color=253B80)
+<a href="https://github.com/juanico10/SecureDNS/commits/master" >
+    <img src="https://img.shields.io/github/commit-activity/m/juanico10/SecureDNS?style=flat&logo=Github&logoColor=white&label=Commit%20Activity&labelColor=253B80&color=253B80" alt="commit activity" >
   <a/>
 
 ## Links to installation or developer
@@ -422,7 +422,7 @@ This will allow the client created in the `Client Configuration` panel to connec
 
 | List | Link | Description |
 | :-- | :--: | :-- |
-| safelist repository | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/juanico10/Pihole_list/main/Listas/whitelist.txt) | safelist juanico10 |
+| safelist repository | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/juanico10/SecureDNS/main/Listas/whitelist.txt) | safelist juanico10 |
 | safelist hagezi | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/whitelist.txt) | safelist hagezi (Not tested) |
 
 
@@ -444,7 +444,7 @@ This will allow the client created in the `Client Configuration` panel to connec
 | List | Link | Description |
 | :-- | :--: | :-- |
 | The NSFW list | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://nsfw.oisd.nl/domains) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://nsfw.oisd.nl/) | The NSFW list [oisd](https://oisd.nl/) |
-| Gambling-porn | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/juanico10/Pihole_list/main/List/Gambling.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://github.com/blocklistproject/Lists/blob/master/adguard/gambling-ags.txt) | To Block Gambling and porn |
+| Gambling-porn | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/juanico10/SecureDNS/main/List/Gambling.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://github.com/blocklistproject/Lists/blob/master/adguard/gambling-ags.txt) | To Block Gambling and porn |
 | Malware | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://blocklistproject.github.io/Lists/malware.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/malware-ags.txt) | To Block malware |
 | Ransomware | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/blocklistproject/Lists/master/ransomware.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/ransomware-ags.txt) | To Block ransomware |
 | phishing | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://phishing.army/download/phishing_army_blocklist_extended.txt) | To Block phishing |
@@ -457,7 +457,7 @@ This will allow the client created in the `Client Configuration` panel to connec
 | WindowsSpyBlocker | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt) | To Block WindowsSpyBlocker |
 | GoodbyeAds-Ultra | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds-Ultra.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt) | To Block [hagezi](https://github.com/hagezi/dns-blocklists) and [jerryn70](https://github.com/jerryn70/GoodbyeAds) |
 | ads-and-tracking-extended | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt) | To Block ads-and-tracking-extended |
-| Adblock_Plus | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/juanico10/Pihole_list/main/List/Adblock_Plus_Ads.txt) | To Block Tracking AdBlock |
+| Adblock_Plus | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/juanico10/SecureDNS/main/List/Adblock_Plus_Ads.txt) | To Block Tracking AdBlock |
 | Android tracking | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://github.com/juanico10/Pihole_list/blob/main/Listas/android-tracking.txt) | Android tracking for AdGuard Home |
 | Disconnect.me | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt) | To Block disconnect.me |
 
@@ -477,9 +477,9 @@ This will allow the client created in the `Client Configuration` panel to connec
 | Facebook | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://github.com/jmdugan/blocklists/blob/master/corporations/facebook/all) | To Block Facebook/Instagram/Whatsapp |
 | Whatsapp open | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/facebook/all-but-whatsapp) | To Block Facebook/Instagram but leave Whatsapp open |
 | Google | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/google/all) | To Block Google |
-| Mozilla | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/juanico10/Pihole_list/main/List/mozilla.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/juanico10/Pihole_list/main/List/mozilla_adguard.txt) | To Block Mozilla tracking |
+| Mozilla | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/juanico10/SecureDNS/main/List/mozilla.txt) &#124; [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/juanico10/SecureDNS/main/List/mozilla_adguard.txt) | To Block Mozilla tracking |
 | Microsoft | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/microsoft/all) | To Block Microsoft |
-| VideoGamesAdiction | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/juanico10/Pihole_list/main/List/VideoGamesAdiction.txt) | To Block VideoGames Adiction |
+| VideoGamesAdiction | [![Link](https://img.shields.io/badge/Link-green.svg?style=flat)](https://raw.githubusercontent.com/juanico10/SecureDNS/main/List/VideoGamesAdiction.txt) | To Block VideoGames Adiction |
 
 
 #### uBlock Origin uAssets
@@ -630,7 +630,7 @@ Link to the developer of the application:
 
 ## Help me and contribution :raised_hands:
 <p> &nbsp;If you want to contribute to improve the lists, open a <code>issue</code> here:</p>
-<a href="https://github.com/juanico10/SacureDNS/issues"><img src="https://img.shields.io/badge/issues-green.svg?style=flat" alt="Link"></a>
+<a href="https://github.com/juanico10/SecureDNS/issues"><img src="https://img.shields.io/badge/issues-green.svg?style=flat" alt="Link"></a>
 
 ## Credits :rocket:
 This repository is made with all my love and affection.
@@ -646,4 +646,4 @@ This repository is made with all my love and affection.
 <p><sup>These files/texts are provided "AS IS", without warranties of any kind, express or implied, including, but not limited to, warranties of merchantability, fitness for a particular purpose and non-infringement. In no event shall the authors or copyright holders be liable for any claims, damages or other liability arising out of or relating to the files or the use thereof.</sup></p>
 <p><sup>I will be updating with information and adding procedures in my spare time. The author of the content is juanico10. You can contact me at <a href="mailto:juanico1007@gmail.com?Subject=from%20github">mailto</a> and the author's website is <a href="https://github.com/juanico10/">website</a>.</p></sup>
 <p><sub>Any and all trademarks are the property of their respective owners.</sub></p>
-<p align="center"><a href="https://raw.githubusercontent.com/juanico10/Pihole_list/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=302d41&colorB=b7bdf8"/></a></p>
+<p align="center"><a href="https://raw.githubusercontent.com/juanico10/SecureDNS/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=302d41&colorB=b7bdf8"/></a></p>

@@ -1,6 +1,6 @@
 <h1 align="center"> The project that protects your devices </h1>
 
-The <strong>Pi-hole_list</strong> project is an initiative that aims to lock down and secure the entire network through its own hardware. In this repository, it is installed via Docker®. Pi-hole® and Adguard Home® are DNS sinkholes that protect your devices from unwanted content without the need to install any software on client devices.
+The <strong>SacureDNS</strong> project is an initiative that aims to lock down and secure the entire network through its own hardware. In this repository, it is installed via Docker®. Pi-hole® and Adguard Home® are DNS sinkholes that protect your devices from unwanted content without the need to install any software on client devices.
 
 <div align="center">
     <a href="https://github.com/juanico10/Pihole_list">
@@ -13,9 +13,9 @@ The <strong>Pi-hole_list</strong> project is an initiative that aims to lock dow
 
 &nbsp;
 
-![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/juanico10/Pi-hole_list?style=flat&logo=Github&logoColor=white&label=last-commit&labelColor=253B80&color=253B80)
-<a href="https://github.com/juanico10/Pi-hole_list/commits/master" >
-    <img src="https://img.shields.io/github/commit-activity/m/juanico10/Pi-hole_list?style=flat&logo=Github&logoColor=white&label=Commit%20Activity&labelColor=253B80&color=253B80" alt="commit activity" >
+![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/juanico10/SacureDNS?style=flat&logo=Github&logoColor=white&label=last-commit&labelColor=253B80&color=253B80)
+<a href="https://github.com/juanico10/SacureDNS/commits/master" >
+    <img src="https://img.shields.io/github/commit-activity/m/juanico10/SacureDNS?style=flat&logo=Github&logoColor=white&label=Commit%20Activity&labelColor=253B80&color=253B80" alt="commit activity" >
   <a/>
 
 ## Links to installation or developer
@@ -630,7 +630,7 @@ Link to the developer of the application:
 
 ## Help me and contribution :raised_hands:
 <p> &nbsp;If you want to contribute to improve the lists, open a <code>issue</code> here:</p>
-<a href="https://github.com/juanico10/Pi-hole_list/issues"><img src="https://img.shields.io/badge/issues-green.svg?style=flat" alt="Link"></a>
+<a href="https://github.com/juanico10/SacureDNS/issues"><img src="https://img.shields.io/badge/issues-green.svg?style=flat" alt="Link"></a>
 
 ## Credits :rocket:
 This repository is made with all my love and affection.

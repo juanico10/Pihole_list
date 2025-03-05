@@ -29344,6 +29344,8 @@
 ||mediolanum-clientes-es.com^
 ||es-aviso-inicio.com^
 ||medlolanum-app.com^
+||seguri.dadconto.com^
+||aemet.blog^
 
 ########### REGEX
 /(.+[_.-]+[0-9]*)?porn(o)?([0-9])*[_.-]?/$important

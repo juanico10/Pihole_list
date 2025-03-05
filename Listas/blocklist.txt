@@ -31607,6 +31607,13 @@
 ||zzhc.vnet.cn^
 ||zzz.clickbank.net^
 ||ķeepass.info^
+||www.amazon.org.bz^
+||steamcommunjty.com^
+||steampowered.invite918420.com^
+||google.justwaitforme.de^
+||ebay.teamsvip.shop^
+||steamcomrrnunity.com^
+||paypal-access-81737.netlify.app^
 
 ########### REGEX
 /(.+[_.-]+[0-9]*)?porn(o)?([0-9])*[_.-]?/$important
